@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leak_Detection_All_Active_SR</fullName>
+    <columns>Name</columns>
+    <columns>Residential_PostalCode__c</columns>
+    <columns>Postcode_for_schedule_STM__c</columns>
+    <columns>ResourceType</columns>
+    <columns>Trade__c</columns>
+    <columns>Rate_of_Pay_Tier__c</columns>
+    <columns>Qualifying_WTs_Count__c</columns>
+    <columns>Allocated_to_Manager__c</columns>
+    <columns>Mobile_No__c</columns>
+    <columns>Personal_Contact_Number__c</columns>
+    <columns>Months_Since_Start_Date__c</columns>
+    <columns>New_Rates__c</columns>
+    <columns>Skill_Set__c</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Trade__c</field>
+        <operation>includes</operation>
+        <value>Leak Detection</value>
+    </filters>
+    <label>Leak Detection - All Active SR</label>
+</ListView>

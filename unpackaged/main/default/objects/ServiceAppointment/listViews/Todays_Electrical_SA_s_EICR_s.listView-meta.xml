@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todays_Electrical_SA_s_EICR_s</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Account_Type__c</columns>
+    <columns>WorkType</columns>
+    <columns>Description</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>ZIP</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>ActualStartTime</columns>
+    <columns>ActualEndTime</columns>
+    <columns>Action_Required__c</columns>
+    <columns>Feedback_Notes__c</columns>
+    <columns>CCT_Charge_NET__c</columns>
+    <columns>Post_Visit_Report_Check__c</columns>
+    <columns>Attendance_Notes_for_Office__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Scheduled_Trade__c</field>
+        <operation>contains</operation>
+        <value>Electrical,Air Con,Ventilation &amp; Refrigeration</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>New,Scheduled,Dispatched,In Transit,On site,Visit Complete,Job Closure</value>
+    </filters>
+    <filters>
+        <field>WorkType</field>
+        <operation>contains</operation>
+        <value>EICR</value>
+    </filters>
+    <filters>
+        <field>LatestEndTime</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Todays Electrical SA&#39;s EICR&#39;s</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

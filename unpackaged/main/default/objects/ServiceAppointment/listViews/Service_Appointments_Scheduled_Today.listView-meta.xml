@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointments_Scheduled_Today</fullName>
+    <columns>Name</columns>
+    <columns>SchedStartTime</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Status</columns>
+    <columns>Allocated_Engineer_First_Name__c</columns>
+    <columns>Allocated_Engineer_Last_Name__c</columns>
+    <columns>Scheduled_Date__c</columns>
+    <columns>SchedEndTime</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>CCT_Charge_NET__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SchedStartTime</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Scheduled</value>
+    </filters>
+    <label>SA Scheduled Start This Week</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

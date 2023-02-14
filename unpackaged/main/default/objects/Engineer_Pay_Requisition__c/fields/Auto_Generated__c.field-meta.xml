@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Generated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Created by a process rather than by a person:
+ApexClass	job_InvoiceGenerationController
+ApexTrigger	erp_create_edit_delete_trigger</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Created by a process rather than by a person</inlineHelpText>
+    <label>Auto Generated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

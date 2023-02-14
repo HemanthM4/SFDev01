@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimate_Limit_cannot_be_blank</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK( Estimate_Limit__c ) =TRUE</errorConditionFormula>
+    <errorMessage>Each Operative/Service Resource must have a value for Estimate Limit</errorMessage>
+</ValidationRule>

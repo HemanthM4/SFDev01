@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Processed_Requisitions_Materials__c</fullName>
+    <externalId>false</externalId>
+    <label>Processed Requisitions Materials Total</label>
+    <summarizedField>Engineer_Pay_Requisition__c.Pay_Materials__c</summarizedField>
+    <summaryFilterItems>
+        <field>Engineer_Pay_Requisition__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Processed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Engineer_Pay_Requisition__c.Service_Resource__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Start_TEXT__c</fullName>
+    <description>Only for use on email templates as they do not show the Time portion of a date/time field within the email.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(DAY(DATEVALUE(SchedStartTime))) &amp; &quot;/&quot; &amp;
+
+TEXT(MONTH(DATEVALUE(SchedStartTime))) &amp; &quot;/&quot; &amp;  
+
+TEXT(YEAR(DATEVALUE(SchedStartTime))) &amp; &quot; &quot; &amp;
+
+LEFT(TEXT(TIMEVALUE(IF(
+
+    OR(
+
+            EarliestStartTime  &lt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(EarliestStartTime)),3,31)-(WEEKDAY(DATE(YEAR(DATEVALUE(EarliestStartTime)),3,31))-1) +1/24),
+
+            EarliestStartTime &gt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(EarliestStartTime)),10,31)- (WEEKDAY(DATE(YEAR(DATEVALUE(EarliestStartTime)),10,31))-1)+1/24)
+
+    ),
+
+    SchedStartTime,
+
+    SchedStartTime + 1/24
+
+))),5)</formula>
+    <inlineHelpText>Only for use on email templates as they do not show the Time portion of a date/time field within the email.</inlineHelpText>
+    <label>Scheduled Start TEXT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

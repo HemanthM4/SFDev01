@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_SA_s_completed_to_check</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>Supervision_type__c</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>CreatedBy</columns>
+    <columns>Status</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SA_Lead_Quality__c</columns>
+    <columns>Scheduled_Trade__c</columns>
+    <columns>WorkType</columns>
+    <columns>Description</columns>
+    <columns>Scheduled_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Scheduled,Dispatched,In Transit,On site,Visit Complete,Cancelled,Rescheduled,Job Closure</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Key Account</value>
+    </filters>
+    <filters>
+        <field>Supervision_type__c</field>
+        <operation>notEqual</operation>
+        <value>&quot;Checked Report, Post Visit&quot;</value>
+    </filters>
+    <label>Key SA&#39;s - completed, to check</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

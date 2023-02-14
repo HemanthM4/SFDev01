@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charge_Gross__c</fullName>
+    <description>Sum of all the Line Item records using their &#39;Charge Gross&#39; value</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of all the Line Item records using their &#39;Charge Gross&#39; value</inlineHelpText>
+    <label>Charge Gross</label>
+    <summarizedField>Customer_Invoice_Line_Item__c.Charge_Gross__c</summarizedField>
+    <summaryForeignKey>Customer_Invoice_Line_Item__c.Customer_Invoice__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Visit_Complete_to_in_Progress</fullName>
+    <active>false</active>
+    <description>&quot;Android app.
+The engineer should not change from Visit Complete to In Progress.&quot;</description>
+    <errorConditionFormula>AND
+(			ISPICKVAL(Status,&quot;Visit Complete&quot;) ,
+PRIORVALUE(Status) = &quot;In Progress&quot;				
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>You Cannot change this Service Appointment back to In Progress</errorMessage>
+</ValidationRule>

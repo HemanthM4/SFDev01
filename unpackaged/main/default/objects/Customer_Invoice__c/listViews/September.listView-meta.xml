@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>September</fullName>
+    <columns>Trade_Group_lookup__c</columns>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Job_Trade__c</columns>
+    <columns>Sum_of_Payments__c</columns>
+    <columns>Balance_Outstanding__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Status__c</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Payment_Method__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Authorised_FOC__c</columns>
+    <columns>Payment_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>10/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Charge_Net__c</field>
+        <operation>equals</operation>
+        <value>GBP 0</value>
+    </filters>
+    <filters>
+        <field>Authorised_FOC__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>12/31/2022 12:00 AM</value>
+    </filters>
+    <label>£0 value 2022</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

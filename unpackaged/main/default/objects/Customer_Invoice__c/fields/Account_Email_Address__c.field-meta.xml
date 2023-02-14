@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Email_Address__c</fullName>
+    <description>Email address pulled from account - this field is stamped on the creation of the invoice, so will not be updated if there is a later change to the email address on the account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email address pulled from account - this field is stamped on the creation of the invoice, so will not be updated if there is a later change to the email address on the account</inlineHelpText>
+    <label>Account Email Address</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

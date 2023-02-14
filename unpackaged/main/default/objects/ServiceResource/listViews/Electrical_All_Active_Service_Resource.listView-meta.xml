@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electrical_All_Active_Service_Resource</fullName>
+    <columns>Name</columns>
+    <columns>Residential_PostalCode__c</columns>
+    <columns>Postcode_for_schedule_STM__c</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>Trade__c</columns>
+    <columns>Rate_of_Pay_Tier__c</columns>
+    <columns>Qualifying_WTs_Count__c</columns>
+    <columns>Op_Status__c</columns>
+    <columns>Allocated_to_Manager__c</columns>
+    <columns>Mobile_No__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Months_Since_Start_Date__c</columns>
+    <columns>New_Rates__c</columns>
+    <columns>Skill_Set__c</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Trade__c</field>
+        <operation>equals</operation>
+        <value>Electrical</value>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Electrical - All Active Service Resource</label>
+</ListView>

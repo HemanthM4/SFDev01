@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rate_of_Pay_Tier__c</fullName>
+    <externalId>false</externalId>
+    <formula>Text(Service_Resource__r.Rate_of_Pay_Tier__c)</formula>
+    <inlineHelpText>This field reflects current tier of pay value of the Engineer</inlineHelpText>
+    <label>Current Rate of Pay Tier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electrical_Appointments_To_attend</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>CreatedBy</columns>
+    <columns>Status</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SA_Lead_Quality__c</columns>
+    <columns>Supervision_type__c</columns>
+    <columns>Scheduled_Trade__c</columns>
+    <columns>WorkType</columns>
+    <columns>Description</columns>
+    <columns>Scheduled_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Scheduled_Trade__c</field>
+        <operation>equals</operation>
+        <value>Electrical</value>
+    </filters>
+    <filters>
+        <field>SA_Lead_Quality__c</field>
+        <operation>equals</operation>
+        <value>Must Attend,Remote Supervise</value>
+    </filters>
+    <label>Electrical Appointments - To attend</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

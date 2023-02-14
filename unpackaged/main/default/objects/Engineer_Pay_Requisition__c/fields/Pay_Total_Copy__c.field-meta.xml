@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pay_Total_Copy__c</fullName>
+    <description>Alex requested a copy of &#39;Pay Total&#39; so we could have it next to &#39;Rate of Pay&#39; field</description>
+    <externalId>false</externalId>
+    <formula>Pay_Labour_Total__c + Pay_Materials__c + Pay_Fixed_Price__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Pay Labour total + Pay Materials + Pay Fixed Price</inlineHelpText>
+    <label>Pay Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

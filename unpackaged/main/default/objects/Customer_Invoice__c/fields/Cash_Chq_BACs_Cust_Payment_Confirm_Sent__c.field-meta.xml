@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cash_Chq_BACs_Cust_Payment_Confirm_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Has the Payment Confirmation email to the Customer for Cash, Cheque and BACs been sent?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Has the Payment Confirmation email to the Customer for Cash, Cheque and BACs been sent?</inlineHelpText>
+    <label>Cash-Chq-BACs Cust Payment Confirm Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

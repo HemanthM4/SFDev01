@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_SA_s_Today</fullName>
+    <columns>Scheduler_checked_booking__c</columns>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>ZIP</columns>
+    <columns>WorkType</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>Status</columns>
+    <columns>EarliestStartTime</columns>
+    <columns>SchedStartTime</columns>
+    <columns>ActualStartTime</columns>
+    <columns>ActualEndTime</columns>
+    <columns>CCT_Charge_NET__c</columns>
+    <columns>Description</columns>
+    <columns>Attendance_Report_for_Customer__c</columns>
+    <columns>Attendance_Notes_for_Office__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>WorkType</field>
+        <operation>notContain</operation>
+        <value>OSA-</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Key Account</value>
+    </filters>
+    <label>Key - SA&#39;s - Today</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

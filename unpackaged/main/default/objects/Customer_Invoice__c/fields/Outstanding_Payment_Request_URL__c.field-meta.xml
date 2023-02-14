@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_Payment_Request_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+&quot;/forms/pay-invoice/?id=&quot;&amp;Id&amp;
+&quot;&amp;ema=&quot;&amp;  Account_Email_Address__c &amp;
+&quot;&amp;aut=&quot;&amp;   Authorisation__c &amp;
+&quot;&amp;inv=&quot;&amp;   Name  &amp;
+&quot;&amp;acc=&quot;&amp;   Account_Number__c   &amp;
+&quot;&amp;nam=&quot;&amp;SUBSTITUTE(Company_Name__c, &quot; &quot;, &quot;%20&quot;)&amp;
+
+&quot;&amp;l4d=&quot;&amp;  RIGHT(Card_On_Record__c  , 4) &amp;
+&quot;&amp;f1=&quot;&amp; TEXT(MOD( FLOOR(VALUE(LEFT(Card_On_Record__c  , 4))),8)) &amp;
+&quot;&amp;f2=&quot;&amp; TEXT(MOD( FLOOR(VALUE(LEFT(Card_On_Record__c  , 4))/8),8)) &amp;
+&quot;&amp;f3=&quot;&amp; TEXT(MOD( FLOOR(VALUE(LEFT(Card_On_Record__c  , 4))/(64)),8)) &amp;
+&quot;&amp;f4=&quot;&amp; TEXT(MOD( FLOOR(VALUE(LEFT(Card_On_Record__c  , 4))/(512)),8)) &amp;
+&quot;&amp;f5=&quot;&amp; TEXT(MOD( FLOOR(VALUE(LEFT(Card_On_Record__c  , 4))/(4096)),8)) &amp;
+
+
+
+&quot;&amp;a=&quot;&amp; TEXT(MOD( FLOOR(Balance_Outstanding__c),8)) &amp;
+&quot;&amp;b=&quot;&amp; TEXT(MOD( FLOOR(Balance_Outstanding__c/8),8)) &amp;
+&quot;&amp;c=&quot;&amp; TEXT(MOD( FLOOR(Balance_Outstanding__c/(64)),8)) &amp;
+&quot;&amp;d=&quot;&amp; TEXT(MOD( FLOOR(Balance_Outstanding__c/(512)),8)) &amp;
+&quot;&amp;e=&quot;&amp; TEXT(MOD( FLOOR(Balance_Outstanding__c/(4096)),8))</formula>
+    <label>Outstanding Payment Request URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

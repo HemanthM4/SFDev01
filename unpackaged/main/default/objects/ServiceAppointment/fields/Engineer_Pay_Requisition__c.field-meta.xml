@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineer_Pay_Requisition__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Engineer Pay Requisition</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Engineer_Pay_Requisition__c.Service_Resource__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Allocated_Engineer__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Engineer_Pay_Requisition__c.Work_Order__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Work_Order__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Engineer_Pay_Requisition__c</referenceTo>
+    <relationshipLabel>Service Appointments</relationshipLabel>
+    <relationshipName>Service_Appointments</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

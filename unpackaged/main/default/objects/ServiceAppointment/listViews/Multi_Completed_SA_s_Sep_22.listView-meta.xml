@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multi_Completed_SA_s_Sep_22</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>ZIP</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>ActualStartTime</columns>
+    <columns>Assigned_to__c</columns>
+    <columns>Action_Required__c</columns>
+    <columns>Feedback_Notes__c</columns>
+    <columns>CCT_Charge_NET__c</columns>
+    <columns>Post_Visit_Report_Check__c</columns>
+    <columns>Group__c</columns>
+    <columns>Scheduled_Trade__c</columns>
+    <columns>Review_Star_Rating__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>WorkType</field>
+        <operation>notContain</operation>
+        <value>OSA-</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/1/2022</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Visit Complete,Job Closure</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Trade__c</field>
+        <operation>equals</operation>
+        <value>,Access,Handyman,flooring,Brickwork &amp; Paving,Carpentry,Decorating,Fencing,Glazing,Locksmithing,Partition walls &amp; ceilings,Plastering,Rubbish Removal,Tiling,Wallpapering,Windows &amp; Doors,Gardening,Pest Control,Project Management</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>contains</operation>
+        <value>Fixed,Reactive</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>9/30/2022</value>
+    </filters>
+    <label>Multi - Completed SA&#39;s Sep 22</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

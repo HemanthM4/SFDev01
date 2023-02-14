@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fixed_Price_Work_Sheet__c</fullName>
+    <externalId>false</externalId>
+    <label>Workmanship</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Good</fullName>
+                <default>false</default>
+                <label>Good</label>
+            </value>
+            <value>
+                <fullName>Acceptable</fullName>
+                <default>false</default>
+                <label>Acceptable</label>
+            </value>
+            <value>
+                <fullName>Not Acceptable</fullName>
+                <default>false</default>
+                <label>Not Acceptable</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Done</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Invoice</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>invoice_compact_layout</compactLayoutAssignment>
+    <label>Cancellation Invoice</label>
+    <picklistValues>
+        <picklist>Exchequer_Export__c</picklist>
+        <values>
+            <fullName>Not Sent</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Ready to Send</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Method__c</picklist>
+        <values>
+            <fullName>Alternative Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BACs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bad debt write off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorldPay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Outstanding</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready to Send</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

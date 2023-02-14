@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Franchisee_Payment_info</fullName>
+    <active>false</active>
+    <description>this is to stop people entering in bank details when Service Resources aren&#39;t Franchisee&#39;s</description>
+    <errorConditionFormula>AND(ISPICKVAL( Engineer_Role__c ,&quot;Franchisee&quot;),NOT(OR(ISNULL(Bank_Account_Number__c ),ISNULL( Sort_Code__c ))))</errorConditionFormula>
+    <errorMessage>The Account Number and Sort Code can only be entered for Franchisee&#39;s</errorMessage>
+</ValidationRule>

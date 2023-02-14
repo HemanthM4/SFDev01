@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Arrival_Window_Start__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+	OR(
+		EarliestStartTime  &lt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(EarliestStartTime)),3,31)-(WEEKDAY(DATE(YEAR(DATEVALUE(EarliestStartTime)),3,31))-1) +1/24),
+		EarliestStartTime &gt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(EarliestStartTime)),10,31)- (WEEKDAY(DATE(YEAR(DATEVALUE(EarliestStartTime)),10,31))-1)+1/24)
+
+	),
+	
+
+
+        IF(
+
+HOUR( TIMEVALUE(EarliestStartTime) ) &gt; 11,
+
+IF (HOUR(TIMEVALUE(EarliestStartTime)) = 12, &quot;12&quot;,
+TEXT( HOUR(TIMEVALUE(EarliestStartTime)) -12 ) )
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(EarliestStartTime))), 2,&quot;0&quot;)&amp; &quot; PM - &quot;
+
+,
+
+TEXT( HOUR(TIMEVALUE(EarliestStartTime)) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(EarliestStartTime))), 2,&quot;0&quot;)&amp; &quot; AM - &quot;
+
+),
+
+
+
+IF(
+
+HOUR( TIMEVALUE(EarliestStartTime + 1/24) ) &gt; 11,
+
+IF (HOUR(TIMEVALUE(EarliestStartTime + 1/24)) = 12, &quot;12&quot;,
+TEXT( HOUR(TIMEVALUE(EarliestStartTime + 1/24)) -12 ) )
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(EarliestStartTime + 1/24))), 2,&quot;0&quot;)&amp; &quot; PM - &quot;
+
+,
+
+TEXT( HOUR(TIMEVALUE(EarliestStartTime + 1/24)) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(EarliestStartTime + 1/24))), 2,&quot;0&quot;)&amp; &quot; AM - &quot;
+
+)
+
+)
+
+
+
+
+
+
+
+/*
+
+IF( 
+	OR(
+		EarliestStartTime  &lt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(EarliestStartTime)),3,31)-(WEEKDAY(DATE(YEAR(DATEVALUE(EarliestStartTime)),3,31))-1) +1/24),
+		EarliestStartTime &gt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(EarliestStartTime)),10,31)- (WEEKDAY(DATE(YEAR(DATEVALUE(EarliestStartTime)),10,31))-1)+1/24)
+
+	),
+	TEXT(TIMEVALUE(EarliestStartTime)),
+	TEXT(TIMEVALUE(EarliestStartTime + 1/24))
+)
+
+
+*/</formula>
+    <label>Scheduled Arrival Window Start</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Details__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup field created to show  credit note on the Account related list.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please choose the clients details for this field</inlineHelpText>
+    <label>Account Details</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Customer Credit Notes</relationshipLabel>
+    <relationshipName>Customer_Credit_Notes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

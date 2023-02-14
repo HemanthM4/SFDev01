@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Reschedule_Once_Dispatched</fullName>
+    <active>true</active>
+    <description>Once a SA is Dispatched it cannot be Rescheduled</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , &quot;Rescheduled&quot; ),
+ISPICKVAL(PRIORVALUE(Status),&quot;Dispatched&quot;))</errorConditionFormula>
+    <errorMessage>A Service Appointment cannot be Rescheduled when a Service Appointment is &#39;Dispatched&#39;</errorMessage>
+</ValidationRule>

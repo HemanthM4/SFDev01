@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_Registration_Date</fullName>
+    <active>false</active>
+    <description>If the VAT Registration Number is populated then the VAT Registration Date is required.</description>
+    <errorConditionFormula>AND( 
+ISCHANGED( VAT_Registered_Number__c ), 
+ISBLANK( Date_of_VAT_Registration__c ))</errorConditionFormula>
+    <errorDisplayField>Date_of_VAT_Registration__c</errorDisplayField>
+    <errorMessage>Please enter the VAT Registration Date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_not_on_the_Status_of_VC</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>Scheduled_Date__c</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>Assigned_to__c</columns>
+    <columns>Action_Taken__c</columns>
+    <filterScope>AssignedToMe</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,In Transit,On site,Job Closure</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>8/1/2021</value>
+    </filters>
+    <filters>
+        <field>SchedEndTime</field>
+        <operation>lessOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>Reactive,Fixed Price</value>
+    </filters>
+    <label>SA not on the Status of VC</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+        <allPartnerUsers></allPartnerUsers>
+        <group>Trade_Assistance</group>
+    </sharedTo>
+</ListView>

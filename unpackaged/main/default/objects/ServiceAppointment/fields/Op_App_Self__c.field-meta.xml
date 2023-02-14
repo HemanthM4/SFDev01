@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Op_App_Self__c</fullName>
+    <externalId>false</externalId>
+    <formula>Work_Order__r.OP_App_Booking_selection__c</formula>
+    <label>OP App Booking selection</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

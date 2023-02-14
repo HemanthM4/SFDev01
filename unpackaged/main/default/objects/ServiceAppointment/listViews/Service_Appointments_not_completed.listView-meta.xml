@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointments_not_completed</fullName>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Scheduled_Trade__c</columns>
+    <columns>Name</columns>
+    <columns>Job_Type__c</columns>
+    <columns>Status</columns>
+    <columns>Account_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,In Transit,On site,Job Closure</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2022</value>
+    </filters>
+    <filters>
+        <field>SchedEndTime</field>
+        <operation>lessOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>Reactive,Fixed Price</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Cash,Credit</value>
+    </filters>
+    <label>Service Appointments not completed</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

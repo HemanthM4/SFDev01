@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Trade_Category__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR( Job_Trade__c = &#39;Electrical&#39; ,Job_Trade__c = &#39;Air Con, Ventilation &amp; Refrigeration&#39; ),
+  &quot;Electrical/HVAC&quot;,
+  IF( Job_Trade__c= &quot;Leak Detection&quot;,
+    &quot;Leak Detection&quot;,
+    IF( OR(Job_Trade__c = &quot;Drainage (Soil Water)&quot;, 
+Job_Trade__c = &quot;Drainage (Wastewater)&quot;,
+Job_Trade__c = &quot;Heating &amp; Hot Water (Commercial)&quot;,
+Job_Trade__c = &quot;Heating &amp; Hot Water (Domestic)&quot;,
+Job_Trade__c = &quot;Plumbing &amp; Cold Water&quot;)
+,
+
+&quot;Gas/Plumbing/Drainage&quot; , 
+  &quot;Roofing/Multiskilled&quot;
+   )
+ )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Job Trade Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

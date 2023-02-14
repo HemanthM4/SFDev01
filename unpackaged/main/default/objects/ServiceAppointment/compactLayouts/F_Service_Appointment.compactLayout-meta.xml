@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F_Service_Appointment</fullName>
+    <fields>Status</fields>
+    <fields>AppointmentNumber</fields>
+    <fields>ParentRecordId</fields>
+    <fields>WorkTypeId</fields>
+    <fields>ArrivalWindowStartTime</fields>
+    <fields>ArrivalWindowEndTime</fields>
+    <label>F - Service Appointment</label>
+</CompactLayout>

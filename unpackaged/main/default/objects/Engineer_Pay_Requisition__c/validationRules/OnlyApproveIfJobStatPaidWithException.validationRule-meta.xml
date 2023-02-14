@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OnlyApproveIfJobStatPaidWithException</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF
+(
+
+AND
+(
+TEXT(Job__r.Status__c)&lt;&gt;&#39;Closed&#39;,
+$Profile.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Credit_Control_Manager.X15_Char_Profile_ID__c,
+$Profile.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.System_Administrator.X15_Char_Profile_ID__c,
+$User.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.Katalin_Kallai_User_ID.X15_Char_Profile_ID__c,
+$Profile.Id&lt;&gt; $CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Manager_Key_Accounts.X15_Char_Profile_ID__c ,
+TEXT(Status__c)=&#39;Approved&#39;,
+ISCHANGED(Status__c) 
+),
+TRUE,
+FALSE)</errorConditionFormula>
+    <errorMessage>An Engineer Pay Requisition can only be set to a Status of &#39;Approved&#39; if the related Job record has a Status of &#39;Paid&#39; - unless the User is a Manager.
+
+Please check the Status of the related Job record.</errorMessage>
+</ValidationRule>

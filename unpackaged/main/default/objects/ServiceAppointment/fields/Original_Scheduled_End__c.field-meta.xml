@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Scheduled_End__c</fullName>
+    <description>The original value for Scheduled End Date/Time before the Engineer updated it from their mobile device.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The original value for Scheduled End Date/Time before the Engineer updated it from their mobile device.</inlineHelpText>
+    <label>Original Scheduled End</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

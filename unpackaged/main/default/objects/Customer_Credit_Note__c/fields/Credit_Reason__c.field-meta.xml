@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Credit Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Empty</fullName>
+                <default>false</default>
+                <label>Empty</label>
+            </value>
+            <value>
+                <fullName>Booking Error</fullName>
+                <default>false</default>
+                <label>Booking Error</label>
+            </value>
+            <value>
+                <fullName>Call Back</fullName>
+                <default>false</default>
+                <label>Call Back</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Duplicate Payment</fullName>
+                <default>false</default>
+                <label>Duplicate Payment</label>
+            </value>
+            <value>
+                <fullName>Discount Not Applied</fullName>
+                <default>false</default>
+                <label>Discount Not Applied</label>
+            </value>
+            <value>
+                <fullName>Engineer Not Communicating With Client</fullName>
+                <default>false</default>
+                <label>Engineer Not Communicating With Client</label>
+            </value>
+            <value>
+                <fullName>FOC</fullName>
+                <default>false</default>
+                <label>FOC</label>
+            </value>
+            <value>
+                <fullName>Incorrect Hours Charged</fullName>
+                <default>false</default>
+                <label>Incorrect Hours Charged</label>
+            </value>
+            <value>
+                <fullName>Incorrect Rate Applied</fullName>
+                <default>false</default>
+                <label>Incorrect Rate Applied</label>
+            </value>
+            <value>
+                <fullName>Quote Fee Only</fullName>
+                <default>false</default>
+                <label>Quote Fee Only</label>
+            </value>
+            <value>
+                <fullName>Report Not Sent</fullName>
+                <default>false</default>
+                <label>Report Not Sent</label>
+            </value>
+            <value>
+                <fullName>Report Not Sufficient</fullName>
+                <default>false</default>
+                <label>Report Not Sufficient</label>
+            </value>
+            <value>
+                <fullName>Workmanship</fullName>
+                <default>false</default>
+                <label>Workmanship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineer_Real_Time_Payslip_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISPICKVAL( Engineer_Role__c,&quot;Franchisee&quot;)),&quot;https://salesforce.123formbuilder.com/form-4857693/?RecordID=&quot;&amp; Id,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Engineer Real Time Payslip URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Lead_Quality__c</fullName>
+    <externalId>false</externalId>
+    <label>Tech Man Supervison</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Must Attend</fullName>
+                <default>false</default>
+                <label>Must Attend</label>
+            </value>
+            <value>
+                <fullName>Remote Supervise</fullName>
+                <default>false</default>
+                <label>Remote Supervise</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Cancellation Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Longer Required</fullName>
+                <default>false</default>
+                <label>No Longer Required</label>
+            </value>
+            <value>
+                <fullName>Found a better alternative</fullName>
+                <default>false</default>
+                <label>Found a better alternative</label>
+            </value>
+            <value>
+                <fullName>Aspect under performance</fullName>
+                <default>false</default>
+                <label>Aspect under performance</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

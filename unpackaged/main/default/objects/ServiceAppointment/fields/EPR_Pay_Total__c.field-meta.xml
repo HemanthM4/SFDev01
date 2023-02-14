@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EPR_Pay_Total__c</fullName>
+    <description>Engineer Pay Requisition Pay Total</description>
+    <externalId>false</externalId>
+    <formula>Engineer_Pay_Requisition__r.Pay_Total__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Engineer Pay Requisition Pay Total</inlineHelpText>
+    <label>EPR - Pay Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

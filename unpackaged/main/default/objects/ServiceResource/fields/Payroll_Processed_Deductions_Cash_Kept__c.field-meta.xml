@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Processed_Deductions_Cash_Kept__c</fullName>
+    <externalId>false</externalId>
+    <label>Deductions Cash Kept Total</label>
+    <summarizedField>Deduction__c.Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Deduction__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Processed</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Deduction__c.Deduction_Type__c</field>
+        <operation>equals</operation>
+        <value>Cash Kept</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Deduction__c.Service_Resource__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

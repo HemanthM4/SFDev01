@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Technical_Skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Top Technical Skills</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>The ability to problem solve and correctly diagnosed issues regarding uPVC locks and glass</fullName>
+                <default>false</default>
+                <label>The ability to problem solve and correctly diagnosed issues regarding uPVC locks and glass</label>
+            </value>
+            <value>
+                <fullName>Carpentry plumbing decorating kitchens bathrooms refurbishments</fullName>
+                <default>false</default>
+                <label>Carpentry plumbing decorating kitchens bathrooms refurbishments</label>
+            </value>
+            <value>
+                <fullName>Nice clean job finished to high standard</fullName>
+                <default>false</default>
+                <label>Nice clean job finished to high standard</label>
+            </value>
+            <value>
+                <fullName>Plumbing</fullName>
+                <default>false</default>
+                <label>Plumbing</label>
+            </value>
+            <value>
+                <fullName>Felting</fullName>
+                <default>false</default>
+                <label>Felting</label>
+            </value>
+            <value>
+                <fullName>Roofing</fullName>
+                <default>false</default>
+                <label>Roofing</label>
+            </value>
+            <value>
+                <fullName>Drainage</fullName>
+                <default>false</default>
+                <label>Drainage</label>
+            </value>
+            <value>
+                <fullName>Carpentry</fullName>
+                <default>false</default>
+                <label>Carpentry</label>
+            </value>
+            <value>
+                <fullName>Customer service</fullName>
+                <default>false</default>
+                <label>Customer service</label>
+            </value>
+            <value>
+                <fullName>Heating</fullName>
+                <default>false</default>
+                <label>Heating</label>
+            </value>
+            <value>
+                <fullName>Painting and fencing</fullName>
+                <default>false</default>
+                <label>Painting and fencing</label>
+            </value>
+            <value>
+                <fullName>Boiler installs</fullName>
+                <default>false</default>
+                <label>Boiler installs</label>
+            </value>
+            <value>
+                <fullName>System wiring</fullName>
+                <default>false</default>
+                <label>System wiring</label>
+            </value>
+            <value>
+                <fullName>Heating problems etc.</fullName>
+                <default>false</default>
+                <label>Heating problems etc.</label>
+            </value>
+            <value>
+                <fullName>Thorough</fullName>
+                <default>false</default>
+                <label>Thorough</label>
+            </value>
+            <value>
+                <fullName>Tile, bathroom fitting</fullName>
+                <default>false</default>
+                <label>Tile, bathroom fitting</label>
+            </value>
+            <value>
+                <fullName>Install, problem solving</fullName>
+                <default>false</default>
+                <label>Install, problem solving</label>
+            </value>
+            <value>
+                <fullName>Plastering, plasterboard, fencing.</fullName>
+                <default>false</default>
+                <label>Plastering, plasterboard, fencing.</label>
+            </value>
+            <value>
+                <fullName>All of plumbing and heating</fullName>
+                <default>false</default>
+                <label>All of plumbing and heating</label>
+            </value>
+            <value>
+                <fullName>Plumbing and heating</fullName>
+                <default>false</default>
+                <label>Plumbing and heating</label>
+            </value>
+            <value>
+                <fullName>Tiling</fullName>
+                <default>false</default>
+                <label>Tiling</label>
+            </value>
+            <value>
+                <fullName>Testing, fault finding, maintaining system, PiR</fullName>
+                <default>false</default>
+                <label>Testing, fault finding, maintaining system, PiR</label>
+            </value>
+            <value>
+                <fullName>Fault finding</fullName>
+                <default>false</default>
+                <label>Fault finding</label>
+            </value>
+            <value>
+                <fullName>Gas</fullName>
+                <default>false</default>
+                <label>Gas</label>
+            </value>
+            <value>
+                <fullName>Decoration</fullName>
+                <default>false</default>
+                <label>Decoration</label>
+            </value>
+            <value>
+                <fullName>Painter</fullName>
+                <default>false</default>
+                <label>Painter</label>
+            </value>
+            <value>
+                <fullName>Pitched roofing. Plain tiles</fullName>
+                <default>false</default>
+                <label>Pitched roofing. Plain tiles</label>
+            </value>
+            <value>
+                <fullName>All of them</fullName>
+                <default>false</default>
+                <label>All of them</label>
+            </value>
+            <value>
+                <fullName>Boilers and plumbing</fullName>
+                <default>false</default>
+                <label>Boilers and plumbing</label>
+            </value>
+            <value>
+                <fullName>Windows doors replacement</fullName>
+                <default>false</default>
+                <label>Windows doors replacement</label>
+            </value>
+            <value>
+                <fullName>All aspects of Painting</fullName>
+                <default>false</default>
+                <label>All aspects of Painting</label>
+            </value>
+            <value>
+                <fullName>New sockets, rewiring</fullName>
+                <default>false</default>
+                <label>New sockets, rewiring</label>
+            </value>
+            <value>
+                <fullName>All aspects of roofing</fullName>
+                <default>false</default>
+                <label>All aspects of roofing</label>
+            </value>
+            <value>
+                <fullName>Attention to detail</fullName>
+                <default>false</default>
+                <label>Attention to detail</label>
+            </value>
+            <value>
+                <fullName>Drainage &amp; cctv surveys</fullName>
+                <default>false</default>
+                <label>Drainage &amp; cctv surveys</label>
+            </value>
+            <value>
+                <fullName>Drain Surveys, Emergency reactive work for drains (Essential works)</fullName>
+                <default>false</default>
+                <label>Drain Surveys, Emergency reactive work for drains (Essential works)</label>
+            </value>
+            <value>
+                <fullName>Domestic, Commercial building controls</fullName>
+                <default>false</default>
+                <label>Domestic, Commercial building controls</label>
+            </value>
+            <value>
+                <fullName>Sales, breakdowns system design</fullName>
+                <default>false</default>
+                <label>Sales, breakdowns system design</label>
+            </value>
+            <value>
+                <fullName>Combi-Installs</fullName>
+                <default>false</default>
+                <label>Combi-Installs</label>
+            </value>
+            <value>
+                <fullName>Testing, 3 Phase, Upgrades</fullName>
+                <default>false</default>
+                <label>Testing, 3 Phase, Upgrades</label>
+            </value>
+            <value>
+                <fullName>Making things understandable for everyone. Communicating.</fullName>
+                <default>false</default>
+                <label>Making things understandable for everyone. Communicating.</label>
+            </value>
+            <value>
+                <fullName>Boiler installation</fullName>
+                <default>false</default>
+                <label>Boiler installation</label>
+            </value>
+            <value>
+                <fullName>Diagnostics</fullName>
+                <default>false</default>
+                <label>Diagnostics</label>
+            </value>
+            <value>
+                <fullName>All HVAC and Refrigeration systems</fullName>
+                <default>false</default>
+                <label>All HVAC and Refrigeration systems</label>
+            </value>
+            <value>
+                <fullName>Plumbing and heating installations</fullName>
+                <default>false</default>
+                <label>Plumbing and heating installations</label>
+            </value>
+            <value>
+                <fullName>drainage and groundwork</fullName>
+                <default>false</default>
+                <label>drainage and groundwork</label>
+            </value>
+            <value>
+                <fullName>DOORS</fullName>
+                <default>false</default>
+                <label>DOORS</label>
+            </value>
+            <value>
+                <fullName>Boiler installations</fullName>
+                <default>false</default>
+                <label>Boiler installations</label>
+            </value>
+            <value>
+                <fullName>Consumer units</fullName>
+                <default>false</default>
+                <label>Consumer units</label>
+            </value>
+            <value>
+                <fullName>Bathroom refurbs, painting, etc</fullName>
+                <default>false</default>
+                <label>Bathroom refurbs, painting, etc</label>
+            </value>
+            <value>
+                <fullName>SLATING</fullName>
+                <default>false</default>
+                <label>SLATING</label>
+            </value>
+            <value>
+                <fullName>Measuring and cleanliness</fullName>
+                <default>false</default>
+                <label>Measuring and cleanliness</label>
+            </value>
+            <value>
+                <fullName>Precise</fullName>
+                <default>false</default>
+                <label>Precise</label>
+            </value>
+            <value>
+                <fullName>Installs boilers</fullName>
+                <default>false</default>
+                <label>Installs boilers</label>
+            </value>
+            <value>
+                <fullName>Air conditioning and central heating system trouble shooting.</fullName>
+                <default>false</default>
+                <label>Air conditioning and central heating system trouble shooting.</label>
+            </value>
+            <value>
+                <fullName>Operating heating controls and gas safety testing.</fullName>
+                <default>false</default>
+                <label>Operating heating controls and gas safety testing.</label>
+            </value>
+            <value>
+                <fullName>Boiler breakdown, boiler installation</fullName>
+                <default>false</default>
+                <label>Boiler breakdown, boiler installation</label>
+            </value>
+            <value>
+                <fullName>General installation, problem solving</fullName>
+                <default>false</default>
+                <label>General installation, problem solving</label>
+            </value>
+            <value>
+                <fullName>Painting,carpentry,plumbing,glazing</fullName>
+                <default>false</default>
+                <label>Painting,carpentry,plumbing,glazing</label>
+            </value>
+            <value>
+                <fullName>Tiling and umbing</fullName>
+                <default>false</default>
+                <label>Tiling and umbing</label>
+            </value>
+            <value>
+                <fullName>Kitchen / bathroom fitting / carpentry</fullName>
+                <default>false</default>
+                <label>Kitchen / bathroom fitting / carpentry</label>
+            </value>
+            <value>
+                <fullName>All aspects of electrics</fullName>
+                <default>false</default>
+                <label>All aspects of electrics</label>
+            </value>
+            <value>
+                <fullName>Plastering and roofing</fullName>
+                <default>false</default>
+                <label>Plastering and roofing</label>
+            </value>
+            <value>
+                <fullName>Tiling roofing</fullName>
+                <default>false</default>
+                <label>Tiling roofing</label>
+            </value>
+            <value>
+                <fullName>Window fitting</fullName>
+                <default>false</default>
+                <label>Window fitting</label>
+            </value>
+            <value>
+                <fullName>Installs</fullName>
+                <default>false</default>
+                <label>Installs</label>
+            </value>
+            <value>
+                <fullName>Test and inspection, fault finding, quality job.</fullName>
+                <default>false</default>
+                <label>Test and inspection, fault finding, quality job.</label>
+            </value>
+            <value>
+                <fullName>Breakdowns</fullName>
+                <default>false</default>
+                <label>Breakdowns</label>
+            </value>
+            <value>
+                <fullName>Bathroom fitting</fullName>
+                <default>false</default>
+                <label>Bathroom fitting</label>
+            </value>
+            <value>
+                <fullName>Testing, fault finding, maintaining system</fullName>
+                <default>false</default>
+                <label>Testing, fault finding, maintaining system</label>
+            </value>
+            <value>
+                <fullName>Practically and knowledge. excellent with winning work and running projects</fullName>
+                <default>false</default>
+                <label>Practically and knowledge. excellent with winning work and running projects</label>
+            </value>
+            <value>
+                <fullName>Multi trade</fullName>
+                <default>false</default>
+                <label>Multi trade</label>
+            </value>
+            <value>
+                <fullName>Electrical repair</fullName>
+                <default>false</default>
+                <label>Electrical repair</label>
+            </value>
+            <value>
+                <fullName>Transport, supervising, multi skilled</fullName>
+                <default>false</default>
+                <label>Transport, supervising, multi skilled</label>
+            </value>
+            <value>
+                <fullName>Adaptable</fullName>
+                <default>false</default>
+                <label>Adaptable</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting</fullName>
+                <default>false</default>
+                <label>Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Problem solving and solutions. Working to schedules. Communicating with customers</fullName>
+                <default>false</default>
+                <label>Problem solving and solutions. Working to schedules. Communicating with customers</label>
+            </value>
+            <value>
+                <fullName>Management of large projects</fullName>
+                <default>false</default>
+                <label>Management of large projects</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

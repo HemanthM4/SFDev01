@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineer_Pay_Refund_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Engineer Pay Refund Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Air Conditioning Labels</fullName>
+                <default>false</default>
+                <label>Air Conditioning Labels</label>
+            </value>
+            <value>
+                <fullName>Aspect Folder</fullName>
+                <default>false</default>
+                <label>Aspect Folder</label>
+            </value>
+            <value>
+                <fullName>Aspect Purchase Order</fullName>
+                <default>false</default>
+                <label>Aspect Purchase Order</label>
+            </value>
+            <value>
+                <fullName>Bank Transfer Fee (for advance)</fullName>
+                <default>false</default>
+                <label>Bank Transfer Fee (for advance)</label>
+            </value>
+            <value>
+                <fullName>Box Junction (PCN)</fullName>
+                <default>false</default>
+                <label>Box Junction (PCN)</label>
+            </value>
+            <value>
+                <fullName>Bus Lane (PCN)</fullName>
+                <default>false</default>
+                <label>Bus Lane (PCN)</label>
+            </value>
+            <value>
+                <fullName>Call backs</fullName>
+                <default>false</default>
+                <label>Call backs</label>
+            </value>
+            <value>
+                <fullName>Cash Kept</fullName>
+                <default>false</default>
+                <label>Cash Kept</label>
+            </value>
+            <value>
+                <fullName>Cash Kept Admin Fee</fullName>
+                <default>false</default>
+                <label>Cash Kept Admin Fee</label>
+            </value>
+            <value>
+                <fullName>Congestion Charge (PCN)</fullName>
+                <default>false</default>
+                <label>Congestion Charge (PCN)</label>
+            </value>
+            <value>
+                <fullName>CRB deduction</fullName>
+                <default>false</default>
+                <label>CRB deduction</label>
+            </value>
+            <value>
+                <fullName>Dart Charge</fullName>
+                <default>false</default>
+                <label>Dart Charge</label>
+            </value>
+            <value>
+                <fullName>Dartford Charge (PCN)</fullName>
+                <default>false</default>
+                <label>Dartford Charge (PCN)</label>
+            </value>
+            <value>
+                <fullName>Gas Safe Register Deduction</fullName>
+                <default>false</default>
+                <label>Gas Safe Register Deduction</label>
+            </value>
+            <value>
+                <fullName>ID Card</fullName>
+                <default>false</default>
+                <label>ID Card</label>
+            </value>
+            <value>
+                <fullName>IT Deduction - Other</fullName>
+                <default>false</default>
+                <label>IT Deduction - Other</label>
+            </value>
+            <value>
+                <fullName>Job Deduction - Other</fullName>
+                <default>false</default>
+                <label>Job Deduction - Other</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>Laptop Charger</fullName>
+                <default>false</default>
+                <label>Laptop Charger</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Mobile Bill</fullName>
+                <default>false</default>
+                <label>Mobile Bill</label>
+            </value>
+            <value>
+                <fullName>Mobile Phone</fullName>
+                <default>false</default>
+                <label>Mobile Phone</label>
+            </value>
+            <value>
+                <fullName>Mobile Phone Car Charger</fullName>
+                <default>false</default>
+                <label>Mobile Phone Car Charger</label>
+            </value>
+            <value>
+                <fullName>Mobile Phone Case</fullName>
+                <default>false</default>
+                <label>Mobile Phone Case</label>
+            </value>
+            <value>
+                <fullName>Mobile Phone Charger</fullName>
+                <default>false</default>
+                <label>Mobile Phone Charger</label>
+            </value>
+            <value>
+                <fullName>Mobile Phone Hands Free</fullName>
+                <default>false</default>
+                <label>Mobile Phone Hands Free</label>
+            </value>
+            <value>
+                <fullName>Negative Pay Balance (From Previous Month)</fullName>
+                <default>false</default>
+                <label>Negative Pay Balance (From Previous Month)</label>
+            </value>
+            <value>
+                <fullName>No Entry (PCN)</fullName>
+                <default>false</default>
+                <label>No Entry (PCN)</label>
+            </value>
+            <value>
+                <fullName>No Turn (PCN)</fullName>
+                <default>false</default>
+                <label>No Turn (PCN)</label>
+            </value>
+            <value>
+                <fullName>Overpaid</fullName>
+                <default>false</default>
+                <label>Overpaid</label>
+            </value>
+            <value>
+                <fullName>Parking (PCN)</fullName>
+                <default>false</default>
+                <label>Parking (PCN)</label>
+            </value>
+            <value>
+                <fullName>Pay Advance</fullName>
+                <default>false</default>
+                <label>Pay Advance</label>
+            </value>
+            <value>
+                <fullName>Pay Deduction - Other</fullName>
+                <default>false</default>
+                <label>Pay Deduction - Other</label>
+            </value>
+            <value>
+                <fullName>PCN Deduction - Other</fullName>
+                <default>false</default>
+                <label>PCN Deduction - Other</label>
+            </value>
+            <value>
+                <fullName>Phone Case</fullName>
+                <default>false</default>
+                <label>Phone Case</label>
+            </value>
+            <value>
+                <fullName>Public Liability Insurance</fullName>
+                <default>false</default>
+                <label>Public Liability Insurance</label>
+            </value>
+            <value>
+                <fullName>Reactive Lead Fee Deduction</fullName>
+                <default>false</default>
+                <label>Reactive Lead Fee Deduction</label>
+            </value>
+            <value>
+                <fullName>Red Light (PCN)</fullName>
+                <default>false</default>
+                <label>Red Light (PCN)</label>
+            </value>
+            <value>
+                <fullName>Red Route (PCN)</fullName>
+                <default>false</default>
+                <label>Red Route (PCN)</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Retention</fullName>
+                <default>false</default>
+                <label>Retention</label>
+            </value>
+            <value>
+                <fullName>Rotherhithe (PCN)</fullName>
+                <default>false</default>
+                <label>Rotherhithe (PCN)</label>
+            </value>
+            <value>
+                <fullName>Speeding (PCN)</fullName>
+                <default>false</default>
+                <label>Speeding (PCN)</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Tablet Charger</fullName>
+                <default>false</default>
+                <label>Tablet Charger</label>
+            </value>
+            <value>
+                <fullName>Tom Tom</fullName>
+                <default>false</default>
+                <label>Tom Tom</label>
+            </value>
+            <value>
+                <fullName>Tom Tom Charger</fullName>
+                <default>false</default>
+                <label>Tom Tom Charger</label>
+            </value>
+            <value>
+                <fullName>Tools / Equipment</fullName>
+                <default>false</default>
+                <label>Tools / Equipment</label>
+            </value>
+            <value>
+                <fullName>Training Course</fullName>
+                <default>false</default>
+                <label>Training Course</label>
+            </value>
+            <value>
+                <fullName>Trustpilot Bonus / Fine</fullName>
+                <default>false</default>
+                <label>Trustpilot Bonus / Fine</label>
+            </value>
+            <value>
+                <fullName>ULEZ / Cong. Charge</fullName>
+                <default>false</default>
+                <label>ULEZ / Cong. Charge</label>
+            </value>
+            <value>
+                <fullName>Uniform</fullName>
+                <default>false</default>
+                <label>Uniform</label>
+            </value>
+            <value>
+                <fullName>Vehicle - Adblue</fullName>
+                <default>false</default>
+                <label>Vehicle - Adblue</label>
+            </value>
+            <value>
+                <fullName>Vehicle Body Damage</fullName>
+                <default>false</default>
+                <label>Vehicle Body Damage</label>
+            </value>
+            <value>
+                <fullName>Vehicle Cleaning Fine</fullName>
+                <default>false</default>
+                <label>Vehicle Cleaning Fine</label>
+            </value>
+            <value>
+                <fullName>Vehicle - Collection Fee</fullName>
+                <default>false</default>
+                <label>Vehicle - Collection Fee</label>
+            </value>
+            <value>
+                <fullName>Vehicle Deduction - Not Submitted Photos</fullName>
+                <default>false</default>
+                <label>Vehicle Deduction - Not Submitted Photos</label>
+            </value>
+            <value>
+                <fullName>Vehicle Deduction - Other</fullName>
+                <default>false</default>
+                <label>Vehicle Deduction - Other</label>
+            </value>
+            <value>
+                <fullName>Vehicle - Fuel</fullName>
+                <default>false</default>
+                <label>Vehicle - Fuel</label>
+            </value>
+            <value>
+                <fullName>Vehicle Insurance Contribution</fullName>
+                <default>false</default>
+                <label>Vehicle Insurance Contribution</label>
+            </value>
+            <value>
+                <fullName>Vehicle Insurance Excess (Incident)</fullName>
+                <default>false</default>
+                <label>Vehicle Insurance Excess (Incident)</label>
+            </value>
+            <value>
+                <fullName>Vehicle Tyres</fullName>
+                <default>false</default>
+                <label>Vehicle Tyres</label>
+            </value>
+            <value>
+                <fullName>Vehicle Windscreen</fullName>
+                <default>false</default>
+                <label>Vehicle Windscreen</label>
+            </value>
+            <value>
+                <fullName>Work Detail Sheet Pad</fullName>
+                <default>false</default>
+                <label>Work Detail Sheet Pad</label>
+            </value>
+            <value>
+                <fullName>Work Order Deduction</fullName>
+                <default>false</default>
+                <label>Work Order Deduction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

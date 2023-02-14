@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roofing_All_Active_Service_Resource</fullName>
+    <columns>Name</columns>
+    <columns>Residential_PostalCode__c</columns>
+    <columns>Postcode_for_schedule_STM__c</columns>
+    <columns>ResourceType</columns>
+    <columns>Trade__c</columns>
+    <columns>Rate_of_Pay_Tier__c</columns>
+    <columns>Qualifying_WTs_Count__c</columns>
+    <columns>Allocated_to_Manager__c</columns>
+    <columns>Mobile_No__c</columns>
+    <columns>Personal_Contact_Number__c</columns>
+    <columns>Months_Since_Start_Date__c</columns>
+    <columns>New_Rates__c</columns>
+    <columns>Skill_Set__c</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Trade__c</field>
+        <operation>includes</operation>
+        <value>Access,Brickwork &amp; Paving,Carpentry,Decorating,Fencing,Flooring,Gardening,Glazing,Handyman,Partition Walls &amp; Ceilings,Roofing,Tiling,Wallpapering,Windows &amp; Doors,Utilities - Project - Building Fabric</value>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Roofing/MS/BF - All Active SR</label>
+</ListView>

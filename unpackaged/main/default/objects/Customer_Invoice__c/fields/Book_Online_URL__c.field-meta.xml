@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Online_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+&quot;/book-now/?id=&quot;&amp;Id&amp;
+&quot;&amp;acc=&quot;&amp; Account__c &amp;
+&quot;&amp;acn=&quot;&amp; Account_Number__c &amp;
+&quot;&amp;exc=&quot;&amp; &quot;Yes&quot; &amp;
+&quot;&amp;fn=&quot;&amp;SUBSTITUTE( Account__r.First_Name__c , &quot; &quot;, &quot;%20&quot;) &amp;
+&quot;&amp;ln=&quot;&amp;SUBSTITUTE( Account__r.Last_Name__c , &quot; &quot;, &quot;%20&quot;) &amp;
+&quot;&amp;ema=&quot;&amp; Account_Email_Address__c &amp;
+&quot;&amp;pho=&quot;&amp;  SUBSTITUTE(Account__r.Phone, &quot; &quot;, &quot;&quot;)</formula>
+    <label>Book Online URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

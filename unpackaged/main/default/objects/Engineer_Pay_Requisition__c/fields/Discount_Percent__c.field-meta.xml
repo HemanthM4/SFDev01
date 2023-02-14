@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Percent__c</fullName>
+    <description>The Discount Percentage given for the Work Order to the Customer at the time of booking.</description>
+    <externalId>false</externalId>
+    <formula>IF
+(
+Work_Order__r.Costs_and_Charges__r.Discount_Manual_Percentage__c&lt;&gt;0,Work_Order__r.Costs_and_Charges__r.Discount_Manual_Percentage__c,
+IF
+(
+Work_Order__r.Discount_Office__c&lt;&gt;0,Work_Order__r.Discount_Office__c,
+IF
+(
+Work_Order__r.Discount_Engineer__c&lt;&gt;0,Work_Order__r.Discount_Engineer__c,0
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Discount Percentage given for the Work Order to the Customer at the time of booking.</inlineHelpText>
+    <label>Discount % (at time of booking)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

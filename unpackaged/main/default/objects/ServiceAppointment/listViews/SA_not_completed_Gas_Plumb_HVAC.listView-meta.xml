@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_not_completed_Gas_Plumb_HVAC</fullName>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>Name</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>Scheduled_Trade__c</columns>
+    <columns>Job_Type__c</columns>
+    <columns>Status</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Job__c</columns>
+    <columns>WorkType</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,In Transit,On site,Job Closure</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>4/1/2022</value>
+    </filters>
+    <filters>
+        <field>SchedEndTime</field>
+        <operation>lessOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>Reactive,Fixed Price</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Cash,Credit</value>
+    </filters>
+    <filters>
+        <field>Trade_Group__c</field>
+        <operation>contains</operation>
+        <value>Gas,Plumbing,HVAC</value>
+    </filters>
+    <label>SA not completed Gas Plumb HVAC</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

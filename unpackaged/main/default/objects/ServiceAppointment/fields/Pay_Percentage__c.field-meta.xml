@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pay_Percentage__c</fullName>
+    <description>The % of the labour the Operative will receive.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The % of the labour the Operative will receive.</inlineHelpText>
+    <label>Pay %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Percent</type>
+</CustomField>

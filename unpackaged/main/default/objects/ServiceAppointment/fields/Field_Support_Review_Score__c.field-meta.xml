@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Support_Review_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Workmanship__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Workmanship__c)=&#39;Good&#39;,2,
+IF(TEXT(Workmanship__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Workmanship__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Workmanship__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Decision_Making__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Decision_Making__c)=&#39;Good&#39;,2,
+IF(TEXT(Decision_Making__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Decision_Making__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Decision_Making__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Communication__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Communication__c)=&#39;Good&#39;,2,
+IF(TEXT(Communication__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Communication__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Communication__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Manners__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Manners__c)=&#39;Good&#39;,2,
+IF(TEXT(Manners__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Manners__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Manners__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Tooling__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Tooling__c)=&#39;Good&#39;,2,
+IF(TEXT(Tooling__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Tooling__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Tooling__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Vehicle__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Vehicle__c)=&#39;Good&#39;,2,
+IF(TEXT(Vehicle__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Vehicle__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Vehicle__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Technical_Knowledge__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Technical_Knowledge__c)=&#39;Good&#39;,2,
+IF(TEXT(Technical_Knowledge__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Technical_Knowledge__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Technical_Knowledge__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Use_Of_App_Forms__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Use_Of_App_Forms__c)=&#39;Good&#39;,2,
+IF(TEXT(Use_Of_App_Forms__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Use_Of_App_Forms__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Use_Of_App_Forms__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Sales_Approach__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Sales_Approach__c)=&#39;Good&#39;,2,
+IF(TEXT(Sales_Approach__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Sales_Approach__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Sales_Approach__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Attitude__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Attitude__c)=&#39;Good&#39;,2,
+IF(TEXT(Attitude__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Attitude__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Attitude__c)=&#39;Urgent issue&#39;,-5,0)))))
++
+IF(TEXT(Uniform__c)=&#39;Perfect&#39;, 5, 
+IF(TEXT(Uniform__c)=&#39;Good&#39;,2,
+IF(TEXT(Uniform__c)=&#39;Acceptable&#39;,0,
+IF(TEXT(Uniform__c)=&#39;Not acceptable&#39;,-2,
+IF(TEXT(Uniform__c)=&#39;Urgent issue&#39;,-5,0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Field Support Review Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

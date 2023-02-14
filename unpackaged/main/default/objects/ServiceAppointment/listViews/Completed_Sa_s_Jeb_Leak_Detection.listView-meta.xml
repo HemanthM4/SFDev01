@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Sa_s_Jeb_Leak_Detection</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Allocated_Engineer__c</columns>
+    <columns>Account</columns>
+    <columns>Site__c</columns>
+    <columns>ZIP</columns>
+    <columns>ActualStartTime</columns>
+    <columns>ActualEndTime</columns>
+    <columns>CCT_Charge_NET__c</columns>
+    <columns>Description</columns>
+    <columns>Attendance_Report_for_Customer__c</columns>
+    <columns>Post_Visit_Report_Check__c</columns>
+    <columns>Attendance_Notes_for_Office__c</columns>
+    <columns>Scheduled_Trade__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Scheduled_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/1/2021</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Visit Complete,Job Closure</value>
+    </filters>
+    <filters>
+        <field>Scheduled_Trade__c</field>
+        <operation>equals</operation>
+        <value>Leak Detection</value>
+    </filters>
+    <label>Completed Sa&#39;s - Jeb Leak Detection</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

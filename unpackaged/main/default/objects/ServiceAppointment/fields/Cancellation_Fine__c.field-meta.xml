@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Fine__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When the Cancellation of the SA is within 2 hours of the original a fine will be assigned.</description>
+    <externalId>false</externalId>
+    <label>Cancellation Fine</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Star_Rating_Number__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(Review_Star_Rating__c , &#39;1&#39;, 1, &#39;2&#39;, 2, &#39;3&#39;, 3, &#39;4&#39;,4,&#39;5&#39;,5, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Star Rating Number</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

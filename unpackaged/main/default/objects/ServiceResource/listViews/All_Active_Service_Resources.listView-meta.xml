@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Active_Service_Resources</fullName>
+    <columns>Name</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>Allocated_to_Manager__c</columns>
+    <columns>Fixed_Price_Work_Sheet__c</columns>
+    <columns>Gravity_Form_Added__c</columns>
+    <columns>Residential_PostalCode__c</columns>
+    <columns>Postcode_for_schedule_STM__c</columns>
+    <columns>Qualifying_WTs_Count__c</columns>
+    <columns>Mobile_No__c</columns>
+    <columns>Personal_Contact_Number__c</columns>
+    <columns>Rate_of_Pay_Tier__c</columns>
+    <columns>New_Rates__c</columns>
+    <columns>Months_Since_Start_Date__c</columns>
+    <columns>Trade__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_User_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>RelatedRecord</field>
+        <operation>notContain</operation>
+        <value>Former</value>
+    </filters>
+    <label>All Active Service Resources</label>
+</ListView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supervision_type__c</fullName>
+    <externalId>false</externalId>
+    <label>Supervision type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attended</fullName>
+                <default>false</default>
+                <label>Attended</label>
+            </value>
+            <value>
+                <fullName>Remote Supervision</fullName>
+                <default>false</default>
+                <label>Remote Supervision</label>
+            </value>
+            <value>
+                <fullName>Need to contact OP</fullName>
+                <default>false</default>
+                <label>Need to contact OP</label>
+            </value>
+            <value>
+                <fullName>Checked Report, Post Visit</fullName>
+                <default>false</default>
+                <label>Checked Report, Post Visit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

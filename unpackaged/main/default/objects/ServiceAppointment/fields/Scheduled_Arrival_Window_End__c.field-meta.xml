@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Arrival_Window_End__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+Latest_Start_Permitted__c &lt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(Latest_Start_Permitted__c)),3,31)-(WEEKDAY(DATE(YEAR(DATEVALUE(Latest_Start_Permitted__c)),3,31))-1) +1/24),
+Latest_Start_Permitted__c &gt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(Latest_Start_Permitted__c)),10,31)- (WEEKDAY(DATE(YEAR(DATEVALUE(Latest_Start_Permitted__c)),10,31))-1)+1/24)
+
+),
+IF(
+
+HOUR( TIMEVALUE(Latest_Start_Permitted__c) ) &gt; 11,
+
+IF (HOUR(TIMEVALUE(Latest_Start_Permitted__c)) = 12, &quot;12&quot;,
+TEXT( HOUR(TIMEVALUE(Latest_Start_Permitted__c)) -12 ) )
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(Latest_Start_Permitted__c))), 2,&quot;0&quot;)&amp; &quot; PM&quot;
+
+,
+
+TEXT( HOUR(TIMEVALUE(Latest_Start_Permitted__c)) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(Latest_Start_Permitted__c))), 2,&quot;0&quot;)&amp; &quot; AM&quot;
+
+),
+
+
+
+IF(
+
+HOUR( TIMEVALUE(Latest_Start_Permitted__c + 1/24) ) &gt; 11,
+
+IF (HOUR(TIMEVALUE(Latest_Start_Permitted__c + 1/24)) = 12, &quot;12&quot;,
+TEXT( HOUR(TIMEVALUE(Latest_Start_Permitted__c + 1/24)) -12 ) )
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(Latest_Start_Permitted__c + 1/24))), 2,&quot;0&quot;)&amp; &quot; PM&quot;
+
+,
+
+TEXT( HOUR(TIMEVALUE(Latest_Start_Permitted__c + 1/24)) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(TIMEVALUE(Latest_Start_Permitted__c + 1/24))), 2,&quot;0&quot;)&amp; &quot; AM&quot;
+
+)
+)</formula>
+    <label>Scheduled Arrival Window End</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

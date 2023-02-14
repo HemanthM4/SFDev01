@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pay_Total_After_Deductions__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Payroll_New_Requisitions__c + Payroll_Approved_Requisitions__c + Payroll_Processed_Requisitions_Labour__c + Payroll_Paid_Requisitions__c ) - ( Payroll_New_Deductions__c +   Payroll_Approved_Deductions__c  + Payroll_Processed_Deductions_Other__c  + Payroll_Paid_Deductions__c  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>New ,Processed, Approved, Paid</inlineHelpText>
+    <label>Pay Total After Deductions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

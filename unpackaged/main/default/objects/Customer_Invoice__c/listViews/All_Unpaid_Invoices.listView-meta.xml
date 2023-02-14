@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Unpaid_Invoices</fullName>
+    <columns>Customer_First_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Balance_Outstanding__c</columns>
+    <columns>Count_of_Open_Cases__c</columns>
+    <columns>Charge_Gross__c</columns>
+    <columns>Account__c</columns>
+    <columns>Job__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>equals</operation>
+        <value>Phase 2 Test Account 1</value>
+    </filters>
+    <label>Unpaid Invoices - All</label>
+</ListView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_Invoices_Final_Notice_Sent</fullName>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Job_Number__c</columns>
+    <columns>Sum_of_Payments__c</columns>
+    <columns>Balance_Outstanding__c</columns>
+    <columns>Final_Notice_Sent__c</columns>
+    <columns>Date_to_Action__c</columns>
+    <columns>Payment_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Outstanding</value>
+    </filters>
+    <filters>
+        <field>Final_Notice_Sent__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Customer_Invoice__c.Deposit</value>
+    </filters>
+    <filters>
+        <field>Final_Demand_Sent__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Outstanding Invoices - Final Notice Sent</label>
+</ListView>

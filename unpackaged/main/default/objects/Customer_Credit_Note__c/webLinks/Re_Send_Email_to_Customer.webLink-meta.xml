@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Re_Send_Email_to_Customer</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Re-Send Email to Customer</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/Re_Send_Emails_from_Customer_Credit_Note_to_Customer?var_CreditNoteRecord_Id={! Customer_Credit_Note__c.Id}&amp;retURL={!Customer_Credit_Note__c.Id}</url>
+</WebLink>

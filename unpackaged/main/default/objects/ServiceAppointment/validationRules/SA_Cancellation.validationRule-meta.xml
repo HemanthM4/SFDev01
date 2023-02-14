@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Cancellation</fullName>
+    <active>false</active>
+    <description>Required Fields on Cancelling a Service Appointment</description>
+    <errorConditionFormula>AND( 
+ISPICKVAL(Status, &quot;Cancelled&quot;), 
+OR( 
+ISPICKVAL(Cancellation_Reason__c, &quot;&quot;),
+ISBLANK( Cancellation_Time_Stamp__c ) 
+))</errorConditionFormula>
+    <errorMessage>Please fill in the Cancellation Reason and Enter a Time Stamp of Cancellation before changing the Status to Cancelled</errorMessage>
+</ValidationRule>

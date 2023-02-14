@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMS_Cancelled_Engineer_Notification__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To be ticked when the SMS text msg has been sent to the Operative to tell them the Service Appointment has been cancelled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be ticked when the SMS text msg has been sent to the Operative to tell them the Service Appointment has been cancelled.</inlineHelpText>
+    <label>SMS Cancelled Engineer Notification</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LM_Rate_For_Credit_Customers__c</fullName>
+    <externalId>false</externalId>
+    <formula>$CustomMetadata.Aspect_Setting__mdt.Aspect_Maintenance_Services_Ltd.LM_Rate_For_Credit_Customers__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LM Rate For Credit Customers</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

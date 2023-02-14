@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Review_Operative_Score__c</fullName>
+    <description>Based on the &#39;Review Star Rating&#39; - 5 Stars = 5 points, 4 Stars = 2 points, 3 Stars = 0 points, 2 Stars = -2 points and 1 Star = -5 points.</description>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Review_Star_Rating__c),
+
+&#39;5&#39;, 5,
+
+&#39;4&#39;, 2,
+
+&#39;3&#39;, 0,
+
+&#39;2&#39;, -2,
+
+&#39;1&#39;, -5,
+
+
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Based on the &#39;Review Star Rating&#39; - 5 Stars = 5 points, 4 Stars = 2 points, 3 Stars = 0 points, 2 Stars = -2 points and 1 Star = -5 points.</inlineHelpText>
+    <label>Customer Review Operative Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

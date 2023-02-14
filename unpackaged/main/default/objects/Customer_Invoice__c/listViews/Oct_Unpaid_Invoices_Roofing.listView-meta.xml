@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oct_Unpaid_Invoices_Roofing</fullName>
+    <columns>Trade_Group_lookup__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Balance_Outstanding__c</columns>
+    <columns>Count_of_Open_Cases__c</columns>
+    <columns>Charge_Gross__c</columns>
+    <columns>Job__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Payment_Notes__c</columns>
+    <columns>Final_Notice_To_Be_Served__c</columns>
+    <columns>Final_Notice_Sent__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Balance_Outstanding__c</field>
+        <operation>greaterThan</operation>
+        <value>GBP 0</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>cash</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Customer_Invoice__c.Deposit</value>
+    </filters>
+    <filters>
+        <field>Final_Notice_Sent__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Final_Notice_To_Be_Served__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Final_Demand_Sent__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Trade_Group_lookup__c</field>
+        <operation>equals</operation>
+        <value>Roofing</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>9/1/2022 12:00 AM</value>
+    </filters>
+    <label>Oct Unpaid Invoices Roofing</label>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today</fullName>
+    <active>true</active>
+    <label>Today</label>
+    <picklistValues>
+        <picklist>Utilisation__c</picklist>
+        <values>
+            <fullName>Fully Utilised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi Utilised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Utilised</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

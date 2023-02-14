@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_cannot_be_blank</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK( Email__c )</errorConditionFormula>
+    <errorMessage>Please ensure you add an Email address when creating a Service Resource or several processes will all break.  Please wait until you have the email before adding.</errorMessage>
+</ValidationRule>

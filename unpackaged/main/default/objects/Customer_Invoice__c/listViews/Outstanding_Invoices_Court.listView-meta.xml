@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_Invoices_Court</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Job_Number__c</columns>
+    <columns>Balance_Outstanding__c</columns>
+    <columns>Interest_Fee_Owed__c</columns>
+    <columns>Balance_Outstanding_with_Interest__c</columns>
+    <columns>Court__c</columns>
+    <columns>Payment_Notes__c</columns>
+    <columns>Date_to_Action__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Outstanding</value>
+    </filters>
+    <filters>
+        <field>Court__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Cash</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Credit</value>
+    </filters>
+    <label>Outstanding Invoices - Court</label>
+</ListView>
