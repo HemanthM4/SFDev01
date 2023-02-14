@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Address_Required</fullName>
+    <active>false</active>
+    <description>Check to see if invoice address is not blank</description>
+    <errorConditionFormula>AND(
+Same_as_site_address__c = FALSE, ISBLANK( BillingAddress)
+)</errorConditionFormula>
+    <errorMessage>Invoice Address is required</errorMessage>
+</ValidationRule>

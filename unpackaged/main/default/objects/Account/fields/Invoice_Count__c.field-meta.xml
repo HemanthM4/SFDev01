@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Count__c</fullName>
+    <description>Invoice Count</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up - count of invoice records on account</inlineHelpText>
+    <label>Invoice Count</label>
+    <summaryForeignKey>Customer_Invoice__c.Account__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DRC_Applies__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When checked, DRC applies and all invoices will exclude VAT. This field is controlled by Credit Control.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked, DRC applies and all invoices will exclude VAT. This field is controlled by Credit Control.</inlineHelpText>
+    <label>DRC Applies</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

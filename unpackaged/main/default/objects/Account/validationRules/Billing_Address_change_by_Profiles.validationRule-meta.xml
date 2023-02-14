@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Address_change_by_Profiles</fullName>
+    <active>true</active>
+    <description>When account type is Credit or Key account, Billing address can be changed only by the Credit control manager, System admin , Ops director, PHASE 2 Manager Claim Accounts.</description>
+    <errorConditionFormula>AND( ISCHANGED( BillingAddress ) ,
+
+     OR( ISPICKVAL( Account_Type__c , &quot;Credit&quot;) ,
+         ISPICKVAL( Account_Type__c , &quot;Key Account&quot;)) ,
+
+    NOT(
+     OR( $Profile.Name  = &quot;PHASE 2 Manager - Process&quot; ,
+         $Profile.Name  = &quot;System Administrator&quot; ,
+         $Profile.Name  = &quot;PHASE 2 Manager Claim Accounts&quot; ,
+         $Profile.Name  = &quot;PHASE 2 Operations Director&quot; )
+       )
+    )</errorConditionFormula>
+    <errorMessage>Billing address can be changed only by the Credit control manager, Ops director for Key and Credit account.</errorMessage>
+</ValidationRule>

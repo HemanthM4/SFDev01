@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cash_Domestic_Industry_to_be_changed</fullName>
+    <columns>Onboarding__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>Account_Type__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Account_Reference__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Credit_Limit__c</columns>
+    <columns>Outstanding_Balance_Incl_VAT__c</columns>
+    <columns>Invoicing_Email_Address__c</columns>
+    <columns>Client_Alert__c</columns>
+    <columns>ACCOUNT.IS_CUSTOMERSUCCESS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>Cash</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.INDUSTRY</field>
+        <operation>notEqual</operation>
+        <value>Care homes,Charity,Education,Food &amp; Beverage,Healthcare,Hotels,Leisure &amp; fitness,New builds - snagging work,Offices,Private landlord,Property management,Referral clients,Retail,Residential</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Commercial</value>
+    </filters>
+    <label>Cash/Comerical - Industry  to be changed</label>
+</ListView>

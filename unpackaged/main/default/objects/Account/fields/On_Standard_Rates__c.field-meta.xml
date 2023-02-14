@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Standard_Rates__c</fullName>
+    <description>Does the Account have any Rate Cards associated with it?</description>
+    <externalId>false</externalId>
+    <formula>IF(Count_of_Rate_Cards__c&gt;0,false,true)</formula>
+    <inlineHelpText>Does the Account have any Rate Cards associated with it?</inlineHelpText>
+    <label>On Standard Rates?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

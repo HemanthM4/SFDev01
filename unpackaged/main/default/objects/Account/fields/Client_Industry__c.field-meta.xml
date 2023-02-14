@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Industry__c</fullName>
+    <description>Custom Industry field</description>
+    <externalId>false</externalId>
+    <label>Client Industry</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sector__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Care homes</fullName>
+                <default>false</default>
+                <label>Care homes</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Beverage</fullName>
+                <default>false</default>
+                <label>Food &amp; Beverage</label>
+            </value>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Hotels</fullName>
+                <default>false</default>
+                <label>Hotels</label>
+            </value>
+            <value>
+                <fullName>Leisure &amp; Fitness</fullName>
+                <default>false</default>
+                <label>Leisure &amp; Fitness</label>
+            </value>
+            <value>
+                <fullName>New builds</fullName>
+                <default>false</default>
+                <label>New builds</label>
+            </value>
+            <value>
+                <fullName>Offices</fullName>
+                <default>false</default>
+                <label>Offices</label>
+            </value>
+            <value>
+                <fullName>Private landlord</fullName>
+                <default>false</default>
+                <label>Private landlord</label>
+            </value>
+            <value>
+                <fullName>Property management</fullName>
+                <default>false</default>
+                <label>Property management</label>
+            </value>
+            <value>
+                <fullName>Referral clients</fullName>
+                <default>false</default>
+                <label>Referral clients</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Claims &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Claims &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Home Owner</fullName>
+                <default>false</default>
+                <label>Home Owner</label>
+            </value>
+            <value>
+                <fullName>New builds - snagging work</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New builds - snagging work</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Residential</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Food &amp; Beverage</controllingFieldValue>
+            <valueName>Food &amp; Beverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Claims &amp; Utilities</controllingFieldValue>
+            <valueName>Claims &amp; Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Referral &amp; New Build Property</controllingFieldValue>
+            <valueName>New builds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Referral &amp; New Build Property</controllingFieldValue>
+            <valueName>Private landlord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Referral &amp; New Build Property</controllingFieldValue>
+            <valueName>Property management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Managed Referral &amp; New Build Property</controllingFieldValue>
+            <valueName>Referral clients</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education &amp; Healthcare</controllingFieldValue>
+            <valueName>Care homes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education &amp; Healthcare</controllingFieldValue>
+            <valueName>Charity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education &amp; Healthcare</controllingFieldValue>
+            <valueName>Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education &amp; Healthcare</controllingFieldValue>
+            <valueName>Healthcare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Retail &amp; Leisure</controllingFieldValue>
+            <valueName>Hotels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Retail &amp; Leisure</controllingFieldValue>
+            <valueName>Leisure &amp; Fitness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Retail &amp; Leisure</controllingFieldValue>
+            <valueName>Offices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Retail &amp; Leisure</controllingFieldValue>
+            <valueName>Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Home Owner</controllingFieldValue>
+            <valueName>Home Owner</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

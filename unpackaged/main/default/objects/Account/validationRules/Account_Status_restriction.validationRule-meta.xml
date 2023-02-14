@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status_restriction</fullName>
+    <active>true</active>
+    <description>Only manager ops processing and Ops Director can change the status</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Account_Status__c),
+$Profile.Id&lt;&gt; $CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Operations_Director.X15_Char_Profile_ID__c ,
+$Profile.Id&lt;&gt; $CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Credit_Control_Manager.X15_Char_Profile_ID__c,
+$Profile.Id&lt;&gt; $CustomMetadata.PHASE_2_Profile_IDs__mdt.System_Administrator.X15_Char_Profile_ID__c 
+)</errorConditionFormula>
+    <errorMessage>Only manager ops processing and Ops Director can change the status</errorMessage>
+</ValidationRule>

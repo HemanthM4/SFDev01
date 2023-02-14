@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <description>Custom Industry Sector field</description>
+    <externalId>false</externalId>
+    <label>Sector</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Claims &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Claims &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Managed Referral &amp; New Build Property</fullName>
+                <default>false</default>
+                <label>Managed Referral &amp; New Build Property</label>
+            </value>
+            <value>
+                <fullName>Education &amp; Healthcare</fullName>
+                <default>false</default>
+                <label>Education &amp; Healthcare</label>
+            </value>
+            <value>
+                <fullName>Commercial Retail &amp; Leisure</fullName>
+                <default>false</default>
+                <label>Commercial Retail &amp; Leisure</label>
+            </value>
+            <value>
+                <fullName>Food &amp; Beverage</fullName>
+                <default>false</default>
+                <label>Food &amp; Beverage</label>
+            </value>
+            <value>
+                <fullName>Home Owner</fullName>
+                <default>false</default>
+                <label>Home Owner</label>
+            </value>
+            <value>
+                <fullName>Care homes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Care homes</label>
+            </value>
+            <value>
+                <fullName>Charity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Charity</label>
+            </value>
+            <value>
+                <fullName>Health &amp; fitness</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Health &amp; fitness</label>
+            </value>
+            <value>
+                <fullName>Health services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Health services</label>
+            </value>
+            <value>
+                <fullName>Hotels</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hotels</label>
+            </value>
+            <value>
+                <fullName>Offices</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Offices</label>
+            </value>
+            <value>
+                <fullName>Private landlord</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Private landlord</label>
+            </value>
+            <value>
+                <fullName>Property management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Property management</label>
+            </value>
+            <value>
+                <fullName>Pubs Restaurants &amp; Bars</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pubs Restaurants &amp; Bars</label>
+            </value>
+            <value>
+                <fullName>Referral clients</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Referral clients</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Schools</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Schools</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

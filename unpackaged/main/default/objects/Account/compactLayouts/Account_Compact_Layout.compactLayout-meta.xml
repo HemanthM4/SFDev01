@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Account_Status__c</fields>
+    <fields>Account_Type__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Cost_Total__c</fields>
+    <fields>Charge_Total__c</fields>
+    <fields>Profit_Margin__c</fields>
+    <fields>Count_of_Rate_Cards__c</fields>
+    <label>Account Compact Layout</label>
+</CompactLayout>

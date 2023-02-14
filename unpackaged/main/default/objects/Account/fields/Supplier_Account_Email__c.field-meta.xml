@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Account_Email__c</fullName>
+    <description>This is used to form the email address for the related PO&#39;s to the relevant Supplier Account</description>
+    <externalId>false</externalId>
+    <label>Supplier Account Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

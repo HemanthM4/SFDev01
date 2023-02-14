@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Via_Email_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp; 
+
+&quot;/contact-via-email/?id=&quot;&amp;Id&amp; 
+
+&quot;&amp;acc=&quot;&amp; Id &amp; 
+
+&quot;&amp;con=&quot;&amp; contact_bill_payer__c &amp; 
+
+&quot;&amp;fn=&quot;&amp;SUBSTITUTE( First_Name__c , &quot; &quot;, &quot;%20&quot;) &amp; 
+&quot;&amp;ln=&quot;&amp;SUBSTITUTE( Last_Name__c , &quot; &quot;, &quot;%20&quot;) &amp; 
+
+&quot;&amp;ema=&quot;&amp; Email__c &amp; 
+
+&quot;&amp;pho=&quot;&amp; SUBSTITUTE(Phone,&quot; &quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Via Email URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

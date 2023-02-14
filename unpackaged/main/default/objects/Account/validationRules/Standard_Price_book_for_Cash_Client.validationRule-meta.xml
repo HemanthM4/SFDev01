@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Price_book_for_Cash_Client</fullName>
+    <active>false</active>
+    <description>A validation to ensure cash clients can only select a standard price book</description>
+    <errorConditionFormula>AND(   ISPICKVAL( Account_Type__c, &quot;Cash&quot;),
+
+        00N0N00000FExzr.Name  &lt;&gt; &#39;Standard Price Book&#39;)</errorConditionFormula>
+    <errorMessage>Cash clients can only select the standard price book</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comms_Control_Request_of_pay__c</fullName>
+    <defaultValue>true</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Comms Control Request of payment goes to client</inlineHelpText>
+    <label>Comms Control Request of pay</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

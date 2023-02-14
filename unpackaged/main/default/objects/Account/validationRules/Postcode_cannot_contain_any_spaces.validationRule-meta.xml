@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postcode_cannot_contain_any_spaces</fullName>
+    <active>false</active>
+    <description>Prevent postcode from having spaces so that the Zoopla custom link will search for the correct postcode</description>
+    <errorConditionFormula>Contains(BillingPostalCode, &quot; &quot;)</errorConditionFormula>
+    <errorMessage>Postcode cannot contain any spaces</errorMessage>
+</ValidationRule>

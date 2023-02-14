@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoicing_Email_Address__c</fullName>
+    <description>Purpose is to send bulk invoices to a Customer. If this field is populated then the system should send the email to the email address on the field else it should use the Customer&#39;s email address</description>
+    <externalId>false</externalId>
+    <label>Invoicing Email Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>
