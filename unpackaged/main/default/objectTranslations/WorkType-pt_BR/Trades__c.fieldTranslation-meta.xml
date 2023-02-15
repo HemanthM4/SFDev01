@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- local picklist only used in Phase 1 - this is being replaced by a global picklist as part of PHASE 2 deployment - remove field once Phase 1 finished and Phase 2 live. --></help>
+        <label><!-- Trade P1 --></label>
+        <name>Trades__c</name>
+        <picklistValues>
+            <masterLabel>Air Conditioning</masterLabel>
+            <translation><!-- Air Conditioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Basic Drainage</masterLabel>
+            <translation><!-- Basic Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Gas</masterLabel>
+            <translation><!-- Commercial Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Gas</masterLabel>
+            <translation><!-- Domestic Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drainage</masterLabel>
+            <translation><!-- Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical</masterLabel>
+            <translation><!-- Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estimate</masterLabel>
+            <translation><!-- Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gardening</masterLabel>
+            <translation><!-- Gardening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Building &amp; Multi Trade</masterLabel>
+            <translation><!-- General Building &amp; Multi Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazing, UPVC &amp; Aluminium</masterLabel>
+            <translation><!-- Glazing, UPVC &amp; Aluminium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handyman</masterLabel>
+            <translation><!-- Handyman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSA</masterLabel>
+            <translation><!-- OSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pest Control</masterLabel>
+            <translation><!-- Pest Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing</masterLabel>
+            <translation><!-- Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project</masterLabel>
+            <translation><!-- Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refrigeration</masterLabel>
+            <translation><!-- Refrigeration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refurbishment</masterLabel>
+            <translation><!-- Refurbishment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scaffolding</masterLabel>
+            <translation><!-- Scaffolding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventilation</masterLabel>
+            <translation><!-- Ventilation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Removal</masterLabel>
+            <translation><!-- Waste Removal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

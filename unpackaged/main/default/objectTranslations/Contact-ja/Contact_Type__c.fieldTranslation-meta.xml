@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contact Type --></label>
+        <name>Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Approvers</masterLabel>
+            <translation><!-- Approvers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Payer</masterLabel>
+            <translation><!-- Bill Payer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Contact</masterLabel>
+            <translation><!-- Key Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord</masterLabel>
+            <translation><!-- Landlord --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Person available on Site</masterLabel>
+            <translation><!-- Person available on Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Contact</masterLabel>
+            <translation><!-- Site Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenant/Person Living on Site</masterLabel>
+            <translation><!-- Tenant/Person Living on Site --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

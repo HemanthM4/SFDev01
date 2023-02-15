@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Chargeable Duration at R1 in hours --></help>
+        <label><!-- Chargeable Duration R1 --></label>
+        <name>Chargeable_Duration_R1__c</name>
+    </CustomFieldTranslation>

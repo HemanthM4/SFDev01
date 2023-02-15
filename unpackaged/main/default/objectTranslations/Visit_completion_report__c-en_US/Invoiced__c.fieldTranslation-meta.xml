@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Has the VCR been invoiced for? --></help>
+        <label><!-- Invoiced? --></label>
+        <name>Invoiced__c</name>
+    </CustomFieldTranslation>

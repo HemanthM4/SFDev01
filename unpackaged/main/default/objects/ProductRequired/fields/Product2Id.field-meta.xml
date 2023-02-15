@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product2Id</fullName>
+    <description>E.g. &#39;VAN STOCK&#39; , &#39;Purchase Order&#39; or &#39;Scaffolding&#39;</description>
+    <inlineHelpText>E.g. &#39;VAN STOCK&#39; , &#39;Purchase Order&#39; or &#39;Scaffolding&#39;</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

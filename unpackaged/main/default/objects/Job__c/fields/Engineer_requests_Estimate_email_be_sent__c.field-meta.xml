@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineer_requests_Estimate_email_be_sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To be ticked if the Engineer has requested that the Accept an Estimate email should be sent to the Customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be ticked if the Engineer has requested that the Accept an Estimate email should be sent to the Customer.</inlineHelpText>
+    <label>Engineer requests Estimate email be sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

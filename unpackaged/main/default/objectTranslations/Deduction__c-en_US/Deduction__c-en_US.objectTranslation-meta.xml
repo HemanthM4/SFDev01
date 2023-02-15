@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engineer Deduction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Engineer Deductions</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Deduction Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Only Users with a Profile of System Administrator, Katalin Kallai, or Delene de Haas can set an Engineer Deduction to a Status of &apos;Deducted&apos;. --></errorMessage>
+        <name>Check_Status_User_Profile_Deducted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Users with a Profile of System Administrator can set an Engineer Deduction to a Status of &apos;Paid&apos;. --></errorMessage>
+        <name>Check_Status_User_Profile_Paid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Users with a Profile of System Administrator, Katalin Kallai, or Delene de Haas can set an Engineer Deduction to a Status of &apos;Processed&apos;. --></errorMessage>
+        <name>Check_Status_User_Profile_Processed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Status change was prohibited. Please select other Status. --></errorMessage>
+        <name>Prohibited_Status_changes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have the authority to edit this field --></errorMessage>
+        <name>Sigma_Processed_restrict_edit</name>
+    </validationRules>
+</CustomObjectTranslation>

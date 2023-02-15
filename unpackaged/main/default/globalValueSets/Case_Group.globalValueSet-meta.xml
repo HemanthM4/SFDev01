@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>External Lighting</fullName>
+        <default>false</default>
+        <label>External Lighting</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Lighting</fullName>
+        <default>false</default>
+        <label>Internal Lighting</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical Inspection And Testing</fullName>
+        <default>false</default>
+        <label>Electrical Inspection And Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre Purchase Survey</fullName>
+        <default>false</default>
+        <label>Pre Purchase Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Appliance</fullName>
+        <default>false</default>
+        <label>Appliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Smoke/Fire Alarm</fullName>
+        <default>false</default>
+        <label>Smoke/Fire Alarm</label>
+    </customValue>
+    <customValue>
+        <fullName>Security Systems</fullName>
+        <default>false</default>
+        <label>Security Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>General Electrical</fullName>
+        <default>false</default>
+        <label>General Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Lutron Lighting</fullName>
+        <default>false</default>
+        <label>Lutron Lighting</label>
+    </customValue>
+    <customValue>
+        <fullName>Rewiring</fullName>
+        <default>false</default>
+        <label>Rewiring</label>
+    </customValue>
+    <customValue>
+        <fullName>Underfloor Heating</fullName>
+        <default>false</default>
+        <label>Underfloor Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Heating</fullName>
+        <default>false</default>
+        <label>Electric Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Audio Visual</fullName>
+        <default>false</default>
+        <label>Audio Visual</label>
+    </customValue>
+    <customValue>
+        <fullName>Part P Installation Certificate</fullName>
+        <default>false</default>
+        <label>Part P Installation Certificate</label>
+    </customValue>
+    <customValue>
+        <fullName>Heights Electrical Work</fullName>
+        <default>false</default>
+        <label>Heights Electrical Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Certs And Inspection</fullName>
+        <default>false</default>
+        <label>Certs And Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler</fullName>
+        <default>false</default>
+        <label>Boiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Heating</fullName>
+        <default>false</default>
+        <label>Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Fire</fullName>
+        <default>false</default>
+        <label>Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipes</fullName>
+        <default>false</default>
+        <label>Pipes</label>
+    </customValue>
+    <customValue>
+        <fullName>General Gas Domestic</fullName>
+        <default>false</default>
+        <label>General Gas Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>Temperature</fullName>
+        <default>false</default>
+        <label>Temperature</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiator</fullName>
+        <default>false</default>
+        <label>Radiator</label>
+    </customValue>
+    <customValue>
+        <fullName>Hot Water Cylinder</fullName>
+        <default>false</default>
+        <label>Hot Water Cylinder</label>
+    </customValue>
+    <customValue>
+        <fullName>General Gas Commercial</fullName>
+        <default>false</default>
+        <label>General Gas Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Integrated Control Systems</fullName>
+        <default>false</default>
+        <label>Integrated Control Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Catering</fullName>
+        <default>false</default>
+        <label>Commercial Catering</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Pressure Test</fullName>
+        <default>false</default>
+        <label>Air Pressure Test</label>
+    </customValue>
+    <customValue>
+        <fullName>Macerator</fullName>
+        <default>false</default>
+        <label>Macerator</label>
+    </customValue>
+    <customValue>
+        <fullName>Blockage</fullName>
+        <default>false</default>
+        <label>Blockage</label>
+    </customValue>
+    <customValue>
+        <fullName>Cctv</fullName>
+        <default>false</default>
+        <label>Cctv</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathroom</fullName>
+        <default>false</default>
+        <label>Bathroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Leaks</fullName>
+        <default>false</default>
+        <label>Leaks</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Filter</fullName>
+        <default>false</default>
+        <label>Water Filter</label>
+    </customValue>
+    <customValue>
+        <fullName>General Plumbing</fullName>
+        <default>false</default>
+        <label>General Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat Roofing</fullName>
+        <default>false</default>
+        <label>Flat Roofing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pitched Roofing</fullName>
+        <default>false</default>
+        <label>Pitched Roofing</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Works</fullName>
+        <default>false</default>
+        <label>Lead Works</label>
+    </customValue>
+    <customValue>
+        <fullName>Timber Works</fullName>
+        <default>false</default>
+        <label>Timber Works</label>
+    </customValue>
+    <customValue>
+        <fullName>Gutter And Downpipes</fullName>
+        <default>false</default>
+        <label>Gutter And Downpipes</label>
+    </customValue>
+    <customValue>
+        <fullName>Fascia And Soffit</fullName>
+        <default>false</default>
+        <label>Fascia And Soffit</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>Fabrication</fullName>
+        <default>false</default>
+        <label>Fabrication</label>
+    </customValue>
+    <customValue>
+        <fullName>Building And Maintenance</fullName>
+        <default>false</default>
+        <label>Building And Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpentry</fullName>
+        <default>false</default>
+        <label>Carpentry</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchens</fullName>
+        <default>false</default>
+        <label>Kitchens</label>
+    </customValue>
+    <customValue>
+        <fullName>Flooring</fullName>
+        <default>false</default>
+        <label>Flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastering And Wet Trades</fullName>
+        <default>false</default>
+        <label>Plastering And Wet Trades</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiling</fullName>
+        <default>false</default>
+        <label>Tiling</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathrooms</fullName>
+        <default>false</default>
+        <label>Bathrooms</label>
+    </customValue>
+    <customValue>
+        <fullName>Painting And Decorating</fullName>
+        <default>false</default>
+        <label>Painting And Decorating</label>
+    </customValue>
+    <customValue>
+        <fullName>Refrigeration Commercial</fullName>
+        <default>false</default>
+        <label>Refrigeration Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Refrigeration Domestic</fullName>
+        <default>false</default>
+        <label>Refrigeration Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Con</fullName>
+        <default>false</default>
+        <label>Air Con</label>
+    </customValue>
+    <customValue>
+        <fullName>Chilled Water System</fullName>
+        <default>false</default>
+        <label>Chilled Water System</label>
+    </customValue>
+    <customValue>
+        <fullName>Re</fullName>
+        <default>false</default>
+        <label>Re</label>
+    </customValue>
+    <customValue>
+        <fullName>Ventilation</fullName>
+        <default>false</default>
+        <label>Ventilation</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Furniture</fullName>
+        <default>false</default>
+        <label>Assemble Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanging Pictures</fullName>
+        <default>false</default>
+        <label>Hanging Pictures</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanging Mirrors</fullName>
+        <default>false</default>
+        <label>Hanging Mirrors</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanging Curtains</fullName>
+        <default>false</default>
+        <label>Hanging Curtains</label>
+    </customValue>
+    <customValue>
+        <fullName>Installing Blinds</fullName>
+        <default>false</default>
+        <label>Installing Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>Mounting Shelves</fullName>
+        <default>false</default>
+        <label>Mounting Shelves</label>
+    </customValue>
+    <customValue>
+        <fullName>Baby Proofing</fullName>
+        <default>false</default>
+        <label>Baby Proofing</label>
+    </customValue>
+    <customValue>
+        <fullName>Ceiling Tiles</fullName>
+        <default>false</default>
+        <label>Ceiling Tiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Lift And Shift Furniture</fullName>
+        <default>false</default>
+        <label>Lift And Shift Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>Opening Up</fullName>
+        <default>false</default>
+        <label>Opening Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Silicone Sealant And Grouting</fullName>
+        <default>false</default>
+        <label>Silicone Sealant And Grouting</label>
+    </customValue>
+    <customValue>
+        <fullName>Summerhouse, Sheds, Climbing Frames</fullName>
+        <default>false</default>
+        <label>Summerhouse, Sheds, Climbing Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Soft Landscaping</fullName>
+        <default>false</default>
+        <label>Soft Landscaping</label>
+    </customValue>
+    <customValue>
+        <fullName>Fencing And Trellising</fullName>
+        <default>false</default>
+        <label>Fencing And Trellising</label>
+    </customValue>
+    <customValue>
+        <fullName>Hard Landscaping</fullName>
+        <default>false</default>
+        <label>Hard Landscaping</label>
+    </customValue>
+    <customValue>
+        <fullName>Horticultural Advice</fullName>
+        <default>false</default>
+        <label>Horticultural Advice</label>
+    </customValue>
+    <customValue>
+        <fullName>Pressure Washing</fullName>
+        <default>false</default>
+        <label>Pressure Washing</label>
+    </customValue>
+    <customValue>
+        <fullName>Tree Surgery</fullName>
+        <default>false</default>
+        <label>Tree Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Casement Windows</fullName>
+        <default>false</default>
+        <label>Casement Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Tilt And Turn Windows</fullName>
+        <default>false</default>
+        <label>Tilt And Turn Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Box Sash Windows</fullName>
+        <default>false</default>
+        <label>Box Sash Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Structural And Bay Windows</fullName>
+        <default>false</default>
+        <label>Structural And Bay Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Domestic And Commercial Glass</fullName>
+        <default>false</default>
+        <label>Domestic And Commercial Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Doors</fullName>
+        <default>false</default>
+        <label>Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Locks</fullName>
+        <default>false</default>
+        <label>Locks</label>
+    </customValue>
+    <customValue>
+        <fullName>Making Good And Finishing</fullName>
+        <default>false</default>
+        <label>Making Good And Finishing</label>
+    </customValue>
+    <customValue>
+        <fullName>Building Works</fullName>
+        <default>false</default>
+        <label>Building Works</label>
+    </customValue>
+    <customValue>
+        <fullName>Metal/Sliding</fullName>
+        <default>false</default>
+        <label>Metal/Sliding</label>
+    </customValue>
+    <customValue>
+        <fullName>Windows</fullName>
+        <default>false</default>
+        <label>Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass</fullName>
+        <default>false</default>
+        <label>Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Locksmith</fullName>
+        <default>false</default>
+        <label>Locksmith</label>
+    </customValue>
+    <customValue>
+        <fullName>Waste Removal</fullName>
+        <default>false</default>
+        <label>Waste Removal</label>
+    </customValue>
+    <customValue>
+        <fullName>Franchise</fullName>
+        <default>false</default>
+        <label>Franchise</label>
+    </customValue>
+    <description>These are the groups that will be dependant on the Trade category</description>
+    <masterLabel>Case Group</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

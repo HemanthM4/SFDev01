@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_Materials_Charge__c</fullName>
+    <description>Budgeted Materials Charge, combining PREQ for POs and PREQ for Van Stock</description>
+    <externalId>false</externalId>
+    <formula>Charge_Total_PO_Product_Required__c +  Charge_Total_Van_Stock_Product_Required__c
++
+ Charge_Total_Scaffold_Product_Required__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Budgeted Materials Charge, combining PREQ for POs and PREQ for Van Stock</inlineHelpText>
+    <label>Budget: Materials Charge</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

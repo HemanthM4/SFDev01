@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Off site agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Off site agreements</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Off-site agreement Layout</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Costs --></label>
+            <section>Costs</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deposit --></label>
+            <section>Deposit</section>
+        </sections>
+        <sections>
+            <label><!-- MR TMP --></label>
+            <section>MR TMP</section>
+        </sections>
+        <sections>
+            <label><!-- Materials --></label>
+            <section>Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Performance Tracking --></label>
+            <section>Performance Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <section>Purchase Orders</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule --></label>
+            <section>Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Sign off --></label>
+            <section>Sign off</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Works --></label>
+            <section>Works</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Off-site agreement With Bypass Buttons</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Costs --></label>
+            <section>Costs</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deposit --></label>
+            <section>Deposit</section>
+        </sections>
+        <sections>
+            <label><!-- MR TMP --></label>
+            <section>MR TMP</section>
+        </sections>
+        <sections>
+            <label><!-- Materials --></label>
+            <section>Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Performance Tracking --></label>
+            <section>Performance Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <section>Purchase Orders</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule --></label>
+            <section>Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Sign off --></label>
+            <section>Sign off</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Works --></label>
+            <section>Works</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You can only check the field &apos;Accepted Email Sent&apos; if the Off Site Agreement is in a Status of Accepted. --></errorMessage>
+        <name>Can_Only_tick_Accepted_Email_Sent_If_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only check the field &apos;Operative Email Sent&apos; if the Off Site Agreement is in a Status of Scheduled. --></errorMessage>
+        <name>Can_Only_tick_Operati_Email_Sent_If_Sche</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only check the field &apos;Pending Email Sent&apos; if the Off Site Agreement is in a Status of Pending. --></errorMessage>
+        <name>Can_Only_tick_Pending_Email_Sent_If_Pend</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot edit/change the &apos;Description of works to carry out&apos; field once the Off Site Agreement has been Accepted or is Completed. --></errorMessage>
+        <name>Description_works_Not_Edit_if_Accepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must complete: Allocated Engineer, Materials supplied by Aspect details, Materials supplied by Operative details, PO Number, Materials collection pt Name &amp; Address, Scheduled Date &amp; have a Status of &apos;Accepted&apos; before you can tick &apos;Schedule confirmed&apos;. --></errorMessage>
+        <name>Schedule_confirmed_Required_fields_valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once Siclops Stage 1 or Siclops Stage 2 has been checked you cannot uncheck it. --></errorMessage>
+        <name>Siclops_Stage_1_and_2_Only_Check_Once</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Allocate_Engineer_Confirm_Schedule_Send_Emails --></label>
+        <name>Allocate_Engineer_Confirm_Schedule_Send_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Bypass_Final_Payment --></label>
+        <name>Bypass_Final_Payment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Bypass_Final_Payment_for_Credit_Customer_or_Paid_via_Bacs --></label>
+        <name>Bypass_Final_Payment_for_Credit_Customer_or_Paid_via_Bacs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Allocated_Engineer_send_emails --></label>
+        <name>Change_Allocated_Engineer_send_emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Work_Order_for_Credit_Customer_or_Bank_Transfer_payment --></label>
+        <name>Create_Work_Order_for_Credit_Customer_or_Bank_Transfer_payment</name>
+    </webLinks>
+</CustomObjectTranslation>

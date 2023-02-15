@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <choices>
+        <name>Acceptable</name>
+        <choiceText>Acceptable</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Acceptable</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Awaiting_Info_to_Proceed</name>
+        <choiceText>Awaiting Info to Proceed</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Awaiting Info to Proceed</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Considering</name>
+        <choiceText>Considering</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Considering </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Good</name>
+        <choiceText>Good</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Good</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Left_VM_Email</name>
+        <choiceText>Left VM/Email&lt;p&gt;&lt;br&gt;&lt;/p&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Left VM/Email</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>None</name>
+        <choiceText>None</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>None</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Not_required</name>
+        <choiceText>Not required</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Not required</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Too_Expensive</name>
+        <choiceText>Too Expensive</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Too Expensive</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Unacceptable</name>
+        <choiceText>Unacceptable</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Unacceptable</stringValue>
+        </value>
+    </choices>
+    <environments>Default</environments>
+    <interviewLabel>Phase 2 - Update Notes on the Locked Job {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Phase 2 - Update Notes on the Locked Job</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Updated_Feedback_Notes</name>
+        <label>Updated Feedback Notes</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>For Client Approval</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Client_Contact__c</field>
+            <value>
+                <elementReference>Client_Contact</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Feed_Back_Notes__c</field>
+            <value>
+                <elementReference>Update_Feed_Back_Notes</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Price_Point__c</field>
+            <value>
+                <elementReference>Price_Point</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Scope_of_Work__c</field>
+            <value>
+                <elementReference>Scope_of_Work</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Specifications_Mats_suppliers__c</field>
+            <value>
+                <elementReference>Specifications_Mats_suppliers</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Job__c</object>
+    </recordUpdates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>Feed_Back_Notes</name>
+        <label>Feed Back Notes</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Updated_Feedback_Notes</targetReference>
+        </connector>
+        <fields>
+            <name>Update_Feed_Back_Notes</name>
+            <dataType>String</dataType>
+            <fieldText>Update Feed Back Notes</fieldText>
+            <fieldType>InputField</fieldType>
+            <helpText>&lt;p&gt;Please note the current feedback input will overwrite the existing Feedback on the field below. Please go to the field and copy the contents you want to keep and paste it here.&lt;/p&gt;</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Scope_of_Work</name>
+            <choiceReferences>Good</choiceReferences>
+            <choiceReferences>Acceptable</choiceReferences>
+            <choiceReferences>Unacceptable</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Scope of Work</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Specifications_Mats_suppliers</name>
+            <choiceReferences>Good</choiceReferences>
+            <choiceReferences>Acceptable</choiceReferences>
+            <choiceReferences>Unacceptable</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Specifications (Mats/suppliers)</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Price_Point</name>
+            <choiceReferences>Good</choiceReferences>
+            <choiceReferences>Acceptable</choiceReferences>
+            <choiceReferences>Unacceptable</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Price Point</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Client_Contact</name>
+            <choiceReferences>Left_VM_Email</choiceReferences>
+            <choiceReferences>Considering</choiceReferences>
+            <choiceReferences>Awaiting_Info_to_Proceed</choiceReferences>
+            <choiceReferences>Too_Expensive</choiceReferences>
+            <choiceReferences>Not_required</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Client Contact</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Feed_Back_Notes</targetReference>
+        </connector>
+    </start>
+    <status>Obsolete</status>
+</Flow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Date /Time the User created the Service Appointment for this On site Agreement --></help>
+        <label><!-- User Scheduled Service Appointment Date --></label>
+        <name>User_Scheduled_Service_Appointment_Date__c</name>
+    </CustomFieldTranslation>

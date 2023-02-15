@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The User that changed the &apos;Field Support&apos; field from its default value of &apos;Not Required&apos; --></help>
+        <label><!-- Who Set Field Support --></label>
+        <name>Who_Set_Field_Support__c</name>
+        <relationshipLabel><!-- On Site Agreements (Who Set Field Support) --></relationshipLabel>
+    </CustomFieldTranslation>

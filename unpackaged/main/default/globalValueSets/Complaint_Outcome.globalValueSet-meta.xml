@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Value/Expectation/Communication</fullName>
+        <default>false</default>
+        <label>Aspect Value / Expectations / Comms</label>
+    </customValue>
+    <customValue>
+        <fullName>Documents</fullName>
+        <default>false</default>
+        <label>Documents</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Payment</fullName>
+        <default>false</default>
+        <label>Duplicate Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Gesture of Goodwill</fullName>
+        <default>false</default>
+        <label>Gesture of Goodwill</label>
+    </customValue>
+    <customValue>
+        <fullName>Invalid Complaint</fullName>
+        <default>false</default>
+        <label>Invalid Complaint</label>
+    </customValue>
+    <customValue>
+        <fullName>Negative Review</fullName>
+        <default>false</default>
+        <label>Negative Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Error</fullName>
+        <default>false</default>
+        <label>Office Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect Charge: Engineer</fullName>
+        <default>false</default>
+        <label>Operative: Incorrect Charge</label>
+    </customValue>
+    <customValue>
+        <fullName>Operative Behaviour</fullName>
+        <default>false</default>
+        <label>Operative Behaviour</label>
+    </customValue>
+    <customValue>
+        <fullName>Operative Communication</fullName>
+        <default>false</default>
+        <label>Operative Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Workmanship</fullName>
+        <default>false</default>
+        <label>Operative Workmanship</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment Process</fullName>
+        <default>false</default>
+        <label>Payment Process</label>
+    </customValue>
+    <masterLabel>Complaint Outcome</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Booking Confirmation Email For TI Online Booking Service Appointments</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Booking Confirmation Online Booking SA TI</name>
+    <style>none</style>
+    <subject>Your booking confirmation {!ServiceAppointment.AppointmentNumber}</subject>
+    <textOnly>Thanks for
+your booking
+
+Hi {!ServiceAppointment.Contact_First_Name__c},
+
+Thank you for choosing Aspect. 						Have we got everything straight? Please check the booking details below and let us know if anything needs to change.
+
+Please note that waste removal is not included with our prices unless stated in the order details. If you require waste removal, we’re able to provide a fixed price waste removal service which can be arranged directly through one of our trades people.
+
+Job number {!ServiceAppointment.Job_Number__c}
+Service appointment number {!ServiceAppointment.AppointmentNumber}
+Account number {!ServiceAppointment.Account_Reference__c}
+
+PROPERTY ADDRESS
+
+ORDER DETAILS
+
+{!ServiceAppointment.Address}
+
+Trade: {!ServiceAppointment.Scheduled_Trade__c}
+Date: {!ServiceAppointment.Scheduled_Date__c}
+Arrival: {!ServiceAppointment.Scheduled_Arrival_Window__c}
+
+PRICING excluding VAT
+
+The rate you have requested is {!ServiceAppointment.Customer_preffered_rate__c} per hour.
+
+A minimum of 1 hour is charged on all hourly rate jobs, after which the cost increases in half hour increments. 
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+WHAT&#39;S NEXT?
+
+Once we’re on our way, you’ll receive an email with an estimated arrival time.
+
+ON THE DAY
+
+If you’ve booked an hourly rate job, once the initial investigation is done, you can ask for a fixed-price quote to complete the work. 						As soon as the work is finished, you’ll be asked for a signature to confirm you’re happy with the work and the final cost. 						Should there be any problems on the day, e.g. we can’t gain access to your property, or the tradesperson’s held up, we’ll inform you straight away.
+
+HOW WE CHARGE
+
+For hourly rate jobs, there’s a minimum 1-hour charge, then we bill in half-hour increments. Parts and materials are charged on top of the tradesperson’s time. We carry standard parts and materials, but if anything extra’s needed, a £50 collection fee will be added to the bill. 						For pre-defined fixed-price jobs, we charge the rate quoted. There’ll be no extra charges for parts, materials or collections. 						For more information read our terms and conditions.
+
+OUR CANCELLATION POLICY
+
+If you want to cancel your booking once we’ve allocated a tradesperson, you may be charged a cancellation fee. For more information please check our cancellation policy.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. 						If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Fixed_Price_Work_Order</fullName>
+    <availability>online</availability>
+    <description>Create a Fixed Cost Work Order from a Reactive Work Order</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Create Fixed Price Work Order</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Create_Fixed_Price_Work_Order_FSL_Mobile_App?Id={!WorkOrder.Id}&amp;retURL={!WorkOrder.Id}</url>
+</WebLink>

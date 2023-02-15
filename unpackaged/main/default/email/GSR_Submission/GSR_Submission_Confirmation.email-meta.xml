@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template provides a link to the Gas Safety Certificate.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GSR_Submission_Confirmation</name>
+    <style>none</style>
+    <subject>Your Gas Safety Certificate</subject>
+    <textOnly>Your Gas Safety
+Certificate
+
+Hi {!GSR_Submission__c.Customer_first_name__c},
+
+Thank you for choosing Aspect.
+
+Our engineer has completed the Gas safety inspection at your property. Click here to view the Gas Safety Certificate.
+
+Thank you
+Aspect
+
+SUPPORT
+
+VIEW REPORT
+
+Got a question?
+We&#39;re here to help
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Number of Work Orders for this Job record (regardless of Status or Payment Status) --></help>
+        <label><!-- Number of All Work Orders --></label>
+        <name>Number_of_All_Work_Orders__c</name>
+    </CustomFieldTranslation>

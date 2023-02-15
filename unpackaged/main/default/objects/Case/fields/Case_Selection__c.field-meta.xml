@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Selection__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This determines what Team will handle this case</inlineHelpText>
+    <label>Case Selection</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial Case</fullName>
+                <default>true</default>
+                <label>Initial Case</label>
+            </value>
+            <value>
+                <fullName>Additional Sales</fullName>
+                <default>false</default>
+                <label>Additional Sales</label>
+            </value>
+            <value>
+                <fullName>Follow Up Task</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Follow Up Task</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

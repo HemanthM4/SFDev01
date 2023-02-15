@@ -1,0 +1,739 @@
+<html>
+<head>
+</head>
+<body style="margin:0;padding:0;background-color:#fff;background:#fff;">
+    <!--
+<table width="100%"
+bgcolor="#eee"
+cellpadding="0"
+cellspacing="0"
+border="0"
+style="background-color:#fff;background:#fff;">
+<tbody>
+<tr>
+<td>-->
+
+<!--
+    <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto;">
+        <tbody>
+            <tr>
+                <td width="40">&nbsp;</td>
+                <td style="line-height:24px;">&nbsp;</td>
+                <td width="40">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+-->
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           width="600"
+           align="center"
+           style="margin:0 auto; background-color:#fff;background:#fff;">
+        <tbody>
+            <tr>
+                <td colspan="2" valign="top" bgcolor="#F3E500" style="line-height: 45px">
+                    <table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#F3E500" >
+                        <tbody>
+                            <tr>
+                                <td width="84">&nbsp;</td>
+                                <td width="66" style="line-height: 30px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">&nbsp;</td>
+                                <td>
+                                    <img border="0"
+                                         alt="Aspect"
+                                         style="display:block;border:none;outline:none;
+                                         text-decoration:none"
+                                         src="https://www.aspect.co.uk/email-templates/sf/assets/aspect-logo-vert.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td colspan="2" bgcolor="#001871">
+                    <table width="450" border="0" cellspacing="0" cellpadding="0" bgcolor="#001871">
+                        <tbody>
+                            <tr>
+                                <td width="38" style="line-height: 65px">&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td width="412"
+                                    align="left"
+                                    bgcolor="#001871"
+                                    style="font-family:arial,sans-serif;font-size:14px;
+                                    font-weight:normal;text-transform:none;">
+                                    <p style="font-size: 65px; color: #FFFFFF;
+                                    font-weight:bold;text-transform:none; line-height:
+                                    60px;padding:0; margin:0">
+
+                                    Let's get<br/>
+                                    started
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 45px">&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td align="left" bgcolor="#001871">
+                                    <a href="https://www.aspect.co.uk/callback/"
+                                       style="display:block;background-color:#FF00DF;
+                                       text-align:center;border-radius:28px;font-family:arial,sans-serif;
+                                       font-size:20px;font-weight:normal;color:#ffffff;
+                                       line-height:20px;text-decoration:none;border-top:8px solid #FF00DF;
+                                       border-bottom:8px solid #FF00DF;border-left:28px solid #FF00DF;
+                                       border-right:28px solid #FF00DF; width: 160px">
+                                        <span style="display:block;font-family:arial,sans-serif;">
+
+                                           contact us 
+
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td style="line-height:45px">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           bgcolor="#E7E7E7"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#ffffff;">
+        <tbody>
+
+            <tr>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" style="line-height:35px;">&nbsp;</td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+            <tr>
+                <td bgcolor="#E7E7E7" width="55" style="font-size:1px;line-height:1px">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" width="490" style="font-family:arial,sans-serif;
+                font-size:14px;color:#555559;line-height:20px;font-weight:normal;text-transform:none; ">
+                    <p style="font-size:20px;color:#555559;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-left: 0px">
+                    Hi {!Off_site_agreement__c.Customer_first_name__c},
+                    </p>
+                    
+                    <!-- bold medium paragraph start -->
+                    <p style="font-size:16px;color:#555559;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-bottom: 10px; padding-left: 0px; margin-bottom: 15px">
+                    Excellent news!
+                    </p>
+                    <!-- bold medium paragraph end -->
+                    <p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; 
+                    margin-top: px; margin-right: 0; margin-bottom:30px; margin-left: 0">
+                    Now that you’ve accepted our estimate and we’ve processed your deposit we can continue the process of completing your required works. 
+
+                    </p>
+
+                    <p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; 
+                    margin-top: px; margin-right: 0; margin-bottom:30px; margin-left: 0">
+
+
+                    In this email, you’ll find the details of the estimate. You can always 
+                    <a href="https://www.aspect.co.uk/callback/"
+                       style="text-decoration: none; font-weight:bold; color: #FF00DF">
+                        speak to us before, during or following the visit.</a>
+
+
+                    </p>
+
+                </td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+
+            <tr>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+                <td bgcolor="#E7E7E7" style="line-height:24px;"> &nbsp;</td>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+                <td bgcolor="#E7E7E7">
+                    <table cellpadding="8"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Order number
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Name}
+                                    </p>
+                                </td>
+
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Name
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Customer_first_name__c} {!Off_site_agreement__c.Customer_last_name__c}
+                                    </p>
+                                </td>
+
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Email address
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Customer_email__c} 
+                                    </p>
+                                </td>
+
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Property address
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Property_Address_line_1__c} {!Off_site_agreement__c.Property_Address_line_2__c} {!Off_site_agreement__c.Property_Address_Town_City__c} {!Off_site_agreement__c.Property_Address_County__c} {!Off_site_agreement__c.Property_Address_Postcode__c} 
+                                    </p>
+                                </td>
+
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Trades person
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Tradesperson_1__c} 
+                                    {!Off_site_agreement__c.Tradesperson_2__c}
+                                    </p>
+                                </td>
+
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Total hours of work required
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Total_hours_required__c}
+                                    </p>
+                                </td>
+
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Proposed date
+
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Preferred_date__c} 
+
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Proposed arrival time slot
+
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Preferred_arrival_timeslot__c}
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C; border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Job details
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Description_of_works_to_carry_out__c}
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td bgcolor="#E7E7E7" style="line-height:5px;">&nbsp;</td>
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Labour charge
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Labour_charge__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- discount 
+                                
+-->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Discount
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+
+                                    {!Off_site_agreement__c.Discount_offered__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Material charge
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Material_charge__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Collection fee charge
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Collection_fee__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Scaffolding charge
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Scaffolding_Charge__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Total charge excl. VAT
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Fixed_total_charge_excl_VAT__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        VAT
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+
+                                    {!Off_site_agreement__c.VAT__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Total charge incl. VAT
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!Off_site_agreement__c.Fixed_total_charge_incl_VAT__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td bgcolor="#E7E7E7" style="line-height:5px;">&nbsp;</td>
+                            </tr>
+
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Your signature
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    <img border="0"
+                                         style="display:block;border:none;outline:none;text-decoration:none"
+                                         src="{!Off_site_agreement__c.Customer_Deposit_Signature_Link__c}" width="200" alt="Customer Signature"/>
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Deposit received
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+
+                                    {!Off_site_agreement__c.Deposit_Received__c}
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+                <td bgcolor="#E7E7E7" style="line-height:55px;">
+                    &nbsp;</td>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           bgcolor="#0d60b5"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#0d60b5">
+        <tbody>
+            <tr>
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                <td width="490" bgcolor="#0d60b5" style="line-height:45px;">&nbsp;</td>
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0d60b5" width="55" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td bgcolor="#001871" style="font-family:arial,sans-serif;font-size:14px;
+                color:#ffffff;line-height:20px;font-weight:normal;text-transform:none">
+                    <table cellpadding="30"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#001871"
+                                    style="font-family:arial,sans-serif;
+                                    color:#FFFFFF;font-weight:normal;text-transform:none;">
+                                    <p style="font-size: 28px; font-weight:bold;text-transform:none;
+                                    padding: 0; margin: 0; line-height: 18px">
+                                    What&rsquo;s next?
+                                    </p>
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    line-height:30px; padding-bottom: 0px; margin-bottom: 0px">
+                                    Once we’ve received the deposit, we’ll order any required materials and confirm your
+                                    appointment via email. If materials or availability result in us not being able to meet your
+                                    requested appointment date, we’ll be in touch to find a day and time frame that suits you
+                                    best. 
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    line-height:30px; padding-bottom: 0px; margin-bottom: 0px">
+                                    You can always contact us to 
+
+                                    <a href="https://www.aspect.co.uk/callback/"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                        discuss the scope of works, materials, or agreed price.</a>
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+                <td bgcolor="#0d60b5" width="55" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+                <td bgcolor="#0d60b5" style="line-height:20px;">&nbsp;</td>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+                <td bgcolor="#0d60b5" style="line-height:34px;">
+                    <table cellpadding="8"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#0d60b5"
+                                    style="font-family:arial,sans-serif;
+                                    color:#FFFFFF;line-height:26px;font-weight:normal;
+                                    text-transform:none;">
+                                    <p style=" font-size: 28px; font-weight:bold;
+                                    text-transform:none; margin-bottom: 4px; padding-bottom: 4px; padding-top:30px">
+                                    How we charge for the job
+                                    </p>
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    We’ve received a 50% deposit for the value of the works. Once the works are complete and
+                                       you’re happy with the outcome, our operative will obtain your signature and the remaining
+                                       balance will be taken form the last card you provided us with. If you wish to use another card, you can    
+                                       <a href="https://www.aspect.co.uk/callback/"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                        amend your card details.</a></p>
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    Please note, that waste removal is not included in the estimate unless stated in the job details. Upon completion of the works, we are able to provide a fixed price waste removal service which can be arranged through our opertive. 
+</p>
+
+                                    <p style=" font-size: 28px; font-weight:bold;
+                                    text-transform:none; margin-bottom: 4px; padding-bottom: 4px; padding-top:30px">
+                                    Off-site agreements </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    Off-site agreements are designed to take into account the investigation of the required works,
+                                    trusted trade knowledge, trade accredited body requirements such as evidence and
+                                    certification, and any registrations that we must undertake. 
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    In case the works take less or more time than calculated for, the charge to you will remain the same.
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    In case of having to amend the scope of work, we’ll reach out to you to discuss any change in costs before proceeding. Examples of situations in which this may happen include uncovering structural or component damage, adjustments to your request or previously concealed findings such as a pre-existing leak under a floor. For more information, please read our
+                                    <a href="https://www.aspect.co.uk/terms-and-conditions/"
+                                       style="text-decoration: none; font-weight:bold; color: #FF00DF">
+                                        terms and conditions.</a>
+                                    </p>
+
+                                    <p style="font-size: 28px; font-weight:bold;text-transform:none;
+                                    margin-bottom: 5px; padding-bottom: 4px; padding-top:30px">
+                                    Our cancellation policy
+                                    </p>
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    If you want to cancel your booking, you may be charged a cancellation fee. For more information please read our
+                                    <a href="https://www.aspect.co.uk/terms-and-conditions/"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                        terms and conditions.</a>
+                                    </p>
+
+                                    <p style="font-size: 28px; font-weight:bold;text-transform:none;
+                                    margin-bottom: 5px; padding-bottom: 4px; padding-top:30px ">
+                                    Happy with the job done?
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    Your satisfaction is our number one priority. 
+                                    <a href="https://www.aspect.co.uk/callback/"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                       Please let us know if you’re unhappy with the works done or if you have something to share.</a>
+                                         
+                                    </p>
+
+                                    <p style="font-size:20px;color:#ffffff;line-height:22px;font-weight:bold;
+                                    text-transform:none; padding-bottom: 10px; padding-left: 0px;
+                                    padding-top:30px; margin-bottom: 15px">
+                                    Help made easy.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#001871">
+        <tbody>
+            <tr style="padding:0;">
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <td align="right"
+                    style="padding: 0;">
+                    <span style="position:relative; top:-30px;">
+                    <img border="0"
+                         style="display:block;border:none;outline:none;text-decoration:none "
+                         src="https://www.aspect.co.uk/wp-content/themes/aspect/static/img/van-aspect@2x.png"
+                         height="200"
+                         alt="Aspect Van"/>
+                    </span>
+                </td>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <td 
+                    bgcolor="#001871"
+                    style="font-family:arial,sans-serif;font-size:16px;color:#ffffff;
+                    font-weight:normal;text-transform:none
+                    ">
+                    <span style="position:relative; top:-50px;">
+                    <p>&copy; 2020 Aspect</p>
+                    <p>Aspect Maintenance Services Limited, E7 Barwell Business Park,<br/>
+                    Leatherhead Road, Chessington, London, KT9 2NY</p>
+                    </span>
+                </td>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <td bgcolor="#001871" style="line-height:30px;">&nbsp;</td>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto;">
+        <tbody>
+            <tr>
+                <td width="40">&nbsp;</td>
+                <td style="line-height:24px;">&nbsp;</td>
+                <td width="40">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

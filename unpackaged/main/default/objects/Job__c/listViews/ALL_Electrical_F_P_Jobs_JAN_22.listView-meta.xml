@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ALL_Electrical_F_P_Jobs_JAN_22</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Date_Time_Estimate_Approved_by_Customer__c</columns>
+    <columns>Account__c</columns>
+    <columns>Site__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>Status__c</columns>
+    <columns>Feed_Back_Notes__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>Profit_Margin__c</columns>
+    <columns>Scope_of_Work__c</columns>
+    <columns>Specifications_Mats_suppliers__c</columns>
+    <columns>Price_Point__c</columns>
+    <columns>Client_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Job_Type_Trade__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,Ongoing,Closed,For Client Approval,Approved by Client,Rejected</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Job_Type__c</field>
+        <operation>contains</operation>
+        <value>Electrical</value>
+    </filters>
+    <label>ALL Electrical F.P Jobs JAN 22</label>
+</ListView>

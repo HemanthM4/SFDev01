@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_another_Operative_why__c</fullName>
+    <externalId>false</externalId>
+    <label>If another Operative why?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial operative no longer with Aspect</fullName>
+                <default>false</default>
+                <label>Initial operative no longer with Aspect</label>
+            </value>
+            <value>
+                <fullName>Initial operative not capable of undertaking works</fullName>
+                <default>false</default>
+                <label>Initial operative not capable of undertaking works</label>
+            </value>
+            <value>
+                <fullName>Initial operative not available</fullName>
+                <default>false</default>
+                <label>Initial operative not available</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

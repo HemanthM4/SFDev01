@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_C_Discount_PL__c</fullName>
+    <description>Discount selected for Work Order e.g. £25 off, 10% off Labour etc</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Costs_and_Charges__r.Discount_PL__c)</formula>
+    <inlineHelpText>Discount selected for Work Order e.g. £25 off, 10% off Labour etc</inlineHelpText>
+    <label>C&amp;C Discount PL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To hold the Profile ID of the User to use in any validation rules or any other rules which prevent anything from happening.</description>
+    <label>User Profile ID Bypass Rules/Validation</label>
+    <pluralLabel>User Profile ID Bypass Rules/Validations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

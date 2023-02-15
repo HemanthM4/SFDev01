@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Credit Control</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>System_Admin_No_ONSA_or_OFFSA_filters1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>System_Admin_No_ONSA_or_OFFSA_filters1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>System_Admin_No_ONSA_or_OFFSA_filters1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>System_Admin_No_ONSA_or_OFFSA_filters1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>System_Admin_No_ONSA_or_OFFSA_filters1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>System_Admin_No_ONSA_or_OFFSA_filters1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>General_Office_temp_Home_page_report_with_Manager_Users</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>General Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>General Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>General Office	Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>General Office	Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Human Resources</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Human Resources</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Junior Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Junior Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>PHASE 1 Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>PHASE 1 Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>General Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>General Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>General Office	Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>General Office	Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Human Resources</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Human Resources</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Junior Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>Junior Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>PHASE 1 Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Fixed_Price</recordType>
+        <type>Flexipage</type>
+        <profile>PHASE 1 Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Credit Control Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>General Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Human Resources</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>General Office</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>General Office	Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>General Office	Manager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Human Resources</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Junior Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>Junior Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>PHASE 1 Integration Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>General_Office_ON_SITE_Testing</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>WorkOrder</pageOrSobjectType>
+        <recordType>WorkOrder.Reactive</recordType>
+        <type>Flexipage</type>
+        <profile>PHASE 1 Integration Profile</profile>
+    </profileActionOverrides>
+    <setupExperience>all</setupExperience>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-WorkOrder</tabs>
+    <tabs>Off_site_agreement__c</tabs>
+    <tabs>On_site_agreement__c</tabs>
+    <tabs>Visit_completion_report__c</tabs>
+    <tabs>Online_Bookings__c</tabs>
+    <tabs>standard-ServiceResource</tabs>
+    <tabs>standard-ServiceAppointment</tabs>
+    <tabs>Site__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>Office_Deduction__c</tabs>
+    <tabs>asp04__Refund__c</tabs>
+    <tabs>Customer_Feedback__c</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>Vehicle_Allocation__c</tabs>
+    <tabs>Slots_Dummy__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Credit_Control_UtilityBar</utilityBar>
+</CustomApplication>

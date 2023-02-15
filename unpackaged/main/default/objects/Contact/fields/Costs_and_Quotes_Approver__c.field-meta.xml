@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Costs_and_Quotes_Approver__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox for costs and quotes approver</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if the contact can approve costs and quotes</inlineHelpText>
+    <label>Costs and Quotes Approver</label>
+    <type>Checkbox</type>
+</CustomField>

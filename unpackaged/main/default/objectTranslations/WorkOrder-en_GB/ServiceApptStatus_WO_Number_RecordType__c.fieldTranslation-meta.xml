@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field only exists for the FSL Mobile app  and the Work Order overview screen - you can only have a limited number of fields displayed, hence this field that consists of 3 fields. --></help>
+        <label><!-- ServiceApptStatus WO Number + RecordType --></label>
+        <name>ServiceApptStatus_WO_Number_RecordType__c</name>
+    </CustomFieldTranslation>

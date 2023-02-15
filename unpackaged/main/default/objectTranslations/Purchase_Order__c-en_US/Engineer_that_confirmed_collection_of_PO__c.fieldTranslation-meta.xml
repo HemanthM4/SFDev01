@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be completed via the mobile app when an Engineer confirms they have collected a Purchase Order from the supplier. --></help>
+        <label><!-- Engineer that confirmed collection of PO --></label>
+        <name>Engineer_that_confirmed_collection_of_PO__c</name>
+        <relationshipLabel><!-- Purchase Orders (Engineer that confirmed collection of PO) --></relationshipLabel>
+    </CustomFieldTranslation>

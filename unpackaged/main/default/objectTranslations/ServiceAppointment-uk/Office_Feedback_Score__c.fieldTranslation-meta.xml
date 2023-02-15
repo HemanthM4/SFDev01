@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- &apos;Late over 1 hour&apos; = -3, &apos;Non Conversion&apos; = -2, &apos;Poor report / document&apos; = -2, &apos;Poor Behaviour&apos; = -5, &apos;Poor Workmanship&apos; = -3, &apos;Refused Job&apos; = -4, &apos;Awol over 1 Hour&apos; = -4, &apos;Late up to 30 minutes&apos; = -1, &apos;Late 30-60 mins&apos; = -2 --></help>
+        <label><!-- Office Feedback Score --></label>
+        <name>Office_Feedback_Score__c</name>
+    </CustomFieldTranslation>

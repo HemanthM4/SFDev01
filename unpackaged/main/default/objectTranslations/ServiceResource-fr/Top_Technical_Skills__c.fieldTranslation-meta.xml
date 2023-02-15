@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Top Technical Skills --></label>
+        <name>Top_Technical_Skills__c</name>
+        <picklistValues>
+            <masterLabel>Adaptable</masterLabel>
+            <translation><!-- Adaptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air conditioning and central heating system trouble shooting.</masterLabel>
+            <translation><!-- Air conditioning and central heating system trouble shooting. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All HVAC and Refrigeration systems</masterLabel>
+            <translation><!-- All HVAC and Refrigeration systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All aspects of Painting</masterLabel>
+            <translation><!-- All aspects of Painting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All aspects of electrics</masterLabel>
+            <translation><!-- All aspects of electrics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All aspects of roofing</masterLabel>
+            <translation><!-- All aspects of roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All of plumbing and heating</masterLabel>
+            <translation><!-- All of plumbing and heating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All of them</masterLabel>
+            <translation><!-- All of them --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attention to detail</masterLabel>
+            <translation><!-- Attention to detail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bathroom fitting</masterLabel>
+            <translation><!-- Bathroom fitting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bathroom refurbs, painting, etc</masterLabel>
+            <translation><!-- Bathroom refurbs, painting, etc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boiler breakdown, boiler installation</masterLabel>
+            <translation><!-- Boiler breakdown, boiler installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boiler installation</masterLabel>
+            <translation><!-- Boiler installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boiler installations</masterLabel>
+            <translation><!-- Boiler installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boiler installs</masterLabel>
+            <translation><!-- Boiler installs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boilers and plumbing</masterLabel>
+            <translation><!-- Boilers and plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakdowns</masterLabel>
+            <translation><!-- Breakdowns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carpentry</masterLabel>
+            <translation><!-- Carpentry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carpentry plumbing decorating kitchens bathrooms refurbishments</masterLabel>
+            <translation><!-- Carpentry plumbing decorating kitchens bathrooms refurbishments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combi-Installs</masterLabel>
+            <translation><!-- Combi-Installs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer units</masterLabel>
+            <translation><!-- Consumer units --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer service</masterLabel>
+            <translation><!-- Customer service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOORS</masterLabel>
+            <translation><!-- DOORS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decoration</masterLabel>
+            <translation><!-- Decoration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostics</masterLabel>
+            <translation><!-- Diagnostics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic, Commercial building controls</masterLabel>
+            <translation><!-- Domestic, Commercial building controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drain Surveys, Emergency reactive work for drains (Essential works)</masterLabel>
+            <translation><!-- Drain Surveys, Emergency reactive work for drains (Essential works) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drainage</masterLabel>
+            <translation><!-- Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drainage &amp; cctv surveys</masterLabel>
+            <translation><!-- Drainage &amp; cctv surveys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical repair</masterLabel>
+            <translation><!-- Electrical repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fault finding</masterLabel>
+            <translation><!-- Fault finding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Felting</masterLabel>
+            <translation><!-- Felting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General installation, problem solving</masterLabel>
+            <translation><!-- General installation, problem solving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heating</masterLabel>
+            <translation><!-- Heating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heating problems etc.</masterLabel>
+            <translation><!-- Heating problems etc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Install, problem solving</masterLabel>
+            <translation><!-- Install, problem solving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installs</masterLabel>
+            <translation><!-- Installs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installs boilers</masterLabel>
+            <translation><!-- Installs boilers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kitchen / bathroom fitting / carpentry</masterLabel>
+            <translation><!-- Kitchen / bathroom fitting / carpentry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Making things understandable for everyone. Communicating.</masterLabel>
+            <translation><!-- Making things understandable for everyone. Communicating. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management of large projects</masterLabel>
+            <translation><!-- Management of large projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Measuring and cleanliness</masterLabel>
+            <translation><!-- Measuring and cleanliness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi trade</masterLabel>
+            <translation><!-- Multi trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New sockets, rewiring</masterLabel>
+            <translation><!-- New sockets, rewiring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nice clean job finished to high standard</masterLabel>
+            <translation><!-- Nice clean job finished to high standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating heating controls and gas safety testing.</masterLabel>
+            <translation><!-- Operating heating controls and gas safety testing. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painter</masterLabel>
+            <translation><!-- Painter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painting and fencing</masterLabel>
+            <translation><!-- Painting and fencing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painting,carpentry,plumbing,glazing</masterLabel>
+            <translation><!-- Painting,carpentry,plumbing,glazing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitched roofing. Plain tiles</masterLabel>
+            <translation><!-- Pitched roofing. Plain tiles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plastering and roofing</masterLabel>
+            <translation><!-- Plastering and roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plastering, plasterboard, fencing.</masterLabel>
+            <translation><!-- Plastering, plasterboard, fencing. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing</masterLabel>
+            <translation><!-- Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing and heating</masterLabel>
+            <translation><!-- Plumbing and heating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing and heating installations</masterLabel>
+            <translation><!-- Plumbing and heating installations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practically and knowledge. excellent with winning work and running projects</masterLabel>
+            <translation><!-- Practically and knowledge. excellent with winning work and running projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precise</masterLabel>
+            <translation><!-- Precise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem solving and solutions. Working to schedules. Communicating with customers</masterLabel>
+            <translation><!-- Problem solving and solutions. Working to schedules. Communicating with customers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLATING</masterLabel>
+            <translation><!-- SLATING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales, breakdowns system design</masterLabel>
+            <translation><!-- Sales, breakdowns system design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System wiring</masterLabel>
+            <translation><!-- System wiring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test and inspection, fault finding, quality job.</masterLabel>
+            <translation><!-- Test and inspection, fault finding, quality job. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing, 3 Phase, Upgrades</masterLabel>
+            <translation><!-- Testing, 3 Phase, Upgrades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing, fault finding, maintaining system</masterLabel>
+            <translation><!-- Testing, fault finding, maintaining system --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing, fault finding, maintaining system, PiR</masterLabel>
+            <translation><!-- Testing, fault finding, maintaining system, PiR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The ability to problem solve and correctly diagnosed issues regarding uPVC locks and glass</masterLabel>
+            <translation><!-- The ability to problem solve and correctly diagnosed issues regarding uPVC locks and glass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thorough</masterLabel>
+            <translation><!-- Thorough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tile, bathroom fitting</masterLabel>
+            <translation><!-- Tile, bathroom fitting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiling</masterLabel>
+            <translation><!-- Tiling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiling and umbing</masterLabel>
+            <translation><!-- Tiling and umbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiling roofing</masterLabel>
+            <translation><!-- Tiling roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport, supervising, multi skilled</masterLabel>
+            <translation><!-- Transport, supervising, multi skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Troubleshooting</masterLabel>
+            <translation><!-- Troubleshooting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Window fitting</masterLabel>
+            <translation><!-- Window fitting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows doors replacement</masterLabel>
+            <translation><!-- Windows doors replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>drainage and groundwork</masterLabel>
+            <translation><!-- drainage and groundwork --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field reflects current tier of pay value of the Engineer --></help>
+        <label><!-- Current Rate of Pay Tier --></label>
+        <name>Rate_of_Pay_Tier__c</name>
+    </CustomFieldTranslation>

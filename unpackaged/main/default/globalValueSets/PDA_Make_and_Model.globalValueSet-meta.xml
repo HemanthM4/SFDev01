@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Samsung J5</fullName>
+        <default>false</default>
+        <label>Samsung J5</label>
+    </customValue>
+    <customValue>
+        <fullName>Samsung XCover 4</fullName>
+        <default>false</default>
+        <label>Samsung XCover 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Samsung A20e</fullName>
+        <default>false</default>
+        <label>Samsung A20e</label>
+    </customValue>
+    <customValue>
+        <fullName>Samsung A10</fullName>
+        <default>false</default>
+        <label>Samsung A10</label>
+    </customValue>
+    <customValue>
+        <fullName>No PDA</fullName>
+        <default>false</default>
+        <label>No PDA</label>
+    </customValue>
+    <customValue>
+        <fullName>Samsung A12</fullName>
+        <default>false</default>
+        <label>Samsung A12</label>
+    </customValue>
+    <masterLabel>PDA Make and Model</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

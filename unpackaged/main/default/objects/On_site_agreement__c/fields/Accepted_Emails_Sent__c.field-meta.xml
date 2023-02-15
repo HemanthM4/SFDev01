@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepted_Emails_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Should be ticked if the emails when the ONSA is accepted have been sent and prevent them being sent again.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Should be ticked if the emails when the ONSA is accepted have been sent and prevent them being sent again.</inlineHelpText>
+    <label>Accepted Emails Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

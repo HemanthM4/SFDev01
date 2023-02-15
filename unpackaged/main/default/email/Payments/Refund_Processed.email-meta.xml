@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Refund Processed</name>
+    <style>none</style>
+    <subject>We&#39;ve processed your refund</subject>
+    <textOnly>We&#39;ve processed your refund
+
+Hi {!asp04__Refund__c.Customer_Name__c},
+
+We’ve processed your refund of {!asp04__Refund__c.asp04__Amount__c}. If you are due a credit note, you&#39;ll receive this in a separate email.
+
+Thank you for choosing Aspect.
+
+Account number {!asp04__Refund__c.Account_Number__c}
+Job number {!asp04__Refund__c.Job_Number__c}
+Invoice number {!asp04__Refund__c.Invoice_Number__c}
+Payment number {!asp04__Refund__c.Name}
+
+PROPERTY ADDRESS
+
+REFUNDED AMOUNT
+
+{!asp04__Refund__c.Property_Address__c}
+
+{!asp04__Refund__c.Balance_Received__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+For more information read our terms and conditions.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

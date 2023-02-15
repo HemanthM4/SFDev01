@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Call__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Call</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Customer - Booking Opportunity</fullName>
+                <default>false</default>
+                <label>New Customer - Booking Opportunity</label>
+            </value>
+            <value>
+                <fullName>Existing Client - Booking Opportunity</fullName>
+                <default>false</default>
+                <label>Existing Client - Booking Opportunity</label>
+            </value>
+            <value>
+                <fullName>Out Bound Calls</fullName>
+                <default>false</default>
+                <label>Out Bound Calls</label>
+            </value>
+            <value>
+                <fullName>Job Related</fullName>
+                <default>false</default>
+                <label>Job Related</label>
+            </value>
+            <value>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+                <label>Engineer</label>
+            </value>
+            <value>
+                <fullName>Other / Sales / Wrong Number</fullName>
+                <default>false</default>
+                <label>Other / Sales / Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Call Transferred</fullName>
+                <default>false</default>
+                <label>Call Transferred</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

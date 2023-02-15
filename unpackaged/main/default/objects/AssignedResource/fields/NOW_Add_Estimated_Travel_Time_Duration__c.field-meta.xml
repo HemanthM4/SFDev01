@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NOW_Add_Estimated_Travel_Time_Duration__c</fullName>
+    <description>The time now with Estimated Travel Time and Work Order Duration added</description>
+    <externalId>false</externalId>
+    <formula>NOW_Add_Estimated_Travel_Time__c + (Work_Order_Duration__c/24)
+
+/*NOW()+((EstimatedTravelTime/24)/60)+(Work_Order_Duration__c/60)*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The time now with Estimated Travel Time and Work Order Duration added</inlineHelpText>
+    <label>NOW Add Estimated Travel Time + Duration</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Orders</fullName>
+    <columns>Is_Further_Work_Required__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Account</columns>
+    <columns>Name</columns>
+    <columns>WorkType</columns>
+    <columns>Trade__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Arrival_Window__c</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>Go_Ahead__c</columns>
+    <columns>RecordType</columns>
+    <filterScope>Everything</filterScope>
+    <label>* Work Orders</label>
+</ListView>

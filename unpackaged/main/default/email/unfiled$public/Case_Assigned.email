@@ -1,0 +1,10 @@
+Hi  {!Case.Contact},
+
+Thanks for contacting Aspect. I am {!Case.OwnerFullName} and I am taking ownership of your case {!Case.CaseNumber}.
+
+I shall contact you very soon to gather more details about your request. 
+
+
+Kind Regards, 
+{!Case.OwnerFullName}
+Welcome Team

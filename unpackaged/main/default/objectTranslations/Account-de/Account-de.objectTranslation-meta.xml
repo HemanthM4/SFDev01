@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Commercial Account Layout</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Commercial Account Layout - Production</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+        <sections>
+            <label><!-- LAUREN TEST --></label>
+            <section>LAUREN TEST</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Company Account Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Domestic Account Layout</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Domestic Account Layout - Production</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Engineer - Mobile</layout>
+        <sections>
+            <label><!-- Communication Controls --></label>
+            <section>Communication Controls</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Human Resources</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Payment Provider layout</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - Account Layout</layout>
+        <sections>
+            <label><!-- Buyapowa --></label>
+            <section>Buyapowa</section>
+        </sections>
+        <sections>
+            <label><!-- Communication controls --></label>
+            <section>Communication controls</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+        <sections>
+            <label><!-- Performance --></label>
+            <section>Performance</section>
+        </sections>
+        <sections>
+            <label><!-- Policy --></label>
+            <section>Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Supplier --></label>
+            <section>Supplier</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SYSTEM ADMIN ONLY</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Buyapowa --></label>
+            <section>Buyapowa</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Controls --></label>
+            <section>Communication Controls</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Account Communications --></label>
+            <section>Credit Account Communications</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Supplier Account Layout</layout>
+        <sections>
+            <label><!-- Credit Information --></label>
+            <section>Credit Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Admin</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Section --></label>
+            <section>Finance Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Send Welcome Email --></label>
+        <name>Send_Welcome_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Commercial --></label>
+        <name>Commercial</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Company Account --></label>
+        <name>Company_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Domestic --></label>
+        <name>Domestic</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Engineer payment provider e.g InSync and Crystal Tax --></description>
+        <label><!-- Payment Provider --></label>
+        <name>Payment_Provider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Supplier --></label>
+        <name>Supplier</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Utilities --></label>
+        <name>Thames_Water</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please enter the Billing Street and Post Code --></errorMessage>
+        <name>Account_Billing_Street_and_Post_Code_Req</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only manager ops processing and Ops Director can change the status --></errorMessage>
+        <name>Account_Status_restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Billing address can be changed only by the Credit control manager, Ops director for Key and Credit account. --></errorMessage>
+        <name>Billing_Address_change_by_Profiles</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invoice Address is required --></errorMessage>
+        <name>Invoice_Address_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Managers can change the Account Record Type. --></errorMessage>
+        <name>Only_Managers_can_Change_the_Record_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Postcode cannot contain any spaces --></errorMessage>
+        <name>Postcode_cannot_contain_any_spaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Site Address is required --></errorMessage>
+        <name>Site_Address_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cash clients can only select the standard price book --></errorMessage>
+        <name>Standard_Price_book_for_Cash_Client</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CongaSign_sendForSignature --></label>
+        <name>CongaSign_sendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Account_Brief --></label>
+        <name>Conga_Composer_Composer_SP_Account_Brief</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Account_Brief_24Jun2020_11_36_14_AM --></label>
+        <name>Conga_Composer_Composer_SP_Account_Brief_24Jun2020_11_36_14_AM</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Authorisation --></label>
+        <name>Create_Authorisation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Consolidated_Invoice --></label>
+        <name>Create_Consolidated_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SFDC --></label>
+        <name>SFDC</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Take_Payment --></label>
+        <name>Take_Payment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Testing_re_direct_to_Opp_record --></label>
+        <name>Testing_re_direct_to_Opp_record</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Email_ID --></label>
+        <name>Update_Email_ID</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Zoopla_Postcode_Search --></label>
+        <name>Zoopla_Postcode_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- navToRecrod_Test --></label>
+        <name>navToRecrod_Test</name>
+    </webLinks>
+</CustomObjectTranslation>

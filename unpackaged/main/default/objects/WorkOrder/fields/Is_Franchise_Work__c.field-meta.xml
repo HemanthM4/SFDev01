@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Franchise_Work__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This will be used for the visibility of Franchise Users</description>
+    <externalId>false</externalId>
+    <label>Is Franchise Work?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

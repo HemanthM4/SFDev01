@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Should be ticked if the emails when the ONSA is accepted have been sent and prevent them being sent again. --></help>
+        <label><!-- Accepted Emails Sent --></label>
+        <name>Accepted_Emails_Sent__c</name>
+    </CustomFieldTranslation>

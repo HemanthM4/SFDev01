@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complaint_Responsible__c</fullName>
+    <description>Who was responsible for the complaint - Office or the Operative?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Who was responsible for the complaint - Office or the Operative?</inlineHelpText>
+    <label>Complaint Responsible</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>Operative</fullName>
+                <default>false</default>
+                <label>Operative</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

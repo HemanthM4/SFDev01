@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Alloc Barney</fullName>
+        <default>false</default>
+        <label>Alloc Barney</label>
+    </customValue>
+    <customValue>
+        <fullName>Alloc Carl</fullName>
+        <default>false</default>
+        <label>Alloc Carl</label>
+    </customValue>
+    <customValue>
+        <fullName>Alloc Chris</fullName>
+        <default>false</default>
+        <label>Alloc Chris</label>
+    </customValue>
+    <customValue>
+        <fullName>Complete</fullName>
+        <default>false</default>
+        <label>Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>Required</fullName>
+        <default>false</default>
+        <label>Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Second Required</fullName>
+        <default>false</default>
+        <label>Second Required</label>
+    </customValue>
+    <masterLabel>Field Assessment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

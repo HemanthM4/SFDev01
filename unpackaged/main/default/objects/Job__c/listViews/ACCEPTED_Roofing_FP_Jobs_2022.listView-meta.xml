@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACCEPTED_Roofing_FP_Jobs_2022</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Date_Time_Estimate_Approved_by_Customer__c</columns>
+    <columns>Account__c</columns>
+    <columns>Site__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>Status__c</columns>
+    <columns>Feed_Back_Notes__c</columns>
+    <columns>Profit_Margin__c</columns>
+    <columns>Count_of_Open_Cases__c</columns>
+    <columns>Scope_of_Work__c</columns>
+    <columns>Specifications_Mats_suppliers__c</columns>
+    <columns>Client_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Closed,Approved by Client</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>11/30/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Job_Type_Trade__c</field>
+        <operation>equals</operation>
+        <value>Roofing,Roof Window &amp; Gutter Cleaning</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>notEqual</operation>
+        <value>Reactive</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Key Account</value>
+    </filters>
+    <filters>
+        <field>Date_Time_Estimate_Approved_by_Customer__c</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>*ACCEPTED* Roofing FP Jobs 2022</label>
+</ListView>

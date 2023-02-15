@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The allocated Engineer before it was changed --></help>
+        <label><!-- Previous Allocated Engineer --></label>
+        <name>Previous_Allocated_Engineer__c</name>
+        <relationshipLabel><!-- Off site agreements (Previous Allocated Engineer) --></relationshipLabel>
+    </CustomFieldTranslation>

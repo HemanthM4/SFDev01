@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Laptop Status --></label>
+        <name>Laptop_Status__c</name>
+        <picklistValues>
+            <masterLabel>Allocated</masterLabel>
+            <translation><!-- Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For Approval</masterLabel>
+            <translation><!-- For Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Working</masterLabel>
+            <translation><!-- Not Working --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned</masterLabel>
+            <translation><!-- Returned --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

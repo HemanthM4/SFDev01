@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Primayer: Prime Trace</fullName>
+        <default>false</default>
+        <label>Primayer: Prime Trace</label>
+    </customValue>
+    <customValue>
+        <fullName>Inspection Camera Ridgid</fullName>
+        <default>false</default>
+        <label>Inspection Camera Ridgid</label>
+    </customValue>
+    <customValue>
+        <fullName>Protimeter analysis kit</fullName>
+        <default>false</default>
+        <label>Protimeter analysis kit</label>
+    </customValue>
+    <customValue>
+        <fullName>Protimeter MMS2 Moisture Meter</fullName>
+        <default>false</default>
+        <label>Protimeter MMS2 Moisture Meter</label>
+    </customValue>
+    <customValue>
+        <fullName>Thermal Imaging Camera</fullName>
+        <default>false</default>
+        <label>Thermal Imaging Camera</label>
+    </customValue>
+    <customValue>
+        <fullName>Sewerin Aquaphon A200</fullName>
+        <default>false</default>
+        <label>Sewerin Aquaphon A200</label>
+    </customValue>
+    <customValue>
+        <fullName>BOC Gas Regulator</fullName>
+        <default>false</default>
+        <label>BOC Gas Regulator</label>
+    </customValue>
+    <customValue>
+        <fullName>BOC Gas Trolley</fullName>
+        <default>false</default>
+        <label>BOC Gas Trolley</label>
+    </customValue>
+    <customValue>
+        <fullName>BOC Hydrogen/ Nitrogen cylinder</fullName>
+        <default>false</default>
+        <label>BOC Hydrogen/ Nitrogen cylinder</label>
+    </customValue>
+    <masterLabel>Leak Detection Equipment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

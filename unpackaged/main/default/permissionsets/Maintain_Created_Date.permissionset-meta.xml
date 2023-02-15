@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Maintain created date through data loads</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Maintain Created Date</label>
+    <license>Salesforce</license>
+</PermissionSet>

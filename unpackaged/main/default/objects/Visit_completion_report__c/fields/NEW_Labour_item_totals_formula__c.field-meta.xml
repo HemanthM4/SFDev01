@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEW_Labour_item_totals_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( Discount_offered__c  ) ,&quot;&quot;, &quot;Labour subtotal&quot; &amp;BR() )&amp;
+IF( ISBLANK( Discount_offered__c  ) ,&quot;&quot;, &quot;Discount&quot; &amp;BR() )</formula>
+    <label>NEW Labour item totals formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

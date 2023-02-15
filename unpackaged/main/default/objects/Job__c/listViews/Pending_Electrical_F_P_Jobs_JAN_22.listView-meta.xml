@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Electrical_F_P_Jobs_JAN_22</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Date_Time_Estimate_Approved_by_Customer__c</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Site__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Status__c</columns>
+    <columns>Feed_Back_Notes__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>Profit_Margin__c</columns>
+    <columns>Count_of_Open_Cases__c</columns>
+    <columns>Scope_of_Work__c</columns>
+    <columns>Specifications_Mats_suppliers__c</columns>
+    <columns>Client_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Job_Type_Trade__c</field>
+        <operation>equals</operation>
+        <value>Electrical</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,Ongoing,Closed,For Client Approval,Cancelled,Approved by Client,Rejected</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>12/31/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Key Account</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>notEqual</operation>
+        <value>Reactive</value>
+    </filters>
+    <label>*ALL* Electrical FIXED PRICE  JAN 22</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

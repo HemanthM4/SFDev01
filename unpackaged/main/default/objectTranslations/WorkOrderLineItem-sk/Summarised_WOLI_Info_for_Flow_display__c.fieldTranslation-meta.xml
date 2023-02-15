@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Summarised WOLI Info for Flow display --></label>
+        <name>Summarised_WOLI_Info_for_Flow_display__c</name>
+    </CustomFieldTranslation>

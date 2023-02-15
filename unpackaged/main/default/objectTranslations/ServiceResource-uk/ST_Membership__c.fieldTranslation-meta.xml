@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ST Membership --></label>
+        <name>ST_Membership__c</name>
+        <picklistValues>
+            <masterLabel>2021 Dates Added</masterLabel>
+            <translation><!-- 2021 Dates Added --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST Only</masterLabel>
+            <translation><!-- ST Only --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Operative Payment Confirmation</name>
+    <style>none</style>
+    <subject>Your payment for {!Engineer_Pay_Requisition__c.Job__c}</subject>
+    <textOnly>Your payment
+confirmation
+
+Hi {!Engineer_Pay_Requisition__c.Service_Resource_First_Name__c},
+
+We&#39;ve processed the final payment for {!Engineer_Pay_Requisition__c.Job__c}. You attended this job as {!Engineer_Pay_Requisition__c.Scheduled_Trade__c} which means your rate of pay on labour is {!Engineer_Pay_Requisition__c.Rate_of_Pay__c}%. Rates of pay on fixed price work are always 50%. Thank you for carrying out the works to the client&#39;s satisfaction.
+
+You find details of your payment below. Please note, that payments are made at the end of the month.
+
+Job number: {!Engineer_Pay_Requisition__c.Job__c}
+Client: {!Engineer_Pay_Requisition__c.Client_Full_Name__c}
+
+PROPERTY ADDRESS
+
+JOB DETAILS
+
+{!Engineer_Pay_Requisition__c.Site_Address__c}
+
+Trade: {!Engineer_Pay_Requisition__c.Scheduled_Trade__c}
+Date: {!Engineer_Pay_Requisition__c.Scheduled_Date__c}
+Arrival: {!Engineer_Pay_Requisition__c.Scheduled_Arrival_Time_Slot__c}
+
+ITEM
+
+Labour charge R1 {!Engineer_Pay_Requisition__c.Rate_of_Charge_R1__c}
+Labour charge R2 {!Engineer_Pay_Requisition__c.Rate_of_Charge_R2__c}
+Labour charge R3 {!Engineer_Pay_Requisition__c.Rate_of_Charge_R3__c}
+
+SUBTOTAL
+
+{!Engineer_Pay_Requisition__c.Pay_Labour_R1__c}
+{!Engineer_Pay_Requisition__c.Pay_Labour_R2__c}
+{!Engineer_Pay_Requisition__c.Pay_Labour_R3__c}
+
+QTY
+
+{!Engineer_Pay_Requisition__c.Chargeable_Units_R1__c}
+{!Engineer_Pay_Requisition__c.Chargeable_Units_R2__c}
+{!Engineer_Pay_Requisition__c.Chargeable_Units_R3__c}
+
+Labour subtotal
+Discount
+Labour Total
+
+{!Engineer_Pay_Requisition__c.Pay_Labour_Sub_total__c}
+- {!Engineer_Pay_Requisition__c.Discount_Value__c}
+{!Engineer_Pay_Requisition__c.Pay_Labour_Total__c}
+
+Materials
+Fixed price work
+
+{!Engineer_Pay_Requisition__c.Pay_Materials__c}
+{!Engineer_Pay_Requisition__c.Pay_Fixed_Price__c}
+
+Payment Total
+
+{!Engineer_Pay_Requisition__c.Pay_Total__c}
+
+Please note that your workmanship carries a 12 months guarantee. If you have any questions or need to get in touch for another reason contact us   here.
+
+Help made easy.
+
+
+
+
+
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Deducted operative made aware? --></label>
+        <name>Deducted_operative_made_aware__c</name>
+        <picklistValues>
+            <masterLabel>Made Aware</masterLabel>
+            <translation><!-- Made Aware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not aware</masterLabel>
+            <translation><!-- Not aware --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

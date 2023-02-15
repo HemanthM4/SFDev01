@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Contacts preferred language, e.g. Polish, English etc --></help>
+        <label><!-- Preferred Language --></label>
+        <name>Preferred_Language__c</name>
+    </CustomFieldTranslation>

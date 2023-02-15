@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community</fullName>
+    <active>false</active>
+    <businessProcess>Default Support Process</businessProcess>
+    <compactLayoutAssignment>Default_Case_Compact_Layout</compactLayoutAssignment>
+    <description>This is a record type for community users</description>
+    <label>Community</label>
+    <picklistValues>
+        <picklist>Action_Required__c</picklist>
+        <values>
+            <fullName>Aspect not at fault - Any remedial works are chargeable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operative to complete the following works ONLY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Appointment_Status__c</picklist>
+        <values>
+            <fullName>Booked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSM to Arrange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Yet Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attended_Site__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cancellation_Reason__c</picklist>
+        <values>
+            <fullName>Aspect under performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Found a better alternative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Longer Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Selection__c</picklist>
+        <values>
+            <fullName>Additional Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Case</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Type__c</picklist>
+        <values>
+            <fullName>Help or advice about the trade services we provide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jobs working for Aspect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make a booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales or marketing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case__c</picklist>
+        <values>
+            <fullName>Arrival time update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing or payment query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel a booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change details of a booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discuss ongoing or follow-on work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duration of the job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expectations of the job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue with work carried out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late arrivals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trades person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workmanship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Outcome__c</picklist>
+        <values>
+            <fullName>Accepted outcome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Happy with outcome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unhappy with outcome</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Complaint_Outcome__c</picklist>
+        <values>
+            <fullName>Closed %E2%80%93 Client Unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved %E2%80%93 Client Happy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved %E2%80%93 Client Not Happy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresolved %E2%80%93 But NFA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Complaint_Types__c</picklist>
+        <values>
+            <fullName>Discount not applied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer conduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Job management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Materials charges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Number of visits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overall Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment taken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time on site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workmanship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Concerns_from_Web__c</picklist>
+        <values>
+            <fullName>Arrival time update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing or payment query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel a booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change details of a booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discuss ongoing or follow-on work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Help or advice about the trade services we provide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue with work carried out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jobs working for Aspect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make a booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales or marketing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cost_Status__c</picklist>
+        <values>
+            <fullName>Chargeable to client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer deducted to match costs of ONSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unrecoverable costs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deducted_operative_made_aware__c</picklist>
+        <values>
+            <fullName>Made Aware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not aware</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSM_info__c</picklist>
+        <values>
+            <fullName>Adequate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not sufficient</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field_Support_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>with FSM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field_Support_Type__c</picklist>
+        <values>
+            <fullName>-</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Client Refusing to Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golden Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Starter First Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Valid Card on File</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supervise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Support QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workmanship QC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field_Support__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>With Field Manager</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>For_chargeable_work__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operative continuing right now on hourly rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FurtherWorkChargeable_does_Client_accept__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Has_work_been_carried_out_adequately__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_another_Operative_why__c</picklist>
+        <values>
+            <fullName>Initial operative no longer with Aspect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial operative not available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial operative not capable of undertaking works</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_remedial_works_are_FOC_who_is_doing__c</picklist>
+        <values>
+            <fullName>Another Operative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer who carried out the initial work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Image_of_Work_in_question_attached__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Deduction_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_the_Work_Within_Guarantee_Period__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Booked__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lost_Lead_Reason__c</picklist>
+        <values>
+            <fullName>Availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Response Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Office_actions__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office actions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To action default</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>With client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Progress__c</picklist>
+        <values>
+            <fullName>Awaiting Client Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Manager Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estimate Accepted and Attendance Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estimate Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>%28Business Support - Recruitment %2F HR %2F Fleet%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acceptance of Quoted Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Back Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel a Booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chasing an Estimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Account - Helpdesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discuss an Estimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETA check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make a Booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Make a Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Connection%2F Silent Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Query - Engineer on Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Query an Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Query%2FComplaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reschedule a Booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales%2F Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_For_Case__c</picklist>
+        <values>
+            <fullName>10%25 discount not applied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>breakdown of costs labour and materials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>charged for a call back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>charges not explained by operative on site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>duplicate payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>engineer workmanship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>quote not received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>request for documents %28invoice%2Freport%2Fnotes%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Refund__c</picklist>
+        <values>
+            <fullName>Charged Incorrectly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faulty Workmanship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gesture of Good Will</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reco_s_for_additional_work_in_property__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reschedule_Reason__c</picklist>
+        <values>
+            <fullName>Aspect under performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Found a better alternative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Longer Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trade_Group__c</picklist>
+        <values>
+            <fullName>%EF%BB%BFElectrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%EF%BB%BFFlood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%EF%BB%BFGas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%EF%BB%BFLeak Detection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trade__c</picklist>
+        <values>
+            <fullName>Commercial Pumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drainage %28Tanker%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gardening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leak Detection Restoration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leak Detection Restoration Central Heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leak Detection Restoration Drainage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leak Detection Restoration Plumbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pest Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Management Decoration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Management Refurbishment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofing%2FLeak Detection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Blended - Drainage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Blended - Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Blended - General Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Blended - Heating %26 Hot Water %28Commercial%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Blended - Heating %26 Hot Water %28Domestic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Drying</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Air Con%2C Ventilation %26 Refrigeration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Building Fabric</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Drainage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Electrical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Heating %26 Hot Water %28Domestic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Heating %26 How Water %28Commercial%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Labourer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project - Leak Detection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities - Project Managment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Was_the_work_Carried_out_by_Aspect__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

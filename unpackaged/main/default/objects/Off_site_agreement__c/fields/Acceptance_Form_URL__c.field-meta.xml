@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acceptance_Form_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+
+&quot;/forms/accept/?id=&quot;&amp;Id&amp;
+&quot;&amp;ref=&quot;&amp;TEXT(Off_Site_Agreement_Number__c)&amp;
+&quot;&amp;ema=&quot;&amp; Customer_email__c&amp;
+&quot;&amp;cli=&quot;&amp;SUBSTITUTE(Customer_first_name__c, &quot; &quot;, &quot;%20&quot;)&amp;&quot;%20&quot;&amp;SUBSTITUTE(Customer_last_name__c, &quot; &quot;, &quot;%20&quot;)&amp;
+&quot;&amp;date=&quot;&amp;TEXT(DAY((Preferred_date__c)))+&quot;/&quot; +TEXT(MONTH(Preferred_date__c))+&quot;/&quot; +TEXT(YEAR((Preferred_date__c)))&amp;
+&quot;&amp;time=&quot;&amp;SUBSTITUTE(Preferred_arrival_timeslot__c, &quot; &quot;, &quot;%20&quot;)&amp;
+&quot;&amp;dep=&quot;&amp;  TEXT(Deposit_required__c) &amp;
+
+&quot;&amp;a=&quot;&amp; TEXT(MOD( FLOOR(Deposit_required__c),8)) &amp;
+&quot;&amp;b=&quot;&amp; TEXT(MOD( FLOOR(Deposit_required__c/8),8)) &amp;
+&quot;&amp;c=&quot;&amp; TEXT(MOD( FLOOR(Deposit_required__c/(8*8)),8)) &amp;
+&quot;&amp;d=&quot;&amp; TEXT(MOD( FLOOR(Deposit_required__c/(8*8*8)),8)) &amp;
+&quot;&amp;e=&quot;&amp; TEXT(MOD( FLOOR(Deposit_required__c/(8*8*8*8)),8)) &amp;
+&quot;&amp;f=&quot;&amp; TEXT(MOD( FLOOR(Deposit_required__c/(8*8*8*8*8)),8)) &amp;
+
+&quot;&amp;x=&quot;&amp; TEXT(MOD( MOD(Deposit_required__c,1)*100,8)) &amp;
+&quot;&amp;y=&quot;&amp; TEXT(MOD( FLOOR(MOD(Deposit_required__c,1)*100/8),8)) &amp;
+&quot;&amp;z=&quot;&amp; TEXT(MOD( FLOOR(MOD(Deposit_required__c,1)*100/(8*8)),8))
+
+&amp;
+&quot;&amp;t=0&quot;</formula>
+    <label>Acceptance Form URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>VCR_Completed_Customer_Email_Alert_GOT_Discount</fullName>
+        <description>VCR Completed Customer Email Alert (GOT Discount)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Additional_email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Customer_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Operations/VCR_Completed_Customer_GOT_Discount</template>
+    </alerts>
+    <alerts>
+        <fullName>VCR_Completed_Customer_Email_Alert_NO_Discount</fullName>
+        <description>VCR Completed Customer Email Alert (NO Discount)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Additional_email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Customer_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Operations/VCR_Completed_Customer_NO_Discount</template>
+    </alerts>
+    <alerts>
+        <fullName>VCR_Completed_Operative_Email_Alert</fullName>
+        <description>VCR Completed Operative Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Operative_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Operations/VCR_Completed_Operative</template>
+    </alerts>
+    <alerts>
+        <fullName>VCR_Outstanding_Customer_Email_Alert_GOT_Discount</fullName>
+        <description>VCR Outstanding Customer Email Alert (GOT Discount)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Additional_email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Customer_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Operations/VCR_Outstanding_Customer_GOT_Discount</template>
+    </alerts>
+    <alerts>
+        <fullName>VCR_Outstanding_Customer_Email_Alert_NO_Discount</fullName>
+        <description>VCR Outstanding Customer Email Alert (NO Discount)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Additional_email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Customer_email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Operations/VCR_Outstanding_Customer_NO_Discount</template>
+    </alerts>
+    <alerts>
+        <fullName>VCR_Payment_received_email_Paperwork_aspect_co_uk</fullName>
+        <ccEmails>Paperwork@aspect.co.uk</ccEmails>
+        <description>VCR - Payment received - email Paperwork@aspect.co.uk</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>damian.david@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Operations/VCR_Payment_received_email_Paperwork_aspect_co_uk</template>
+    </alerts>
+</Workflow>

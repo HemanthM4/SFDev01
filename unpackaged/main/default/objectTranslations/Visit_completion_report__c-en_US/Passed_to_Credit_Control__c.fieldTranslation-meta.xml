@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Has this VCR been passed to Credit Control for Collection? --></help>
+        <label><!-- Passed to Credit Control? --></label>
+        <name>Passed_to_Credit_Control__c</name>
+    </CustomFieldTranslation>

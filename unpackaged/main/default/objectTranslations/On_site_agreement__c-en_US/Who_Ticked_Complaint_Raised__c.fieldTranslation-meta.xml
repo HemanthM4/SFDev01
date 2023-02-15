@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The person/user who ticked the box &apos;Complaint Raised?&apos; --></help>
+        <label><!-- Who Ticked Complaint Raised --></label>
+        <name>Who_Ticked_Complaint_Raised__c</name>
+        <relationshipLabel><!-- On Site Agreements (Who Ticked Complaint Raised) --></relationshipLabel>
+    </CustomFieldTranslation>

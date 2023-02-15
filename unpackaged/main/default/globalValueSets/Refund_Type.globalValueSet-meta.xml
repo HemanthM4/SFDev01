@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Timesheet Bonus</fullName>
+        <default>false</default>
+        <label>Timesheet Bonus</label>
+    </customValue>
+    <customValue>
+        <fullName>Congestion Charge</fullName>
+        <default>false</default>
+        <label>Congestion Charge Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>MV Insurance Refund</fullName>
+        <default>false</default>
+        <label>MV Insurance Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>MV Repair Refund</fullName>
+        <default>false</default>
+        <label>MV Repair Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking Fine Refund</fullName>
+        <default>false</default>
+        <label>Parking Fine Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone Refund</fullName>
+        <default>false</default>
+        <label>Phone Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Refunds</fullName>
+        <default>false</default>
+        <label>Other Refunds</label>
+    </customValue>
+    <customValue>
+        <fullName>Material</fullName>
+        <default>false</default>
+        <label>Material</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile Repair Refund</fullName>
+        <default>false</default>
+        <label>Mobile Repair Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank Charge Refund</fullName>
+        <default>false</default>
+        <label>Bank Charge Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Licence(*CRB) Refund</fullName>
+        <default>false</default>
+        <label>Licence(*CRB) Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>PL Insurance Refund</fullName>
+        <default>false</default>
+        <label>PL Insurance Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Money Held Refund</fullName>
+        <default>false</default>
+        <label>Money Held Refund</label>
+    </customValue>
+    <customValue>
+        <fullName>Retention Release</fullName>
+        <default>false</default>
+        <label>Retention Release</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Refund 4</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Refund 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Refund 6</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Refund 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Refund 5</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Refund 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Refund 3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Refund 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Refund 1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Refund 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Refund 2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Custom Refund 2</label>
+    </customValue>
+    <description>The refund type</description>
+    <masterLabel>Refund Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

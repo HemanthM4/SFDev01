@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Description__c</fullName>
+    <description>The description of the works to be carried out.
+This field will be populated by the &quot;Home Flow&quot;
+and the &quot;FSL Reactive Referral Flow&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The description of the works to be carried out.
+This field will be populated by the &quot;Home Flow&quot;
+and the &quot;FSL Reactive Referral Flow&quot;</inlineHelpText>
+    <label>Job Description</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

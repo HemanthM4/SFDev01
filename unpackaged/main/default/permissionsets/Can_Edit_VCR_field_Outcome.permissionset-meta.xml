@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Intended for Delene only. RL 04.09.20</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_completion_report__c.Outcome__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Can Edit VCR field &#39;Outcome&#39;</label>
+    <license>Salesforce</license>
+</PermissionSet>

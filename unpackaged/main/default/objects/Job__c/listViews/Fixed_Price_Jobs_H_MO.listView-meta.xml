@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fixed_Price_Jobs_H_MO</fullName>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Account_Type__c</columns>
+    <columns>NAME</columns>
+    <columns>Sector__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Job_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>Charge_Discount_Total__c</columns>
+    <columns>Price_Point__c</columns>
+    <columns>Scope_of_Work__c</columns>
+    <columns>Client_Contact__c</columns>
+    <columns>Feed_Back_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>notEqual</operation>
+        <value>Reactive</value>
+    </filters>
+    <filters>
+        <field>Sector__c</field>
+        <operation>equals</operation>
+        <value>Education &amp; Healthcare</value>
+    </filters>
+    <label>Fixed Price Jobs  - H- MO</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

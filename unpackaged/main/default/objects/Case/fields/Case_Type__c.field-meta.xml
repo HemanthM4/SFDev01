@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billing or payment query</fullName>
+                <default>false</default>
+                <label>Billing or payment query</label>
+            </value>
+            <value>
+                <fullName>Cancel a booking</fullName>
+                <default>false</default>
+                <label>Cancel a booking</label>
+            </value>
+            <value>
+                <fullName>Change details of booking</fullName>
+                <default>false</default>
+                <label>Change details of booking</label>
+            </value>
+            <value>
+                <fullName>Discuss on going or follow-on work</fullName>
+                <default>false</default>
+                <label>Discuss on going or follow-on work</label>
+            </value>
+            <value>
+                <fullName>Help or advice about the trade services we provide</fullName>
+                <default>false</default>
+                <label>Help or advice about the trade services we provide</label>
+            </value>
+            <value>
+                <fullName>Issue with work carried out</fullName>
+                <default>false</default>
+                <label>Issue with work carried out</label>
+            </value>
+            <value>
+                <fullName>Jobs working for Aspect</fullName>
+                <default>false</default>
+                <label>Jobs working for Aspect</label>
+            </value>
+            <value>
+                <fullName>Make a booking</fullName>
+                <default>false</default>
+                <label>Make a booking</label>
+            </value>
+            <value>
+                <fullName>Sales or marketing</fullName>
+                <default>false</default>
+                <label>Sales or marketing</label>
+            </value>
+            <value>
+                <fullName>Arrival time update</fullName>
+                <default>false</default>
+                <label>Arrival time update</label>
+            </value>
+            <value>
+                <fullName>Fleet/Van/Uniform</fullName>
+                <default>false</default>
+                <label>Fleet/Van/Uniform</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Ops Manager-Shift/ Trade Change</fullName>
+                <default>false</default>
+                <label>Ops Manager-Shift/ Trade Change</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pay Query</fullName>
+                <default>false</default>
+                <label>Pay Query</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

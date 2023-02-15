@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Client Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Happy with outcome</fullName>
+                <default>false</default>
+                <label>Happy with outcome</label>
+            </value>
+            <value>
+                <fullName>Accepted outcome</fullName>
+                <default>false</default>
+                <label>Accepted outcome</label>
+            </value>
+            <value>
+                <fullName>Unhappy with outcome</fullName>
+                <default>false</default>
+                <label>Unhappy with outcome</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

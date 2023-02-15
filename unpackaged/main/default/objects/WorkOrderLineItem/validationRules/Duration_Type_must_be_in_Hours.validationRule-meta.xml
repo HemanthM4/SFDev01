@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duration_Type_must_be_in_Hours</fullName>
+    <active>true</active>
+    <description>Duration Type must be in Hours</description>
+    <errorConditionFormula>ISPICKVAL(DurationType, &quot;Minutes&quot;)</errorConditionFormula>
+    <errorDisplayField>DurationType</errorDisplayField>
+    <errorMessage>Duration Type must be in Hours</errorMessage>
+</ValidationRule>

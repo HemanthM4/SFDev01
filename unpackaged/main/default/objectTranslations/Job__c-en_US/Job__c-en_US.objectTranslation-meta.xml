@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jobs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Admin Layout</layout>
+        <sections>
+            <label><!-- Attendance Summary --></label>
+            <section>Attendance Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Comms --></label>
+            <section>Comms</section>
+        </sections>
+        <sections>
+            <label><!-- Costs --></label>
+            <section>Costs</section>
+        </sections>
+        <sections>
+            <label><!-- Costs and Charges --></label>
+            <section>Costs and Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer --></label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Estimate --></label>
+            <section>Estimate</section>
+        </sections>
+        <sections>
+            <label><!-- Estimate Validation --></label>
+            <section>Estimate Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Info --></label>
+            <section>Info</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice --></label>
+            <section>Invoice</section>
+        </sections>
+        <sections>
+            <label><!-- Naviagtion --></label>
+            <section>Naviagtion</section>
+        </sections>
+        <sections>
+            <label><!-- New Estimate --></label>
+            <section>New Estimate</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling --></label>
+            <section>Scheduling</section>
+        </sections>
+        <sections>
+            <label><!-- Work Order Information --></label>
+            <section>Work Order Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copy of MANAGER PROCESS - JOB Layout (Temp)</layout>
+        <sections>
+            <label><!-- Acceptance Work Around --></label>
+            <section>Acceptance Work Around</section>
+        </sections>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estimate Validation --></label>
+            <section>Estimate Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- New Estimate --></label>
+            <section>New Estimate</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Pay --></label>
+            <section>Pay</section>
+        </sections>
+        <sections>
+            <label><!-- Performance --></label>
+            <section>Performance</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+        <sections>
+            <label><!-- Reschedule/Cancel --></label>
+            <section>Reschedule/Cancel</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Job Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MANAGER KEY USER - JOB Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MANAGER PROCESS - JOB Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estimate Validation --></label>
+            <section>Estimate Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- New Estimate --></label>
+            <section>New Estimate</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Pay --></label>
+            <section>Pay</section>
+        </sections>
+        <sections>
+            <label><!-- Performance --></label>
+            <section>Performance</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+        <sections>
+            <label><!-- Reschedule/Cancel --></label>
+            <section>Reschedule/Cancel</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - JOB Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estimate Validation --></label>
+            <section>Estimate Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- New Estimate --></label>
+            <section>New Estimate</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Pay --></label>
+            <section>Pay</section>
+        </sections>
+        <sections>
+            <label><!-- Performance --></label>
+            <section>Performance</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+        <sections>
+            <label><!-- Reschedule/Cancel --></label>
+            <section>Reschedule/Cancel</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone --></label>
+        <name>Clone</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Key Account Invoice CMP --></label>
+        <name>Key_Account_Invoice</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Job Record Type A --></label>
+        <name>Job_Record_Type_A</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Job Record Type B --></label>
+        <name>Job_Record_Type_B</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+The total value of &quot;Engineer Pay Requisitions&quot; for this Job cannot exceed the budgeted spend.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --></errorMessage>
+        <name>EPR_below_Total_Cost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- this contact cannot create Jobs!!! --></errorMessage>
+        <name>Test_Only_Created_by_RL</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Amend_Invoice --></label>
+        <name>Amend_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Approve_Estimate_Manually --></label>
+        <name>Approve_Estimate_Manually</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Approve_Estimate_for_Key_Account --></label>
+        <name>Approve_Estimate_for_Key_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Cancel_Service_Appointment --></label>
+        <name>Cancel_Service_Appointment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CongaSign_sendForSignature --></label>
+        <name>CongaSign_sendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_PO --></label>
+        <name>Create_PO</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Serv_Appts_for_Work_Orders --></label>
+        <name>Create_Serv_Appts_for_Work_Orders</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_WO_s_Line_Items --></label>
+        <name>Edit_WO_s_Line_Items</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Fixed_Price_WO --></label>
+        <name>New_Fixed_Price_WO</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Reactive_WO --></label>
+        <name>New_Reactive_WO</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Produce_Estimate --></label>
+        <name>Produce_Estimate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Re_Send_Emails_from_Job --></label>
+        <name>Re_Send_Emails_from_Job</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Estimate_to_Customer --></label>
+        <name>Send_Estimate_to_Customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Testing_Submit_for_Approval_10_06_20 --></label>
+        <name>Testing_Submit_for_Approval_10_06_20</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Authorisation --></label>
+        <name>Update_Authorisation</name>
+    </webLinks>
+</CustomObjectTranslation>

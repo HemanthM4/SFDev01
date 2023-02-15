@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of WO PO Product Required + an assumed VAT rate of 20% --></help>
+        <label><!-- Sum of WO Product Required Incl. VAT --></label>
+        <name>Sum_of_WO_Product_Required_Incl_VAT__c</name>
+    </CustomFieldTranslation>

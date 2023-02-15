@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Slots Dummy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Slots</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    <recordTypes>
+        <label><!-- This Week --></label>
+        <name>This_Week</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Today --></label>
+        <name>Today</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Already duplicated Job for Pending Est --></label>
+        <name>Already_duplicated_Job_for_Pending_Est__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VCR Completed Customer GOT Discount</name>
+    <style>none</style>
+    <subject>Visit completed {!Visit_completion_report__c.Visit_Completion_Report_Number__c}</subject>
+    <textOnly>Visit
+completed
+
+contact us
+
+Hi {!Visit_completion_report__c.Customer_first_name__c},
+
+Congratulations!
+
+Your visit has been completed and we’ve received the final payment for the remaining balance. Thank you for choosing Aspect.
+
+Order number
+
+{!Visit_completion_report__c.Visit_Completion_Report_Number__c}
+
+Name
+
+{!Visit_completion_report__c.Customer_first_name__c} {!Visit_completion_report__c.Customer_last_name__c}
+
+Property address
+
+{!Visit_completion_report__c.Property_address_line_1__c} {!Visit_completion_report__c.Property_address_line_2__c} {!Visit_completion_report__c.Property_Address_Town_City__c} {!Visit_completion_report__c.Property_address_county__c} {!Visit_completion_report__c.Property_address_postcode__c}
+
+Labour charge (if applicable)
+
+{!Visit_completion_report__c.Labour_charge__c}
+
+Fixed price charge (if applicable)
+
+{!Visit_completion_report__c.Fixed_price_service_details__c}
+{!Visit_completion_report__c.Fixed_price_charge__c}
+
+Discount
+
+{!Visit_completion_report__c.Discount_offered__c}
+
+Material charge (if applicable)
+
+{!Visit_completion_report__c.Material_charge__c}
+
+Total charge excl. VAT
+
+{!Visit_completion_report__c.Fixed_total_charge_excl_VAT__c}
+
+VAT
+
+{!Visit_completion_report__c.VAT__c}
+
+Total charge incl. VAT
+
+{!Visit_completion_report__c.Fixed_total_charge_incl_VAT__c}
+
+Your signature
+
+
+Payment received
+
+{!Visit_completion_report__c.Payment_received__c}
+
+What’s next?
+
+Your final invoice is being produced. We&#39;ll try our absolute best to get this to you within 10 working days.
+
+If you&#39;d like to work with us in the future,  book online  and save time.
+
+Did you know we cover more than 20 different trades?  Click here for our full list of trades.
+
+Happy with the job done?
+
+Your satisfaction is our number one priority. If you have any feedback on how we can improve our service or want to share your experience, we appreciate it if you  leave a review.
+
+Unhappy with the works done? Please  share your concerns. We&#39;re here to help.
+
+For more information please read our  terms and conditions.
+
+Help made easy.
+
+© 2020 Aspect
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

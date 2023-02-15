@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- FP Selected Day --></label>
+        <name>FP_Selected_Day__c</name>
+        <picklistValues>
+            <masterLabel>Weekday</masterLabel>
+            <translation><!-- Weekday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekend</masterLabel>
+            <translation><!-- Weekend --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tech Man Supervison --></label>
+        <name>SA_Lead_Quality__c</name>
+        <picklistValues>
+            <masterLabel>Must Attend</masterLabel>
+            <translation><!-- Must Attend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Supervise</masterLabel>
+            <translation><!-- Remote Supervise --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

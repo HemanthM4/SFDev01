@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Workmanship --></label>
+        <name>Fixed_Price_Work_Sheet__c</name>
+        <picklistValues>
+            <masterLabel>Acceptable</masterLabel>
+            <translation><!-- Acceptable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Acceptable</masterLabel>
+            <translation><!-- Not Acceptable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

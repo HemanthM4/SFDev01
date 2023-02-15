@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OSA_Status__c</fullName>
+    <description>The Status of the associated Off Site Agreement record (if it has one)</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Off_Site_Agreement__r.Status__c)</formula>
+    <inlineHelpText>The Status of the associated Off Site Agreement record (if it has one)</inlineHelpText>
+    <label>OSA - Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

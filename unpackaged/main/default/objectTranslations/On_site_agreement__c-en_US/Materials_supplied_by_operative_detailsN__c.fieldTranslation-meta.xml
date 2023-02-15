@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Materials supplied by operative details --></label>
+        <name>Materials_supplied_by_operative_detailsN__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+Hello Team,
+
+A new online booking has been scheduled. Please make sure you re-assign this service appointment from the Online Booking Cover to an engineer:
+
+Service appointment number: {!ServiceAppointment.AppointmentNumber}
+Scheduled trade: {!ServiceAppointment.Scheduled_Trade__c}
+Worktype: {!ServiceAppointment.WorkType}
+Account number: {!ServiceAppointment.Account_Reference__c}
+Account name: {!ServiceAppointment.Account}
+Description:  {!ServiceAppointment.Description}
+Scheduled Date: {!ServiceAppointment.Scheduled_Date__c}
+Scheduled Arrival window: {!ServiceAppointment.Scheduled_Arrival_Window__c}
+
+Thanks
+Aspect.co.uk

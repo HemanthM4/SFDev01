@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pay Labour R1 --></label>
+        <name>Pay_Labour_R1__c</name>
+    </CustomFieldTranslation>

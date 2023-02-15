@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_email_when_Missed_Call_under_1_Min</fullName>
+        <ccEmails>welcometeam@aspect.co.uk</ccEmails>
+        <ccEmails>nick.bizley@aspect.co.uk</ccEmails>
+        <description>Send email when Missed_Call_under_1_Min</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>alex.bacon@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>alex.thompson@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ben.daldry@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jebarsan.mangalarajah@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>siva.mangalarajah@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Tasks/Missed_Call_under_1_Min</template>
+    </alerts>
+    <rules>
+        <fullName>Missed %2F Call under 1 Min</fullName>
+        <actions>
+            <name>Send_email_when_Missed_Call_under_1_Min</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Task.Interaction_Total_Acd_Time__c</field>
+            <operation>lessOrEqual</operation>
+            <value>75</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

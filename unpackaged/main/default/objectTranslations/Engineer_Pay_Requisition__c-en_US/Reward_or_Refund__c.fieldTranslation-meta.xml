@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reward or Refund --></label>
+        <name>Reward_or_Refund__c</name>
+        <picklistValues>
+            <masterLabel>Engineer Pay Refunds</masterLabel>
+            <translation><!-- Engineer Pay Refunds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Price Bonus</masterLabel>
+            <translation><!-- Fixed Price Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactive Referral Bonus</masterLabel>
+            <translation><!-- Reactive Referral Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TrustPilot Reviews</masterLabel>
+            <translation><!-- TrustPilot Reviews --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

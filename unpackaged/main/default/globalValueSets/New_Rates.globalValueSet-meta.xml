@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CB</fullName>
+        <default>false</default>
+        <label>CB</label>
+    </customValue>
+    <customValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+    </customValue>
+    <customValue>
+        <fullName>For Approval</fullName>
+        <default>false</default>
+        <label>For Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>New Rates</fullName>
+        <default>false</default>
+        <label>New Rates</label>
+    </customValue>
+    <customValue>
+        <fullName>Stuck</fullName>
+        <default>false</default>
+        <label>Stuck</label>
+    </customValue>
+    <masterLabel>New Rates</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_Duplicate_Job_for_Pending_Estimate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To Duplicate Job for Pending Estimate Journey with Offer</description>
+    <externalId>false</externalId>
+    <label>To Duplicate Job for Pending Estimate</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepted_Estimate_Way__c</fullName>
+    <externalId>false</externalId>
+    <label>Estimate Acceptance Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Via FSL App, No Discounts</fullName>
+                <default>false</default>
+                <label>Via FSL App, No Discounts</label>
+            </value>
+            <value>
+                <fullName>Via Office, Without Discounts</fullName>
+                <default>false</default>
+                <label>Via Office, Without Discounts</label>
+            </value>
+            <value>
+                <fullName>Via Office, With Discounts</fullName>
+                <default>false</default>
+                <label>Via Office, With Discounts</label>
+            </value>
+            <value>
+                <fullName>Via Journey With 10% Charge Labour</fullName>
+                <default>false</default>
+                <label>Via Journey With 10% Charge Labour</label>
+            </value>
+            <value>
+                <fullName>Via Journey, Reminder, No Discount</fullName>
+                <default>false</default>
+                <label>Via Journey, Reminder, No Discount</label>
+            </value>
+            <value>
+                <fullName>Via FSL App, With Discounts</fullName>
+                <default>false</default>
+                <label>Via FSL App, With Discounts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

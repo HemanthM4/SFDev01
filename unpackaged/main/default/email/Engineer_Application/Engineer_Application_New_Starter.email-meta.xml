@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template will be sent to provide Crystal Tax and our finance team with the new starters details</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Engineer Application New Starter</name>
+    <style>none</style>
+    <subject>New Starter Details</subject>
+    <textOnly>New Starter
+Information
+
+Hi everyone,
+
+Please find the details for our new operative today attached and below:
+
+Name: Name: {!Engineer_Application__c.First_Name__c} {!Engineer_Application__c.Last_Name__c}
+
+Trade: {!Engineer_Application__c.Primary_Trade__c}
+
+Address: {!Engineer_Application__c.Residential_Address__c}, {!Engineer_Application__c.Residential_Postcode__c} 
+
+Personal Number: {!Engineer_Application__c.Contact_Number__c}
+
+Personal Email: {!Engineer_Application__c.Email_Address__c}
+
+Aspect Number: {!Engineer_Application__c.Aspect_Phone_Number__c}
+
+Aspect Email: {!Engineer_Application__c.Aspect_Email__c}
+
+To access their documents, please search the applicant&#39;s number on Salesforce:  {!Engineer_Application__c.Name__c}
+
+Kind Regards,
+
+Aspect Resources Team
+
+
+Help made easy.
+
+© 2022 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

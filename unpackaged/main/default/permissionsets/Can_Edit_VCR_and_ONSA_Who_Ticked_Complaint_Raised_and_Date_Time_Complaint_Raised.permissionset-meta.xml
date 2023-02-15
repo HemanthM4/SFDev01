@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>On_site_agreement__c.Date_Time_Complaint_Raised_Ticked__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>On_site_agreement__c.Who_Ticked_Complaint_Raised__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_completion_report__c.Date_Time_Complaint_Raised_Ticked__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Visit_completion_report__c.Who_Ticked_Complaint_Raised__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Can Edit VCR and ONSA Who Ticked Complaint Raised and Date/Time Complaint Raised</label>
+    <license>Salesforce</license>
+</PermissionSet>

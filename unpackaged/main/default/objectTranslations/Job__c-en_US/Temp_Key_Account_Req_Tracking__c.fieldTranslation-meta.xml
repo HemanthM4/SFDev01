@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Temporary field created by Matthew Radoja to track jobs which have been processed by the &quot;retrospectively generate EPRs for completed Key account Jobs&quot; process. To be removed once auto process in place. --></help>
+        <label><!-- Temp Key Account Req Tracking --></label>
+        <name>Temp_Key_Account_Req_Tracking__c</name>
+    </CustomFieldTranslation>

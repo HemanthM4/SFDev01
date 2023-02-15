@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Off-site Agreement Scheduled Customer</name>
+    <style>none</style>
+    <subject>Visit confirmed {!Off_site_agreement__c.Name}</subject>
+    <textOnly>Works appointment confirmed
+
+contact us
+
+Hi {!Off_site_agreement__c.Customer_first_name__c},
+
+Excellent news! We have now scheduled a date and time to attend and carry out your estimated works.
+
+Our operative will aim to arrive within the scheduled arrival window and if we are rerunning behind schedule, we will keep you updated.
+
+If you wish to speak to us for any reason before, during or following the visit,  please get in touch straight away.
+
+Call reference number
+
+{!Off_site_agreement__c.Call_reference_number__c}
+
+Name
+
+{!Off_site_agreement__c.Customer_first_name__c} {!Off_site_agreement__c.Customer_last_name__c}
+
+Scheduled date
+
+{!Off_site_agreement__c.Scheduled_Date__c}
+
+What’s next?
+
+Now your appointment is scheduled, we expect for the operative to attend and complete the works satisfactorily. Following this, he or she will obtain your sign off, prior to taking payment for the remaining balance. If you have any concerns regarding the work, please raise these directly with the operative as soon as possible. If you feel that our support is required then please contact us. We are here to help.
+
+We will do everything in our power, to ensure we can meet your scheduled arrival window. However there may be instances where a specific operative becomes unavailable, or a supply chain lets us down with materials. If this is to occur, we will be in touch to agree on the most suitable course of action for you.
+
+At aspect we prepare as best we can, but ensure we are also available 24 hours a day, if you need our support in any way.  contact us here.
+
+How we charge for the job
+
+We’ve received a 50% deposit for the value of the works. Once the works are complete and you’re happy with the outcome, our operative will obtain your signature and the remaining balance will be taken form the last card you provided us with. If you want to amend your card details, simply  contact us here.
+
+Off-site agreements
+
+Off-site agreements are designed to take into account the investigation of the required works, trusted trade knowledge, trade accredited body requirements such as evidence and certification, and any registrations that we must undertake.
+
+In case the works take less or more time than calculated for, the charge to you will remain the same.
+
+In case of having to amend the scope of work, we’ll reach out to you to discuss any change in costs before proceeding. Examples of situations in which this may happen include uncovering structural or component damage, adjustments to your request or previously concealed findings such as a pre-existing leak under a floor. For more information, please read our  terms and conditions.
+
+Our cancellation policy
+
+If you want to cancel your booking, you may be charged a cancellation fee. For more information please read our  terms and conditions.
+
+Happy with the job done?
+
+Your satisfaction is our number one priority. If you’re unhappy with the works done or wish to speak to us for any reason before, during or following the visit,  please get in touch straight away.
+
+Help made easy.
+
+© 2020 Aspect
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

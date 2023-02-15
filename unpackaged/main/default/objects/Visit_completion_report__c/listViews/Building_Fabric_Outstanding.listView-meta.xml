@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Fabric_Outstanding</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Work_type__c</columns>
+    <columns>Siclops_Call_Ref__c</columns>
+    <columns>Operative_name__c</columns>
+    <columns>NAME</columns>
+    <columns>Outcome__c</columns>
+    <columns>Property_address_postcode__c</columns>
+    <columns>Customer_last_name__c</columns>
+    <columns>Fixed_total_charge_excl_VAT__c</columns>
+    <columns>Payment_Reconciled__c</columns>
+    <columns>Siclops_Stage_1__c</columns>
+    <columns>Credit_account_holder__c</columns>
+    <columns>Key_Account__c</columns>
+    <columns>Key_Account_Name__c</columns>
+    <columns>Customer_Prepared_To_Leave_Online_Review__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Outcome__c</field>
+        <operation>equals</operation>
+        <value>Outstanding</value>
+    </filters>
+    <filters>
+        <field>Work_type__c</field>
+        <operation>equals</operation>
+        <value>AC &amp; Refrigeration,Electrical,Gardening,Handyman,Multi Trade,Other,Roofing,Ventilation,Waste Removal,Windows &amp; Doors</value>
+    </filters>
+    <filters>
+        <field>Siclops_Stage_1__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Building Fabric - Outstanding</label>
+</ListView>

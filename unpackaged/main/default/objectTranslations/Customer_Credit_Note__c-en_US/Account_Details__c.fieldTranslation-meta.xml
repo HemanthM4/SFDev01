@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please choose the clients details for this field --></help>
+        <label><!-- Account Details --></label>
+        <name>Account_Details__c</name>
+        <relationshipLabel><!-- Customer Credit Notes --></relationshipLabel>
+    </CustomFieldTranslation>

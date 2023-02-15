@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is used to control which SRs are shown as options when running dispatcher using the &quot;For Scheduling&quot; scheduling policy. Set this field to TRUE to have this SR included. --></help>
+        <label><!-- For Scheduling Resource --></label>
+        <name>For_Scheduling_Resource__c</name>
+    </CustomFieldTranslation>

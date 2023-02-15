@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Arrival_Window__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(
+
+OR( ISBLANK( Arrival_Window_Start__c),ISBLANK( Arrival_Window_End__c )),
+
+
+
+&quot;&quot;
+
+,
+IF(
+
+HOUR(Arrival_Window_Start__c) &gt; 11,
+
+IF (HOUR(Arrival_Window_Start__c) = 12, &quot;12&quot;,
+TEXT( HOUR(Arrival_Window_Start__c) -12 ) )
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(Arrival_Window_Start__c)), 2,&quot;0&quot;)&amp; &quot; PM&quot;
+
+,
+
+TEXT( HOUR(Arrival_Window_Start__c) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(Arrival_Window_Start__c)), 2,&quot;0&quot;)&amp; &quot; AM&quot;
+
+)
+
+
+ &amp;&quot; - &quot; &amp;  
+
+IF(
+
+HOUR(Arrival_Window_End__c ) &gt; 11,
+
+IF (HOUR(Arrival_Window_End__c) = 12, &quot;12&quot;,
+TEXT( HOUR(Arrival_Window_End__c) -12 ) )
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(Arrival_Window_End__c )), 2,&quot;0&quot;)&amp; &quot; PM&quot;
+
+,
+
+TEXT( HOUR(Arrival_Window_End__c ) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(Arrival_Window_End__c )), 2,&quot;0&quot;)&amp; &quot; AM&quot;
+
+)
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Arrival Window</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

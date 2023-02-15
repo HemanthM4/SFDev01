@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>STANDARD USER - SERVICE APPOINTMENT Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Field Support Review --></label>
+            <section>Field Support Review</section>
+        </sections>
+        <sections>
+            <label><!-- Filed support supervision --></label>
+            <section>Filed support supervision</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Quality &amp; Booking Review --></label>
+            <section>Lead Quality &amp; Booking Review</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Office Log for Operatives --></label>
+            <section>Office Log for Operatives</section>
+        </sections>
+        <sections>
+            <label><!-- Pay --></label>
+            <section>Pay</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+        <sections>
+            <label><!-- Reschedule/Cancel --></label>
+            <section>Reschedule/Cancel</section>
+        </sections>
+        <sections>
+            <label><!-- Reviews --></label>
+            <section>Reviews</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Admin</layout>
+        <sections>
+            <label><!-- CCT --></label>
+            <section>CCT</section>
+        </sections>
+        <sections>
+            <label><!-- Client Info --></label>
+            <section>Client Info</section>
+        </sections>
+        <sections>
+            <label><!-- Communications --></label>
+            <section>Communications</section>
+        </sections>
+        <sections>
+            <label><!-- Dispatcher Console --></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label><!-- Field Support Review --></label>
+            <section>Field Support Review</section>
+        </sections>
+        <sections>
+            <label><!-- Filed support supervision --></label>
+            <section>Filed support supervision</section>
+        </sections>
+        <sections>
+            <label><!-- Office Log for Operatives --></label>
+            <section>Office Log for Operatives</section>
+        </sections>
+        <sections>
+            <label><!-- Reviews --></label>
+            <section>Reviews</section>
+        </sections>
+        <sections>
+            <label><!-- Time Constraints --></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- A Service Appointment cannot be Rescheduled when a Service Appointment is &apos;Dispatched&apos; --></errorMessage>
+        <name>Cannot_Reschedule_Once_Dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Cannot change this Service Appointment back to In Progress --></errorMessage>
+        <name>Cannot_Visit_Complete_to_in_Progress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can mark this field only if the status is  &apos;On site - Client not Present&apos; --></errorMessage>
+        <name>Client_not_present</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the Reason if Other was chosen for Cancellation Reason --></errorMessage>
+        <name>Other_Cancellation_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the Reason if Other was chosen for Reschedule Reason --></errorMessage>
+        <name>Other_Reschedule_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the Cancellation Reason and Enter a Time Stamp of Cancellation before changing the Status to Cancelled --></errorMessage>
+        <name>SA_Cancellation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the Cancellation Reason and Enter a Time Stamp of Cancellation before changing the Status to Cancelled --></errorMessage>
+        <name>SA_Reschedule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Collecting_Parts_Start_End_Time --></label>
+        <name>Collecting_Parts_Start_End_Time</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resend_Booking_Email --></label>
+        <name>Resend_Booking_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Status --></label>
+        <name>Update_Status</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Status_Test --></label>
+        <name>Update_Status_Test</name>
+    </webLinks>
+</CustomObjectTranslation>

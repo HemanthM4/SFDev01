@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Managers_Tasks_ONSA</fullName>
+    <columns>Field_Support__c</columns>
+    <columns>Field_Support_Type__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Raised_by_Engineer_Formula__c</columns>
+    <columns>Property_address_postcode__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Final_Payment_Required__c</columns>
+    <columns>Fixed_total_charge_excl_VAT__c</columns>
+    <columns>Work_type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Field_Support__c</field>
+        <operation>notEqual</operation>
+        <value>Not Required</value>
+    </filters>
+    <filters>
+        <field>Field_Support__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Field Managers Tasks - ONSA</label>
+</ListView>

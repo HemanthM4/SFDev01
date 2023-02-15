@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VCR Completed Operative</name>
+    <style>none</style>
+    <subject>Visit completed {!Visit_completion_report__c.Visit_Completion_Report_Number__c}</subject>
+    <textOnly>Visit
+completed
+
+contact us
+
+Hi {!Visit_completion_report__c.Operative_name__c},
+
+Congratulations!
+
+We’ve received the customer’s signature and final payment. Here’s an overview of the completed visit and your requisition.
+
+Order number
+
+{!Visit_completion_report__c.Visit_Completion_Report_Number__c}
+
+Operative
+
+{!Visit_completion_report__c.Operative_name__c}
+
+Customer
+
+{!Visit_completion_report__c.Customer_first_name__c} {!Visit_completion_report__c.Customer_last_name__c}
+
+Property address
+
+{!Visit_completion_report__c.Property_address_line_1__c} {!Visit_completion_report__c.Property_address_line_2__c} {!Visit_completion_report__c.Property_address_towncity__c} {!Visit_completion_report__c.Property_address_county__c} {!Visit_completion_report__c.Property_address_postcode__c}
+
+Trade
+
+{!Visit_completion_report__c.Tradesperson_1__c}
+
+Total hours of work completed
+
+{!Visit_completion_report__c.Total_hours_completed__c}
+
+Date
+
+{!Visit_completion_report__c.Date__c}
+
+Time slot(s)
+
+{!Visit_completion_report__c.Arrival_timeslot__c}
+{!Visit_completion_report__c.Second_timeslot__c}
+
+Job details
+
+{!Visit_completion_report__c.Description_of_works_carried_out__c}
+
+Further work required
+
+{!Visit_completion_report__c.Further_work_required__c}
+
+Operative labour pay (if applicable)
+
+{!Visit_completion_report__c.Labour_pay_O1_Capped__c}
+
+Operative fixed price service pay (if applicable)
+
+{!Visit_completion_report__c.Fixed_price_service_details__c}
+{!Visit_completion_report__c.Fixed_price_pay_O1_Capped__c}
+
+Operative supplied material pay (if applicable)
+
+{!Visit_completion_report__c.Material_pay_O1__c}
+
+Operative total pay
+
+{!Visit_completion_report__c.Total_pay_O1_Capped__c}
+
+Your signature
+
+
+Our working agreement
+
+Please note that your workmanship carries 12 months guarantee.
+
+If you have a question or need to get in touch for any reason,   please get in touch.
+
+Help made easy.
+
+
+
+
+
+
+© 2020 Aspect
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

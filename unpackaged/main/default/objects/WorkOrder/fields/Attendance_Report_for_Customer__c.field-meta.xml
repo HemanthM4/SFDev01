@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendance_Report_for_Customer__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Summary of all &quot;attendance reports&quot; for this Work Order.
+Attendance reports are recorded on each Service Appointment at the end of the attendance.</inlineHelpText>
+    <label>Attendance Report for Customer</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

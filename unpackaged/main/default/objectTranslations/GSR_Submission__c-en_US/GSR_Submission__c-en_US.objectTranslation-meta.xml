@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GSR Submission</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GSR Submission</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>GSR Submission Layout</layout>
+        <sections>
+            <label><!-- Approved CO Alarms --></label>
+            <section>Approved CO Alarms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- GSR Report Details --></label>
+            <section>GSR Report Details</section>
+        </sections>
+        <sections>
+            <label><!-- Gas Installation Pipework --></label>
+            <section>Gas Installation Pipework</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Re_Send_Email_to_Customer --></label>
+        <name>Re_Send_Email_to_Customer</name>
+    </webLinks>
+</CustomObjectTranslation>

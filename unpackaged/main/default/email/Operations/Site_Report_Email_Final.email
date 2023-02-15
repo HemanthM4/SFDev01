@@ -1,0 +1,297 @@
+<html>
+    <head>
+    </head>
+    <body style="margin:0;padding:0;background-color:#fff;background:#fff;">
+        <table width="100%" bgcolor="#eee" cellpadding="0" cellspacing="0" border="0" style="background-color:#fff;background:#fff;">
+            <tbody>
+                <tr>
+                    <td>
+                        <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto; background-color:#fff;background:#fff;">
+                            <tbody>
+								                               <tr>
+                                  <td colspan="2" valign="top" bgcolor="#F3E500" style="line-height: 45px"><table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#F3E500" >
+                                    <tbody>
+                                      <tr>
+                                        <td width="84">&nbsp;</td>
+                                        <td width="66" style="line-height: 30px">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td valign="top">&nbsp;</td>
+                                        <td><img border="0" alt="Aspect" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/email-templates/sf/assets/aspect-logo-vert.png"> </td>
+                                      </tr>
+                                      <tr>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                  <td colspan="2" bgcolor="#001871"><table width="450" border="0" cellspacing="0" cellpadding="0" bgcolor="#001871">
+                                    <tbody>
+                                      <tr>
+                                        <td width="38" style="line-height: 65px">&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td>&nbsp;</td>
+                                        <td width="412" align="left" bgcolor="#001871" style="font-family:arial,sans-serif;font-size:14px;font-weight:normal;text-transform:none;">
+									  <p style="font-size: 65px; color: #FFFFFF; font-weight:bold;text-transform:none; line-height: 70px;padding:0; margin:0">Your site<br/>report</p>
+									</td>
+                                      </tr>
+                                      <tr>
+                                        <td style="line-height: 35px">&nbsp;</td>
+                                        <td align="left" bgcolor="#001871" style="font-family:arial,sans-serif;font-weight:normal;text-transform:none;"><p style="font-size: 30px; color: #F3E500; font-weight:bold;text-transform:none; line-height: 35px;padding-top: 20px; padding-bottom: 0px; margin: 0">...including photos and<br/>
+                                        recommendations</p></td>
+                                      </tr>
+                                      <tr>
+                                        <td style="line-height: 35px">&nbsp;</td>
+                                        <td align="left" bgcolor="#001871">&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td>&nbsp;</td>
+                                        <td align="left" bgcolor="#001871"> <table width="219" cellpadding="0" cellspacing="0" border="0" align="left" style="margin:0 auto;">
+							                                                   <tr>
+							                                                      <td align="left" style="padding-top: 10px;">
+							                                                          <a href="{!WorkOrder.00N4G000006Ob67}" style="display:block;background-color:#FF00DF;text-align:center;border-radius:28px;font-family:arial,sans-serif;font-size:20px;font-weight:normal;color:#ffffff;line-height:20px;text-decoration:none;border-top:8px solid #FF00DF;border-bottom:8px solid #FF00DF;border-left:28px solid #FF00DF;border-right:28px solid #FF00DF; width: 160px"><span style="display:block;font-family:arial,sans-serif;">View report</span></a></td>
+							                                                   </tr> 
+                                  </table></td>
+                                      </tr>
+                                      <tr>
+                                        <td>&nbsp;</td>
+                                        <td style="line-height:45px">&nbsp;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                  </td>
+                </tr>
+                <tr>
+                    <td>
+                       <table cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E7E7" width="600" align="center" style="margin:0 auto;background-color:#ffffff;">
+                            <tbody>
+                                <tr>
+                                  <td bgcolor="#FFFFFF" width="55">&nbsp;</td>
+                                  <td bgcolor="#FFFFFF" style="line-height:25px;" width="490">&nbsp;</td>
+                                  <td bgcolor="#FFFFFF" width="55">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7" style="line-height:35px;">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7" width="490" style="font-family:arial,sans-serif;font-size:14px;color:#555559;line-height:20px;font-weight:normal;text-transform:none; ">
+                                        <p style="font-size:16px;color:#555559;line-height:22px;font-weight:normal;text-transform:none; padding-bottom: 15px; padding-left: 8px; margin-bottom: 15px">Following the site survey we carried out on {!WorkOrder.00N0N00000FEy7L}, we&rsquo;ve written up a detailed report for you to review.</p>
+                                    </td>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                                    <td bgcolor="#E7E7E7">
+										<table cellpadding="8" cellspacing="0" border="0" width="490" align="center" style="margin:0 auto">
+                                            <tbody>
+                                                <tr style="border-bottom-color:#8C8C8C; border-bottom-width: 1px; border-bottom-style: solid">
+                                                  <td width="183" valign="top" bgcolor="#ffffff" style="font-family:arial,sans-serif;font-size:16px;color:#555559;line-height:20px;font-weight:bold;text-transform:none; border-bottom-color:#E7E7E7; border-bottom-width:1px; border-bottom-style: solid">Your account number</td>
+                                                  <td width="275" bgcolor="#ffffff" style="font-family: arial,sans-serif; font-size: 16px; color: #555559; line-height: 20px; font-weight: normal; text-transform: none; text-align: right;border-bottom-color:#E7E7E7; border-bottom-width: 1px; border-bottom-style: solid">{!WorkOrder.Account_Number_Reference__c}</td>
+                                                </tr>
+                                                <tr style="border-bottom-color:#8C8C8C; border-bottom-width: 1px; border-bottom-style: solid">
+                                                  <td valign="top" bgcolor="#ffffff" style="font-family:arial,sans-serif;font-size:16px;color:#555559;line-height:20px;font-weight:bold;text-transform:none; border-bottom-color:#E7E7E7; border-bottom-width:1px; border-bottom-style: solid">Job number</td>
+                                                  <td bgcolor="#ffffff" style="font-family: arial,sans-serif; font-size: 16px; color: #555559; line-height: 20px; font-weight: normal; text-transform: none; text-align: right;border-bottom-color:#E7E7E7; border-bottom-width: 1px; border-bottom-style: solid">{!WorkOrder.WorkOrderNumber}</td>
+                                                </tr>
+												<tr>
+                                                  <td valign="top" bgcolor="#ffffff" style="font-family:arial,sans-serif;font-size:16px;color:#555559;line-height:20px;font-weight:bold;text-transform:none; border-bottom-color:#E7E7E7; border-bottom-width:1px; border-bottom-style: solid">Order number</td>
+                                                  <td bgcolor="#ffffff" style="font-family: arial,sans-serif; font-size: 16px; color: #555559; line-height: 20px; font-weight: normal; text-transform: none;text-align: right;border-bottom-color:#E7E7E7; border-bottom-width:1px; border-bottom-style: solid; text-align: right;">{!WorkOrder.00N4G000006Ob4I}</td>
+                                                </tr>
+                                                <tr>
+												  <td colspan="2" valign="top" bgcolor="#ffffff" style="font-family:arial,sans-serif;font-size:16px;color:#555559;line-height:20px;font-weight:normal;text-transform:none;"><p style="padding: 0; margin: 0"><strong>Job address</strong></p>
+													  <p style="padding: 0; margin: 0">{!WorkOrder.Address}</p></td>
+											  </tr>
+                                            </tbody>
+                                  </table></td>
+                                    <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                                    <td bgcolor="#E7E7E7" style="line-height:45px;">&nbsp;</td>
+                                    <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                                </tr>
+                            <tbody>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                      <table cellpadding="0" cellspacing="0" border="0" bgcolor="#0d60b5" width="600" align="center" style="margin:0 auto;background-color:#0d60b5">
+                            <tbody>
+                                <tr>
+                                    <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                                    <td width="490" bgcolor="#0d60b5" style="line-height:35px;">&nbsp;</td>
+                                    <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#0d60b5">&nbsp;</td>
+                                  <td bgcolor="#0d60b5" style="line-height:34px;"><table cellpadding="8" cellspacing="0" border="0" width="490" align="center" style="margin:0 auto">
+                                            <tbody>
+                                                <tr>
+                                                  <td bgcolor="#0d60b5" style="font-family:arial,sans-serif;color:#FFFFFF;line-height:26px;font-weight:normal;text-transform:none;">
+                                                  <p style="font-size: 16px; font-weight:bold;text-transform:none; padding: 4 0 4 0; margin: 4 0 4 0">To see your report, including photos and recommendations, just <a href="#" style="color:#FF00DF;text-decoration:none;">click here</a>.</p>
+                                                  <p style="font-size: 16px; font-weight:bold;text-transform:none; padding: 4 0 4 0; margin: 4 0 4 0">Any questions, please give us a call.</p>
+                                                  <p style="font-size: 16px; font-weight:bold;text-transform:none; padding: 4 0 4 0; margin: 4 0 4 0">Thanks for choosing Aspect.</p>
+													</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                  </table></td>
+                                  <td bgcolor="#0d60b5">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                                    <td bgcolor="#0d60b5" style="line-height:35px;">&nbsp;</td>
+                                    <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                                </tr>
+                            <tbody>
+                        </table>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                     <table cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E7E7" width="600" align="center" style="margin:0 auto;background-color:#E7E7E7">
+                            <tbody>
+                                <tr>
+                                    <td bgcolor="#E7E7E7" width="55">&nbsp;</td>
+                                    <td width="490" bgcolor="#E7E7E7" style="line-height:35px;">&nbsp;</td>
+                                    <td bgcolor="#E7E7E7" width="55">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#E7E7E7" width="55" style="font-size:1px;line-height:1px">&nbsp;</td> 
+                                    <td bgcolor="#E7E7E7" align="left" style="font-family:arial,sans-serif;font-size:12px;color:#8A8A8B;text-align:center;line-height:20px;font-weight:bold;text-transform:none; padding-left: 8px"><p style="font-size: 18px; color: #192F7F; line-height: 26px; font-weight: bold; text-transform: none; text-align: left;">Running your residential and<br/>commercial property maintenance</p>
+                                    </td>
+                                    <td bgcolor="#E7E7E7" width="55" style="font-size:1px;line-height:1px">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7" style="line-height:25px;">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7" style="line-height:45px;"><table width="490" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td width="150" align="center" valign="middle" bgcolor="#00AFFF"><table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#00AFFF">
+                                          <tbody>
+                                            <tr>
+                                              <td width="150" height="100" align="center" valign="middle" bgcolor="#00AFFF"><a href="tel:+442039440571"><img border="0" alt="Call us" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/email-templates/sf/assets/icon-tel-outlined.png"></a></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="40" align="center" valign="top" bgcolor="#00AFFF" style="font-family:arial,sans-serif;color:#FFFFFF;font-weight:normal;text-transform:none;"><p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; margin: 0"><a href="tel:+442039440571" style="color:#FFFFFF; text-decoration: none">020 3944 0571</a></p></td>
+                                            </tr>
+                                          </tbody>
+                                        </table></td>
+                                        <td width="20">&nbsp;</td>
+                                        <td width="150" align="center" valign="middle" bgcolor="#FF00DF"><table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#FF00DF">
+                                          <tbody>
+                                            <tr>
+                                              <td width="150" height="100" align="center" valign="middle" bgcolor="#FF00DF"><a href="mailto:enquiries@aspect.co.uk"><img border="0" alt="Email us" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/email-templates/sf/assets/icon-mail-outlined.png"></a></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="40" align="center" valign="top" bgcolor="#FF00DF" style="font-family:arial,sans-serif;color:#FFFFFF;font-weight:normal;text-transform:none;"><p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; margin: 0"><a href="mailto:enquiries@aspect.co.uk" style="color:#FFFFFF; text-decoration: none">email us</a></p></td>
+                                            </tr>
+                                          </tbody>
+                                        </table></td>
+                                        <td width="20">&nbsp;</td>
+                                        <td width="150" align="center" valign="middle" bgcolor="#001871"><table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#001871">
+                                          <tbody>
+                                            <tr>
+                                              <td width="150" height="100" align="center" valign="middle" bgcolor="#001871"><a href="https://www.aspect.co.uk"><img border="0" alt="Visit website" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/email-templates/sf/assets/icon-web-outlined.png"></a></td>
+                                            </tr>
+                                            <tr>
+                                              <td height="40" align="center" valign="top" bgcolor="#001871" style="font-family:arial,sans-serif;color:#FFFFFF;font-weight:normal;text-transform:none;"><p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; margin: 0"><a href="https://www.aspect.co.uk" style="color:#FFFFFF; text-decoration: none">aspect.co.uk</a></p></td>
+                                            </tr>
+                                          </tbody>
+                                        </table></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7" style="line-height:105px;">&nbsp;</td>
+                                  <td bgcolor="#E7E7E7">&nbsp;</td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto; padding: 0;">
+                            <tbody>
+                               
+                                <tr style="padding: 0; margin: 0">
+                                  <td colspan="3"  style="padding: 0; margin: 0;"><img border="0" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/email-templates/sf/assets/aspect-van.png" width="600" height="225" alt="Aspect Van"/></td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+				<tr>
+                    <td>
+                      <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto;background-color:#001871">
+                            <tbody>
+                               
+                                <tr>
+                                    <td bgcolor="#001871" width="55" style="font-size:1px;line-height:1px">&nbsp;</td>
+                                    <td width="504" bgcolor="#001871" style="font-family:arial,sans-serif;font-size:16px;color:#ffffff;line-height:24px;font-weight:normal;text-transform:none"><p>&copy; 2019 Aspect</p><p>Aspect Maintenance Services Limited, E7 Barwell Business Park,<br/>Leatherhead Road, Chessington, London, KT9 2NY</p>
+                                    </td>
+                                    <td bgcolor="#001871" width="41" style="font-size:1px;line-height:1px">&nbsp;</td> 
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#001871" width="55">&nbsp;</td>
+                                    <td bgcolor="#001871" style="line-height:30px;">&nbsp;</td>
+                                    <td bgcolor="#001871" width="41">&nbsp;</td>
+                                </tr>
+                                
+
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto;">
+                            <tbody>
+                                <tr>
+                                    <td width="40">&nbsp;</td>
+                                    <td style="line-height:4px;">&nbsp;</td>
+                                    <td width="40">&nbsp;</td>
+                                </tr>
+                                   <tr>
+                                    <td width="40">&nbsp;</td>
+                                    <td align="center" style="font-family:arial,sans-serif;font-size:11px;color:#8A8A8B;text-align:center;line-height:20px;font-weight:normal;text-transform:none"><p>If you don't wish to receive these types of emails, please <a href="#" style="color:#FF00DF;text-decoration:underline;">unsubscribe here</a></p></td>
+                                    <td  width="40">&nbsp;</td>
+                                </tr>
+                                   <tr>
+                                    <td width="40">&nbsp;</td>
+                                    <td style="line-height:24px;">&nbsp;</td>
+                                    <td width="40">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td style="line-height:40px;">&nbsp;</td></tr>
+            </tbody>
+        </table>
+    </body>
+</html>

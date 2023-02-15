@@ -1,0 +1,5 @@
+test
+
+{!ServiceAppointment.SchedStartTime}
+
+ServiceAppointment.Scheduled_Start_TEXT__c: {!ServiceAppointment.Scheduled_Start_TEXT__c}

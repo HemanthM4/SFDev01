@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deposit_paid_no_SA_Roofing_Multi</fullName>
+    <columns>CreatedBy</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>Name</columns>
+    <columns>Trade__c</columns>
+    <columns>WorkType</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>Feedback_Notes__c</columns>
+    <columns>WO_has_SA__c</columns>
+    <columns>Deposit_Invoice_Value__c</columns>
+    <columns>Deposit_Invoice_Balance_Outstanding__c</columns>
+    <columns>Requested_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>WO_has_SA__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Deposit_Invoice_Lookup__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Deposit_Invoice_Value__c</field>
+        <operation>greaterThan</operation>
+        <value>GBP 0</value>
+    </filters>
+    <filters>
+        <field>Deposit_Invoice_Balance_Outstanding__c</field>
+        <operation>lessOrEqual</operation>
+        <value>GBP 0</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Rejected,Complete</value>
+    </filters>
+    <filters>
+        <field>Trade_Group__c</field>
+        <operation>contains</operation>
+        <value>Roofing,Multi</value>
+    </filters>
+    <label>Deposit paid no SA Roofing+Multi</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

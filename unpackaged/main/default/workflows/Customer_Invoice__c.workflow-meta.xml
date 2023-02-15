@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Cancellation_Invoice_to_Customer</fullName>
+        <description>Cancellation Invoice to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Invoice_confirmation_Final</template>
+    </alerts>
+    <alerts>
+        <fullName>Customer_Payment_Confirmation_BACS_CASH_CHECK</fullName>
+        <description>Customer Payment Confirmation BACS_CASH_CHECK</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Customer_Payment_Confirmation_BACS_CASH_CHECK</template>
+    </alerts>
+    <alerts>
+        <fullName>Deposit_Invoice_Email_Alert</fullName>
+        <description>Deposit Invoice Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Invoicing/Deposit_Invoice_15_10</template>
+    </alerts>
+    <alerts>
+        <fullName>Deposit_Invoice_to_Customer</fullName>
+        <description>Deposit Invoice to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Invoice_confirmation_Final</template>
+    </alerts>
+    <alerts>
+        <fullName>Invoice_to_Customer</fullName>
+        <description>Invoice to Customer (REACTIVE)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Invoice_confirmation_Final</template>
+    </alerts>
+    <alerts>
+        <fullName>Invoice_to_Customer_FIXED_PRICE</fullName>
+        <description>Invoice to Customer (FIXED PRICE)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Invoice_confirmation_Final</template>
+    </alerts>
+    <alerts>
+        <fullName>Outstanding_Payment_Request_CI</fullName>
+        <description>Outstanding Payment Request (CI)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Outstanding_Payment_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>Outstanding_Payment_Request_Credit_Account</fullName>
+        <description>Outstanding Payment Request Credit Account</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Outstanding_Payment_Request_Credit_Account</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Invocie_sent_to_EXC</fullName>
+        <field>Exchequer_Export__c</field>
+        <literalValue>Sent</literalValue>
+        <name>Invocie sent to EXC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Customer_Invoice_Status_to_Sent</fullName>
+        <description>Update the Customer Invoice status to Sent when the record is sent to Exchequer</description>
+        <field>Status__c</field>
+        <literalValue>Sent</literalValue>
+        <name>Update Customer Invoice Status to Sent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>SalesInvoiceMsg</fullName>
+        <apiVersion>45.0</apiVersion>
+        <description>If a Customer Invoice (Sales Invoice) is at status ? then a new message is sent to an ESB</description>
+        <endpointUrl>http://194.107.251.220:1025/services/salesinvoice</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>exchequer.integration@aspect.co.uk</integrationUser>
+        <name>SalesInvoiceMsg</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>Customer Invoice to Exchequer</fullName>
+        <actions>
+            <name>Invocie_sent_to_EXC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>SalesInvoiceMsg</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Customer_Invoice__c.Exchequer_Export__c</field>
+            <operation>equals</operation>
+            <value>Ready to Send</value>
+        </criteriaItems>
+        <description>When Invoice field Exchequer_Export value is &quot;Ready to Send&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

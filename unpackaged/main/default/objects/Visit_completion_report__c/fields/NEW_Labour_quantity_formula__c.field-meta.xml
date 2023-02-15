@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEW_Labour_quantity_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( Hours_of_work_completed_timeslot_1__c ) ,&quot;&quot;, TEXT(Hours_of_work_completed_timeslot_1__c) &amp; &#39; hours &#39; &amp;BR() ) &amp;
+IF( ISBLANK( Hours_of_work_completed_timeslot_2__c ) ,&quot;&quot;, TEXT(Hours_of_work_completed_timeslot_2__c) &amp; &#39; hours &#39; &amp;BR() )&amp;
+IF( ISNULL( Fixed_price_charge__c ) ,&quot;&quot;, &#39; 1 &#39; &amp;BR() )</formula>
+    <label>NEW Labour quantity formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

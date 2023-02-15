@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Site</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Site</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>STANDARD USER - SITE Layout</layout>
+        <sections>
+            <label><!-- Contact Info --></label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Performance --></label>
+            <section>Performance</section>
+        </sections>
+        <sections>
+            <label><!-- Policy --></label>
+            <section>Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Site Details --></label>
+            <section>Site Details</section>
+        </sections>
+        <sections>
+            <label><!-- Site Requirements --></label>
+            <section>Site Requirements</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Site Layout</layout>
+        <sections>
+            <label><!-- Additional Site Information --></label>
+            <section>Additional Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Operating Hours --></label>
+            <section>Operating Hours</section>
+        </sections>
+        <sections>
+            <label><!-- Site Address --></label>
+            <section>Site Address</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Commercial --></label>
+        <name>Commercial</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Domestic --></label>
+        <name>Domestic</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sites for Supplier Accounts --></description>
+        <label><!-- Supplier --></label>
+        <name>Supplier</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Invalid Site Postal Code --></errorMessage>
+        <name>Check_Site_Postal_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Site Record Type. The Site record type should match the Account Record Type --></errorMessage>
+        <name>Check_Site_Record_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please give details on the Parking Available --></errorMessage>
+        <name>Parking_Details</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Site must always have a Primary Site Contact please. --></errorMessage>
+        <name>Site_must_have_Primary_Site_Contact</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Check_Region_Area --></label>
+        <name>Check_Region_Area</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Customer_Care_Case --></label>
+        <name>New_Customer_Care_Case</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Fixed_Price_Job --></label>
+        <name>New_Fixed_Price_Job</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Off_Site_Agreement --></label>
+        <name>New_Off_Site_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Reactive_Job --></label>
+        <name>New_Reactive_Job</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Work_Order --></label>
+        <name>New_Work_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Work_Order_with_Display --></label>
+        <name>New_Work_Order_with_Display</name>
+    </webLinks>
+</CustomObjectTranslation>

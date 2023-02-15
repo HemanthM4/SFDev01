@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>New_Record_Created_P2</name>
+        <label>New Record Created (P2)</label>
+        <locationX>248</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>Not_New_and_SR_Changed_P2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>New_Record_Created_P2_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_SA_and_Send_Operative_Email</targetReference>
+            </connector>
+            <label>New Record Created (P2) True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Not_New_and_SR_Changed_P2</name>
+        <label>Not New and SR Changed (P2)</label>
+        <locationX>446</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_New_and_SR_Changed_P2_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ServiceResourceId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.ServiceAppointment.Allocated_Engineer__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>PHASE_2_FL_Assigned_Resource</targetReference>
+            </connector>
+            <label>Not New and SR Changed (P2) True</label>
+        </rules>
+    </decisions>
+    <description>Custom MDT removed</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>isNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>PHASE 2 Assigned Resource Created or Edited Processes {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 Assigned Resource Created or Edited Processes</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>122</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>New_Record_Created_P2</targetReference>
+        </connector>
+        <object>AssignedResource</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>PHASE_2_FL_Assigned_Resource</name>
+        <label>PHASE 2 FL Assigned Resource</label>
+        <locationX>314</locationX>
+        <locationY>575</locationY>
+        <flowName>PHASE_2_FL_Assigned_Resource_record_created_update_SA_and_Send_Booking_confirm_e</flowName>
+        <inputAssignments>
+            <name>var_AssignedResourceID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>var_ISNEW</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <subflows>
+        <name>Update_SA_and_Send_Operative_Email</name>
+        <label>Update SA and Send Operative Email</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <flowName>PHASE_2_FL_Assigned_Resource_record_created_update_SA_and_Send_Booking_confirm_e</flowName>
+        <inputAssignments>
+            <name>var_AssignedResourceID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>var_ISNEW</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+</Flow>

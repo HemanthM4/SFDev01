@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Comms Control Invoice produced on completion of Job --></help>
+        <label><!-- Comms Control Invoice Job complete --></label>
+        <name>Comms_Control_Invoice_Job_complete__c</name>
+    </CustomFieldTranslation>

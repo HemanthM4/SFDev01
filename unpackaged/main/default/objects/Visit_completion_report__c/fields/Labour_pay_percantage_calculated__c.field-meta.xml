@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Labour_pay_percantage_calculated__c</fullName>
+    <externalId>false</externalId>
+    <formula>Labour_pay_O1__c / (Labour_charge_O1__c -  (Discount_offered__c  - IF(( NOT (ISBLANK(   Fixed_price_charge__c))) ,  Fixed_price_charge__c *   (VALUE( SUBSTITUTE( Discount__c , &quot;%&quot;, &quot;&quot;)  )/100) ,0 )) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Labour pay percantage (calculated)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

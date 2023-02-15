@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edit_WO_s_Line_Items</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Edit WO&#39;s / Line Items</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_Edit_Work_Order_Description_AND_WO_Line_Item_Description_System?var_JobID={!Job__c.Id}</url>
+</WebLink>

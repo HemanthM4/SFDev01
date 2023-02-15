@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Happy_Explanation__c</fullName>
+    <description>This is used for the Complaint Case Type to signify that the client is Happy with the Complaint Resolution</description>
+    <externalId>false</externalId>
+    <label>Client Happy Explanation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

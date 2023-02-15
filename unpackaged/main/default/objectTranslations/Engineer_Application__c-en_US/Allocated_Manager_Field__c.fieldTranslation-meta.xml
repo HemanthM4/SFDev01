@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Allocated Manager (Field) --></label>
+        <name>Allocated_Manager_Field__c</name>
+        <relationshipLabel><!-- Engineer Applications (Allocated Manager (Field)) --></relationshipLabel>
+    </CustomFieldTranslation>

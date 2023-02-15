@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Fabric_All</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Raised_by_Engineer_Formula__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Property_address_postcode__c</columns>
+    <columns>Customer_first_name__c</columns>
+    <columns>Customer_last_name__c</columns>
+    <columns>Fixed_total_charge_excl_VAT__c</columns>
+    <columns>Preferred_date__c</columns>
+    <columns>Work_type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Work_type__c</field>
+        <operation>contains</operation>
+        <value>Roofing,Windows &amp; Doors,OSA-Electrical,Electrical,Handyman,Multi Trade,Waste Removal,Gardening,Ventilation. Air Conditioning,AC Refrigeration</value>
+    </filters>
+    <label>Building Fabric - All</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total of Product Required of type &apos;Purchase Order&apos; on the related Work Order --></help>
+        <label><!-- Charge: Total PO Product Required --></label>
+        <name>Charge_Total_PO_Product_Required__c</name>
+    </CustomFieldTranslation>

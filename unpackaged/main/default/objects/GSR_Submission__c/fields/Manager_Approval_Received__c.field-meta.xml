@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_Approval_Received__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This will default to False and will be updated as soon as the GSR Submission record has been reviewed and approved.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this box once this record has been approved by the engineering manager.</inlineHelpText>
+    <label>Manager Approval Received</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

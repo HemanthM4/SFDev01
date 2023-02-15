@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charge_Material_Mark_up__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+Material_POs_Aspect__c + Material_POs_Engineer__c + Materials_Expenses_w_out_receipt__c + Materials_Expenses_with_receipt__c&lt;=Mark_Up_Band_2_Start__c	,
+Mark_Up_Band_1_Rate__c,
+IF(
+Material_POs_Aspect__c + Material_POs_Engineer__c + Materials_Expenses_w_out_receipt__c + Materials_Expenses_with_receipt__c &lt;=Mark_Up_Band_2_End__c,
+Mark_Up_Band_2_Rate__c, 
+Mark_Up_Band_3_Rate__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Charge Material Mark-up</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

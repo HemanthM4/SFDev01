@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Status of the Service Appointment with additional statuses for On site conversions/Estimates accepted/declined --></help>
+        <label><!-- Service Appointment Status --></label>
+        <name>Service_Appointment_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatched</masterLabel>
+            <translation><!-- Dispatched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Transit</masterLabel>
+            <translation><!-- In Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Closure</masterLabel>
+            <translation><!-- Job Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On site</masterLabel>
+            <translation><!-- On site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescheduled</masterLabel>
+            <translation><!-- Rescheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visit Complete</masterLabel>
+            <translation><!-- Visit Complete --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

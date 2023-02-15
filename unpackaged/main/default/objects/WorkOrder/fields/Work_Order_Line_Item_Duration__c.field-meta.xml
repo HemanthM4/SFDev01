@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Line_Item_Duration__c</fullName>
+    <description>This will be used for calculating the Rate of pay for the Fixed Cost Engineer Rate of Pay</description>
+    <externalId>false</externalId>
+    <label>Work Order Line Item Duration</label>
+    <summarizedField>WorkOrderLineItem.Duration</summarizedField>
+    <summaryForeignKey>WorkOrderLineItem.WorkOrderId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

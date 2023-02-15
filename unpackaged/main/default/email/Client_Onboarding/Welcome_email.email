@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="margin: 0; padding: 0; background-color:white;background: white;" lang="en">
+	<table align="center" cellpadding="0" cellspacing="0" style="margin:0 auto; background-color:white; background:white;" width="600">
+		<tbody>
+			<tr>
+				<td style="background-color: #F3E500; padding: 30px 0; padding-left: 87px;">
+					<div style="width: 63px; min-height: 120px;">
+						<img alt="aspect" height="120" src="https://www.aspect.co.uk/email-templates/sf/assets/aspect-logo-vert.png">
+					</div>
+				</td>
+				<td style="background-color: #001871; padding: 30px 0;">
+					<p style="font-size:40px; color:#FFFFFF; font-weight:bold; font-family:arial,sans-serif; width: 400px; margin: 0; margin-left: 50px;">
+						Welcome to <br>Aspect
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table align="center" cellpadding="0" cellspacing="0" width="600" align="center" style="margin:0 auto;background-color:#FAFAFA; color:#555559; padding: 35px 41px;font-family:arial,sans-serif; font-size:12px; color:#555559; line-height:20px; font-weight:normal; text-transform:none;">
+		<tbody>
+			<tr style="padding: 5px 10px;">
+				<td width="490" style="padding: 5px 10px;">
+					<p>Hi {!Account.Name},</p>
+					<p>
+						Thank you for choosing Aspect. Your account is now set up and ready.<br>
+						In this email, you’ll find the details of our company and provided trades. 
+					</p>
+				</td>
+			</tr>
+			<tr style="padding: 5px 10px;">
+                <td width="480">
+                    <p style="padding: 5px 10px;">
+                        <strong>Account Name:</strong> {!Account.Name}<br>
+                        <strong>Account number:</strong> {!Account.Account_Reference__c}
+                    </p>
+                </td>
+            </tr>
+			<tr style="padding: 5px 10px;">
+				<td width="480">
+					<p style="padding: 5px 10px;">
+						<strong> Aspect is a property maintenance company with a difference.</strong> So, you can expect as an Aspect customer:<br><br>
+                        <a href="https://www.aspect.co.uk/trades/" style="text-decoration:none; font-weight:normal; color:#001871"> *All the trades you’ll ever need under one roof</a><br>
+                        <a href="https://www.aspect.co.uk/about-us/" style="text-decoration:none; font-weight:normal; color:#001871"> *24/7 emergency help, just a click or call away</a><br>
+                        <a href="https://www.aspect.co.uk/pricing/" style="text-decoration:none; font-weight:normal; color:#001871"> *Clear pricing with no hidden extras</a><br> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="490">
+					<table cellpadding="0" cellspacing="10" align="center" style="margin:0 auto;">
+						<tbody>
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="10" align="center" style="margin:0 auto">
+										<tbody>
+											<tr>
+												<td width="80" height="80" align="center" valign="center" bgcolor="#001871" style="border:2px; padding:10px; border-radius:90px">
+													<a href="{!Account.Contact_Via_Email_URL__c}"><img width="35" height="35" alt="support_white" src="https://www.aspect.co.uk/email-templates/sf/assets/support_white.png"></a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<a href="{!Account.Book_Online_URL__c}">
+										<table cellpadding="0" cellspacing="10" align="centre" style="margin:0 auto">
+											<tbody>
+												<tr>
+													<td width="80" height="80" align="center" valign="center" bgcolor="#001871" style="border:2px; padding:10px; border-radius:90px">
+														<img width="35" height="35" alt="book_online_white" src="https://www.aspect.co.uk/email-templates/sf/assets/book_online_white.png">
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</a>
+								</td>
+							</tr>
+
+							<tr style="border-bottom: 0.5px solid #001871;">
+								<td width="150" style="vertical-align:bottom;border:none">
+									<p style="text-align:center;margin-bottom:5px;padding:0;">
+										<a href="{!Account.Contact_Via_Email_URL__c}" style="text-decoration:none; font-weight:normal; color:#555559; font-family:arial,sans-serif;"> <strong>LOG A QUERY</strong></a>
+									</p>
+								</td>
+								<td width="150" style="vertical-align:bottom;border:none">
+									<p style="text-align:center;margin-bottom:5px;padding:0;">
+										<a href="{!Account.Book_Online_URL__c}" style="text-decoration:none; font-weight:normal; color:#555559; font-family:arial,sans-serif;"> <strong>BOOK ONLINE</strong></a>
+									</p>
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<table align="center" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;background-color:#E7E7E7">
+        <tbody>
+            <tr> 
+                <td width="490" style="background-color: #E7E7E7;font-family:arial,sans-serif; font-size:12px; color:#001871; line-height:20px; font-weight:normal; text-transform:none; padding: 40px 55px;"> 
+                    <p>
+						Alternatively you can call in to make bookings or raise a case using the telephone on -  020 3930 1538. When booking a job with us telephonically, please provide us with your account number. 
+					</p>
+					<p> 
+                        From emergency repairs to large scale refurbishment work and everything in between, we're here to help. If you have any questions about your order please get in touch or take a look at our full list of 
+                        <a href="https://www.aspect.co.uk/trades/" style="text-decoration:none; font-weight:normal; color:#FF00DF"> trades</a>. 
+                    </p>
+                    <p style="font-size:18px; font-weight:bold;">Help made easy.</p> 
+                </td> 
+            </tr> 
+        </tbody> 
+    </table> 
+	<table align="center" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;width: 600px; max-width: 600px; background-color: #001871; font-family:arial,sans-serif;font-size:12px;color:white; font-weight:normal;text-transform:none;">
+		<tbody>
+			<tr>
+				<td style="width:55px;"></td>
+				<td style="position: relative; width: 490;">
+					<div style="display: block; margin-left: 218px; top: -60px; position: relative; height: 20px;">
+						<img src="https://www.aspect.co.uk/wp-content/themes/aspect/static/img/van-aspect@2x.png" width="272" alt="Aspect Van"/>
+					</div>
+					<p style="width: 490px; margin-top: 60px;">
+						&copy; 2022 Aspect<br><br>
+						<a href="https://www.aspect.co.uk" style="text-decoration:none; font-weight:normal; color:white">www.aspect.co.uk</a><br><br>
+						Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY<br><br>
+					</p>
+					<table cellpadding="0" cellspacing="0" style="margin-bottom: 60px;">
+						<tbody>
+							<tr>
+								<td  align="left" valign="center" style="padding-right: 10px;" ><a href="https://www.facebook.com/aspect.co.uk"><img width="35" height="35" border="0" alt="facebook_white" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/wp-content/uploads/2021/10/social-icon-facebook.png"></a></td>
+								<td  align="left" valign="center" style="padding-right: 10px;" ><a href="https://www.instagram.com/aspect_maintenance/"><img width="35" height="35" border="0" alt="instagram_white" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/wp-content/uploads/2021/10/social-icon-insta.png"></a></td>
+								<td  align="left" valign="center" ><a href="https://twitter.com/aspect_m"><img width="35" height="35" border="0" alt="twitter_white" style="display:block;border:none;outline:none;text-decoration:none" src="https://www.aspect.co.uk/wp-content/uploads/2021/10/social-icon-twitter.png"></a></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td style="width:55px;"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

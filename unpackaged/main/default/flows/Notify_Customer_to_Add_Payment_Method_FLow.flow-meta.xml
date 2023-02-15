@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email_customer_to_add_payment_type</name>
+        <label>Email customer to add payment type</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <actionName>asp04__Authorisation__c.Notify_customer_to_add_payment_method</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Process_SA_and_AR</name>
+        <label>Process SA and AR</label>
+        <locationX>314</locationX>
+        <locationY>575</locationY>
+        <actionName>ProcessInforceAuthorizations</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>authinforceId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Create_SA_and_Assign_AR</name>
+        <label>Create SA and Assign AR</label>
+        <locationX>446</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Create_SA_and_Assign_AR_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Online_Booking__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.asp04__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>In Force</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Process_SA_and_AR</targetReference>
+            </connector>
+            <label>Create SA and Assign AR True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Send_Email_when_Authorization_is_created_from_Online_Booking</name>
+        <label>Send Email when Authorization is created from Online Booking</label>
+        <locationX>248</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>Create_SA_and_Assign_AR</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Send_Email_when_Authorization_is_created_from_Online_Booking_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Send_Email__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_customer_to_add_payment_type</targetReference>
+            </connector>
+            <label>Send Email when Authorization is created from Online Booking True</label>
+        </rules>
+    </decisions>
+    <description>Notify the customer to add a valid payment method to confirm the booking</description>
+    <environments>Default</environments>
+    <interviewLabel>Notify Customer to Add Payment Method {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Notify Customer to Add Payment Method</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>122</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Send_Email_when_Authorization_is_created_from_Online_Booking</targetReference>
+        </connector>
+        <object>asp04__Authorisation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

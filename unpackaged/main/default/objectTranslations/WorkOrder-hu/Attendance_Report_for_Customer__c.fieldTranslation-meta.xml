@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Summary of all &quot;attendance reports&quot; for this Work Order.
+Attendance reports are recorded on each Service Appointment at the end of the attendance. --></help>
+        <label><!-- Attendance Report for Customer --></label>
+        <name>Attendance_Report_for_Customer__c</name>
+    </CustomFieldTranslation>

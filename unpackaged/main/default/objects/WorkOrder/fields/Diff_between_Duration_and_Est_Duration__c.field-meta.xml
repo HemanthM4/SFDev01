@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diff_between_Duration_and_Est_Duration__c</fullName>
+    <description>IF
+(
+OR(ISBLANK(Estimated_Duration_Amended_by_Operative__c)=TRUE,Estimated_Duration_Amended_by_Operative__c=NULL),0,(Estimated_Duration_Amended_by_Operative__c-Duration)/Duration
+)</description>
+    <externalId>false</externalId>
+    <formula>/*IF(Estimated_Duration_Amended_by_Operative__c&lt;0,1,0.1)*/
+
+
+
+/*IF(ISBLANK(Estimated_Duration_Amended_by_Operative__c)=TRUE,1,0.1)*/
+
+/*IF(Estimated_Duration_Amended_by_Operative__c=NULL,1,0.5)*/
+
+IF
+(
+OR(ISBLANK(Estimated_Duration_Amended_by_Operative__c)=TRUE,Estimated_Duration_Amended_by_Operative__c=NULL,Estimated_Duration_Amended_by_Operative__c=0,Estimated_Duration_Amended_by_Operative__c&lt;0),0,(Estimated_Duration_Amended_by_Operative__c-Duration)/Duration
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>% Diff between Duration and Est Duration</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

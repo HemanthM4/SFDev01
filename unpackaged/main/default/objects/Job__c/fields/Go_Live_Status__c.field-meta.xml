@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Go_Live_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Go Live Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>P2 Complete</fullName>
+                <default>false</default>
+                <label>P2 Complete</label>
+            </value>
+            <value>
+                <fullName>P2 - In Siclops</fullName>
+                <default>false</default>
+                <label>P2 - In Siclops</label>
+            </value>
+            <value>
+                <fullName>P1</fullName>
+                <default>false</default>
+                <label>P1</label>
+            </value>
+            <value>
+                <fullName>Online Booking - In Siclops</fullName>
+                <default>false</default>
+                <label>Online Booking - In Siclops</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

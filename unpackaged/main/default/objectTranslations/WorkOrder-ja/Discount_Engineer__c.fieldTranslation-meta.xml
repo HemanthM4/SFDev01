@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The % discount given by the Engineer (if applicable) --></help>
+        <label><!-- Discount Engineer --></label>
+        <name>Discount_Engineer__c</name>
+    </CustomFieldTranslation>

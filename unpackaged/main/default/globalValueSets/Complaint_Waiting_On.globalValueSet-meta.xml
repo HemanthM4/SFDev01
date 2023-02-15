@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chris Savacker</fullName>
+        <default>false</default>
+        <label>Chris Savacker</label>
+    </customValue>
+    <customValue>
+        <fullName>Damian David</fullName>
+        <default>false</default>
+        <label>Damian David</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineer</fullName>
+        <default>false</default>
+        <label>Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Jess Coats</fullName>
+        <default>false</default>
+        <label>Jess Coats</label>
+    </customValue>
+    <customValue>
+        <fullName>Lee Merryweather</fullName>
+        <default>false</default>
+        <label>Lee Merryweather</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Complaint Waiting On</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

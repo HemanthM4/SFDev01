@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Section --></label>
+        <name>Section__c</name>
+        <picklistValues>
+            <masterLabel>Bank Statement</masterLabel>
+            <translation><!-- Bank Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver&#39;s License</masterLabel>
+            <translation><!-- Driver&apos;s License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport or European ID</masterLabel>
+            <translation><!-- Passport or European ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof of address</masterLabel>
+            <translation><!-- Proof of address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualifications</masterLabel>
+            <translation><!-- Qualifications --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

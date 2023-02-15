@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deposit_Payment_Request_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+&quot;/forms/pay-deposit/?id=&quot;&amp;  Account__r.Id  &amp;
+&quot;&amp;ema=&quot;&amp;  Account__r.Invoicing_Email_Address__c  &amp;
+&quot;&amp;aut=&quot;&amp; Authorisation__c &amp;
+&quot;&amp;job=&quot;&amp; Name &amp;
+&quot;&amp;jid=&quot;&amp; Id &amp;
+&quot;&amp;acc=&quot;&amp; Account__r.Account_Reference__c &amp;
+&quot;&amp;nam=&quot;&amp;SUBSTITUTE( Account__r.Name , &quot; &quot;, &quot;%20&quot;)&amp;
+&quot;&amp;im=&quot; &amp; IF(Is_Work_Commencing_Immediately__c, &quot;True&quot;, &quot;False&quot;) &amp;
+
+&quot;&amp;t=&quot;&amp;
+if( ISPICKVAL(Status__c,&quot;Approved by Client&quot;),&quot;1&quot;,&quot;0&quot;)
+&amp;
+ 
+
+&quot;&amp;date=&quot;&amp; TEXT(Earliest_Work_Order_by_Requested_Date__r.Requested_Date__c ) &amp;
+
+
+&quot;&amp;time=&quot;&amp; TEXT( HOUR(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_Start__c) )&amp;&quot;:&quot;&amp;LPAD(TEXT( MINUTE(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_Start__c)), 2,&quot;0&quot;)&amp; 
+
+&quot;%20-%20&quot; 
+&amp;
+
+
+TEXT( HOUR(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_End__c ) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_End__c )), 2,&quot;0&quot;)&amp; 
+
+
+
+
+&quot;&amp;wo=&quot;&amp;Earliest_Work_Order_by_Requested_Date__c&amp;
+
+
+
+&quot;&amp;l4d=&quot;&amp; RIGHT( Authorisation__r.asp04__Account_Reference__c  , 4) &amp;
+&quot;&amp;f1=&quot;&amp; TEXT(MOD( FLOOR(Card_on_Record_Start__c ),8)) &amp;
+&quot;&amp;f2=&quot;&amp; TEXT(MOD( FLOOR(Card_on_Record_Start__c /8),8)) &amp;
+&quot;&amp;f3=&quot;&amp; TEXT(MOD( FLOOR(Card_on_Record_Start__c /(8*8)),8)) &amp;
+&quot;&amp;f4=&quot;&amp; TEXT(MOD( FLOOR(Card_on_Record_Start__c /(8*8*8)),8)) &amp;
+&quot;&amp;f5=&quot;&amp; TEXT(MOD( FLOOR(Card_on_Record_Start__c /(8*8*8*8)),8)) &amp;
+
+&quot;&amp;a=&quot;&amp; TEXT(MOD( FLOOR(Charge_Deposit__c),8)) &amp;
+&quot;&amp;b=&quot;&amp; TEXT(MOD( FLOOR(Charge_Deposit__c/(8)),8)) &amp;
+&quot;&amp;c=&quot;&amp; TEXT(MOD( FLOOR(Charge_Deposit__c/(8*8)),8)) &amp;
+&quot;&amp;d=&quot;&amp; TEXT(MOD( FLOOR(Charge_Deposit__c/(8*8*8)),8)) &amp;
+&quot;&amp;e=&quot;&amp; TEXT(MOD( FLOOR(Charge_Deposit__c/(8*8*8*8)),8)) &amp;
+&quot;&amp;f=&quot;&amp; TEXT(MOD( FLOOR(Charge_Deposit__c/(8*8*8*8*8)),8)) &amp;
+
+&quot;&amp;x=&quot;&amp; TEXT(MOD( MOD(Charge_Deposit__c ,1)*100,8)) &amp;
+&quot;&amp;y=&quot;&amp; TEXT(MOD( FLOOR(MOD(Charge_Deposit__c ,1)*100/8),8)) &amp;
+&quot;&amp;z=&quot;&amp; TEXT(MOD( FLOOR(MOD(Charge_Deposit__c ,1)*100/(8*8)),8))</formula>
+    <label>Deposit Payment Request URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

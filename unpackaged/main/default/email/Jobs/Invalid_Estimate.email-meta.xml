@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Invalid Estimate</name>
+    <style>none</style>
+    <subject>We cancelled your estimate for {!Job__c.Name}</subject>
+    <textOnly>Estimate
+cancelled
+
+Hi {!Job__c.Customer_First_Name__c},
+
+Your estimate has been cancelled. Please  get in touch if you require support or have a question.
+
+Job number: {!Job__c.Name}
+Account number: {!Job__c.Account_Reference__c}
+
+PROPERTY ADDRESS
+
+ORDER DETAILS
+
+{!Job__c.Property_Address__c}
+
+Date:{!Job__c.Earliest_Work_Order_Requested_Date__c}
+Arrival:{!Job__c.Earliest_Work_Order_Arrival_Window__c}
+Hours estimated: {!Job__c.Job_Duration__c}
+
+ITEM
+
+SUBTOTAL
+
+Subtotal Charge
+
+{!Job__c.Charge_Net__c}
+
+VAT
+
+{!Job__c.Charge_VAT__c}
+
+Total Charge
+
+{!Job__c.Charge_Gross__c}
+
+Deposit
+
+{!Job__c.Charge_Deposit__c}
+
+JOB DESCRIPTION
+
+{!Job__c.Combined_Scope_of_Works_for_All_WOs__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+HOW WE CHARGE
+
+Our estimates are designed to take into account the investigation of the required works, trusted trade knowledge, trade accredited body requirements such as evidence and certification, and any registrations that we must undertake. 						In case the works take less or more time than calculated for, the charge to you will remain the same. 						In case of having to amend the scope of work, we’ll reach out to you to discuss any change in costs before proceeding. Examples of situations in which this may happen include uncovering structural or component damage, adjustments to your request or previously concealed findings such as a pre-existing leak under a floor. 						For more information read our terms and conditions.
+
+OUR CANCELLATION POLICY
+
+If you want to cancel your booking once we’ve allocated a tradesperson, you may be charged a cancellation fee. 						For more information please check our cancellation policy.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2022 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

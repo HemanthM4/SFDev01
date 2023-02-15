@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Outcome --></label>
+        <name>Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Lead - Booked - Estimate</masterLabel>
+            <translation><!-- Lead - Booked - Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead - Booked - Reactive</masterLabel>
+            <translation><!-- Lead - Booked - Reactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead - Pending</masterLabel>
+            <translation><!-- Lead - Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Booked - Bad line</masterLabel>
+            <translation><!-- Not Booked - Bad line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Booked - Card Details</masterLabel>
+            <translation><!-- Not Booked - Card Details --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Booked - Cost</masterLabel>
+            <translation><!-- Not Booked - Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Booked - Out of area</masterLabel>
+            <translation><!-- Not Booked - Out of area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Booked - Response time</masterLabel>
+            <translation><!-- Not Booked - Response time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Booked - Service type</masterLabel>
+            <translation><!-- Not Booked - Service type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Resolved</masterLabel>
+            <translation><!-- Not Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Number</masterLabel>
+            <translation><!-- Wrong Number --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

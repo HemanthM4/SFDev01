@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reschedule Reason --></label>
+        <name>Reschedule_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Aspect unable to meet required time</masterLabel>
+            <translation><!-- Aspect unable to meet required time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Request</masterLabel>
+            <translation><!-- Client Request --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

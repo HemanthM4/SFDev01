@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Contact_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Key Contact Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Estate Agent</fullName>
+                <default>false</default>
+                <label>Estate Agent</label>
+            </value>
+            <value>
+                <fullName>Business Management</fullName>
+                <default>false</default>
+                <label>Business Management</label>
+            </value>
+            <value>
+                <fullName>Tenant</fullName>
+                <default>false</default>
+                <label>Tenant</label>
+            </value>
+            <value>
+                <fullName>Property Management</fullName>
+                <default>false</default>
+                <label>Property Management</label>
+            </value>
+            <value>
+                <fullName>House Staff</fullName>
+                <default>false</default>
+                <label>House Staff</label>
+            </value>
+            <value>
+                <fullName>Neighbour</fullName>
+                <default>false</default>
+                <label>Neighbour</label>
+            </value>
+            <value>
+                <fullName>Relative</fullName>
+                <default>false</default>
+                <label>Relative</label>
+            </value>
+            <value>
+                <fullName>Key Access (No on site contact)</fullName>
+                <default>false</default>
+                <label>Key Access (No on site contact)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Roll up - sum of &quot;Gross charge&quot; for all related Customer Invoices. --></help>
+        <label><!-- Invoice Gross --></label>
+        <name>Invoice_Gross__c</name>
+    </CustomFieldTranslation>

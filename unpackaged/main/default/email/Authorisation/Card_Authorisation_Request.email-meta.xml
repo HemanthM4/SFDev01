@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Card Authorisation Request</name>
+    <style>none</style>
+    <subject>Complete your booking</subject>
+    <textOnly>Complete
+your booking
+
+Hi {!asp04__Authorisation__c.asp04__First_Name__c},
+
+We currently don’t have a valid payment method on file for your account which means we can’t confirm your booking yet. Don’t worry, we will only use your card to validate the booking. Payment will only be taken upon completion of the job, at which point you also have the option to use alternative payment methods.
+
+To complete your booking, please add your card details here: {!asp04__Authorisation__c.asp04__eCommerce_URL__c}.
+
+You will receive a separate email with a booking confirmation.
+
+Aspect
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch 						or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

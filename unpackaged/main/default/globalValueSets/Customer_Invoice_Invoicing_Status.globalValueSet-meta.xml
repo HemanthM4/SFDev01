@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Deposit</fullName>
+        <default>false</default>
+        <label>Deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>Stage Invoice</fullName>
+        <default>false</default>
+        <label>Stage Invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>Final Payment</fullName>
+        <default>false</default>
+        <label>Final Payment</label>
+    </customValue>
+    <masterLabel>Customer Invoice Invoicing Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

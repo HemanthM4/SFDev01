@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Amended Estimated Duration figure entered by the Operative (will be same as Work Type Duration if not amended) --></help>
+        <label><!-- Estimated Duration Amended by Operative --></label>
+        <name>Estimated_Duration_Amended_by_Operative__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Override Manager Choice --></label>
+        <name>Override_Manager_Choice__c</name>
+        <picklistValues>
+            <masterLabel>Select overriding rate for all units</masterLabel>
+            <translation><!-- Select overriding rate for all units --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify minimum units at selected rate</masterLabel>
+            <translation><!-- Specify minimum units at selected rate --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

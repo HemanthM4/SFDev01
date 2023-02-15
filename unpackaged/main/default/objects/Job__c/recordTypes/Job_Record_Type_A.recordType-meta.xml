@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Record_Type_A</fullName>
+    <active>false</active>
+    <compactLayoutAssignment>Job_Compact_Layout</compactLayoutAssignment>
+    <label>Job Record Type A</label>
+    <picklistValues>
+        <picklist>Accepted_Estimate_Way__c</picklist>
+        <values>
+            <fullName>Via FSL App%2C No Discounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Journey With 10%25 Charge Labour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Journey%2C Reminder%2C No Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Office%2C With Discounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Office%2C Without Discounts</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Charge_Policy__c</picklist>
+        <values>
+            <fullName>%C2%A360 Estimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chargeable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOC Estimate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Contact__c</picklist>
+        <values>
+            <fullName>Awaiting Info to Proceed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Considering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left VM%2FEmail</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too Expensive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FP_Requisition_Check__c</picklist>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Final_WO_Is_the_Customer_Satisfied__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Live_Status__c</picklist>
+        <values>
+            <fullName>Online Booking - In Siclops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P2 - In Siclops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P2 Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Go_Live_check__c</picklist>
+        <values>
+            <fullName>Blank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chumley to fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ops to fix</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Price_Point__c</picklist>
+        <values>
+            <fullName>Acceptable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Unacceptable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Managed__c</picklist>
+        <values>
+            <fullName>Not Project Managed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Project Managed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scope_of_Work__c</picklist>
+        <values>
+            <fullName>Acceptable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Unacceptable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specifications_Mats_suppliers__c</picklist>
+        <values>
+            <fullName>Acceptable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Unacceptable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Ongoing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

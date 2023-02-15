@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Policy Agreement --></label>
+        <name>Policy_Agreement__c</name>
+        <picklistValues>
+            <masterLabel>IT Issue</masterLabel>
+            <translation><!-- IT Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing</masterLabel>
+            <translation><!-- Missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Leave</masterLabel>
+            <translation><!-- On Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Isolating</masterLabel>
+            <translation><!-- Self-Isolating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation><!-- Signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Challow</masterLabel>
+            <translation><!-- With Challow --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

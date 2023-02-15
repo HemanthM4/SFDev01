@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Status_User_Profile_Paid</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+TEXT(Status__c)=&#39;Paid&#39;,
+$Profile.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.System_Administrator.X15_Char_Profile_ID__c
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Only Users with a Profile of System Administrator can set an Engineer Deduction to a Status of &#39;Paid&#39;.</errorMessage>
+</ValidationRule>

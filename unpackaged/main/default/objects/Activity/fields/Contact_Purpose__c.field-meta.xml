@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Purpose</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_of_Call__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Booking Request</fullName>
+                <default>false</default>
+                <label>Booking Opportunity</label>
+            </value>
+            <value>
+                <fullName>Arrival Time Update</fullName>
+                <default>false</default>
+                <label>Arrival Time Update</label>
+            </value>
+            <value>
+                <fullName>Engineer</fullName>
+                <default>false</default>
+                <label>Engineer</label>
+            </value>
+            <value>
+                <fullName>Discuss On going or follow-on work</fullName>
+                <default>false</default>
+                <label>Discuss On going or follow-on work</label>
+            </value>
+            <value>
+                <fullName>Change details of a booking</fullName>
+                <default>false</default>
+                <label>Change details of a booking</label>
+            </value>
+            <value>
+                <fullName>Cancel a booking</fullName>
+                <default>false</default>
+                <label>Cancel a booking</label>
+            </value>
+            <value>
+                <fullName>Issue with work carried out</fullName>
+                <default>false</default>
+                <label>Issue with work carried out</label>
+            </value>
+            <value>
+                <fullName>Billing or payment query</fullName>
+                <default>false</default>
+                <label>Billing or payment query</label>
+            </value>
+            <value>
+                <fullName>Resources / Fleet</fullName>
+                <default>false</default>
+                <label>Resources / Fleet</label>
+            </value>
+            <value>
+                <fullName>Engineer - Job / Shift related</fullName>
+                <default>false</default>
+                <label>Engineer - Job / Shift related</label>
+            </value>
+            <value>
+                <fullName>Sales &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Sales &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Work for Aspect</fullName>
+                <default>false</default>
+                <label>Work for Aspect</label>
+            </value>
+            <value>
+                <fullName>Genral Public reporting aspect</fullName>
+                <default>false</default>
+                <label>Genral Public reporting aspect</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+                <label>Wrong Number</label>
+            </value>
+            <value>
+                <fullName>Booking Request - Existing Client</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Booking Request - Existing Client</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New Customer - Booking Opportunity</controllingFieldValue>
+            <controllingFieldValue>Existing Client - Booking Opportunity</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Booking Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Arrival Time Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Discuss On going or follow-on work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Change details of a booking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Cancel a booking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Issue with work carried out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Billing or payment query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Resources / Fleet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Engineer - Job / Shift related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other / Sales / Wrong Number</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Engineer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other / Sales / Wrong Number</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <valueName>Sales &amp; Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other / Sales / Wrong Number</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Work for Aspect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other / Sales / Wrong Number</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <valueName>Genral Public reporting aspect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other / Sales / Wrong Number</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <controllingFieldValue>Out Bound Calls</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other / Sales / Wrong Number</controllingFieldValue>
+            <controllingFieldValue>Call Transferred</controllingFieldValue>
+            <valueName>Wrong Number</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

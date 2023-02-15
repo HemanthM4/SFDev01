@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Deposit Required Hex --></label>
+        <name>Deposit_Required_Hex__c</name>
+    </CustomFieldTranslation>

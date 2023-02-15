@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Visit_completion_report__c.Fixed_price_pay_O1_Capped__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Visit_completion_report__c.Labour_pay_O1_Capped__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Visit_completion_report__c.Total_pay_O1_Capped__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Can View VCR Lab pay O1 (Capped) and Fixed price pay O1 (Capped) and Total pay O</label>
+    <license>Salesforce</license>
+</PermissionSet>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Job Name with Rating From MC --></label>
+        <name>Job_Name_with_Rating_From_MC__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>PHASE 2 Purchase Order Line Item Create or Edit Processes {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 Purchase Order Line Item Create or Edit Processes</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Call_Flow_Update_CandCs_System</targetReference>
+        </connector>
+        <object>Purchase_Order_Line_Item__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Call_Flow_Update_CandCs_System</name>
+        <label>Call Flow Update CandCs (System)</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <flowName>FL_Update_CandCs_with_PO_Value_Aspect_or_Engineer_System</flowName>
+        <inputAssignments>
+            <name>var_CreatedEditedPOLI_POID</name>
+            <value>
+                <elementReference>$Record.Purchase_Order__c</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

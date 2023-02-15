@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Care homes</fullName>
+        <default>false</default>
+        <label>Care homes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Charity</fullName>
+        <default>false</default>
+        <label>Charity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food &amp; Beverage</fullName>
+        <default>false</default>
+        <label>Food &amp; Beverage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotels</fullName>
+        <default>false</default>
+        <label>Hotels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leisure &amp; fitness</fullName>
+        <default>false</default>
+        <label>Leisure &amp; fitness</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New builds - snagging work</fullName>
+        <default>false</default>
+        <label>New builds - snagging work</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offices</fullName>
+        <default>false</default>
+        <label>Offices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Private landlord</fullName>
+        <default>false</default>
+        <label>Private landlord</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Property management</fullName>
+        <default>false</default>
+        <label>Property management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral clients</fullName>
+        <default>false</default>
+        <label>Referral clients</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Residential</fullName>
+        <default>false</default>
+        <label>Residential</label>
+    </standardValue>
+</StandardValueSet>

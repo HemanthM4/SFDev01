@@ -1,0 +1,689 @@
+<!-- Aspect Email Template v1.1 -->
+<!--
+    23.06.2020
+    Paragraph colour set
+    central cell width set
+    line break removed from footer address
+-->
+<html>
+<body style="margin:0;padding:0;background-color:#fff;background:#fff;">
+
+    <!-- header table start -->
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           width="600"
+           align="center"
+           style="margin:0 auto; background-color:#fff;background:#fff;">
+        <tbody>
+            <tr>
+                <td colspan="2" valign="top" bgcolor="#F3E500" style="line-height: 45px">
+                    <table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#F3E500" >
+                        <tbody>
+                            <tr> <td width="84">&nbsp;</td> <td width="66" style="line-height: 30px">&nbsp;</td> </tr>
+                            <tr>
+                                <td valign="top">&nbsp;</td>
+                                <td>
+                                    <img border="0" alt="aspect"
+                                         style="display:block;border:none;outline:none; text-decoration:none"
+                                         src="https://www.aspect.co.uk/email-templates/sf/assets/aspect-logo-vert.png">
+                                </td>
+                            </tr>
+                            <tr> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td colspan="2" bgcolor="#001871">
+                    <table width="450" border="0" cellspacing="0" cellpadding="0" bgcolor="#001871">
+                        <tbody>
+                            <tr> <td width="38" style="line-height: 65px">&nbsp;</td> <td>&nbsp;</td> </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td width="412"
+                                    align="left"
+                                    bgcolor="#001871"
+                                    style="font-family:arial,sans-serif;font-size:14px;
+                                    font-weight:normal;text-transform:none;">
+                                    <p style="font-size: 65px; color: #FFFFFF;
+                                    font-weight:bold;text-transform:none; line-height:
+                                    60px;padding:0; margin:0">
+
+
+                                    <!-- header title -->
+
+                                    Visit<br/>
+                                    completed<br/>
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr> <td style="line-height: 45px">&nbsp;</td> <td>&nbsp;</td> </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td align="left" bgcolor="#001871">
+
+                                    <!-- button start -->
+                                    <a href="https://forms.monday.com/forms/bd62301dcf740c823b1d3eedce68b8df"
+                                       style="display:block;background-color:#FF00DF;
+                                       text-align:center;border-radius:28px;font-family:arial,sans-serif;
+                                       font-size:20px;font-weight:normal;color:#ffffff;
+                                       line-height:20px;text-decoration:none;border-top:8px solid #FF00DF;
+                                       border-bottom:8px solid #FF00DF;border-left:28px solid #FF00DF;
+                                       border-right:28px solid #FF00DF; width: 160px">
+                                        <span style="display:block;font-family:arial,sans-serif;">
+
+                                            <!-- button text -->
+
+                                            contact us
+
+                                        </span>
+                                    </a>
+                                    <!-- button end -->
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td style="line-height:45px">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- header table end -->
+
+
+
+    <!-- body table grey start -->
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           bgcolor="#E7E7E7"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#ffffff;">
+        <tbody>
+            <!-- row padding start -->
+            <tr>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" style="line-height:35px;">&nbsp;</td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+            <!-- row padding end -->
+
+            <!-- row text start -->
+            <tr>
+                <!-- left border cell start -->
+                <td bgcolor="#E7E7E7" width="55" style="font-size:1px;line-height:1px">&nbsp;</td> 
+                <!-- left border cell end -->
+
+                <!-- text area cell start -->
+                <td bgcolor="#E7E7E7" width="490" style="font-family:arial,sans-serif;
+                font-size:14px;color:#555559;line-height:20px;font-weight:normal;text-transform:none; ">
+
+
+                    <!-- large paragraph start -->
+                    <p style="font-size:20px;color:#555559;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-left: 0px">
+                    Hi {!Visit_completion_report__c.Operative_name__c},
+                    </p>
+                    <!-- large paragraph end -->
+
+
+                    <!-- bold medium paragraph start -->
+                    <p style="font-size:16px;color:#555559;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-bottom: 10px; padding-left: 0px; margin-bottom: 15px">
+                    Congratulations!
+                    </p>
+                    <!-- bold medium paragraph end -->
+
+
+                    <!-- medium paragraph start -->
+                    <p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; 
+                    margin-top: 0 px; margin-right: 0; margin-bottom:30px; margin-left: 0">
+                    We’ve received the customer’s signature and final payment. Here’s an overview of the completed visit and your requisition.
+
+                    </p>
+                    <!-- medium paragraph end -->
+
+
+                </td>
+                <!-- text area cell end -->
+
+
+                <!-- right border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- right border cell end -->
+
+
+            </tr>
+            <!-- row text end -->
+
+
+
+            <!-- row padding start -->
+            <tr>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" style="line-height:25px;">&nbsp;</td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+            <!-- row padding end -->
+
+
+
+            <!-- row containing main table start -->
+            <tr>
+
+
+                <!-- left border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- left border cell end -->
+
+
+                <!-- cell containing main table start -->
+                <td bgcolor="#E7E7E7" width="490">
+
+                    <!-- main table start -->
+                    <table cellpadding="8"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Order number
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Visit_Completion_Report_Number__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Operative
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Operative_name__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+                            
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Customer
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Customer_first_name__c} {!Visit_completion_report__c.Customer_last_name__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Property address
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Property_address_line_1__c} {!Visit_completion_report__c.Property_address_line_2__c} {!Visit_completion_report__c.Property_address_towncity__c} {!Visit_completion_report__c.Property_address_county__c} {!Visit_completion_report__c.Property_address_postcode__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Trade
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Tradesperson_1__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Total hours of work completed
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Total_hours_completed__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Date
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Date__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Time slot(s)
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Arrival_timeslot__c} 
+                                        <br/>
+{!Visit_completion_report__c.Second_timeslot__c}                                     
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Job details
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Description_of_works_carried_out__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Further work required
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Further_work_required__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+                            
+                            <!-- table padding row start -->
+                            <tr>
+                                <td bgcolor="#E7E7E7" style="line-height:5px;">&nbsp;</td>
+                            </tr>
+                            <!-- table padding row end -->
+
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Operative labour pay (if applicable)
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Labour_pay_O1_Capped__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Operative fixed price service pay (if applicable)
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Fixed_price_service_details__c}<br/>{!Visit_completion_report__c.Fixed_price_pay_O1_Capped__c}
+                                    </p>
+                                </td>
+                            </tr>                            
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Operative supplied material pay (if applicable)
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Material_pay_O1__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    width="490"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Operative total pay
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                        {!Visit_completion_report__c.Total_pay_O1_Capped__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+
+                            <!-- table row start -->
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Your signature
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    <img border="0"
+                                         style="display:block;border:none;outline:none;text-decoration:none"
+                                         src="{!Visit_completion_report__c.Signature_operative_link__c}" width="200" alt="Customer Signature"/>
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <!-- table row end -->
+                            
+                        </tbody>
+                    </table>
+                    <!-- main table end -->
+
+                </td>
+                <!-- cell containing main table end -->
+
+                <!-- right border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- right border cell end -->
+
+            </tr>
+            <!-- row containing main table end -->
+
+
+            <!-- row padding start -->
+            <tr>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" style="line-height:25px;">&nbsp;</td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+            <!-- row padding end -->
+
+
+            <!-- row start -->
+            <tr>
+                <!-- right border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- right border cell end -->
+
+                <!-- text cell start -->
+                <td bgcolor="#E7E7E7" width="490" style="font-family:arial,sans-serif;
+                font-size:14px;color:#555559;line-height:20px;font-weight:normal;text-transform:none; " align="center" >
+
+                </td>
+                <!-- text cell end -->
+
+
+                <!-- right border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- right border cell end -->
+
+            </tr>
+            <!-- row end -->
+
+
+            <!-- row start -->
+            <tr>
+                <!-- right border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- right border cell end -->
+
+                <!-- text cell start -->
+                <td bgcolor="#E7E7E7" width="490" align="middle" style="line-height:5px;">
+
+                </td>
+                <!-- text cell end -->
+
+
+                <!-- right border cell start -->
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <!-- right border cell end -->
+
+            </tr>
+            <!-- row end -->
+
+        </tbody>
+    </table>
+    <!-- body table grey end -->
+
+
+    <!-- body table light blue start -->
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           bgcolor="#0d60b5"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#0d60b5">
+        <tbody>
+            
+            <!-- row text start -->
+            <tr>
+                <!-- left border cell start -->
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                <!-- left border cell end -->
+
+
+                <!-- right border cell start -->
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                <!-- right border cell end -->
+
+            </tr>
+            <!-- row text end -->
+            
+            <!-- row text start -->
+            <tr>
+
+                <!-- left border cell start -->
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                <!-- left border cell end -->
+
+                <!-- text cell start -->
+                <td bgcolor="#0d60b5"
+                    style="font-family:arial,sans-serif;
+                    color:#FFFFFF;line-height:26px;font-weight:normal;
+                    text-transform:none;">
+
+                    <!-- title start -->
+                    <p style="font-size: 28px; color:#ffffff;font-weight:bold;text-transform:none;
+                    margin-bottom: 5px; padding-bottom: 4px; padding-top:30px ">
+                    Our working agreement
+                    </p>
+                    <!-- title end -->
+                    
+                    <!-- paragraph start -->
+                    <p style="font-size: 16px; color:#ffffff;font-weight:normal;text-transform:none;
+                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                    Please note that your workmanship carries 12 months guarantee.
+                    <!-- link end -->
+                    </p>
+                    <!-- paragraph end -->
+                    
+                    <!-- paragraph start -->
+                    <p style="font-size: 16px; color:#ffffff;font-weight:normal;text-transform:none;
+                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                    If you have a question or need to get in touch for any reason, 
+                    <!-- link start -->
+                    <a href="https://forms.monday.com/forms/bd62301dcf740c823b1d3eedce68b8df"
+                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                        please get in touch.</a>
+                    <!-- link end -->
+                    </p>
+                    <!-- paragraph end -->
+
+                    <!-- brand message start -->
+                    <p style="font-size:20px;color:#ffffff;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-bottom: 10px; padding-left: 0px;
+                    padding-top:30px; margin-bottom: 15px">
+                    Help made easy.
+                    </p>
+                    <!-- brand message start -->
+                </td>
+
+                <!-- right border cell start -->
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                <!-- right border cell end -->
+
+            </tr>
+            <!-- row text end -->
+
+
+        </tbody>
+    </table>
+    <!-- body table light blue end -->
+
+
+    <!-- footer table dark blue start -->
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#001871">
+        <tbody> <tr style="padding:0;">
+
+                <!-- right border cell start -->
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <!-- right border cell end -->
+
+                <td bgcolor="#001871"
+                    width="490"
+                    style="font-family:arial,sans-serif;font-size:16px;color:#ffffff;
+                    font-weight:normal;text-transform:none ">
+                    <span style="float:right; position:relative; top:-60px;">
+                        <img border="0"
+                             style="alight:right;display:block;border:none;outline:none;text-decoration:none "
+                             src="https://www.aspect.co.uk/wp-content/themes/aspect/static/img/van-aspect@2x.png"
+                             height="200"
+                             alt="Aspect Van"/>
+                    </span>
+                    <span style="position:relative; top:-60px;"> 
+                        <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> 
+                        <p>&copy; 2020 Aspect</p>
+                        <p>Aspect Maintenance Services Limited, E7 Barwell Business Park,
+                        Leatherhead Road, Chessington, London, KT9 2NY</p>
+                    </span>
+                </td>
+
+                <!-- right border cell start -->
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <!-- right border cell end -->
+
+            </tr>
+        </tbody>
+    </table>
+    <!-- footer table dark blue end -->
+    
+</body>
+</html>

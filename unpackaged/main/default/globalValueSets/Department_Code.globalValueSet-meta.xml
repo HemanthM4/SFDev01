@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>InSync</fullName>
+        <default>false</default>
+        <label>InSync</label>
+    </customValue>
+    <customValue>
+        <fullName>Crystal</fullName>
+        <default>false</default>
+        <label>Crystal</label>
+    </customValue>
+    <customValue>
+        <fullName>PAYE</fullName>
+        <default>false</default>
+        <label>PAYE</label>
+    </customValue>
+    <description>InSync - 3rd party process pay for engineers
+Crystal - 3rd party process pay for engineers
+PAYE - pay process through Aspect PAYE payroll</description>
+    <masterLabel>Department Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

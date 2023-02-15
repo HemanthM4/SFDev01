@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>FL ON Site Agreement Accepted - Create Associated Records STEP 3 (System) {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FL ON Site Agreement Accepted - Create Associated Records STEP 3 (System)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_CCT_Discount_now_Apex_has_triggered_discount_will_now_be_calculated</name>
+        <label>Update CCT Discount now Apex has triggered - discount will now be calculated</label>
+        <locationX>390</locationX>
+        <locationY>51</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_CreatedCCID</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Discount_Manual_Percentage__c</field>
+            <value>
+                <elementReference>var_ConvertTxtDiscountToNumber</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Discount_PL__c</field>
+            <value>
+                <stringValue>Manual Percentage</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Costs_and_Charges__c</object>
+    </recordUpdates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Update_CCT_Discount_now_Apex_has_triggered_discount_will_now_be_calculated</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>var_ConvertTxtDiscountToNumber</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>var_CreatedCCID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- For chargeable work --></label>
+        <name>For_chargeable_work__c</name>
+        <picklistValues>
+            <masterLabel>ONSA Accepted</masterLabel>
+            <translation><!-- ONSA Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONSA Pending</masterLabel>
+            <translation><!-- ONSA Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONSA Rejected</masterLabel>
+            <translation><!-- ONSA Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operative continuing right now on hourly rate</masterLabel>
+            <translation><!-- Operative continuing right now on hourly rate --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Go Live check --></label>
+        <name>Go_Live_check__c</name>
+        <picklistValues>
+            <masterLabel>Blank</masterLabel>
+            <translation><!-- Blank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chumley to fix</masterLabel>
+            <translation><!-- Chumley to fix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct</masterLabel>
+            <translation><!-- Correct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ops to fix</masterLabel>
+            <translation><!-- Ops to fix --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

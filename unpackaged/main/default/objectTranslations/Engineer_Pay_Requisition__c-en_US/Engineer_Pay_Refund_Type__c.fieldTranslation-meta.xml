@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Engineer Pay Refund Type --></label>
+        <name>Engineer_Pay_Refund_Type__c</name>
+        <picklistValues>
+            <masterLabel>Air Conditioning Labels</masterLabel>
+            <translation><!-- Air Conditioning Labels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aspect Folder</masterLabel>
+            <translation><!-- Aspect Folder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aspect Purchase Order</masterLabel>
+            <translation><!-- Aspect Purchase Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank Transfer Fee (for advance)</masterLabel>
+            <translation><!-- Bank Transfer Fee (for advance) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box Junction (PCN)</masterLabel>
+            <translation><!-- Box Junction (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bus Lane (PCN)</masterLabel>
+            <translation><!-- Bus Lane (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRB deduction</masterLabel>
+            <translation><!-- CRB deduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call backs</masterLabel>
+            <translation><!-- Call backs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Kept</masterLabel>
+            <translation><!-- Cash Kept --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Kept Admin Fee</masterLabel>
+            <translation><!-- Cash Kept Admin Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congestion Charge (PCN)</masterLabel>
+            <translation><!-- Congestion Charge (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dart Charge</masterLabel>
+            <translation><!-- Dart Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dartford Charge (PCN)</masterLabel>
+            <translation><!-- Dartford Charge (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Safe Register Deduction</masterLabel>
+            <translation><!-- Gas Safe Register Deduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Card</masterLabel>
+            <translation><!-- ID Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Deduction - Other</masterLabel>
+            <translation><!-- IT Deduction - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Deduction - Other</masterLabel>
+            <translation><!-- Job Deduction - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laptop</masterLabel>
+            <translation><!-- Laptop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laptop Charger</masterLabel>
+            <translation><!-- Laptop Charger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Bill</masterLabel>
+            <translation><!-- Mobile Bill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone</masterLabel>
+            <translation><!-- Mobile Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone Car Charger</masterLabel>
+            <translation><!-- Mobile Phone Car Charger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone Case</masterLabel>
+            <translation><!-- Mobile Phone Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone Charger</masterLabel>
+            <translation><!-- Mobile Phone Charger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone Hands Free</masterLabel>
+            <translation><!-- Mobile Phone Hands Free --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negative Pay Balance (From Previous Month)</masterLabel>
+            <translation><!-- Negative Pay Balance (From Previous Month) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Entry (PCN)</masterLabel>
+            <translation><!-- No Entry (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Turn (PCN)</masterLabel>
+            <translation><!-- No Turn (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overpaid</masterLabel>
+            <translation><!-- Overpaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCN Deduction - Other</masterLabel>
+            <translation><!-- PCN Deduction - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parking (PCN)</masterLabel>
+            <translation><!-- Parking (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Advance</masterLabel>
+            <translation><!-- Pay Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Deduction - Other</masterLabel>
+            <translation><!-- Pay Deduction - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Case</masterLabel>
+            <translation><!-- Phone Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Liability Insurance</masterLabel>
+            <translation><!-- Public Liability Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactive Lead Fee Deduction</masterLabel>
+            <translation><!-- Reactive Lead Fee Deduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Light (PCN)</masterLabel>
+            <translation><!-- Red Light (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Route (PCN)</masterLabel>
+            <translation><!-- Red Route (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refund</masterLabel>
+            <translation><!-- Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retention</masterLabel>
+            <translation><!-- Retention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rotherhithe (PCN)</masterLabel>
+            <translation><!-- Rotherhithe (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speeding (PCN)</masterLabel>
+            <translation><!-- Speeding (PCN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tablet</masterLabel>
+            <translation><!-- Tablet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tablet Charger</masterLabel>
+            <translation><!-- Tablet Charger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tom Tom</masterLabel>
+            <translation><!-- Tom Tom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tom Tom Charger</masterLabel>
+            <translation><!-- Tom Tom Charger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tools / Equipment</masterLabel>
+            <translation><!-- Tools / Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Course</masterLabel>
+            <translation><!-- Training Course --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustpilot Bonus / Fine</masterLabel>
+            <translation><!-- Trustpilot Bonus / Fine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ULEZ / Cong. Charge</masterLabel>
+            <translation><!-- ULEZ / Cong. Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uniform</masterLabel>
+            <translation><!-- Uniform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle - Adblue</masterLabel>
+            <translation><!-- Vehicle - Adblue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle - Collection Fee</masterLabel>
+            <translation><!-- Vehicle - Collection Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle - Fuel</masterLabel>
+            <translation><!-- Vehicle - Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Body Damage</masterLabel>
+            <translation><!-- Vehicle Body Damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Cleaning Fine</masterLabel>
+            <translation><!-- Vehicle Cleaning Fine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Deduction - Not Submitted Photos</masterLabel>
+            <translation><!-- Vehicle Deduction - Not Submitted Photos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Deduction - Other</masterLabel>
+            <translation><!-- Vehicle Deduction - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Insurance Contribution</masterLabel>
+            <translation><!-- Vehicle Insurance Contribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Insurance Excess (Incident)</masterLabel>
+            <translation><!-- Vehicle Insurance Excess (Incident) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Tyres</masterLabel>
+            <translation><!-- Vehicle Tyres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Windscreen</masterLabel>
+            <translation><!-- Vehicle Windscreen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Detail Sheet Pad</masterLabel>
+            <translation><!-- Work Detail Sheet Pad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Order Deduction</masterLabel>
+            <translation><!-- Work Order Deduction --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

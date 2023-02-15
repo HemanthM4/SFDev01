@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Ticked when Feedback email sent and to prevent Feedback email being sent twice. --></help>
+        <label><!-- Feedback Email Sent --></label>
+        <name>Feedback_Email_Sent__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Cancelled_Reason</fullName>
+    <active>false</active>
+    <description>Reason required for when the Purchase Order is at status Cancelled or Returned.</description>
+    <errorConditionFormula>AND(OR (ISPICKVAL( Status__c , &#39;Returned&#39;),  ISPICKVAL( Status__c , &#39;Cancelled&#39;)),  ISBLANK( Reason__c )  )</errorConditionFormula>
+    <errorDisplayField>Reason__c</errorDisplayField>
+    <errorMessage>Please enter a reason why the purchase order is at Cancelled or Returned</errorMessage>
+</ValidationRule>

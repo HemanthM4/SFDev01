@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Credit Card</fullName>
+        <default>true</default>
+        <label>Credit Card</label>
+    </customValue>
+    <customValue>
+        <fullName>BACS</fullName>
+        <default>false</default>
+        <label>BACS</label>
+    </customValue>
+    <customValue>
+        <fullName>Cheque</fullName>
+        <default>false</default>
+        <label>Cheque</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash</fullName>
+        <default>false</default>
+        <label>Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>Alternative Credit Card</fullName>
+        <default>false</default>
+        <label>Alternative Credit Card</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Unable to Pay</fullName>
+        <default>false</default>
+        <label>Customer Unable to Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Account</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Credit Account</label>
+    </customValue>
+    <description>Payment method</description>
+    <masterLabel>Payment Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

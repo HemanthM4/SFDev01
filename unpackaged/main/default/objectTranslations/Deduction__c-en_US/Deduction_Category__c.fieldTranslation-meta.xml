@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Deduction Category --></label>
+        <name>Deduction_Category__c</name>
+        <picklistValues>
+            <masterLabel>Fleet / Warehouse Deductions</masterLabel>
+            <translation><!-- Fleet / Warehouse Deductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Deductions</masterLabel>
+            <translation><!-- IT Deductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Related Deductions</masterLabel>
+            <translation><!-- Job Related Deductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Deductions</masterLabel>
+            <translation><!-- Pay Deductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Penalty Charge Deductions</masterLabel>
+            <translation><!-- Vehicle Penalty Charge Deductions --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEW_Additional_items_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(  Material_charge__c ) ,&quot;&quot;, &quot;Materials&quot;&amp;BR() &amp;BR())&amp;
+&quot;Subtotal&quot; &amp;BR()&amp;
+&quot;VAT&quot;</formula>
+    <label>NEW Additional items formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

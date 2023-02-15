@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- If another Operative why? --></label>
+        <name>If_another_Operative_why__c</name>
+        <picklistValues>
+            <masterLabel>Initial operative no longer with aspect</masterLabel>
+            <translation><!-- Initial operative no longer with aspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial operative not available</masterLabel>
+            <translation><!-- Initial operative not available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial operative not cable of undertaking works</masterLabel>
+            <translation><!-- Initial operative not cable of undertaking works --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

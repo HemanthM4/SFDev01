@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deduction_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Deduction Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fleet / Warehouse Deductions</fullName>
+                <default>false</default>
+                <label>Fleet / Warehouse Deductions</label>
+            </value>
+            <value>
+                <fullName>Job Related Deductions</fullName>
+                <default>false</default>
+                <label>Job Related Deductions</label>
+            </value>
+            <value>
+                <fullName>Pay Deductions</fullName>
+                <default>false</default>
+                <label>Pay Deductions</label>
+            </value>
+            <value>
+                <fullName>Vehicle Penalty Charge Deductions</fullName>
+                <default>false</default>
+                <label>Vehicle Penalty Charge Deductions</label>
+            </value>
+            <value>
+                <fullName>IT Deductions</fullName>
+                <default>false</default>
+                <label>IT Deductions</label>
+            </value>
+            <value>
+                <fullName>Fleet Related</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fleet Related</label>
+            </value>
+            <value>
+                <fullName>Pay Related</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pay Related</label>
+            </value>
+            <value>
+                <fullName>Penalty Charges</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Penalty Charges</label>
+            </value>
+            <value>
+                <fullName>Workmanship Related</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Workmanship Related</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

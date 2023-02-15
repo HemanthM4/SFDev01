@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Commenced_Immediately__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that the Operative who submitted the On Site Agreement form started the work at that moment and therefore there is no need for any office staff to create a Service Appointment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that the Operative who submitted the On Site Agreement form started the work at that moment and therefore there is no need for any office staff to create a Service Appointment.</inlineHelpText>
+    <label>Work Commenced Immediately</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

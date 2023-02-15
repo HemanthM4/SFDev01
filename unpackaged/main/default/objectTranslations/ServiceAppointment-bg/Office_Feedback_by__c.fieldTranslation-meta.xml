@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The name of the person who gave the feedback (who set the &apos;Office Feedback&apos; field) --></help>
+        <label><!-- Office Feedback by --></label>
+        <name>Office_Feedback_by__c</name>
+        <relationshipLabel><!-- Service Appointments (Office Feedback by) --></relationshipLabel>
+    </CustomFieldTranslation>

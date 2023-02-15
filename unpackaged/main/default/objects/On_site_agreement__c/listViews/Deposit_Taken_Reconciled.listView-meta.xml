@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deposit_Taken_Reconciled</fullName>
+    <columns>NAME</columns>
+    <columns>Siclops_Call_Ref__c</columns>
+    <columns>Customer_first_name__c</columns>
+    <columns>Customer_last_name__c</columns>
+    <columns>Property_address_postcode__c</columns>
+    <columns>Deposit_required__c</columns>
+    <columns>Deposit_received__c</columns>
+    <columns>Worldpay_deposit_ID__c</columns>
+    <columns>Deposit_Payment_Reconciled__c</columns>
+    <columns>Finance_Check_Deposit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Accepted,Scheduled,Complete</value>
+    </filters>
+    <filters>
+        <field>Deposit_Payment_Reconciled__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Deposit Taken (Reconciled)</label>
+    <sharedTo>
+        <role>General_Office_Manager</role>
+    </sharedTo>
+</ListView>

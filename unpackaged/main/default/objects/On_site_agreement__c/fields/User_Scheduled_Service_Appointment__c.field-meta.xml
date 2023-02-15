@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Scheduled_Service_Appointment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The User who created the Service Appointment for this record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The User who created the Service Appointment for this record</inlineHelpText>
+    <label>User Scheduled Service Appointment</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>On_Site_Agreements_Scheduled_Service_App</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

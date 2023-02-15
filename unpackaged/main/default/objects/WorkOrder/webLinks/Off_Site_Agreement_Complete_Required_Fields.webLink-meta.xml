@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Off_Site_Agreement_Complete_Required_Fields</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Off Site Agreement-Complete Required Fields</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_Complete_Required_fields_for_OSA_from_Work_Order_System?var_WorkOrderID={!WorkOrder.Id}&amp;retURL={!WorkOrder.Id}</url>
+</WebLink>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_if_engineer_populated</fullName>
+    <active>false</active>
+    <description>If the Delivery Option is either “Engineer to Collect” OR “Deliver to Engineer” then the Engineer field should be populated</description>
+    <errorConditionFormula>AND
+(
+OR
+(
+ ISCHANGED( Delivery_Options__c ),
+	ISNEW() 
+),
+OR
+(
+				ISPICKVAL( Delivery_Options__c , &quot;Engineer to Collect&quot;), 
+ ISPICKVAL( Delivery_Options__c , &quot;Deliver to Engineer&quot;) 
+),
+ ISBLANK( Engineer__c )
+)</errorConditionFormula>
+    <errorDisplayField>Engineer__c</errorDisplayField>
+    <errorMessage>Engineer should be populated</errorMessage>
+</ValidationRule>

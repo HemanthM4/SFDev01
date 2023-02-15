@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section__c</fullName>
+    <description>Not restricted picklist: &#39;Passport or European ID&#39;, &#39;Driver&#39;s License&#39;, &#39;Proof of current address&#39;, &#39;Bank Statement&#39;, &#39;Qualifications&#39;. The Section is automatically assigned on Onboarding Community &#39;Document Upload&#39; Page based on the uploaded section.</description>
+    <externalId>false</externalId>
+    <label>Section</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Passport or European ID</fullName>
+                <default>false</default>
+                <label>Passport or European ID</label>
+            </value>
+            <value>
+                <fullName>Driver&#39;s License</fullName>
+                <default>false</default>
+                <label>Driver&#39;s License</label>
+            </value>
+            <value>
+                <fullName>Proof of address</fullName>
+                <default>false</default>
+                <label>Proof of address</label>
+            </value>
+            <value>
+                <fullName>Qualifications</fullName>
+                <default>false</default>
+                <label>Qualifications</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Bank Statement</fullName>
+                <default>false</default>
+                <label>Bank Statement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

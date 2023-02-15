@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Final Chase</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Final Chase</name>
+    <style>none</style>
+    <subject>Notice before Legal Action</subject>
+    <textOnly>Final notice
+
+Open invoice
+
+If payment is not received by %%% date here %%% , this matter will be passed to our solicitors to commence legal action.
+
+You can call us on 0208 879 9607 to make payment by debit or credit card.
+
+Your account number    {!Customer_Invoice__c.00N4G000006Oaxf}
+Job number    {!Customer_Invoice__c.00N4G000006Oaxb}
+Order number    {!Customer_Invoice__c.00N4G000006Oaww}
+
+We must make you aware that in the case of legal action we will incur additional charges and we reserve the right to charge in line with the Late Payment Interest Act 1998 whereby we are entitled to add 8% above the MLR as well as to include an element of compensation. In the event that judgment is obtained through this course of action, your credit worthiness will be affected. Any queries must please be submitted in writing by email or post.    If you have any questions or there’s a problem, please get in touch straight away.
+
+Thanks for choosing Aspect.
+
+Running your residential and
+commercial property maintenance
+
+020 3944 0571
+
+email us
+
+aspect.co.uk
+
+© 2019 Aspect
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

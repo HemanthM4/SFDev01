@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is a new email template we will send to applicants to rebook their trial</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NEW: Trial Missed</name>
+    <style>none</style>
+    <subject>Aspect - Application Next Steps</subject>
+    <textOnly>Please Schedule
+Your Trial
+
+Dear {!Engineer_Application__c.First_Name__c},
+
+As a part of the next steps in your application process, we are inviting you to attend a Trial session with one of our Operatives.
+
+During the Trial session, our Operatives will put your knowledge and skills to the test. You can also use this opportunity to ask any questions you have regarding working with Aspect.
+
+It is essential that you attend this Trial session as a part of the application process.
+
+To book your Trial session, please follow this link: Book Trial
+
+Thank you in advance for your attendance.
+
+Kind Regards,
+
+Resources Team
+
+
+BOOK YOUR TRIAL
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

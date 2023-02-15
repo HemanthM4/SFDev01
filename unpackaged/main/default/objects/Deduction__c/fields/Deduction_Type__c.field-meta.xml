@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deduction_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Deduction Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Deduction_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Deduction_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Air Conditioning Labels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Aspect Folder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Gas Safe Register Deduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>ID Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Tools / Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Uniform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle - Adblue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Body Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Cleaning Fine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle - Collection Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Deduction - Not Submitted Photos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Deduction - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle - Fuel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Insurance Excess (Incident)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Tyres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Vehicle Windscreen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet / Warehouse Deductions</controllingFieldValue>
+            <valueName>Work Detail Sheet Pad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Aspect Purchase Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Call backs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Cash Kept</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Cash Kept Admin Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Job Deduction - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Overpaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Related Deductions</controllingFieldValue>
+            <valueName>Work Order Deduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Bank Transfer Fee (for advance)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>CRB deduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Mobile Bill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Negative Pay Balance (From Previous Month)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Pay Advance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Pay Deduction - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Public Liability Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Reactive Lead Fee Deduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Retention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Training Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Trustpilot Bonus / Fine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>ULEZ / Cong. Charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pay Deductions</controllingFieldValue>
+            <valueName>Vehicle Insurance Contribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Box Junction (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Bus Lane (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Congestion Charge (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Dartford Charge (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>No Entry (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>No Turn (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Parking (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>PCN Deduction - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Red Light (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Red Route (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Rotherhithe (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vehicle Penalty Charge Deductions</controllingFieldValue>
+            <valueName>Speeding (PCN)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>IT Deduction - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Laptop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Laptop Charger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Mobile Phone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Mobile Phone Car Charger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Mobile Phone Case</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Mobile Phone Charger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Mobile Phone Hands Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Tablet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Tablet Charger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Tom Tom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Deductions</controllingFieldValue>
+            <valueName>Tom Tom Charger</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

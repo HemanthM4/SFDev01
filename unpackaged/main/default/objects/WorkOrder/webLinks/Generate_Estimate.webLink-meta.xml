@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Estimate</fullName>
+    <availability>online</availability>
+    <description>This is based on the pre made flow which will create a Quote with multiple Quote Line Items</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Generate Estimate</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Create_Parent_and_Child_Quotes_from_Work_Order?recordId={!WorkOrder.Id}&amp;retURL={!WorkOrder.Id}</url>
+</WebLink>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Email Address of the Contact who raised the Work Order --></help>
+        <label><!-- Contact Email who Raised Work Order --></label>
+        <name>Contact_Email_who_Raised_Work_Order__c</name>
+    </CustomFieldTranslation>

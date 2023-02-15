@@ -1,0 +1,26 @@
+<apex:page controller="wt_resources_list_controller" >
+    <apex:form style="padding:0; border:0; width:100%; ">
+        <apex:pageBlock title="Qualified Active Resources ({!sr_active_results.size})">
+          <!--  <apex:commandButton action="{!updatewt}" value="Update" id="theButton"/>  -->
+            <apex:pageBlockTable value="{!sr_active_results}" var="sr">
+                <apex:column headerValue="Name">
+                    <apex:outputLink value="{!URLFOR($Action.ServiceResource.View, sr.id)}">
+                        {!sr.name}
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column value="{!sr.IsActive}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <apex:pageBlock title="Qualified Inactive Resources ({!sr_inactive_results.size})">
+          <!--  <apex:commandButton action="{!updatewt}" value="Update" id="theButton"/>  -->
+            <apex:pageBlockTable value="{!sr_inactive_results}" var="sr2">
+                <apex:column headerValue="Name">
+                    <apex:outputLink value="{!URLFOR($Action.ServiceResource.View, sr2.id)}">
+                        {!sr2.name}
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column value="{!sr2.IsActive}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

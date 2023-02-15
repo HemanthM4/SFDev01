@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Alert Approver of Resource Absence Request Template</name>
+    <style>freeForm</style>
+    <subject>Approval - {!ResourceAbsence.AbsenceNumber}: Resource Absence Request Leave Request for {!ResourceAbsence.Service_Resource_Name__c}</subject>
+    <textOnly>Hi There,
+
+{!ResourceAbsence.Service_Resource_Name__c} has just submitted a Resource Absence request, ({!ResourceAbsence.AbsenceNumber}) for your approval.
+
+Details:
+
+Type: {!ResourceAbsence.Type}
+
+Start Date/Time: {!ResourceAbsence.Start}
+
+End Date/Time: {!ResourceAbsence.End}
+
+Description: {!ResourceAbsence.Description}
+
+Please click HERE to go to the Resource Absence record.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

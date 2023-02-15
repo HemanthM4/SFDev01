@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reactive_Work_Order</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>CreatedDate</columns>
+    <columns>Subject</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>WorkOrder.Reactive</value>
+    </filters>
+    <label>Reactive Work Order</label>
+    <sharedTo>
+        <group>Complaint_Team_Manager_s</group>
+        <group>FIELD_SERVICE_Default</group>
+        <group>Franchise_Users</group>
+        <group>North_East</group>
+        <group>North_West</group>
+        <group>Purchase_Ledger_Group</group>
+        <group>R10_Service_Managers</group>
+        <group>R11_Service_Manager</group>
+        <group>R20_Service_Manager</group>
+        <group>R21_Service_Manager</group>
+        <group>R30_Service_Manager</group>
+        <group>R31_Service_Manager</group>
+        <group>R32_Service_Manager</group>
+        <group>R40_Service_Manager</group>
+        <group>R50_Service_Manager</group>
+        <group>R51_Service_Manager</group>
+        <group>South_East</group>
+        <group>South_West</group>
+        <roleAndSubordinatesInternal>CEO</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

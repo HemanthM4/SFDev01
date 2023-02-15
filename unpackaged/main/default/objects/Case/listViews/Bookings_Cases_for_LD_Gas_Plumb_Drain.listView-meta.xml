@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bookings_Cases_for_LD_Gas_Plumb_Drain</fullName>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Site__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>Trade_Group_Main__c</columns>
+    <columns>Assigned_to__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>Concerns_from_Web__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Progress__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>Postcode__c</columns>
+    <columns>Phone__c</columns>
+    <columns>CC_CHECK__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CREATED_DATE_DATE_ONLY</field>
+        <operation>greaterThan</operation>
+        <value>8/5/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Raised_by_Office</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Operative_Support_Request</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open</value>
+    </filters>
+    <filters>
+        <field>Case_Type__c</field>
+        <operation>equals</operation>
+        <value>Cancel a booking,Make a booking,Arrival time update</value>
+    </filters>
+    <filters>
+        <field>Trade_Group__c</field>
+        <operation>contains</operation>
+        <value>﻿Gas/Plumbing/Drainage,﻿Leak Detection</value>
+    </filters>
+    <label>Cases for LD/Gas/Plumb/Drain</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- User that Ticked Invoiced --></label>
+        <name>User_that_Ticked_Invoiced__c</name>
+        <relationshipLabel><!-- Visit completion reports (User that Ticked Invoiced) --></relationshipLabel>
+    </CustomFieldTranslation>

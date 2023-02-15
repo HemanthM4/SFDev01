@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Post code of the Service Resources assigned Service Territory Member record. --></help>
+        <label><!-- Postcode for schedule (STM) --></label>
+        <name>Postcode_for_schedule_STM__c</name>
+    </CustomFieldTranslation>

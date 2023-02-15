@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Application Status --></label>
+        <name>Application_Status__c</name>
+        <picklistValues>
+            <masterLabel>Hired</masterLabel>
+            <translation><!-- Hired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Applicant</masterLabel>
+            <translation><!-- New Applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Booked</masterLabel>
+            <translation><!-- Onboarding Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Missed</masterLabel>
+            <translation><!-- Onboarding Missed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Offered</masterLabel>
+            <translation><!-- Onboarding Offered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected Us</masterLabel>
+            <translation><!-- Rejected Us --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telephone Screen - Dry</masterLabel>
+            <translation><!-- Telephone Screen - Dry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Booked</masterLabel>
+            <translation><!-- Trial Booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Missed</masterLabel>
+            <translation><!-- Trial Missed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Offered</masterLabel>
+            <translation><!-- Trial Offered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsuitable</masterLabel>
+            <translation><!-- Unsuitable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

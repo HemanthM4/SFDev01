@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_of_WO_PO_Product_Required__c</fullName>
+    <description>Sum of Product Required of Type Purchase Order including mark-up</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of Product Required of Type Purchase Order including mark-up</inlineHelpText>
+    <label>Sum of WO PO Product Required</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Feedback Notes --></label>
+        <name>Feedback_Notes__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting client date confirmation</masterLabel>
+            <translation><!-- Awaiting client date confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting info engineer</masterLabel>
+            <translation><!-- Awaiting info engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting parts client</masterLabel>
+            <translation><!-- Awaiting parts client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting parts supplier</masterLabel>
+            <translation><!-- Awaiting parts supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting scaffolding permits</masterLabel>
+            <translation><!-- Awaiting scaffolding permits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scaffolding only</masterLabel>
+            <translation><!-- Scaffolding only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Works not going ahead</masterLabel>
+            <translation><!-- Works not going ahead --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

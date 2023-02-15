@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Service_Resource</fullName>
+        <default>false</default>
+        <label>Service Resource</label>
+    </customValue>
+    <customValue>
+        <fullName>Franchisee</fullName>
+        <default>false</default>
+        <label>Franchisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Estimator</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Estimator</label>
+    </customValue>
+    <description>The main role the resource takes</description>
+    <masterLabel>Engineer Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

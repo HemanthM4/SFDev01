@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Re_send_Emails</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Re-send Emails</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_Visit_Completion_Report_Re_send_Emails_System?var_VCRID={!Visit_completion_report__c.Id}&amp;retURL={!Visit_completion_report__c.Id}</url>
+</WebLink>

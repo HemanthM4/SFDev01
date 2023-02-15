@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Booking_Confirmation_Fixed_Price_SA</fullName>
+        <ccEmails>paperwork@aspect.co.uk</ccEmails>
+        <description>Booking Confirmation Fixed Price (SA)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Appointments/Booking_Confirmation_Fixed_Price_Work</template>
+    </alerts>
+    <alerts>
+        <fullName>Booking_confirmation_SA</fullName>
+        <ccEmails>paperwork@aspect.co.uk</ccEmails>
+        <description>Booking confirmation (SA)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Appointments/Booking_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>Dispatched_Confirmation_SA</fullName>
+        <description>Dispatched Confirmation (SA)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Appointments/Dispatched</template>
+    </alerts>
+    <alerts>
+        <fullName>New_online_booking_request_created</fullName>
+        <description>New online booking request created</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Internal_EmailID__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Online_Bookings/Notify_internal_users_on_Online_bookings</template>
+    </alerts>
+    <alerts>
+        <fullName>ONLINE_Booking_confirmation_SA</fullName>
+        <description>ONLINE Booking confirmation (SA)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Appointments/Booking_Confirmation_Online_Booking_SA</template>
+    </alerts>
+    <alerts>
+        <fullName>ONLINE_Booking_confirmation_SA_TI</fullName>
+        <description>ONLINE Booking confirmation (SA) TI</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Appointments/Booking_Confirmation_Online_Booking_SA_TI</template>
+    </alerts>
+    <alerts>
+        <fullName>SA_replacement_for_Off_site_Agreement_Cancellation_Email_Alert_operative</fullName>
+        <description>SA - replacement for Off-site Agreement Cancellation Email Alert (operative)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Previous_Allocated_Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Off_Site_Agreement/Off_site_Agreement_Op_Cancel</template>
+    </alerts>
+    <alerts>
+        <fullName>SA_replacement_for_Off_site_Agreement_Scheduled_Email_Alert_operative</fullName>
+        <description>SA - replacement for Off-site Agreement Scheduled Email Alert (operative)</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Allocated_Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Off_Site_Agreement/Off_site_Agreement_Op_Conf</template>
+    </alerts>
+    <alerts>
+        <fullName>Service_Appointment_Status_is_Cancelled_send_Booking_Cancellation_email_to_Custo</fullName>
+        <description>Service Appointment Status is Cancelled - send Booking Cancellation email to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Service_Appointments/Booking_Cancellation</template>
+    </alerts>
+    <rules>
+        <fullName>Notify internal users on Online bookings</fullName>
+        <actions>
+            <name>New_online_booking_request_created</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>ServiceAppointment.Online_Booking_SA__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

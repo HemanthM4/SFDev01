@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Not required for page layouts just for processes to know if this is the last  SA for this WO --></help>
+        <label><!-- Is This the Last SA for WO? --></label>
+        <name>Is_This_the_Last_SA_for_WO__c</name>
+    </CustomFieldTranslation>

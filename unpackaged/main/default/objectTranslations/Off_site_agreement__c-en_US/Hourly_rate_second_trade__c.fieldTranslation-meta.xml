@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Hourly rate second trade --></label>
+        <name>Hourly_rate_second_trade__c</name>
+    </CustomFieldTranslation>

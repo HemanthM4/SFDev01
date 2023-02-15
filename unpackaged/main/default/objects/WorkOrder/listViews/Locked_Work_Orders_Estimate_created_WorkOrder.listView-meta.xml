@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locked_Work_Orders_Estimate_created_WorkOrder</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Locked Work Orders - Estimate created</label>
+    <queue>Locked_Work_Orders_Estimate_created</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

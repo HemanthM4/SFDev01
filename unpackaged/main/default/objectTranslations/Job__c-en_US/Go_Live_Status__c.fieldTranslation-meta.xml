@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Go Live Status --></label>
+        <name>Go_Live_Status__c</name>
+        <picklistValues>
+            <masterLabel>Online Booking - In Siclops</masterLabel>
+            <translation><!-- Online Booking - In Siclops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P1</masterLabel>
+            <translation><!-- P1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P2 - In Siclops</masterLabel>
+            <translation><!-- P2 - In Siclops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P2 Complete</masterLabel>
+            <translation><!-- P2 Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

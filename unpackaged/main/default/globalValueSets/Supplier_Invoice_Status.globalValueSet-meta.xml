@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Post_to_Exchequer</fullName>
+        <default>false</default>
+        <label>Post to Exchequer</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Invoice</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>Update</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Exported</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Exported</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready to Export</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ready to Export</label>
+    </customValue>
+    <customValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Open</label>
+    </customValue>
+    <customValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Draft</label>
+    </customValue>
+    <description>Status of the invoice</description>
+    <masterLabel>Supplier Invoice Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

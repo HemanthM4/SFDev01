@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WO_has_SA__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To be used in this Flow: FL List Work Orders for a Job - Call Authorisation Flow - SA Flow - because in the Choice variable to list all Work Orders which Dont have a SA, you can only query one object - not its related records and you cant assign records to a choice variable - so this was the work around.</description>
+    <externalId>false</externalId>
+    <label>WO has SA</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

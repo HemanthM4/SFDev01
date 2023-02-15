@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- AFL UTM Google Analytics Client ID --></label>
+        <name>AFL_UTM_Google_Analytics_Client_ID__c</name>
+    </CustomFieldTranslation>

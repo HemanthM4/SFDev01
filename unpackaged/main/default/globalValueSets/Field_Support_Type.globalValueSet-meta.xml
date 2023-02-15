@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>-</fullName>
+        <default>true</default>
+        <label>-</label>
+    </customValue>
+    <customValue>
+        <fullName>No Valid Card on File</fullName>
+        <default>false</default>
+        <label>No Valid Card on File</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Refusing to Pay</fullName>
+        <default>false</default>
+        <label>Client Refusing to Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Support QC</fullName>
+        <default>false</default>
+        <label>Technical Support QC</label>
+    </customValue>
+    <customValue>
+        <fullName>Workmanship QC</fullName>
+        <default>false</default>
+        <label>Workmanship QC</label>
+    </customValue>
+    <customValue>
+        <fullName>Golden Lead</fullName>
+        <default>false</default>
+        <label>Golden Lead</label>
+    </customValue>
+    <customValue>
+        <fullName>Supervise</fullName>
+        <default>false</default>
+        <label>Supervise</label>
+    </customValue>
+    <customValue>
+        <fullName>New Starter First Day</fullName>
+        <default>false</default>
+        <label>New Starter First Day</label>
+    </customValue>
+    <masterLabel>Field Support Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

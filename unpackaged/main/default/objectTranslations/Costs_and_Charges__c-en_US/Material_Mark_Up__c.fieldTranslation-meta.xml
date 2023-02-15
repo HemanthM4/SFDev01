@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Percentage markup used to calculate the charge to customer for materials used. --></help>
+        <label><!-- Material Mark Up --></label>
+        <name>Material_Mark_Up__c</name>
+    </CustomFieldTranslation>

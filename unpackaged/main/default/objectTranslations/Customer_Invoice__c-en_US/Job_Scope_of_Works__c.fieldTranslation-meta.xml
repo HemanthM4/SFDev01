@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For use in Key Accounts invoice template --></help>
+        <label><!-- Job Scope of Works --></label>
+        <name>Job_Scope_of_Works__c</name>
+    </CustomFieldTranslation>

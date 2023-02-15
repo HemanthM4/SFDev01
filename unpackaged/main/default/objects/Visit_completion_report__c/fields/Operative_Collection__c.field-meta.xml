@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operative_Collection__c</fullName>
+    <defaultValue>&quot;Collected&quot;</defaultValue>
+    <description>Did the Operative collect the outstanding balance from the Customer or did the Office have to contact the Customer (Not Collected)</description>
+    <externalId>false</externalId>
+    <label>Operative Collection</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Collected</fullName>
+                <default>true</default>
+                <label>Collected</label>
+            </value>
+            <value>
+                <fullName>Not Collected</fullName>
+                <default>false</default>
+                <label>Not Collected</label>
+            </value>
+            <value>
+                <fullName>No VCR</fullName>
+                <default>false</default>
+                <label>No VCR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

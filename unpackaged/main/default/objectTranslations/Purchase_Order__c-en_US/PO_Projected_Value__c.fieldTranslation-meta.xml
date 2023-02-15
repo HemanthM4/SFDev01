@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total of the Purchase Order Line Items WITH VAT --></help>
+        <label><!-- PO Projected Value --></label>
+        <name>PO_Projected_Value__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Any relevant notes on the Contact (maximum of 1,000 characters) --></help>
+        <label><!-- Contact Notes --></label>
+        <name>Contact_Notes__c</name>
+    </CustomFieldTranslation>

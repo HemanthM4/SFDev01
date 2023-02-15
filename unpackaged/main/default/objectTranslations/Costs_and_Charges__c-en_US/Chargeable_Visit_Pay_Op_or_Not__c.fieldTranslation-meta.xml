@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Chargeable Visit? + Pay Op or Not? --></label>
+        <name>Chargeable_Visit_Pay_Op_or_Not__c</name>
+        <picklistValues>
+            <masterLabel>Chargeable Visit</masterLabel>
+            <translation><!-- Chargeable Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free of Charge - I request pay</masterLabel>
+            <translation><!-- Free of Charge - I request pay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free of Charge - do not pay me</masterLabel>
+            <translation><!-- Free of Charge - do not pay me --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

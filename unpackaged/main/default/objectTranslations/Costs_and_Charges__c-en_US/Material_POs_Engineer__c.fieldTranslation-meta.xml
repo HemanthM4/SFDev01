@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Expenses (Engineer) - claimed by engineer through mobile app - charged to customer at marked up rate, payment to engineer of total cost plus 10% for each expense with a receipt. --></help>
+        <label><!-- Material POs (Engineer) --></label>
+        <name>Material_POs_Engineer__c</name>
+    </CustomFieldTranslation>

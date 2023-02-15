@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>include_in_estimate_change</name>
+        <label>include in estimate change</label>
+        <locationX>182</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>include_in_estimate_change_true</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Include_in_estimate__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>call_scope_update_flow</targetReference>
+            </connector>
+            <label>include in estimate change true</label>
+        </rules>
+    </decisions>
+    <description>Removed ProfileId Metadata</description>
+    <environments>Default</environments>
+    <interviewLabel>PHASE 2 Costs and Charges is Created or Edited Processes {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 Costs and Charges is Created or Edited Processes Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>include_in_estimate_change</targetReference>
+        </connector>
+        <object>Costs_and_Charges__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>call_scope_update_flow</name>
+        <label>call scope update flow</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <flowName>FL_Amalgamate_WO_Scope_of_Works_and_enter_on_Job_record</flowName>
+        <inputAssignments>
+            <name>var_WorkOrderID</name>
+            <value>
+                <elementReference>$Record.Job__r.Earliest_Work_Order_by_Requested_Date__c</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

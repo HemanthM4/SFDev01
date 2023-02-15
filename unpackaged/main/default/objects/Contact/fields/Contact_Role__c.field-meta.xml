@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Role</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approvers</fullName>
+                <default>false</default>
+                <label>Approvers</label>
+            </value>
+            <value>
+                <fullName>Bill Payer</fullName>
+                <default>false</default>
+                <label>Bill Payer</label>
+            </value>
+            <value>
+                <fullName>Business Owner</fullName>
+                <default>false</default>
+                <label>Business Owner</label>
+            </value>
+            <value>
+                <fullName>Home Owner</fullName>
+                <default>false</default>
+                <label>Home Owner</label>
+            </value>
+            <value>
+                <fullName>Key Contact</fullName>
+                <default>false</default>
+                <label>Key Contact</label>
+            </value>
+            <value>
+                <fullName>Key Holder</fullName>
+                <default>false</default>
+                <label>Key Holder</label>
+            </value>
+            <value>
+                <fullName>Landlord</fullName>
+                <default>false</default>
+                <label>Landlord</label>
+            </value>
+            <value>
+                <fullName>Managing Agent</fullName>
+                <default>false</default>
+                <label>Managing Agent</label>
+            </value>
+            <value>
+                <fullName>Office Manager</fullName>
+                <default>false</default>
+                <label>Office Manager</label>
+            </value>
+            <value>
+                <fullName>On-Site Contact - Not Bill Payer</fullName>
+                <default>false</default>
+                <label>On-Site Contact - Not Bill Payer</label>
+            </value>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+            <value>
+                <fullName>Person available on Site</fullName>
+                <default>false</default>
+                <label>Person available on Site</label>
+            </value>
+            <value>
+                <fullName>Project Manager - Third Party</fullName>
+                <default>false</default>
+                <label>Project Manager - Third Party</label>
+            </value>
+            <value>
+                <fullName>Site Contact</fullName>
+                <default>false</default>
+                <label>Site Contact</label>
+            </value>
+            <value>
+                <fullName>Tenant/Person Living on Site</fullName>
+                <default>false</default>
+                <label>Tenant/Person Living on Site</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

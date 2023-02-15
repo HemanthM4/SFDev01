@@ -1,0 +1,20 @@
+Hi Team,
+
+Subject : {!Task.Subject}
+CLI :  {!Task.CLI__c}
+Interaction Total ACD time : {!Task.Interaction_Total_Acd_Time__c}
+Call Duration : {!Task.CallDurationInSeconds}
+
+
+Type of Call :  {!Task.Type}
+Status : {!Task.Status}
+Contact Purpose : {!Task.Contact_Purpose__c}
+Outcome : {!Task.Outcome__c}
+Trade : {!Task.Trade__c}
+Work Type - Only if booking Opportunity : {!Task.Work_Type__c}
+Postcode - Only if booking Opportunity : {!Task.Postcode__c}
+Comments : {!Task.Description}
+Assigned To : {!Task.OwnerId}
+
+Thanks
+Krishna

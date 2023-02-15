@@ -1,0 +1,14 @@
+{!Customer_Invoice__c.00N4G000006Oax2}
+{!Customer_Invoice__c.00N4G000006Oax2}
+
+Net Value: {!Customer_Invoice__c.00N4G000006Ob7C}
+Vat Value: {!Customer_Invoice__c.00N4G000006Ob7F}
+Total Value: {!Customer_Invoice__c.00N4G000006Ob7F}
+
+{!01I0N000001NDKs.Name}
+{!01I0N000001NDKs.00N0N00000FEy1n}        {!01I0N000001NDKs.00N4G000006OawC}
+
+
+{!01I0N000001NDKs.Name}
+{!01I0N000001NDKs.00N0N00000FEy1n}
+{!01I0N000001NDKs.00N4G000006OawC}

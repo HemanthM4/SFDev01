@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_E_Scheduled_Outstanding</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Work_type__c</columns>
+    <columns>Raised_by_Engineer_Formula__c</columns>
+    <columns>NAME</columns>
+    <columns>Customer_first_name__c</columns>
+    <columns>Customer_last_name__c</columns>
+    <columns>Property_address_postcode__c</columns>
+    <columns>Discount__c</columns>
+    <columns>Outstanding_Balance__c</columns>
+    <columns>Scheduled_date__c</columns>
+    <columns>Is_this_a_key_account__c</columns>
+    <columns>Key_Account_Name__c</columns>
+    <columns>Final_Payment_Not_Taken_On_Site__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Scheduled</value>
+    </filters>
+    <filters>
+        <field>Work_type__c</field>
+        <operation>notContain</operation>
+        <value>Roofing,Windows &amp; Doors,OSA-Electrical,Electrical,Handyman,Multi Trade,Waste Removal,Gardening,Ventilation. Air Conditioning,AC Refrigeration</value>
+    </filters>
+    <label>M &amp; E - Scheduled &amp; Outstanding</label>
+</ListView>

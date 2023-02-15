@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Arrival Window for the Work Order for this Job that has the earliest &apos;Requested Date&apos;. --></help>
+        <label><!-- Earliest Work Order Arrival Window --></label>
+        <name>Earliest_Work_Order_Arrival_Window__c</name>
+    </CustomFieldTranslation>

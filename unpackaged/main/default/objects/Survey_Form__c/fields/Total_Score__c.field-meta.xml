@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Vehicle__c + Uniform__c + Plant_Hire__c + Shift_Patterns__c + Rates_of_Pay__c + Ease_of_Field_Service_App__c + Quality_of_Leads__c + Quantity_Volume_of_Leads__c + Travel_Time_Distance__c + Overall_Earnings__c + Office_Admin_Support__c + Technical_Manager_Support__c + Access_to_Records_Community_Portal__c + Crystal_Tax_Umbrella_Company__c + Work_Life_Balance__c + Working_for_Aspect__c)/16</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Email Address of the Contact who raised the Job --></help>
+        <label><!-- Contact Email who Raised Job --></label>
+        <name>Contact_Email_who_Raised_Job__c</name>
+    </CustomFieldTranslation>

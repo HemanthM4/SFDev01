@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_only_Set_Passed_To_Cred_Ctl_to_TRUE</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+PRIORVALUE(Passed_to_Credit_Control__c)=TRUE,
+Passed_to_Credit_Control__c=FALSE
+)</errorConditionFormula>
+    <errorMessage>Once &#39;Passed to Credit Control&#39; has been ticked, it cannot be unticked.</errorMessage>
+</ValidationRule>

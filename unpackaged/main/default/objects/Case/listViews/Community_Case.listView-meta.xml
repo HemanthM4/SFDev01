@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>Community</label>
+    <queue>Community</queue>
+    <sharedTo>
+        <group>Complaint_Team_Manager_s</group>
+        <group>FIELD_SERVICE_Default</group>
+        <group>Franchise_Users</group>
+        <group>North_East</group>
+        <group>North_West</group>
+        <group>R10_Service_Managers</group>
+        <group>R11_Service_Manager</group>
+        <group>R20_Service_Manager</group>
+        <group>R21_Service_Manager</group>
+        <group>R30_Service_Manager</group>
+        <group>R31_Service_Manager</group>
+        <group>R32_Service_Manager</group>
+        <group>R40_Service_Manager</group>
+        <group>R50_Service_Manager</group>
+        <group>R51_Service_Manager</group>
+        <group>South_East</group>
+        <group>South_West</group>
+        <roleAndSubordinatesInternal>CEO</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

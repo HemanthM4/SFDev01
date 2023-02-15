@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trade_and_Sub_Category_Required</fullName>
+    <active>false</active>
+    <errorConditionFormula>And( 
+AND(Created_Through_Website_Form__c = FAlSE, NOT(ISPICKVAL(Origin, &quot;Email&quot;)) ),
+OR(
+  ISPICKVAL(Origin ,&quot;Phone&quot;),
+  ISPICKVAL(Origin ,&quot;Chat&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>A Trade and Group Value needs to be entered</errorMessage>
+</ValidationRule>

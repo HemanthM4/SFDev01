@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Additional Account Holder</fullName>
+        <default>false</default>
+        <label>Additional Account Holder</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Management</fullName>
+        <default>false</default>
+        <label>Business Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Owner</fullName>
+        <default>false</default>
+        <label>Business Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Estate Agent</fullName>
+        <default>false</default>
+        <label>Estate Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Owner</fullName>
+        <default>false</default>
+        <label>Home Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Landlord</fullName>
+        <default>false</default>
+        <label>Landlord</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Management</fullName>
+        <default>false</default>
+        <label>Property Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant</fullName>
+        <default>false</default>
+        <label>Tenant</label>
+    </customValue>
+    <description>Specifies the type of client</description>
+    <masterLabel>Client Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

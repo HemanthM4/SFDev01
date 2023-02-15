@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Support_Form_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+&quot;/forms/support/?id=&quot;&amp;Id&amp;
+&quot;&amp;ref=&quot;&amp;TEXT(On_site_agreement_number__c)&amp;
+&quot;&amp;cli=&quot;&amp;SUBSTITUTE(Customer_first_name__c, &quot; &quot;, &quot;%20&quot;)&amp;&quot;%20&quot;&amp;SUBSTITUTE(Customer_last_name__c, &quot; &quot;, &quot;%20&quot;)&amp;
+&quot;&amp;ema=&quot;&amp;  Customer_email__c &amp;
+&quot;&amp;add=&quot;&amp;  Property_address_line_1__c &amp;
+&quot;&amp;adds=&quot;&amp; Property_address_line_2__c &amp;
+&quot;&amp;addt=&quot;&amp; Property_address_towncity__c &amp;
+&quot;&amp;addc=&quot;&amp; Property_address_county__c &amp;
+&quot;&amp;addp=&quot;&amp; Property_address_postcode__c &amp;
+&quot;&amp;t=1&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Support Form URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

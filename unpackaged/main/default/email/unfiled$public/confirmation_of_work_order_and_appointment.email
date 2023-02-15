@@ -1,0 +1,4 @@
+Confirmation email
+1)as the call terminates, an email is sent to the customer with confirmation of work order and appointment
+2) the email is sent automatically based on Work Order Status being "Allocated"
+3) Template of email to be provided TBC

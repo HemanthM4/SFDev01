@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Based on the &apos;Review Star Rating&apos; - 5 Stars = 5 points, 4 Stars = 2 points, 3 Stars = 0 points, 2 Stars = -2 points and 1 Star = -5 points. --></help>
+        <label><!-- Customer Review Operative Score --></label>
+        <name>Customer_Review_Operative_Score__c</name>
+    </CustomFieldTranslation>

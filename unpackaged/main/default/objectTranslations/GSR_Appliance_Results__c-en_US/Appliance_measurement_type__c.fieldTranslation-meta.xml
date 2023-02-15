@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Appliance measurement type --></label>
+        <name>Appliance_measurement_type__c</name>
+        <picklistValues>
+            <masterLabel>Heat input btu/h</masterLabel>
+            <translation><!-- Heat input btu/h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heat input kw/h</masterLabel>
+            <translation><!-- Heat input kw/h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Pressure mbar</masterLabel>
+            <translation><!-- Operating Pressure mbar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picklist</masterLabel>
+            <translation><!-- Picklist --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

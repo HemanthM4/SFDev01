@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- The Work Order Line item can&apos;t be Completed and not needed at the same time. It has to be one or the other --></errorMessage>
+        <name>Cant_be_not_needed_and_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Duration Type must be in Hours --></errorMessage>
+        <name>Duration_Type_must_be_in_Hours</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, select a Sub-Task related to the same Sub-Category (Work Type) --></errorMessage>
+        <name>Validate_Work_Type_Parent_Child</name>
+    </validationRules>
+</CustomObjectTranslation>

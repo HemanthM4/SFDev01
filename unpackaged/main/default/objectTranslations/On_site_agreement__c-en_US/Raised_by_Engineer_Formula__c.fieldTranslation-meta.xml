@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The name of the Service Resource/Operative who raised the On Site Agreement --></help>
+        <label><!-- Raised by (Engineer) --></label>
+        <name>Raised_by_Engineer_Formula__c</name>
+    </CustomFieldTranslation>

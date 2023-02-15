@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is a new email template we will send to applicants to book onboarding day</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NEW: Onboarding Email</name>
+    <style>none</style>
+    <subject>Aspect - Application Next Steps</subject>
+    <textOnly>Please Schedule
+Your Onboarding
+
+Dear {!Engineer_Application__c.First_Name__c},
+
+Congratulations on passing your Trial!
+
+We’d like to invite you into our offices for an Onboarding day, which is the last stage of the application process. Here you will collect your van and uniform, and meet our Support team.
+
+It is essential that you attend this Onboarding session, which is the last stage of the application process.
+
+To book your Onboarding session, please follow this link: Book Trial
+
+If you have any questions, please let us know.
+
+Kind Regards,
+
+Resources Team
+
+
+BOOK YOUR ONBOARDING
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

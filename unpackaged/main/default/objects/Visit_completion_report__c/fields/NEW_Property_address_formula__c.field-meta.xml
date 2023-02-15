@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEW_Property_address_formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( Company_name__c ) , &quot;&quot;,Company_name__c  &amp;BR() )&amp;
+IF( ISBLANK(Property_address_line_1__c) , &quot;&quot;,Property_address_line_1__c &amp;BR() )&amp;
+IF( ISBLANK(Property_address_line_2__c) , &quot;&quot;,Property_address_line_2__c &amp;BR() )&amp;
+IF( ISBLANK(Property_address_towncity__c) , &quot;&quot;,Property_address_towncity__c &amp;BR() )&amp;
+IF( ISBLANK(Property_address_county__c) , &quot;&quot;,Property_address_county__c &amp;BR() )&amp;
+IF( ISBLANK(Property_address_postcode__c) , &quot;&quot;,Property_address_postcode__c &amp;BR() )&amp;
+&quot; United Kingdom &quot; &amp;BR() &amp;
+IF( ISBLANK(Customer_phone__c) , &quot;&quot;, &#39;Phone: &#39; &amp; Customer_phone__c )</formula>
+    <label>NEW Property address formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

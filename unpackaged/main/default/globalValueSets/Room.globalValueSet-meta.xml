@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Attic</fullName>
+        <default>false</default>
+        <label>Attic</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathroom 1</fullName>
+        <default>false</default>
+        <label>Bathroom 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathroom 2</fullName>
+        <default>false</default>
+        <label>Bathroom 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathroom 3</fullName>
+        <default>false</default>
+        <label>Bathroom 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Bedroom 4</fullName>
+        <default>false</default>
+        <label>Bedroom 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Bedroom 5</fullName>
+        <default>false</default>
+        <label>Bedroom 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Cinema room</fullName>
+        <default>false</default>
+        <label>Cinema room</label>
+    </customValue>
+    <customValue>
+        <fullName>Cloakroom</fullName>
+        <default>false</default>
+        <label>Cloakroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservatory</fullName>
+        <default>false</default>
+        <label>Conservatory</label>
+    </customValue>
+    <customValue>
+        <fullName>Dining room</fullName>
+        <default>false</default>
+        <label>Dining room</label>
+    </customValue>
+    <customValue>
+        <fullName>En suite 1</fullName>
+        <default>false</default>
+        <label>En suite 1</label>
+    </customValue>
+    <customValue>
+        <fullName>En suite 2</fullName>
+        <default>false</default>
+        <label>En suite 2</label>
+    </customValue>
+    <customValue>
+        <fullName>En suite 3</fullName>
+        <default>false</default>
+        <label>En suite 3</label>
+    </customValue>
+    <customValue>
+        <fullName>En suite 4</fullName>
+        <default>false</default>
+        <label>En suite 4</label>
+    </customValue>
+    <customValue>
+        <fullName>En suite 5</fullName>
+        <default>false</default>
+        <label>En suite 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Family room</fullName>
+        <default>false</default>
+        <label>Family room</label>
+    </customValue>
+    <customValue>
+        <fullName>Garage</fullName>
+        <default>false</default>
+        <label>Garage</label>
+    </customValue>
+    <customValue>
+        <fullName>Gym</fullName>
+        <default>false</default>
+        <label>Gym</label>
+    </customValue>
+    <customValue>
+        <fullName>Hall</fullName>
+        <default>false</default>
+        <label>Hall</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchen</fullName>
+        <default>false</default>
+        <label>Kitchen</label>
+    </customValue>
+    <customValue>
+        <fullName>Landing</fullName>
+        <default>false</default>
+        <label>Landing</label>
+    </customValue>
+    <customValue>
+        <fullName>Living room</fullName>
+        <default>false</default>
+        <label>Living room</label>
+    </customValue>
+    <customValue>
+        <fullName>other:</fullName>
+        <default>false</default>
+        <label>other:</label>
+    </customValue>
+    <customValue>
+        <fullName>Plant room</fullName>
+        <default>false</default>
+        <label>Plant room</label>
+    </customValue>
+    <customValue>
+        <fullName>Sauna</fullName>
+        <default>false</default>
+        <label>Sauna</label>
+    </customValue>
+    <customValue>
+        <fullName>Shower room 1</fullName>
+        <default>false</default>
+        <label>Shower room 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Shower room 2</fullName>
+        <default>false</default>
+        <label>Shower room 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Stairs</fullName>
+        <default>false</default>
+        <label>Stairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Study</fullName>
+        <default>false</default>
+        <label>Study</label>
+    </customValue>
+    <customValue>
+        <fullName>Toilet</fullName>
+        <default>false</default>
+        <label>Toilet</label>
+    </customValue>
+    <customValue>
+        <fullName>TV room</fullName>
+        <default>false</default>
+        <label>TV room</label>
+    </customValue>
+    <customValue>
+        <fullName>Utility room</fullName>
+        <default>false</default>
+        <label>Utility room</label>
+    </customValue>
+    <customValue>
+        <fullName>Water meter</fullName>
+        <default>false</default>
+        <label>Water meter</label>
+    </customValue>
+    <masterLabel>Room</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

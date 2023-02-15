@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Outstanding Payment Request Credit Account</name>
+    <style>none</style>
+    <subject>Payment request {!Customer_Invoice__c.Name}</subject>
+    <textOnly>Payment
+request
+
+Hi {!Customer_Invoice__c.Customer_First_Name__c},
+
+Thank you for choosing Aspect. Our operative has completed works at your property and we’ve sent your invoice in a separate email.
+
+Your payment is due within the next 30 days.  Please  contact us  so we can process your payment, or make the payment via bank transfer.
+
+Job number: {!Customer_Invoice__c.Job_Number__c}
+Invoice number: {!Customer_Invoice__c.Name}
+Account number: {!Customer_Invoice__c.Account_Number__c}
+
+PROPERTY ADDRESS
+
+BALANCE
+
+{!Customer_Invoice__c.Property_Address__c}
+
+Received
+{!Customer_Invoice__c.Sum_of_Payments__c}
+Outstanding
+{!Customer_Invoice__c.Balance_Outstanding__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+WHAT&#39;S NEXT?
+
+Once we&#39;ve processed your payment we&#39;ll send you a payment confirmation email. We&#39;ve sent your invoice in a separate email.
+
+Please note that waste removal is not included with our prices unless stated in the order details. If you require waste removal, we’re able to provide a fixed price waste removal service which can be arranged directly through one of our trades people.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+For more information read our terms and conditions.
+
+Help made easy.
+
+© 2022 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>GSR_Submission_Report_Notification</fullName>
+        <ccEmails>paperwork@aspect.co.uk</ccEmails>
+        <description>GSR Submission Report Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>GSR_Submission/GSR_Submission_Confirmation</template>
+    </alerts>
+</Workflow>

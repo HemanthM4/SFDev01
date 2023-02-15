@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ADDITIONAL CHARGES/FIXED CHARGE APPLIED --></label>
+        <name>ADDITIONAL_CHARGES_FIXED_CHARGE_APPLIED__c</name>
+    </CustomFieldTranslation>

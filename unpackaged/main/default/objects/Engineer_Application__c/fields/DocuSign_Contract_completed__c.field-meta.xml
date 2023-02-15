@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DocuSign_Contract_completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A custom field which is updated by DocuSign eSignature App when an envelope with an Engineer Contract is completed.</description>
+    <externalId>false</externalId>
+    <label>DocuSign Contract completed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

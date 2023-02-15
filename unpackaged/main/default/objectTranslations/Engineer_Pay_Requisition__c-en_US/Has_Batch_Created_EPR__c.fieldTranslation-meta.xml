@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Has Batch Created EPR --></label>
+        <name>Has_Batch_Created_EPR__c</name>
+    </CustomFieldTranslation>

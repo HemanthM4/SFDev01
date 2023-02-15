@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For Delene and Holly</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Off_site_agreement__c.Payments_Reconciled__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>On_site_agreement__c.Payments_Reconciled__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ON AND OFF Site Agreements - Edit Payments Reconciled chkbox</label>
+</PermissionSet>

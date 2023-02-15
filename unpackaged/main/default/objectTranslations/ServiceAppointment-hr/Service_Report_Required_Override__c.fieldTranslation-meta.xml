@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be used if there is a problem in the Mobile app in retrieving the Service Report - Office can tick this box, then Operative will need to pull down on the Work Order screen on mobile app to get the updated checkbox value. --></help>
+        <label><!-- Service Report Required Override --></label>
+        <name>Service_Report_Required_Override__c</name>
+    </CustomFieldTranslation>

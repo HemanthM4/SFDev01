@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Obtained_by_Engineer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Review Obtained by Engineer</label>
+    <referenceTo>ServiceResource</referenceTo>
+    <relationshipLabel>Visit completion reports (Review Obtained by Engineer)</relationshipLabel>
+    <relationshipName>Visit_completion_reports_Reviews</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Fixed_Price_WO</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Fixed Price WO</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_Create_Fixed_Price_Work_Order_Step_2_using_Third_Picklist_System_NEXT_GEN?var_JobID={!Job__c.Id}&amp;var_Called_From_Job=true</url>
+</WebLink>

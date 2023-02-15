@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email to be sent out when a vehicle has been Reserved for an Applicant</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New Vehicle Allocation - Reserved For</name>
+    <style>none</style>
+    <subject>New Vehicle Reservation</subject>
+    <textOnly>New Vehicle
+Reservation
+
+ Hi all,
+
+
+The following vehicle has now been Reserved. Please see the details below:
+
+Van Number: {Vehicle_Allocation__c.Vehicle__c}
+
+Reg Number: {Vehicle_Allocation__c.Reg_No__c}
+
+Reserved For: {Vehicle_Allocation__c.Reserved_For__c} 
+
+Start Date: {Vehicle_Allocation__c.Start_date__c}
+
+
+Kind Regards,
+
+Aspect Resources Team 
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

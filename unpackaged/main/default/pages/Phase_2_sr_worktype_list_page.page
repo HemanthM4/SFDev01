@@ -1,0 +1,31 @@
+<apex:page controller="sr_worktype_list_controller">
+     <apex:form >
+        <apex:pageBlock title="Qualified For" >
+            <!--
+                        <apex:commandButton action="{!tmp_method}" value="Update srs" id="theeButton"/>
+                        <apex:commandButton action="{!tmp_method2}" value="delete srs" id="theButton"/>
+-->
+            <apex:pageBlockTable value="{!wt_results}" var="wt">  
+                <apex:column >
+                    <apex:outputLink value="{!URLFOR($Action.WorkType.View, wt.id)}">
+                        {!wt.name}
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column >
+                    <apex:outputLink value="{!URLFOR($Action.WorkType.View, wt.id)}">
+                        {!wt.SkillRequirements}
+                    </apex:outputLink>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+        <apex:pageBlock title="No Skills Required">
+            <apex:pageBlockTable value="{!results_nosreq}" var="wt" >
+                 <apex:column >
+                     <apex:outputLink value="{!URLFOR($Action.WorkType.View, wt.id)}">
+                         {!wt.name}
+                     </apex:outputLink>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

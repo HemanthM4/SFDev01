@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>For_Client_Approval</fullName>
+    <columns>Sector__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>Payment_Value__c</columns>
+    <columns>Site__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Raised_by_Service_Resource__c</columns>
+    <columns>Feed_Back_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>For Client Approval</value>
+    </filters>
+    <label>For Client Approval</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Time_Field_Support_was_set__c</fullName>
+    <description>The Date/Time a User set the &#39;Field Support&#39; from its default value of &#39;Not Required&#39;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Date/Time a User set the &#39;Field Support&#39; from its default value of &#39;Not Required&#39;</inlineHelpText>
+    <label>Date/Time Field Support was set</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

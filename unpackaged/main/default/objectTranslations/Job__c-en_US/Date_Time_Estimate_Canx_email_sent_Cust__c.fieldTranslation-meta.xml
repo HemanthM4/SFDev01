@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date/time the Cancellation email was sent to the Customer when &apos;Job Status&apos; set to &apos;Cancelled&apos; --></help>
+        <label><!-- Date/Time Estimate Canx email sent Cust --></label>
+        <name>Date_Time_Estimate_Canx_email_sent_Cust__c</name>
+    </CustomFieldTranslation>

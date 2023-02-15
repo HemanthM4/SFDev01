@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Discount selected for Work Order e.g. £25 off, 10% off Labour etc --></help>
+        <label><!-- C&amp;C Discount PL --></label>
+        <name>C_C_Discount_PL__c</name>
+    </CustomFieldTranslation>

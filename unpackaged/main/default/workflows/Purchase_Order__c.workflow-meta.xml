@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_for_Hire_Hire_PO_Created</fullName>
+        <description>Email for Hire - Hire PO Created</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Supplier_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Hire</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_for_Subcontractor_Subcontractor_PO_Created</fullName>
+        <description>Email for Subcontractor - Subcontractor PO Created</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Supplier_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Sub_Contractor</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_for_Supplier_Materials_PO_Created</fullName>
+        <description>Email for Supplier and Operative - Materials PO Created</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>Supplier_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Supplier_Materials</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_for_Hire_Hire_PO_Created_for_Operative</fullName>
+        <description>Send Email for Hire - Hire PO Created for Operative</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Hire</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_for_Hire_Hire_PO_Created_for_supplier</fullName>
+        <description>Send Email for Hire - Hire PO Created for supplier</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Supplier_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Hire</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_for_Subcontractor_Subcontractor_PO_Created_for_Operative</fullName>
+        <description>Send Email for Subcontractor - Subcontractor PO Created for Operative</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Sub_Contractor</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_for_Subcontractor_Subcontractor_PO_Created_for_Supplier</fullName>
+        <description>Send Email for Subcontractor - Subcontractor PO Created for Supplier</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Supplier_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Sub_Contractor</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_for_Supplier_and_Operative_Materials_PO_Created_for_Operative</fullName>
+        <description>Send Email for Supplier and Operative - Materials PO Created for Operative</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Engineer_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Supplier_Materials</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Email_for_Supplier_and_Operative_Materials_PO_Created_for_Supplier</fullName>
+        <description>Send Email for Supplier and Operative - Materials PO Created for Supplier</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Supplier_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Purchase_Orders/PO_Supplier_Materials</template>
+    </alerts>
+</Workflow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the Job Charge Total is &gt;=£2000 then a Project Manager should be allocated to it --></help>
+        <label><!-- Requires Project Manager --></label>
+        <name>Requires_Project_Manager__c</name>
+    </CustomFieldTranslation>

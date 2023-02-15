@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passed_to_Credit_Control__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Has this VCR been passed to Credit Control for Collection?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Has this VCR been passed to Credit Control for Collection?</inlineHelpText>
+    <label>Passed to Credit Control?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

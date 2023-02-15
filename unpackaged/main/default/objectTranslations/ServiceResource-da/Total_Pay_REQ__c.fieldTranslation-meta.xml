@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- New / Approved / Paid / Processed Requisition Total --></help>
+        <label><!-- Total Pay  REQ --></label>
+        <name>Total_Pay_REQ__c</name>
+    </CustomFieldTranslation>

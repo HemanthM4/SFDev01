@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Name__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The name of the Project Manager for this Job record if one is required.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the Project Manager for this Job record if one is required.</inlineHelpText>
+    <label>PM Name</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Jobs_Project_Manager</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

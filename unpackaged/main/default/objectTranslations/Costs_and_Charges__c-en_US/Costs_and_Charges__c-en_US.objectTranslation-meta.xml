@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Costs and Charges</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Costs and Charges</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Costs and Charges Layout</layout>
+        <sections>
+            <label><!-- Budget Totals --></label>
+            <section>Budget Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Labour --></label>
+            <section>Charge Labour</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Labour Reactive --></label>
+            <section>Charge Labour Reactive</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Materials --></label>
+            <section>Charge Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Other --></label>
+            <section>Charge Other</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Labour --></label>
+            <section>Cost Labour</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Materials --></label>
+            <section>Cost Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Other --></label>
+            <section>Cost Other</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Discount Section --></label>
+            <section>Discount Section</section>
+        </sections>
+        <sections>
+            <label><!-- On Creation --></label>
+            <section>On Creation</section>
+        </sections>
+        <sections>
+            <label><!-- Totals --></label>
+            <section>Totals</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - COSTS  AND CHARGESLayout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Discount Section --></label>
+            <section>Discount Section</section>
+        </sections>
+        <sections>
+            <label><!-- Labour --></label>
+            <section>Labour</section>
+        </sections>
+        <sections>
+            <label><!-- Materials --></label>
+            <section>Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Totals --></label>
+            <section>Totals</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

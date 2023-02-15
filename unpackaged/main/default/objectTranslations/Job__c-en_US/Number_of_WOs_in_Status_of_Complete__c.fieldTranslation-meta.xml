@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Number of Work Orders where Status=Complete --></help>
+        <label><!-- Number of WOs in Status of Complete --></label>
+        <name>Number_of_WOs_in_Status_of_Complete__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <name>Did_we_find_Rate_Data</name>
+        <label>Did we find Rate Data?</label>
+        <locationX>685</locationX>
+        <locationY>141</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No_Rate_Data_Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>var_TradeRateData_Lead_Fee</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>ScreenNo_Rate_Data_Found_for_Trade</targetReference>
+            </connector>
+            <label>No Rate Data Found</label>
+        </rules>
+    </decisions>
+    <description>Rate Card and Rate Restructure</description>
+    <environments>Default</environments>
+    <interviewLabel>FL Get Lead Fee for certain Trade V2 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FL Get Lead Fee for certain Trade V2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <description>Standard Account Rate Card</description>
+        <name>Get_Account_Rate_Card_for_Trade_Not_for_specific_Account</name>
+        <label>Get Account Rate Card for Trade (Not for specific Account)</label>
+        <locationX>436</locationX>
+        <locationY>139</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Trade_Rate_Card</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Standard__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Rate_Card_Account__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Trade_Rate_Card</name>
+        <label>Get Trade Rate Card</label>
+        <locationX>566</locationX>
+        <locationY>139</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Did_we_find_Rate_Data</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Rate_Card__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Account_Rate_Card_for_Trade_Not_for_specific_Account.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Trade_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_TradeSelected</elementReference>
+            </value>
+        </filters>
+        <object>Rate_Card_Trade__c</object>
+        <outputReference>var_TradeRateData_Lead_Fee</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Lead_Fee__c</queriedFields>
+    </recordLookups>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>ScreenNo_Rate_Data_Found_for_Trade</name>
+        <label>No Rate Data Found for Trade</label>
+        <locationX>913</locationX>
+        <locationY>138</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>DisplayTxt_No_Rate_Data_Found_for_Trade</name>
+            <fieldText>&lt;p&gt;&lt;strong style=&quot;font-size: 14px;&quot;&gt;!! Error - No Trade Rate card were found for {!var_TradeSelected} - please speak to your Administrator and give them this screenshot.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>64</locationX>
+        <locationY>120</locationY>
+        <connector>
+            <targetReference>Get_Account_Rate_Card_for_Trade_Not_for_specific_Account</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>var_TradeRateData_Lead_Fee</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Rate_Card_Trade__c</objectType>
+    </variables>
+    <variables>
+        <name>var_TradeSelected</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

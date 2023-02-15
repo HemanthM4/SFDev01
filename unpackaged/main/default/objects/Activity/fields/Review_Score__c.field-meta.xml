@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Review_Access__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Answer__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Anything_else_we_can_help_with__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Arrival_timeslots__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Ask_before_hold__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Avoidance_Rates__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Avoid_Silences__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Booking_confirmation__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Check_for_questions__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Clear_No_Jargon__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Confidence_Helpful__c)=&#39;Yes&#39;,4,0)
++
+IF(TEXT(Review_Confirm_Bill_payer__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Confirm_booking_details__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Confirm_Contact_No__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Confirm_on_site_contact__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Confirm_payment_details__c)=&#39;Yes&#39;,4,0)
++
+IF(TEXT(Review_Greeting__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Listening__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Materials__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Next_steps__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Opt_in_emails__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Parking__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Payment_Policy__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Phonetic_email_check__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Polite_Language__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Question_Issue__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Rates__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Recording__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Request_Name__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Service_Info__c)=&#39;Yes&#39;,4,0)
++
+IF(TEXT(Review_Thanks_for_call__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Thanks_for_holding__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Tone_of_voice__c)=&#39;Yes&#39;,3,0)
++
+IF(TEXT(Review_Type_of_property__c)=&#39;Yes&#39;,2,0)
++
+IF(TEXT(Review_Use_of_customer_name__c)=&#39;Yes&#39;,2,0)
+
+
+/*
+Review_Access__c 3
+Review_Answer__c 2
+Review_Anything_else_we_can_help_with__c 2
+Review_Arrival_timeslots__c 3
+Review_Ask_before_hold__c 3
+Review_Avoidance_Rates__c 3
+Review_Avoid_Silences__c 3
+Review_Booking_confirmation__c 3
+Review_Check_for_questions__c 3
+Review_Clear_No_Jargon__c 3
+Review_Confidence_Helpful__c 4
+Review_Confirm_Bill_payer__c 3
+Review_Confirm_booking_details__c 3
+Review_Confirm_Contact_No__c 3
+Review_Confirm_on_site_contact__c 3
+Review_Confirm_payment_details__c 4
+Review_Greeting__c 2
+Review_Listening__c 3
+Review_Materials__c 3
+Review_Next_steps__c 3
+Review_Opt_in_emails__c 3
+Review_Parking__c 2
+Review_Payment_Policy__c 3
+Review_Phonetic_email_check__c 3
+Review_Polite_Language__c 3
+Review_Question_Issue__c 3
+Review_Rates__c 3
+Review_Recording__c 2
+Review_Request_Name__c 3
+Review_Service_Info__c 4
+Review_Thanks_for_call__c 2
+Review_Thanks_for_holding__c 3
+Review_Tone_of_voice__c 3
+Review_Type_of_property__c 2
+Review_Use_of_customer_name__c 2
+ 
+
+
+
+*/</formula>
+    <label>Review Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

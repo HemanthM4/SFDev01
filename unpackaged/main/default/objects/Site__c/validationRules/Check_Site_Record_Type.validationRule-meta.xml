@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Site_Record_Type</fullName>
+    <active>false</active>
+    <errorConditionFormula>Account__r.RecordType.DeveloperName !=  RecordType.DeveloperName</errorConditionFormula>
+    <errorMessage>Invalid Site Record Type. The Site record type should match the Account Record Type</errorMessage>
+</ValidationRule>

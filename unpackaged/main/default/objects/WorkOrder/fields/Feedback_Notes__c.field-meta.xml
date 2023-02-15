@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Notes__c</fullName>
+    <externalId>false</externalId>
+    <label>Feedback Notes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Awaiting client date confirmation</fullName>
+                <default>false</default>
+                <label>Awaiting client date confirmation</label>
+            </value>
+            <value>
+                <fullName>Awaiting info engineer</fullName>
+                <default>false</default>
+                <label>Awaiting info engineer</label>
+            </value>
+            <value>
+                <fullName>Awaiting parts client</fullName>
+                <default>false</default>
+                <label>Awaiting parts client</label>
+            </value>
+            <value>
+                <fullName>Awaiting parts supplier</fullName>
+                <default>false</default>
+                <label>Awaiting parts supplier</label>
+            </value>
+            <value>
+                <fullName>Works not going ahead</fullName>
+                <default>false</default>
+                <label>Works not going ahead</label>
+            </value>
+            <value>
+                <fullName>Awaiting scaffolding permits</fullName>
+                <default>false</default>
+                <label>Awaiting scaffolding permits</label>
+            </value>
+            <value>
+                <fullName>Scaffolding only</fullName>
+                <default>false</default>
+                <label>Scaffolding only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

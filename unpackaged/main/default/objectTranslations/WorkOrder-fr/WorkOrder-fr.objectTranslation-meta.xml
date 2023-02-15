@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Booking Team - Feed</layout>
+        <sections>
+            <label><!-- Completion Details --></label>
+            <section>Completion Details</section>
+        </sections>
+        <sections>
+            <label><!-- Site Details --></label>
+            <section>Site Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General Office</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General Office and Manager</layout>
+        <sections>
+            <label><!-- Completion Details --></label>
+            <section>Completion Details</section>
+        </sections>
+        <sections>
+            <label><!-- Site Details --></label>
+            <section>Site Details</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MANAGER KEY USER - Work Order Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Completion Details --></label>
+            <section>Completion Details</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MANAGER USER - Work Order Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Completion Details --></label>
+            <section>Completion Details</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - WORK ORDER Layout</layout>
+        <sections>
+            <label><!-- Attendance --></label>
+            <section>Attendance</section>
+        </sections>
+        <sections>
+            <label><!-- Charge Policy --></label>
+            <section>Charge Policy</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client --></label>
+            <section>Client</section>
+        </sections>
+        <sections>
+            <label><!-- Completion Details --></label>
+            <section>Completion Details</section>
+        </sections>
+        <sections>
+            <label><!-- Field Details --></label>
+            <section>Field Details</section>
+        </sections>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications Sent --></label>
+            <section>Notifications Sent</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SYSTEM ADMIN ONLY</layout>
+        <sections>
+            <label><!-- Attendance Summary --></label>
+            <section>Attendance Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Budget --></label>
+            <section>Budget</section>
+        </sections>
+        <sections>
+            <label><!-- Checks --></label>
+            <section>Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Customer --></label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Further Works --></label>
+            <section>Further Works</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Date --></label>
+            <section>Scheduling Date</section>
+        </sections>
+        <sections>
+            <label><!-- Service Report Fields --></label>
+            <section>Service Report Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SYSTEM ADMIN ONLY - to migrate</layout>
+        <sections>
+            <label><!-- Completion Details --></label>
+            <section>Completion Details</section>
+        </sections>
+        <sections>
+            <label><!-- Fields for Carines emails - not required on other pg layouts --></label>
+            <section>Fields for Carines emails - not required on other pg layouts</section>
+        </sections>
+        <sections>
+            <label><!-- Linked Work Orders --></label>
+            <section>Linked Work Orders</section>
+        </sections>
+        <sections>
+            <label><!-- On site Conversion Work Order 1 --></label>
+            <section>On site Conversion Work Order 1</section>
+        </sections>
+        <sections>
+            <label><!-- On site Conversion Work Order 2 --></label>
+            <section>On site Conversion Work Order 2</section>
+        </sections>
+        <sections>
+            <label><!-- Rate of Pay --></label>
+            <section>Rate of Pay</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Date --></label>
+            <section>Scheduling Date</section>
+        </sections>
+        <sections>
+            <label><!-- Site Details --></label>
+            <section>Site Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create a Payment record --></label>
+        <name>Create_a_Payment_record</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NOTINUSE Create a Payment record --></label>
+        <name>NOTINUSE_Create_a_Payment_record</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Line Item --></label>
+        <name>New_Line_Item</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Fixed Price --></label>
+        <name>Fixed_Price</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reactive --></label>
+        <name>Reactive</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please do not edit a Work Order if its Status is Pending. --></errorMessage>
+        <name>Prevent_NonSystemAdminEditPendingWO</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+You cannot go over the Work Order budget
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --></errorMessage>
+        <name>Reqs_in_Budget</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Testing - cannot change a WO if in Status of Rejected --></errorMessage>
+        <name>Status_of_X_Cannot_editUpdate_WO</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Additional_Work_Order_button --></label>
+        <name>Additional_Work_Order_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Calculate_Charges --></label>
+        <name>Calculate_Charges</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Calculate_Markup --></label>
+        <name>Calculate_Markup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Cancel_Service_Appointment --></label>
+        <name>Cancel_Service_Appointment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Clone_Work_Order_associated_records --></label>
+        <name>Clone_Work_Order_associated_records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CongaSign_sendForSignature --></label>
+        <name>CongaSign_sendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Additional_Work_Order_button --></label>
+        <name>Create_Additional_Work_Order_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Consolidated_Invoice --></label>
+        <name>Create_Consolidated_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Customer_Invoice --></label>
+        <name>Create_Customer_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Fixed_Price_Work_Order --></label>
+        <name>Create_Fixed_Price_Work_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_PO_New --></label>
+        <name>Create_PO_New</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Payment_Record --></label>
+        <name>Create_Payment_Record</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Purchase_Order --></label>
+        <name>Create_Purchase_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Serv_Appts_for_Work_Orders --></label>
+        <name>Create_Serv_Appts_for_Work_Orders</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Estimate --></label>
+        <name>Generate_Estimate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Quote --></label>
+        <name>Generate_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Off_Site_Agreement_Complete_Required_Fields --></label>
+        <name>Off_Site_Agreement_Complete_Required_Fields</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Payment --></label>
+        <name>Process_Payment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Re_send_Off_Site_Agreement_Emails --></label>
+        <name>Re_send_Off_Site_Agreement_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Re_send_Off_Site_OR_On_Site_Agreement_Emails --></label>
+        <name>Re_send_Off_Site_OR_On_Site_Agreement_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SF1_Partner_User_Testing_28_04_20 --></label>
+        <name>SF1_Partner_User_Testing_28_04_20</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unlock_Work_Order --></label>
+        <name>Unlock_Work_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_to_Omission --></label>
+        <name>Update_to_Omission</name>
+    </webLinks>
+</CustomObjectTranslation>

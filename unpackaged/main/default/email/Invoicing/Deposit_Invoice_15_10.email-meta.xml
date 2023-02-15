@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Deposit Invoice 15.10</name>
+    <style>none</style>
+    <subject>Here&#39;s your deposit invoice {!Customer_Invoice__c.Name}</subject>
+    <textOnly>deposit  invoice
+
+02045027541
+enquiries@aspect.co.uk
+aspect.co.uk
+
+E7 Barwell Business Park, Leatherhead Road
+Chessington, London, KT9 2NY
+
+VAT Number: 854 0599 06
+
+{!Customer_Invoice__c.Account__c}
+
+{!Customer_Invoice__c.Property_Address__c}
+
+Invoice Number  {!Customer_Invoice__c.Name}
+
+Invoice Date  {!Customer_Invoice__c.Date__c}
+
+Job Number  {!Customer_Invoice__c.Job_Number__c}
+
+Account Number  {!Customer_Invoice__c.Account_Number__c}
+
+Reference:  {!Customer_Invoice__c.Job_Number__c}
+Address:  {!Customer_Invoice__c.Site_Address__c}
+Contact:  {!Customer_Invoice__c.Site_Contact__c}
+
+This is a deposit invoice for 50% of the quoted works. On completion of the works you&#39;ll be invoiced separately for the remaining balance.
+
+Charges  Sub-Total  VAT  Total
+Deposit for job {!Customer_Invoice__c.Job_Number__c}  {!Customer_Invoice__c.Charge_Net__c}  {!Customer_Invoice__c.Charge_VAT__c}  {!Customer_Invoice__c.Charge_Gross__c}
+
+Please make payment to:
+
+Name:  Aspect Maintenance Services Ltd
+Bank:  BACS
+Sort Code:  40-03-21
+Account:  42030969
+Terms:   No credit available for non account customers
+Non Payment could result in Legal Action
+
+Net Total  {!Customer_Invoice__c.Charge_Net__c}
+VAT  {!Customer_Invoice__c.Charge_VAT__c}
+Invoice Total  {!Customer_Invoice__c.Charge_Gross__c}
+
+air  con  |  carpentry  |  decorating  |  drainage  |  electrics  |  glazing  |  handyman  |  heating  |  leak  detection  |  plumbing  |  roofing  |  and  more
+For a full list of accreditations, please visit www.aspect.co.uk/accreditations
+Aspect Maintenance Services Limited. Registered in England No. 5296195. JII110520000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cost: Total PO Product Required --></label>
+        <name>Cost_Total_PO_Product_Required__c</name>
+    </CustomFieldTranslation>

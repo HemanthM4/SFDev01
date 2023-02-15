@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Who was responsible for the complaint - Office or the Operative? --></help>
+        <label><!-- Complaint Responsible --></label>
+        <name>Complaint_Responsible__c</name>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation><!-- Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operative</masterLabel>
+            <translation><!-- Operative --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

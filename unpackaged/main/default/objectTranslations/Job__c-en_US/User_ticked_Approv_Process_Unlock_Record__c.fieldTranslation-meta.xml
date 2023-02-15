@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The User who ticked the field &apos;Approval Process Unlock Record&apos; --></help>
+        <label><!-- User ticked Approv Process Unlock Record --></label>
+        <name>User_ticked_Approv_Process_Unlock_Record__c</name>
+        <relationshipLabel><!-- Jobs (User ticked Approv Process Unlock Record) --></relationshipLabel>
+    </CustomFieldTranslation>

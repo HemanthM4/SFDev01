@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Alert_for_Vehicle_Allocation_Not_SR</fullName>
+        <ccEmails>Peter.Youles@aspect.co.uk</ccEmails>
+        <ccEmails>Max.Wilkinson@aspect.co.uk</ccEmails>
+        <description>Vehicle Allocation made for not Service Resource</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jebarsan.mangalarajah@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rose.slack@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>recruitment@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Vehicle/New_Vehicle_Allocation_Reserved</template>
+    </alerts>
+    <alerts>
+        <fullName>Vehicle_Allocation_made_for_SR</fullName>
+        <ccEmails>Peter.Youles@aspect.co.uk</ccEmails>
+        <ccEmails>Max.Wilkinson@aspect.co.uk</ccEmails>
+        <description>Vehicle Allocation made for Service Resource</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jebarsan.mangalarajah@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rose.slack@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>recruitment@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Vehicle/New_Vehicle_Allocation</template>
+    </alerts>
+</Workflow>

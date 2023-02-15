@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Account Holder --></label>
+            <section>Account Holder</section>
+        </sections>
+        <sections>
+            <label><!-- Site Related information --></label>
+            <section>Site Related information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Human Resources</layout>
+        <sections>
+            <label><!-- Account Holder --></label>
+            <section>Account Holder</section>
+        </sections>
+        <sections>
+            <label><!-- Site Related information --></label>
+            <section>Site Related information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lauren Contact Layout</layout>
+        <sections>
+            <label><!-- Account Holder --></label>
+            <section>Account Holder</section>
+        </sections>
+        <sections>
+            <label><!-- Site Related information --></label>
+            <section>Site Related information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lauren Contact Layout FSL</layout>
+        <sections>
+            <label><!-- Account Holder --></label>
+            <section>Account Holder</section>
+        </sections>
+        <sections>
+            <label><!-- Site Related information --></label>
+            <section>Site Related information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - CONTACT Layout</layout>
+        <sections>
+            <label><!-- Additional Info --></label>
+            <section>Additional Info</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- The Account record type should match the Site Type i.e. If the Account record type is Commercial then the Site Type should be Commercial. --></errorMessage>
+        <name>Check_The_Site_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If this is the primary contact, a Key contact Type needs to be selected --></errorMessage>
+        <name>Need_Key_Contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For a site, the Contact Type and Contact status should be populated. --></errorMessage>
+        <name>Site_Contact_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contact cannot be a key contact if contact status is selected --></errorMessage>
+        <name>Site_Contact_status_or_key_contact</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CongaSign_sendForSignature --></label>
+        <name>CongaSign_sendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Client_Letter --></label>
+        <name>Conga_Composer_Composer_SP_Client_Letter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

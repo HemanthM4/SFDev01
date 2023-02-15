@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gas</fullName>
+    <columns>Name</columns>
+    <columns>EstimatedDuration</columns>
+    <columns>DurationType</columns>
+    <columns>Qualified_Resource_Count__c</columns>
+    <columns>Scope_of_Works__c</columns>
+    <columns>Scope_of_Works_2__c</columns>
+    <columns>Scope_of_Works_3__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Trade__c</field>
+        <operation>contains</operation>
+        <value>Heating &amp; Hot Water (Commercial),Heating &amp; Hot Water (Domestic),Leak Detection,Plumbing &amp; Cold Water,Utilities - Blended - Heating &amp; Hot Water (Commercial),Utilities - Blended - Heating &amp; Hot Water (Domestic)</value>
+    </filters>
+    <label>Gas</label>
+</ListView>

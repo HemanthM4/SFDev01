@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Please provide details of the conviction --></label>
+        <name>Please_provide_details_of_the_conviction__c</name>
+    </CustomFieldTranslation>

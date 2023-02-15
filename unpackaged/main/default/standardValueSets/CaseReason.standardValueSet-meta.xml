@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Make a Booking</fullName>
+        <default>false</default>
+        <label>Make a Booking</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancel a Booking</fullName>
+        <default>false</default>
+        <label>Cancel a Booking</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ETA check</fullName>
+        <default>false</default>
+        <label>ETA check</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reschedule a Booking</fullName>
+        <default>false</default>
+        <label>Reschedule a Booking</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Query - Engineer on Site</fullName>
+        <default>false</default>
+        <label>Query - Engineer on Site</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Back Request</fullName>
+        <default>false</default>
+        <label>Call Back Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Query/Complaint</fullName>
+        <default>false</default>
+        <label>Query/Complaint</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong Number</fullName>
+        <default>false</default>
+        <label>Wrong Number</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Supplier</fullName>
+        <default>false</default>
+        <label>Supplier</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales/ Marketing</fullName>
+        <default>false</default>
+        <label>Sales/ Marketing</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>(Business Support - Recruitment / HR / Fleet)</fullName>
+        <default>false</default>
+        <label>(Business Support - Recruitment / HR / Fleet)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Engineer</fullName>
+        <default>false</default>
+        <label>Engineer</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Poor Connection/ Silent Line</fullName>
+        <default>false</default>
+        <label>Poor Connection/ Silent Line</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Credit Account - Helpdesk</fullName>
+        <default>false</default>
+        <label>Credit Account - Helpdesk</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Acceptance of Quoted Works</fullName>
+        <default>false</default>
+        <label>Acceptance of Quoted Works</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Discuss an Estimate</fullName>
+        <default>false</default>
+        <label>Discuss an Estimate</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Chasing an Estimate</fullName>
+        <default>false</default>
+        <label>Chasing an Estimate</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Make a Payment</fullName>
+        <default>false</default>
+        <label>Make a Payment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Query an Invoice</fullName>
+        <default>false</default>
+        <label>Query an Invoice</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

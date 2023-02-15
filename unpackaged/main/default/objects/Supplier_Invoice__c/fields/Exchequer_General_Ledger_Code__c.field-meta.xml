@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exchequer_General_Ledger_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Exchequer General Ledger Code</label>
+    <referenceTo>Exchequer_General_Ledger_Code__c</referenceTo>
+    <relationshipLabel>Supplier Invoices</relationshipLabel>
+    <relationshipName>Supplier_Invoices</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

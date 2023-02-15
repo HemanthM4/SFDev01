@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Email__c</fullName>
+    <description>This field will populate when an account has been Assigned to the Purchase Order and will generate an email into this field on Process builder.</description>
+    <externalId>false</externalId>
+    <label>Supplier Contact Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

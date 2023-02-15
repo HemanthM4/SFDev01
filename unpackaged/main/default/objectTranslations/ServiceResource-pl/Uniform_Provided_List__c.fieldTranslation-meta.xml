@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Uniform Provided List --></label>
+        <name>Uniform_Provided_List__c</name>
+        <picklistValues>
+            <masterLabel>Baseball Cap</masterLabel>
+            <translation><!-- Baseball Cap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beanie Hat</masterLabel>
+            <translation><!-- Beanie Hat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drainage Waders (Drainage Only)</masterLabel>
+            <translation><!-- Drainage Waders (Drainage Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heavy Duty Jacket</masterLabel>
+            <translation><!-- Heavy Duty Jacket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heavy Duty Trousers</masterLabel>
+            <translation><!-- Heavy Duty Trousers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi-Vis Vest</masterLabel>
+            <translation><!-- Hi-Vis Vest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi-Vis jacket</masterLabel>
+            <translation><!-- Hi-Vis jacket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polo Shirt</masterLabel>
+            <translation><!-- Polo Shirt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shorts</masterLabel>
+            <translation><!-- Shorts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweatshirt with Zip</masterLabel>
+            <translation><!-- Sweatshirt with Zip --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

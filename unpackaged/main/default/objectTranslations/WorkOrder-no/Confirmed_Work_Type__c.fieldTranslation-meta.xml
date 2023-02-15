@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This will be changed on the mobile app if the Operative decides a different Work Type should&apos;ve been selected. --></help>
+        <label><!-- Confirmed Work Type --></label>
+        <name>Confirmed_Work_Type__c</name>
+        <relationshipLabel><!-- Work Orders (Confirmed Work Type) --></relationshipLabel>
+    </CustomFieldTranslation>

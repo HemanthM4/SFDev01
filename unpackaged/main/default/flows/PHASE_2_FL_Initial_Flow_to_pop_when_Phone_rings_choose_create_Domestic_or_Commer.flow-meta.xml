@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <choices>
+        <name>ChoiceCreateCommercial</name>
+        <choiceText>Create Commercial Customer</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Create Commercial Customer</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ChoiceCreateDomestic</name>
+        <choiceText>Create Domestic Customer</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Create Domestic Customer</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ChoiceExit</name>
+        <choiceText>Exit</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Exit</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Check_selection_made</name>
+        <label>Check selection made</label>
+        <locationX>671</locationX>
+        <locationY>197</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Domestic_Customer</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ChoiceCreateDomestic</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Call_Domestic_Cust_Flow</targetReference>
+            </connector>
+            <label>Domestic Customer</label>
+        </rules>
+        <rules>
+            <name>Commercial_Customer</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ChoiceCreateCommercial</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Call_Create_Commercial_Cust_Flow</targetReference>
+            </connector>
+            <label>Commercial Customer</label>
+        </rules>
+        <rules>
+            <name>Exit_chosen</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ChoiceExit</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Exit chosen</label>
+        </rules>
+    </decisions>
+    <interviewLabel>PHASE 2 FL - Initial Flow to pop when Phone rings - choose create Domestic or Commercial Customer {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 FL - Initial Flow to pop when Phone rings - choose create Domestic or Commercial Customer</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>ScreenCreate_Domestic_or_Credit_Customer</name>
+        <label>Create Domestic or Credit Customer?</label>
+        <locationX>480</locationX>
+        <locationY>92</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Check_selection_made</targetReference>
+        </connector>
+        <fields>
+            <name>RadbtnPlease_confirm</name>
+            <choiceReferences>ChoiceCreateDomestic</choiceReferences>
+            <choiceReferences>ChoiceCreateCommercial</choiceReferences>
+            <choiceReferences>ChoiceExit</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Please confirm</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>ScreenCreate_Domestic_or_Credit_Customer</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Call_Create_Commercial_Cust_Flow</name>
+        <label>Call Create Commercial Cust Flow</label>
+        <locationX>926</locationX>
+        <locationY>280</locationY>
+        <flowName>FL_New_Commercial_Customer_Create_Open_Cash_A_C_Contact_and_Site_System_NEXT_GEN</flowName>
+    </subflows>
+    <subflows>
+        <name>Call_Domestic_Cust_Flow</name>
+        <label>Call Domestic Cust Flow</label>
+        <locationX>923</locationX>
+        <locationY>63</locationY>
+        <flowName>FL_New_Customer_Create_Open_Cash_Account_Contact_and_Site_Address_Pick_System_NE</flowName>
+    </subflows>
+</Flow>

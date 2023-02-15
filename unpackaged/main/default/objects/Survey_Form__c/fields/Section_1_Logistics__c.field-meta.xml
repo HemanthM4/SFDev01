@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section_1_Logistics__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Vehicle__c + Uniform__c + Plant_Hire__c + Shift_Patterns__c + Rates_of_Pay__c + Ease_of_Field_Service_App__c)/6</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Section 1 - Logistics</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Account_Estimate_Acceptance_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+&quot;/forms/accept-credit/?id=&quot;&amp; Deposit_Invoice__c &amp;
+&quot;&amp;ema=&quot;&amp;  Contact_Email_who_Raised_Job__c  &amp; /*&quot;&amp;ema=&quot;&amp; Deposit_Invoice__r.Account_Email_Address__c &amp;*/
+&quot;&amp;job=&quot;&amp; Name &amp;
+&quot;&amp;jid=&quot;&amp; Id &amp;
+&quot;&amp;acc=&quot;&amp; Account__r.Account_Reference__c &amp;
+&quot;&amp;nam=&quot;&amp;SUBSTITUTE( Account__r.Name , &quot; &quot;, &quot;%20&quot;)&amp;
+&quot;&amp;im=&quot; &amp; IF(Is_Work_Commencing_Immediately__c, &quot;True&quot;, &quot;False&quot;) &amp;
+
+&quot;&amp;t=&quot;&amp;
+if( ISPICKVAL(Status__c,&quot;Approved by Client&quot;),&quot;1&quot;,&quot;0&quot;)
+&amp;
+
+
+&quot;&amp;date=&quot;&amp; TEXT(Earliest_Work_Order_by_Requested_Date__r.Requested_Date__c ) &amp;
+
+
+&quot;&amp;time=&quot;&amp; TEXT( HOUR(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_Start__c) )&amp;&quot;:&quot;&amp;LPAD(TEXT( MINUTE(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_Start__c)), 2,&quot;0&quot;)&amp;
+
+&quot;%20-%20&quot;
+&amp;
+
+
+TEXT( HOUR(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_End__c ) )
+
+&amp;&quot;:&quot;&amp;
+
+LPAD(TEXT( MINUTE(Earliest_Work_Order_by_Requested_Date__r.Arrival_Window_End__c )), 2,&quot;0&quot;)&amp;
+
+
+
+
+&quot;&amp;wo=&quot;&amp;Earliest_Work_Order_by_Requested_Date__c</formula>
+    <label>Credit Account Estimate Acceptance URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

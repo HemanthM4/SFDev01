@@ -1,0 +1,8 @@
+Hello Team,
+
+A new online booking request has been created with the number {!Online_Bookings__c.Name}. This request is PENDING and requires card details.
+
+Link to access : {!Online_Bookings__c.Link}
+
+Thanks
+Krishna

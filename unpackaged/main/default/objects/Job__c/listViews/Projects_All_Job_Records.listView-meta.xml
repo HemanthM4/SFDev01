@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projects_All_Job_Records</fullName>
+    <columns>Account_Type__c</columns>
+    <columns>Go_Live_check__c</columns>
+    <columns>Go_Live_Status__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Account__c</columns>
+    <columns>Job_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Payment_Value__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>Site__c</columns>
+    <columns>Type__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Attendance_Notes_for_Office__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>6/30/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>11/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Job_Type__c</field>
+        <operation>contains</operation>
+        <value>Project Management Refurbishment,Decoration</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>For Client Approval,Approved by Client</value>
+    </filters>
+    <label>Projects All Job Records</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organic_Review__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Was this an organic review - i.e. the Customer decided to give it of their own volition</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Was this an organic review - i.e. the Customer decided to give it of their own volition</inlineHelpText>
+    <label>Organic Review?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

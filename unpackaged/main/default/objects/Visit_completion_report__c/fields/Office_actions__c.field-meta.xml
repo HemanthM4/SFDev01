@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Office_actions__c</fullName>
+    <externalId>false</externalId>
+    <label>Office actions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Office actions</fullName>
+                <default>false</default>
+                <label>Office actions</label>
+            </value>
+            <value>
+                <fullName>To action default</fullName>
+                <default>false</default>
+                <label>To action default</label>
+            </value>
+            <value>
+                <fullName>With client</fullName>
+                <default>false</default>
+                <label>With client</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

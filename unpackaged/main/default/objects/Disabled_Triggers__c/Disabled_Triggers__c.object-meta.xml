@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Allows to disable specific trigger handler(s). 
+
+A trigger Handler is disabled when Is_Disabled__c = true 
+AND any of the below is TRUE 
+1. Handler_Names__c is empty 
+2. Handler_Names__c contains ALL 
+3. Handler_Names__c contains name of the current trigger handler</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Disabled Triggers</label>
+    <visibility>Public</visibility>
+</CustomObject>

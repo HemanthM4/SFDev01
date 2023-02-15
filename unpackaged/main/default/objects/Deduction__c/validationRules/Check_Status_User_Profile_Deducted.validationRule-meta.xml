@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Status_User_Profile_Deducted</fullName>
+    <active>true</active>
+    <description>Only Users with a Profile of System Administrator, Katalin Kallai, or Delene de Haas can set an Engineer Deduction to a Status of &#39;Deducted&#39;.</description>
+    <errorConditionFormula>AND
+(
+TEXT(Status__c)=&#39;Deducted&#39;,
+$Profile.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.System_Administrator.X15_Char_Profile_ID__c, $User.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.Katalin_Kallai_User_ID.X15_Char_Profile_ID__c,
+$User.Id&lt;&gt;$CustomMetadata.PHASE_2_Profile_IDs__mdt.DeleneDeHaas.X15_Char_Profile_ID__c
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Only Users with a Profile of System Administrator, Katalin Kallai, or Delene de Haas can set an Engineer Deduction to a Status of &#39;Deducted&#39;.</errorMessage>
+</ValidationRule>

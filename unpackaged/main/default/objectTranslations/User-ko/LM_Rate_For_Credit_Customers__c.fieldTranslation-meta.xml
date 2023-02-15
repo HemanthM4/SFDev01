@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LM Rate For Credit Customers --></label>
+        <name>LM_Rate_For_Credit_Customers__c</name>
+    </CustomFieldTranslation>

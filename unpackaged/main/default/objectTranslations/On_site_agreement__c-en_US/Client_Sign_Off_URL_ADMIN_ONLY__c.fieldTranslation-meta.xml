@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please do not use this link for anything! --></help>
+        <label><!-- Client Sign Off URL - ADMIN ONLY! --></label>
+        <name>Client_Sign_Off_URL_ADMIN_ONLY__c</name>
+    </CustomFieldTranslation>

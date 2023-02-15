@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>ON Site Agreement - Notify estimates@aspect.co.uk of Acceptance by Customer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>ON Site Agreement - Notify estimates@aspect.co.uk of Acceptance by Customer</name>
+    <style>freeForm</style>
+    <subject>ONSA Accepted - {!On_site_agreement__c.Raised_by_Engineer__c} - {!On_site_agreement__c.Siclops_Call_Ref__c}</subject>
+    <textOnly>Hi Team, the Customer {!On_site_agreement__c.Customer_first_name__c} {!On_site_agreement__c.Customer_last_name__c} has just accepted the ON Site Agreement for:
+
+Work Type: {!On_site_agreement__c.Work_type__c}.
+
+Raised by Operative: {!On_site_agreement__c.Raised_by_Engineer_Formula__c}
+Siclops Call Ref:             {!On_site_agreement__c.Siclops_Call_Ref__c}
+Post Code: {!On_site_agreement__c.Property_address_postcode__c}
+Total Hours Required: {!On_site_agreement__c.Total_hours_required__c}
+Charge excl. VAT: {!On_site_agreement__c.Fixed_total_charge_excl_VAT__c}
+Proposed Date: {!On_site_agreement__c.Preferred_date__c} - {!On_site_agreement__c.Preferred_arrival_timeslot__c}
+Remaining on Site: {!On_site_agreement__c.Work_Commenced_Immediately__c} (0=No, 1=Yes)
+
+
+Scope of Work:
+
+{!On_site_agreement__c.Description_of_works_to_carry_out__c}
+
+Link to ON Site Agreement record: https://chumley.lightning.force.com/lightning/r/On_site_agreement__c/{!On_site_agreement__c.Id}/view
+
+Link to Work Order record:
+https://chumley.lightning.force.com/lightning/r/WorkOrder/{!On_site_agreement__c.Work_OrderId__c}/view
+
+
+Please arrange the Service Appointment,
+
+Thank you</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

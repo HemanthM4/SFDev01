@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E164_format_Phone__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;+44&quot; &amp; MID(SUBSTITUTE( Phone , &quot; &quot;, &quot;&quot;), 2, LEN(SUBSTITUTE( Phone , &quot; &quot;, &quot;&quot;))-1) 
+
+
+/*&quot;+44&quot; &amp; MID(Phone, 2, LEN(Phone)-1) */
+/*SUBSTITUTE( Phone , &quot; &quot;, &quot;&quot;)*/</formula>
+    <label>E164 format Phone</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

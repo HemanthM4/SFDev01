@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hold</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Application_Status__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Interview_Date__c</columns>
+    <columns>Trial_Date__c</columns>
+    <columns>Primary_Trade__c</columns>
+    <columns>Dry_Trade__c</columns>
+    <columns>Wet_Trade__c</columns>
+    <columns>Residential_Postcode__c</columns>
+    <columns>HeadshotSelfie__c</columns>
+    <columns>Qualifications__c</columns>
+    <columns>Your_CV__c</columns>
+    <columns>Upload_photos_of_your_workmanship__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Application_Status__c</field>
+        <operation>equals</operation>
+        <value>Hold</value>
+    </filters>
+    <label>Hold</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

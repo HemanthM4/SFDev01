@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Boolean field to indicate whether the invoice is DRC - this is set on invoice creation. --></help>
+        <label><!-- DRC Invoice --></label>
+        <name>DRC_Invoice__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is from Rollup helper and is needed to display the total value of all the Retention Deductions against the Service Resource. DO NOT DELETE --></help>
+        <label><!-- Total Retention Deductions --></label>
+        <name>Total_Retention_Deductions__c</name>
+    </CustomFieldTranslation>

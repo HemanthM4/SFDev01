@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- When did you attain this conviction? --></label>
+        <name>When_did_you_attain_this_conviction__c</name>
+    </CustomFieldTranslation>

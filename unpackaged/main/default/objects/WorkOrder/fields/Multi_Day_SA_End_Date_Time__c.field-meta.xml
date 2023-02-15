@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multi_Day_SA_End_Date_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>( DATETIMEVALUE(TEXT( Requested_Date__c ) &amp; &quot; &quot; &amp;  LEFT(TEXT(Arrival_Window_End__c),8) ) ) + 
+( Duration /24) + 
+(FLOOR(Duration/8)*16)/24
+
+/*First line is just Arrival Window End as a date/time
+2nd line adds a fraction of a day to this date/time where the fraction. We want to represent the duration as a fraction of a day - which is 24 hours, so thats why we divide the duration by 24.
+
+3rd line: Adding in the Home time (break between days) we divide the duration by 8 to get the number of full working days that this Appointment is going to cover, e.g. 8 hrs=1 full day, 32 would be 4 full days etc etc. We times it by 16 to give us, for each full day, a home time of 16 hours.
+
+the /24 is to get it as a fraction of a day.
+
+Engineers must have 16 hrs rest
+Example got 10hr job, we start at 12:00 and therefore finish at 20:00, hometime hasa to be 16 hrs, therefore earliest can return next day is 12:00 (8pm + 16 hours) and then 2 hrs remaining, so that brings us to 14:00 on the next day.
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*DATETIMEVALUE( TEXT(Requested_Date__c) &amp; &quot; &quot; &amp; LEFT(TEXT( Arrival_Window_End__c ),8) )*/
+
+
+
+/*DATETIMEVALUE( TEXT(Requested_Date__c) &amp; &quot; &quot; &amp; TEXT( Arrival_Window_End__c ) )*/</formula>
+    <label>Multi Day SA End Date/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

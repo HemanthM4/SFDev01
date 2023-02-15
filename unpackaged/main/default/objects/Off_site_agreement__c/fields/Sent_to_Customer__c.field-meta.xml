@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sent_to_Customer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If ticked, pending email has been sent to Customer - untick and save to send again</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If ticked, Email has been sent to Customer - untick and save to send again</inlineHelpText>
+    <label>Pending Email Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

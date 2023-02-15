@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Accept An Estimate</name>
+    <style>none</style>
+    <subject>Here&#39;s your estimate {!Job__c.Name}</subject>
+    <textOnly>Here&#39;s your
+estimate
+
+Hi {!Job__c.Customer_First_Name__c},
+
+Thank you for choosing Aspect. 						In this email, you’ll find the details of our proposed estimate. These details are based upon information obtained by our operative while visiting your property.
+
+To go ahead, please accept your estimate. If you have a question regarding the estimate you can  contact us here.
+
+Once we receive your acceptance, we&#39;ll process the deposit amount of {!Job__c.Charge_Deposit__c} on card ending {!Job__c.Card_on_Record_End__c}. To use another card please contact us  here.
+
+Job number {!Job__c.Name}
+Account number  {!Job__c.Account_Reference__c}
+
+PROPERTY ADDRESS
+
+ORDER DETAILS
+
+{!Job__c.Property_Address__c}
+
+Date:{!Job__c.Earliest_Work_Order_Requested_Date__c}
+Arrival:{!Job__c.Earliest_Work_Order_Arrival_Window__c}
+Hours estimated: {!Job__c.Job_Duration__c}
+
+ITEM
+
+SUBTOTAL
+
+{!Job__c.T1A__c}
+
+{!Job__c.T1B__c}
+
+Subtotal Charge
+
+{!Job__c.Charge_Net__c}
+
+VAT
+
+{!Job__c.Charge_VAT__c}
+
+Total Charge
+
+{!Job__c.Charge_Gross__c}
+
+Deposit
+
+{!Job__c.Charge_Deposit__c}
+
+JOB DESCRIPTION
+
+{!Job__c.Combined_Scope_of_Works_for_All_WOs__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive £10 off
+
+WHAT&#39;S NEXT?
+
+Once we’ve received your acceptance, we&#39;ll process the deposit on the card on file. We’ll then order any required materials and confirm your appointment via email. If materials or availability result in us not being able to meet your requested appointment date, we’ll be in touch to find a day and time frame that suits you best.
+
+ON THE DAY
+
+Once the works are complete and you’re happy with the outcome, our trades person will obtain your signature and the remaining balance will be taken form the last card you provided us with. If you wish to use another card, please contact us to amend your card details.
+
+Please note, that waste removal is not included in the estimate unless stated in the job details. Upon completion of the works, we are able to provide a fixed price waste removal service which can be arranged directly through your trades person.
+
+HOW WE CHARGE
+
+Our estimates are designed to take into account the investigation of the required works, trusted trade knowledge, trade accredited body requirements such as evidence and certification, and any registrations that we must undertake. 						In case the works take less or more time than calculated for, the charge to you will remain the same. 						In case of having to amend the scope of work, we’ll reach out to you to discuss any change in costs before proceeding. Examples of situations in which this may happen include uncovering structural or component damage, adjustments to your request or previously concealed findings such as a pre-existing leak under a floor. 						For more information read our terms and conditions.
+
+OUR CANCELLATION POLICY
+
+If you want to cancel your booking once we’ve allocated a tradesperson, you may be charged a cancellation fee. 						For more information please check our cancellation policy.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type of Call --></label>
+        <name>Type_of_Call__c</name>
+        <picklistValues>
+            <masterLabel>Call Transferred</masterLabel>
+            <translation><!-- Call Transferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Client - Booking Opportunity</masterLabel>
+            <translation><!-- Existing Client - Booking Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Related</masterLabel>
+            <translation><!-- Job Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer - Booking Opportunity</masterLabel>
+            <translation><!-- New Customer - Booking Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other / Sales / Wrong Number</masterLabel>
+            <translation><!-- Other / Sales / Wrong Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out Bound Calls</masterLabel>
+            <translation><!-- Out Bound Calls --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

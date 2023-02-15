@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Van Status --></label>
+        <name>Van_Status__c</name>
+        <picklistValues>
+            <masterLabel>Aspect New</masterLabel>
+            <translation><!-- Aspect New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aspect Old</masterLabel>
+            <translation><!-- Aspect Old --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue</masterLabel>
+            <translation><!-- Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Own</masterLabel>
+            <translation><!-- Own --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Transport</masterLabel>
+            <translation><!-- Public Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned</masterLabel>
+            <translation><!-- Returned --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

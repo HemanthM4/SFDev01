@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Site_Postal_Code</fullName>
+    <active>false</active>
+    <description>Validate the Site postal code assuming UK
+a-zA-Z = Alphabets in upper or lower case.
+\d = Digits [0-9]
+\s = Space
+[a-zA-Z]{2} = Alphabets that can used in the 1st &amp; 2nd
+\\d\\d = number of Digits that can used in the 1st part of the Postal Code</description>
+    <errorConditionFormula>AND(
+ OR(Site_Country__c=&#39;United Kingdom&#39;,
+Site_Country__c=&#39;UK&#39;,
+Site_Country__c=&#39;Great Britain&#39;
+)
+,
+NOT(
+
+OR(
+
+ISNULL(  Site_PostalCode__c  ),
+
+REGEX( Site_PostalCode__c , &quot;[a-zA-Z]\\d\\s\\d[a-zA-Z]{2}&quot;),
+
+REGEX( Site_PostalCode__c , &quot;[a-zA-Z]\\d\\d\\s\\d[a-zA-Z]{2}&quot;),
+
+REGEX( Site_PostalCode__c , &quot;[a-zA-Z]{2}\\d\\s\\d[a-zA-Z]{2}&quot;),
+
+REGEX( Site_PostalCode__c , &quot;[a-zA-Z]{2}\\d\\d\\s\\d[a-zA-Z]{2}&quot;),
+
+REGEX( Site_PostalCode__c , &quot;[a-zA-Z]{2}\\d[a-zA-Z]\\s\\d[a-zA-Z]{2}&quot;),
+
+REGEX( Site_PostalCode__c , &quot;[a-zA-Z]\\d[a-zA-Z]\\s\\d[a-zA-Z]{2}&quot;)
+
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Site_PostalCode__c</errorDisplayField>
+    <errorMessage>Invalid Site Postal Code</errorMessage>
+</ValidationRule>

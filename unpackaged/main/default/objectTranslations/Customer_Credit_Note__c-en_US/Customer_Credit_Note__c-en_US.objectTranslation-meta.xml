@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Credit Note</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Credit Notes</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Customer Credit Note Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Other Fields --></label>
+            <section>Other Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - Customer Credit Note Layout</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Invoice Information --></label>
+            <section>Customer Invoice Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Re_Send_Email_to_Customer --></label>
+        <name>Re_Send_Email_to_Customer</name>
+    </webLinks>
+</CustomObjectTranslation>

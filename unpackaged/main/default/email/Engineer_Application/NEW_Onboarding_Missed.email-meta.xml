@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is a new email template we will send to applicants to rebook their onboarding</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NEW: Onboarding Missed</name>
+    <style>none</style>
+    <subject>Aspect - Application Next Steps</subject>
+    <textOnly>Please Reschedule
+Your Onboarding
+
+Dear {!Engineer_Application__c.First_Name__c},
+
+We had you scheduled for an Onboarding day in our office, but it looks like you didn’t make it. We hope everything is well.
+
+This is the last stage of the application process before you can work with us, so if you’d like to rebook the Onboarding session, please follow this link: Rebook Trial
+
+Please feel free to reach out if you have any questions.
+
+Kind Regards,
+
+Resources Team
+
+
+REBOOK YOUR ONBOARDING
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

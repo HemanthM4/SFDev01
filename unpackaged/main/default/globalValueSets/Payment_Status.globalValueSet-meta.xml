@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+    </customValue>
+    <customValue>
+        <fullName>Prepare Engineer Payroll - Batches in Progress</fullName>
+        <default>false</default>
+        <label>Prepare Engineer Payroll - Batches in Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Level 1</fullName>
+        <default>false</default>
+        <label>Level 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculate Retention</fullName>
+        <default>false</default>
+        <label>Calculate Retention</label>
+    </customValue>
+    <customValue>
+        <fullName>Release Payslips</fullName>
+        <default>false</default>
+        <label>Release Payslips</label>
+    </customValue>
+    <customValue>
+        <fullName>Import to Exchequer</fullName>
+        <default>false</default>
+        <label>Import to Exchequer</label>
+    </customValue>
+    <customValue>
+        <fullName>This_Batch_is_Completed_and_Closed</fullName>
+        <default>false</default>
+        <label>This Batch is Completed and Closed</label>
+    </customValue>
+    <customValue>
+        <fullName>Level 2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Level 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Level 3 Authorised</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Level 3 Authorised</label>
+    </customValue>
+    <customValue>
+        <fullName>Level 3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Level 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Level 2 Authorised</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Level 2 Authorised</label>
+    </customValue>
+    <customValue>
+        <fullName>Level 1 Authorised</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Level 1 Authorised</label>
+    </customValue>
+    <masterLabel>Payment Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

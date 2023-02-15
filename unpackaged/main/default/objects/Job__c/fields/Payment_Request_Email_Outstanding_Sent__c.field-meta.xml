@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Request_Email_Outstanding_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Email Customer Payment Request for Outstanding WOs has been sent (ticked)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Email Customer Payment Request for Outstanding WOs has been sent (ticked)</inlineHelpText>
+    <label>Payment Request Email Outstanding Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

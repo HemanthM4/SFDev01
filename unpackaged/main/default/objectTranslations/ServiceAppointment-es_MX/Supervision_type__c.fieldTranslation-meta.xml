@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Supervision type --></label>
+        <name>Supervision_type__c</name>
+        <picklistValues>
+            <masterLabel>Attended</masterLabel>
+            <translation><!-- Attended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checked Report, Post Visit</masterLabel>
+            <translation><!-- Checked Report, Post Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need to contact OP</masterLabel>
+            <translation><!-- Need to contact OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Supervision</masterLabel>
+            <translation><!-- Remote Supervision --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

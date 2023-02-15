@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Standard permissions in order to take payments, create authorisations and establish payment schedules</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Asperato Standard - No App Access</label>
+</PermissionSet>

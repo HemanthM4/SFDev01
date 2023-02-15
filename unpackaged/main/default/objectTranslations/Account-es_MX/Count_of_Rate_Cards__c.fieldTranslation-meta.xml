@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of Related Rate Cards to the Account --></help>
+        <label><!-- Count of Rate Cards --></label>
+        <name>Count_of_Rate_Cards__c</name>
+    </CustomFieldTranslation>

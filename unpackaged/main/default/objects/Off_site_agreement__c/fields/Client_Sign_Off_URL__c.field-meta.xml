@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Sign_Off_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,
+&quot;https://aspect.co.uk/forms/payment/&quot;,
+&quot;https://aspect.co.uk.hyv.gotest.it/forms/payment/&quot;)
+&amp;&quot;?cli=&quot;&amp; Customer_first_name__c &amp;&quot;%20&quot;&amp;Customer_last_name__c
+
+&amp;&quot;&amp;ref=&quot; &amp;TEXT(Off_Site_Agreement_Number__c)
+&amp;&quot;&amp;id=&quot;&amp; Id
+&amp;&quot;&amp;cem=&quot;&amp; Customer_email__c
+&amp;
+&quot;&amp;sic=&quot;&amp; Siclops_Call_Ref__c 
+&amp;
+
+&quot;&amp;a=&quot;&amp; TEXT(MOD( FLOOR(Final_Payment_Required__c),8)) &amp;
+&quot;&amp;b=&quot;&amp; TEXT(MOD( FLOOR(Final_Payment_Required__c/8),8)) &amp;
+&quot;&amp;c=&quot;&amp; TEXT(MOD( FLOOR(Final_Payment_Required__c/(8*8)),8)) &amp;
+&quot;&amp;d=&quot;&amp; TEXT(MOD( FLOOR(Final_Payment_Required__c/(8*8*8)),8)) &amp;
+&quot;&amp;e=&quot;&amp; TEXT(MOD( FLOOR(Final_Payment_Required__c/(8*8*8*8)),8)) &amp;
+&quot;&amp;f=&quot;&amp; TEXT(MOD( FLOOR(Final_Payment_Required__c/(8*8*8*8*8)),8)) &amp;
+
+&quot;&amp;x=&quot;&amp; TEXT(MOD( MOD(Final_Payment_Required__c,1)*100,8)) &amp;
+&quot;&amp;y=&quot;&amp; TEXT(MOD( FLOOR(MOD(Final_Payment_Required__c,1)*100/8),8)) &amp;
+&quot;&amp;z=&quot;&amp; TEXT(MOD( FLOOR(MOD(Final_Payment_Required__c,1)*100/(8*8)),8))
+
+&amp;&quot;&amp;t=0&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Client Sign Off URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

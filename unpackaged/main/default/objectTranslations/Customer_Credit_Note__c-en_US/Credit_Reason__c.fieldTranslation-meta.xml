@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Credit Reason --></label>
+        <name>Credit_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Booking Error</masterLabel>
+            <translation><!-- Booking Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Back</masterLabel>
+            <translation><!-- Call Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation><!-- Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount Not Applied</masterLabel>
+            <translation><!-- Discount Not Applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Payment</masterLabel>
+            <translation><!-- Duplicate Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empty</masterLabel>
+            <translation><!-- Empty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer Not Communicating With Client</masterLabel>
+            <translation><!-- Engineer Not Communicating With Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOC</masterLabel>
+            <translation><!-- FOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Hours Charged</masterLabel>
+            <translation><!-- Incorrect Hours Charged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Rate Applied</masterLabel>
+            <translation><!-- Incorrect Rate Applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Fee Only</masterLabel>
+            <translation><!-- Quote Fee Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Not Sent</masterLabel>
+            <translation><!-- Report Not Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Not Sufficient</masterLabel>
+            <translation><!-- Report Not Sufficient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workmanship</masterLabel>
+            <translation><!-- Workmanship --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sub Cats of Trade and Group picklist fields --></help>
+        <label><!-- Sub-Category (Trade &amp;amp; Group) --></label>
+        <name>Sub_Category_Trade_Group__c</name>
+    </CustomFieldTranslation>

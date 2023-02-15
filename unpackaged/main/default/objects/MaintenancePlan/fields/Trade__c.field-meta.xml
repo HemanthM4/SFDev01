@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trade__c</fullName>
+    <externalId>false</externalId>
+    <label>Trade</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Air Conditioning</fullName>
+                <default>false</default>
+                <label>Air Conditioning</label>
+            </value>
+            <value>
+                <fullName>Bathroom Installation</fullName>
+                <default>false</default>
+                <label>Bathroom Installation</label>
+            </value>
+            <value>
+                <fullName>Cleaning</fullName>
+                <default>false</default>
+                <label>Cleaning</label>
+            </value>
+            <value>
+                <fullName>Commercial Gas</fullName>
+                <default>false</default>
+                <label>Commercial Gas</label>
+            </value>
+            <value>
+                <fullName>Decorating</fullName>
+                <default>false</default>
+                <label>Decorating</label>
+            </value>
+            <value>
+                <fullName>Domestic Gas</fullName>
+                <default>false</default>
+                <label>Domestic Gas</label>
+            </value>
+            <value>
+                <fullName>Drainage</fullName>
+                <default>false</default>
+                <label>Drainage</label>
+            </value>
+            <value>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+                <label>Electrical</label>
+            </value>
+            <value>
+                <fullName>Estimate</fullName>
+                <default>false</default>
+                <label>Estimate</label>
+            </value>
+            <value>
+                <fullName>Flooring</fullName>
+                <default>false</default>
+                <label>Flooring</label>
+            </value>
+            <value>
+                <fullName>Gardening</fullName>
+                <default>false</default>
+                <label>Gardening</label>
+            </value>
+            <value>
+                <fullName>General Building &amp; Multi Trade</fullName>
+                <default>false</default>
+                <label>General Building &amp; Multi Trade</label>
+            </value>
+            <value>
+                <fullName>Glazing, UPVC &amp; Aluminium</fullName>
+                <default>false</default>
+                <label>Glazing, UPVC &amp; Aluminium</label>
+            </value>
+            <value>
+                <fullName>Handyman</fullName>
+                <default>false</default>
+                <label>Handyman</label>
+            </value>
+            <value>
+                <fullName>Kitchen Installation</fullName>
+                <default>false</default>
+                <label>Kitchen Installation</label>
+            </value>
+            <value>
+                <fullName>Leak Detection</fullName>
+                <default>false</default>
+                <label>Leak Detection</label>
+            </value>
+            <value>
+                <fullName>Locksmith</fullName>
+                <default>false</default>
+                <label>Locksmith</label>
+            </value>
+            <value>
+                <fullName>Pest Control</fullName>
+                <default>false</default>
+                <label>Pest Control</label>
+            </value>
+            <value>
+                <fullName>Plumbing</fullName>
+                <default>false</default>
+                <label>Plumbing</label>
+            </value>
+            <value>
+                <fullName>Refrigeration</fullName>
+                <default>false</default>
+                <label>Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Refurbishment</fullName>
+                <default>false</default>
+                <label>Refurbishment</label>
+            </value>
+            <value>
+                <fullName>Roofing</fullName>
+                <default>false</default>
+                <label>Roofing</label>
+            </value>
+            <value>
+                <fullName>Scaffolding</fullName>
+                <default>false</default>
+                <label>Scaffolding</label>
+            </value>
+            <value>
+                <fullName>Ventilation</fullName>
+                <default>false</default>
+                <label>Ventilation</label>
+            </value>
+            <value>
+                <fullName>Waste Removal</fullName>
+                <default>false</default>
+                <label>Waste Removal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

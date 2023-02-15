@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Utilisation --></label>
+        <name>Utilisation__c</name>
+        <picklistValues>
+            <masterLabel>Fully Utilised</masterLabel>
+            <translation><!-- Fully Utilised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi Utilised</masterLabel>
+            <translation><!-- Semi Utilised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Utilised</masterLabel>
+            <translation><!-- Under Utilised --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

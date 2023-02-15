@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be entered by the PM / Estimator to generate a rough estimation of total works --></help>
+        <label><!-- Estimation of Work --></label>
+        <name>Estimation_of_Work__c</name>
+    </CustomFieldTranslation>

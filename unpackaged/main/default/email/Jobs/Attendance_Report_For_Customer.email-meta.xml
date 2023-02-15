@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Attendance Report For Customer</name>
+    <style>none</style>
+    <subject>Your Attendance Report {!Job__c.Name}</subject>
+    <textOnly>Your attendance
+report
+
+{!Job__c.Attendance_Report_for_Customer__c}
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help.
+
+Help made easy.
+
+© 2022 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

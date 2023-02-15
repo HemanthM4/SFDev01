@@ -1,0 +1,5 @@
+Hi {!Case.Contact}, 
+
+Please, review the last comment regarding to your case: 
+
+{!Case.Last_Case_Comment}

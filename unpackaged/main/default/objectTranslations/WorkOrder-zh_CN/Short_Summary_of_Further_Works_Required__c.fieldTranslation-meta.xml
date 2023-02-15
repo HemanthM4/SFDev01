@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If further work is required, hopefully the Operative has entered some details here. --></help>
+        <label><!-- Short Summary of Further Works Required --></label>
+        <name>Short_Summary_of_Further_Works_Required__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sector --></label>
+        <name>Sector__c</name>
+        <picklistValues>
+            <masterLabel>Claims &amp; Utilities</masterLabel>
+            <translation><!-- Claims &amp; Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Retail &amp; Leisure</masterLabel>
+            <translation><!-- Commercial Retail &amp; Leisure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education &amp; Healthcare</masterLabel>
+            <translation><!-- Education &amp; Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation><!-- Food &amp; Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Owner</masterLabel>
+            <translation><!-- Home Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managed Referral &amp; New Build Property</masterLabel>
+            <translation><!-- Managed Referral &amp; New Build Property --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

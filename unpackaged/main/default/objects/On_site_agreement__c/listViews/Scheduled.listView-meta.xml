@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled</fullName>
+    <columns>NAME</columns>
+    <columns>Allocated_engineer__c</columns>
+    <columns>Siclops_Call_Ref__c</columns>
+    <columns>Customer_first_name__c</columns>
+    <columns>Customer_last_name__c</columns>
+    <columns>Property_address_postcode__c</columns>
+    <columns>Deposit_received__c</columns>
+    <columns>Worldpay_deposit_ID__c</columns>
+    <columns>Final_payment_received__c</columns>
+    <columns>Worldpay_final_ID__c</columns>
+    <columns>Outstanding_Balance__c</columns>
+    <columns>Payments_Reconciled__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Scheduled</value>
+    </filters>
+    <filters>
+        <field>Payments_Reconciled__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Scheduled</label>
+</ListView>

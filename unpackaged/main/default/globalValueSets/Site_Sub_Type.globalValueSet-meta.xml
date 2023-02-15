@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>House</fullName>
+        <default>false</default>
+        <label>House</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat</fullName>
+        <default>false</default>
+        <label>Flat</label>
+    </customValue>
+    <customValue>
+        <fullName>Office</fullName>
+        <default>false</default>
+        <label>Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Restaurant</fullName>
+        <default>false</default>
+        <label>Restaurant</label>
+    </customValue>
+    <customValue>
+        <fullName>Bar/Pub</fullName>
+        <default>false</default>
+        <label>Bar/Pub</label>
+    </customValue>
+    <customValue>
+        <fullName>Cafe</fullName>
+        <default>false</default>
+        <label>Cafe</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotel</fullName>
+        <default>false</default>
+        <label>Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Pop up/ External</fullName>
+        <default>false</default>
+        <label>Pop up/ External</label>
+    </customValue>
+    <customValue>
+        <fullName>School/Nursery</fullName>
+        <default>false</default>
+        <label>School/Nursery</label>
+    </customValue>
+    <customValue>
+        <fullName>Supermarket</fullName>
+        <default>false</default>
+        <label>Supermarket</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse</fullName>
+        <default>false</default>
+        <label>Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Events Space</fullName>
+        <default>false</default>
+        <label>Events Space</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Further site details</description>
+    <masterLabel>Site Sub Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

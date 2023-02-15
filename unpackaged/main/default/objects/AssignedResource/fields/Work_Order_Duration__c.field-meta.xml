@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Duration__c</fullName>
+    <description>Work Order Duration</description>
+    <externalId>false</externalId>
+    <formula>ServiceAppointment.Work_Order__r.Duration</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Work Order Duration</inlineHelpText>
+    <label>Work Order Duration</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

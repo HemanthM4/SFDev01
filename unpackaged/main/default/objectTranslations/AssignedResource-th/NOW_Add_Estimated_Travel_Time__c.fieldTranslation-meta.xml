@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The time now + Estimated Travel Time --></help>
+        <label><!-- NOW Add Estimated Travel Time --></label>
+        <name>NOW_Add_Estimated_Travel_Time__c</name>
+    </CustomFieldTranslation>

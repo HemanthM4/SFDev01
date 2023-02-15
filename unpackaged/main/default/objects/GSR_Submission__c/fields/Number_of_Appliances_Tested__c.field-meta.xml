@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Appliances_Tested__c</fullName>
+    <description>This field will calculate how many appliance records have been added to this record.</description>
+    <externalId>false</externalId>
+    <label>Number of Appliances Tested</label>
+    <summaryForeignKey>GSR_Appliance_Results__c.GSR_Submission__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

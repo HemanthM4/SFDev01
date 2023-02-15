@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receipt_Type__c</fullName>
+    <description>Type of Receipt from the Engineer</description>
+    <externalId>false</externalId>
+    <label>Receipt Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Type_of_Receipt</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Date/Time this Resource Absence was sent for approval - should only be for Leave Requests of Type: Appointment/Sick / Unplanned Absence or Holiday. --></help>
+        <label><!-- Sent for Approval Date/Time --></label>
+        <name>Sent_for_Approval_Date_Time__c</name>
+    </CustomFieldTranslation>

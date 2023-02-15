@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Off Site Agreement - Notify estimates@aspect.co.uk of Acceptance by Customer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>Off Site Agreement - Notify estimates@aspect.co.uk of Acceptance by Customer</name>
+    <style>freeForm</style>
+    <subject>OSA Accepted - {!Off_site_agreement__c.Raised_by_Engineer__c} - {!Off_site_agreement__c.Siclops_Call_Ref__c}</subject>
+    <textOnly>Hi Team, the Customer {!Off_site_agreement__c.Customer_first_name__c} {!Off_site_agreement__c.Customer_last_name__c} has just accepted the Off Site Agreement for: Work Type: {!Off_site_agreement__c.Worktype__c}.
+
+Raised by Operative: {!Off_site_agreement__c.Raised_by_Engineer__c}
+Siclops Call Ref: {!Off_site_agreement__c.Siclops_Call_Ref__c}
+Post Code: {!Off_site_agreement__c.Property_Address_Postcode__c}
+Total Hours Required: {!Off_site_agreement__c.Total_hours_required__c}
+Fixed Total charge excl. VAT: {!Off_site_agreement__c.Fixed_total_charge_excl_VAT__c}
+
+Scope of Work:
+{!Off_site_agreement__c.Description_of_works_to_carry_out__c}
+
+Link to Off Site Agreement record: https://chumley.lightning.force.com/lightning/r/Off_site_agreement__c/{!Off_site_agreement__c.Id}/view
+
+Link to Work Order record: https://chumley.lightning.force.com/lightning/r/WorkOrder/{!Off_site_agreement__c.Work_OrderId__c}/view
+
+
+Please arrange the Service Appointment,
+
+Thank you</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

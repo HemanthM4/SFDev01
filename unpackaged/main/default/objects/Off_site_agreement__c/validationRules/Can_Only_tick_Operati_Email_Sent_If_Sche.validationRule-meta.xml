@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_Only_tick_Operati_Email_Sent_If_Sche</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ISCHANGED(Operative_Email_Sent__c),
+TEXT(Status__c)&lt;&gt;&#39;Scheduled&#39;
+)</errorConditionFormula>
+    <errorMessage>You can only check the field &#39;Operative Email Sent&#39; if the Off Site Agreement is in a Status of Scheduled.</errorMessage>
+</ValidationRule>

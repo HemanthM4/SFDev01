@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <constants>
+        <name>Const_EngineerPartnerProfileID</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>00e4G0000012wXr</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>Const_IntegrationUser</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>00e3L000000LyS0</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Check_is_Engineer_User</name>
+        <label>Check is Engineer User</label>
+        <locationX>1032</locationX>
+        <locationY>160</locationY>
+        <defaultConnector>
+            <targetReference>Update_Arrival_Window_Time_fields_NOT_Eng_User</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Engineer_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Profile.Id</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Const_EngineerPartnerProfileID</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Arrival_Window_Time_fields_Eng_User</targetReference>
+            </connector>
+            <label>Engineer User</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Exclude_User</name>
+        <label>Exclude User</label>
+        <locationX>568</locationX>
+        <locationY>38</locationY>
+        <defaultConnector>
+            <targetReference>Skip_process_when_Integeration_user</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Exclude</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Label.Exclude_User</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$User.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <label>Exclude</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Skip process when Integeration user, as workorders triggered from Online booking process do not need to add Day light savings time as Apex code does the rest.</description>
+        <name>Skip_process_when_Integeration_user</name>
+        <label>Skip process when Integeration user</label>
+        <locationX>846</locationX>
+        <locationY>167</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>NotIntegrationUser</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Profile.Id</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Const_IntegrationUser</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_is_Engineer_User</targetReference>
+            </connector>
+            <label>NotIntegrationUser</label>
+        </rules>
+    </decisions>
+    <description>HM Exclusion for Deployment - ROP</description>
+    <formulas>
+        <description>DATETIMEVALUE(TEXT({!$Record.Requested_Date__c} )&amp; &quot; &quot; &amp; LEFT({!$Record.Arrival_Window_End__c},5)&amp;&quot;:00&quot;)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp; LEFT(&quot;19:00&quot;,5)&amp;&quot;:00&quot;)</description>
+        <name>FormulaPrefDateArrival_Window_End</name>
+        <dataType>DateTime</dataType>
+        <expression>IF( 
+	OR(
+		DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ) &lt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ) )),3,31)-(WEEKDAY(DATE(YEAR(DATEVALUE( DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ))),3,31))-1) +1/24),
+		DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ) &gt; DATETIMEVALUE(DATE(YEAR(DATEVALUE( DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ))),10,31)- (WEEKDAY(DATE(YEAR(DATEVALUE( DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ))),10,31))-1)+1/24)
+
+	),
+	DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ),
+	DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_End_TEXT__c} ) -1/24
+)</expression>
+    </formulas>
+    <formulas>
+        <description>DATETIMEVALUE(TEXT({!DatePreferred_date_for_the_works_to_be_carried_out})&amp; &quot; &quot; &amp; LEFT({!PicklistPreferred_arrival_time_slot},5)&amp;&quot;:00&quot;)</description>
+        <name>FormulaPrefDateArrival_Window_Start</name>
+        <dataType>DateTime</dataType>
+        <expression>IF( 
+	OR(
+		DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ) &lt; DATETIMEVALUE(DATE(YEAR(DATEVALUE(DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ) )),3,31)-(WEEKDAY(DATE(YEAR(DATEVALUE( DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ))),3,31))-1) +1/24),
+		DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ) &gt; DATETIMEVALUE(DATE(YEAR(DATEVALUE( DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ))),10,31)- (WEEKDAY(DATE(YEAR(DATEVALUE( DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ))),10,31))-1)+1/24)
+
+	),
+	DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ),
+	DATETIMEVALUE(TEXT({!$Record.Requested_Date__c})&amp; &quot; &quot; &amp;  {!$Record.Arrival_Window_Start_TEXT__c} ) - 1/24
+)</expression>
+    </formulas>
+    <interviewLabel>PHASE 2 Update Work Order Arrival Window TIME fields from Date/Time fields {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 Update Work Order Arrival Window TIME fields from Date/Time fields</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Arrival_Window_Time_fields_Eng_User</name>
+        <label>Update Arrival Window Time fields (Eng User)</label>
+        <locationX>1338</locationX>
+        <locationY>304</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Arrival_Window_End__c</field>
+            <value>
+                <elementReference>$Record.Arrival_Window_End_Date_Time__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Arrival_Window_Start__c</field>
+            <value>
+                <elementReference>$Record.Arrival_Window_Start_Date_Time__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Arrival_Window_Time_fields_NOT_Eng_User</name>
+        <label>Update Arrival Window Time fields (NOT Eng User)</label>
+        <locationX>1043</locationX>
+        <locationY>411</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Arrival_Window_End_Date_Time__c</field>
+            <value>
+                <elementReference>FormulaPrefDateArrival_Window_End</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Arrival_Window_Start_Date_Time__c</field>
+            <value>
+                <elementReference>FormulaPrefDateArrival_Window_Start</elementReference>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <start>
+        <locationX>51</locationX>
+        <locationY>51</locationY>
+        <connector>
+            <targetReference>Exclude_User</targetReference>
+        </connector>
+        <object>WorkOrder</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

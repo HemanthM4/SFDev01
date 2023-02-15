@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_Final_Payment_for_Credit_Customer_or_Paid_via_Bacs</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Bypass Final Payment for Credit Customer or Paid via Bacs</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_ONSA_Final_Payment_Recd_via_Bacs_or_Credit_Customer?var_ONSAID={!On_site_agreement__c.Id}&amp;retURL={!On_site_agreement__c.Id}</url>
+</WebLink>

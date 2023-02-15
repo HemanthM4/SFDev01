@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Fields_to_Create_SA_Completed__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+
+AND
+(
+ISBLANK(Materials_supplied_by_Aspect_details_New__c)=FALSE,
+ISBLANK(Materials_supplied_by_operative_detailsN__c)=FALSE,
+ISBLANK(Materials_collection_pt_name_address_New__c)=FALSE,
+ISBLANK(PO_Number__c)=FALSE
+),
+TRUE,
+FALSE
+)</formula>
+    <label>Required Fields to Create SA Completed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

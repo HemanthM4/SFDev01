@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electrical_Work_Types</fullName>
+    <columns>Trade__c</columns>
+    <columns>Group_Lookup__c</columns>
+    <columns>Name</columns>
+    <columns>Qualified_Resource_Count__c</columns>
+    <columns>EstimatedDuration</columns>
+    <columns>Reactive_or_Estimate__c</columns>
+    <columns>ShouldAutoCreateSvcAppt</columns>
+    <columns>Doc_Cert_Provided__c</columns>
+    <columns>User__c</columns>
+    <columns>WT_Verified_by_User_Date_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Trade__c</field>
+        <operation>equals</operation>
+        <value>Electrical</value>
+    </filters>
+    <label>Electrical - Work Types</label>
+</ListView>

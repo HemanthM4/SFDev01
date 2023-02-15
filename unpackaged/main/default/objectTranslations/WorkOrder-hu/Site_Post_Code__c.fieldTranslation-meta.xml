@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Post Code of the Site this Work Order is related to. --></help>
+        <label><!-- Site Post Code --></label>
+        <name>Site_Post_Code__c</name>
+    </CustomFieldTranslation>

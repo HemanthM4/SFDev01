@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Operative Collection --></label>
+        <name>Operative_Collection__c</name>
+        <picklistValues>
+            <masterLabel>Collected</masterLabel>
+            <translation><!-- Collected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No VCR</masterLabel>
+            <translation><!-- No VCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Collected</masterLabel>
+            <translation><!-- Not Collected --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

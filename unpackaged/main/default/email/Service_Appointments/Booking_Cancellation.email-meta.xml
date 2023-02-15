@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Booking Cancellation</name>
+    <style>none</style>
+    <subject>Booking cancelled {!ServiceAppointment.AppointmentNumber}</subject>
+    <textOnly>We&#39;ve cancelled
+your booking
+
+Hi {!ServiceAppointment.Contact_First_Name__c},
+
+Your booking has been cancelled. Please see an overview of your cancelled booking below. If you&#39;ve been charged a cancellation fee you&#39;ll receive an invoice for this in a separate email.
+
+Did you not expect this email? Please  get in touch so we can help.
+
+Job number {!ServiceAppointment.Job_Number__c}
+Service appointment number {!ServiceAppointment.AppointmentNumber}
+Account number {!ServiceAppointment.Account_Reference__c}
+Cancellation fee applied: {!ServiceAppointment.Cancellation_Fee_Applied__c}
+
+PROPERTY ADDRESS
+
+ORDER DETAILS
+
+{!ServiceAppointment.Address}
+
+Trade: {!ServiceAppointment.Scheduled_Trade__c}
+Date: {!ServiceAppointment.Scheduled_Date__c}
+Arrival: {!ServiceAppointment.Scheduled_Arrival_Window__c}
+
+PRICING excluding VAT
+
+Rate 1: {!ServiceAppointment.Hourly_Charge_R1__c} (Mon - Fri, 7am - 5pm)
+Rate 2: {!ServiceAppointment.Hourly_Charge_R2__c} (Mon - Fri, 5pm - 9pm &amp; Sat - Sun, 7am - 5pm)
+Rate 3: {!ServiceAppointment.Hourly_Charge_R3__c} (Mon - Sun, 9pm - 7am)
+
+NOTES
+
+{!ServiceAppointment.Notes__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive £10 off
+
+HOW WE CHARGE
+
+For hourly rate jobs, there’s a minimum 1-hour charge, then we bill in half-hour increments. Parts and materials are charged on top of the tradesperson’s time. We carry standard parts and materials, but if anything extra’s needed, a £50 collection fee will be added to the bill. 						For pre-defined fixed-price jobs, we charge the rate quoted. There’ll be no extra charges for parts, materials or collections. 						For more information read our terms and conditions.
+
+OUR CANCELLATION POLICY
+
+If you want to cancel your booking once we’ve allocated a tradesperson, you may be charged a cancellation fee. For more information please check our cancellation policy.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. 						If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

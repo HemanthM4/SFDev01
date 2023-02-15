@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section_2_Working_With_Us__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Quality_of_Leads__c + Quantity_Volume_of_Leads__c + Travel_Time_Distance__c +  Overall_Earnings__c + Office_Admin_Support__c + Technical_Manager_Support__c)/6</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Section 2 - Working With Us</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

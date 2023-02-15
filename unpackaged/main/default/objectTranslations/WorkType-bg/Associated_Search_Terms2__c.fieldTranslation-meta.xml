@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Associated Search Terms2 --></label>
+        <name>Associated_Search_Terms2__c</name>
+    </CustomFieldTranslation>

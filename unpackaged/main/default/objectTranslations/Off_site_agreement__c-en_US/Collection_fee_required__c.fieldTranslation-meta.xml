@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is a collection fee required - value should be either Yes or No --></help>
+        <label><!-- Collection fee required --></label>
+        <name>Collection_fee_required__c</name>
+    </CustomFieldTranslation>

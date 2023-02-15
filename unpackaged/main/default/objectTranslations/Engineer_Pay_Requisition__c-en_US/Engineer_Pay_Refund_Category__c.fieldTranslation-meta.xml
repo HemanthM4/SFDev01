@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Engineer Pay Refund Category --></label>
+        <name>Engineer_Pay_Refund_Category__c</name>
+        <picklistValues>
+            <masterLabel>Fleet / Warehouse Refund</masterLabel>
+            <translation><!-- Fleet / Warehouse Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Refund</masterLabel>
+            <translation><!-- IT Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Related Refund</masterLabel>
+            <translation><!-- Job Related Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Refund</masterLabel>
+            <translation><!-- Pay Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Penalty Charge Refund</masterLabel>
+            <translation><!-- Vehicle Penalty Charge Refund --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

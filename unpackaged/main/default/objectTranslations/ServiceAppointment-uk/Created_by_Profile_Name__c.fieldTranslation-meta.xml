@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The name of the Profile of the User that created this Service Appointment --></help>
+        <label><!-- Created by Profile Name --></label>
+        <name>Created_by_Profile_Name__c</name>
+    </CustomFieldTranslation>

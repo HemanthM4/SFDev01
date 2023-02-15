@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>General_Office_Manager_share_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>General Office Manager share with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Service_Appointments_Engineers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Service Appointments Engineers</label>
+        <sharedTo>
+            <group>Engineers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CEO</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_CEO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with CEO</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_Credit_Control</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with Credit Control</label>
+        <sharedTo>
+            <role>Credit_Control</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_Credit_Control_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with Credit Control Manager</label>
+        <sharedTo>
+            <role>Credit_Control_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_Engineer_Part_Comm</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with Engineer Part Comm</label>
+        <sharedTo>
+            <portalRole>CrystalTaxPartnerUser</portalRole>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_General_Office_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with General Office Manager</label>
+        <sharedTo>
+            <role>General_Office_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with Office</label>
+        <sharedTo>
+            <role>Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_Manager_with_Credit_Control_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control Manager with Credit Control Manager</label>
+        <sharedTo>
+            <role>Credit_Control_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_Manager_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control Manager with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_Manager_with_General_Office_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control Manager with General Office Manager</label>
+        <sharedTo>
+            <role>General_Office_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Crystal_Tax_with_CEO_and_Subordinates</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Crystal Tax with CEO and Subordinates</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CEO</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <portalRole>CrystalTaxPartnerUser</portalRole>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_General_Office_with_General_Office_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share General Office with General Office Manager</label>
+        <sharedTo>
+            <role>General_Office_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_In_Sync_with_CEO_and_Subordinates</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share In Sync with CEO and Subordinates</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CEO</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <portalRole>InSyncWebDesignPartnerUser</portalRole>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Office_with_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Office with Office</label>
+        <sharedTo>
+            <role>Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_PAYE_with_CEO_and_Subordinates</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share PAYE with CEO and Subordinates</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CEO</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <portalRole>PAYEPartnerUser</portalRole>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_SA_Owned_by_Credit_Control_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share SA Owned by Credit Control with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

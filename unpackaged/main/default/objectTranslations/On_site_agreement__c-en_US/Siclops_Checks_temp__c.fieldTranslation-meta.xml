@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be ticked when: Engineer allocated, sent a requisition and done everything that needs doing on siclops --></help>
+        <label><!-- Siclops Checks (temp) --></label>
+        <name>Siclops_Checks_temp__c</name>
+    </CustomFieldTranslation>

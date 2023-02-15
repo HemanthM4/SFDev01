@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ease of Field Service App --></label>
+        <name>Ease_of_Field_Service_App__c</name>
+    </CustomFieldTranslation>

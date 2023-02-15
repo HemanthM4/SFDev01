@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointment_Status__c</fullName>
+    <description>For Engineer to see on their mobile in FSL</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Status of the Service Appointment with additional statuses for On site conversions/Estimates accepted/declined</inlineHelpText>
+    <label>Service Appointment Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>Dispatched</fullName>
+                <default>false</default>
+                <label>Dispatched</label>
+            </value>
+            <value>
+                <fullName>In Transit</fullName>
+                <default>false</default>
+                <label>In Transit</label>
+            </value>
+            <value>
+                <fullName>On site</fullName>
+                <default>false</default>
+                <label>On site</label>
+            </value>
+            <value>
+                <fullName>Visit Complete</fullName>
+                <default>false</default>
+                <label>Visit Complete</label>
+            </value>
+            <value>
+                <fullName>Job Closure</fullName>
+                <default>false</default>
+                <label>Job Closure</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Rescheduled</fullName>
+                <default>false</default>
+                <label>Rescheduled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

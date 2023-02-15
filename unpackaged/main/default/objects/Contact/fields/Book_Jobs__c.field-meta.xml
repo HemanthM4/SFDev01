@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Jobs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox for authorised contacts who can book jobs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if the contact is authorised to book jobs</inlineHelpText>
+    <label>Book Jobs</label>
+    <type>Checkbox</type>
+</CustomField>

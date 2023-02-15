@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_Only_tick_Pending_Email_Sent_If_Pend</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ISCHANGED(Sent_to_Customer__c),
+TEXT(Status__c)&lt;&gt;&#39;Pending&#39;
+)</errorConditionFormula>
+    <errorMessage>You can only check the field &#39;Pending Email Sent&#39; if the Off Site Agreement is in a Status of Pending.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Who Initially Accepted? --></label>
+        <name>Who_Initially_Accepted__c</name>
+        <picklistValues>
+            <masterLabel>Accepted by Customer</masterLabel>
+            <translation><!-- Accepted by Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accepted by Operative</masterLabel>
+            <translation><!-- Accepted by Operative --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

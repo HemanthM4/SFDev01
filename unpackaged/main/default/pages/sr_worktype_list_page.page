@@ -1,0 +1,75 @@
+<apex:page controller="sr_worktype_list_controller">
+    <style>
+    .activeTab {background-color: #236FBD; color:white; background-image:none}
+    .inactiveTab { background-color: lightgrey; color:black; background-image:none}
+    .headerRow .headerStyle{background: #e6ecf2;color: rgb(81, 79, 77);font-weight: bold;}
+    tr.dataRow.even {background-color: rgb(250, 250, 249);}
+    .dataCell {text-align:left;}
+    </style>
+    
+    <apex:tabPanel switchType="client" selectedTab="name1" id="AccountTabPanel" tabClass="activeTab" inactiveTabClass="inactiveTab">
+
+        <apex:tab label="Qualified For ({!wt_results.size})" name="name1" id="tabOne">
+            <apex:pageBlock >
+                <apex:pageBlockTable value="{!wt_results}" var="wt">  
+                    <apex:column style="width: 40%">
+                        <apex:outputLink value="{!URLFOR($Action.WorkType.View, wt.id)}">
+                            {!wt.name}
+                        </apex:outputLink>                    
+                    </apex:column>
+                    <apex:column style="width: 20%">
+                                {!wt.Trade__c}
+                    </apex:column>
+                    <apex:column style="width: 60%">
+                        <apex:pageBlockTable value="{!wt.SkillRequirements}" var="sreq">  
+                            <apex:column style="width: 20%">
+                                {!sreq.skill.description}
+                            </apex:column>
+                            <apex:column style="width: 80%">
+                                {!sreq.skill.masterlabel}
+                            </apex:column> 
+                        </apex:pageBlockTable>   
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageBlock>
+        </apex:tab>
+
+        <apex:tab label="Not Qualified For ({!results_not_qual.size})" name="name2" id="tabTwo">
+            <apex:pageBlock >
+                <apex:pageBlockTable value="{!results_not_qual}" var="wt">  
+                    <apex:column style="width: 40%">
+                        <apex:outputLink value="{!URLFOR($Action.WorkType.View, wt.id)}">
+                            {!wt.name}
+                        </apex:outputLink>                    
+                    </apex:column>
+                    <apex:column style="width: 20%">
+                                {!wt.Trade__c}
+                    </apex:column>
+                    <apex:column style="width: 60%">
+                        <apex:pageBlockTable value="{!wt.SkillRequirements}" var="sreq">  
+                            <apex:column style="width: 20%">
+                                {!sreq.skill.description}
+                            </apex:column>
+                            <apex:column style="width: 80%">
+                                {!sreq.skill.masterlabel}
+                            </apex:column> 
+                        </apex:pageBlockTable>   
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageBlock>
+        </apex:tab>
+        
+        <apex:tab label="No Skills Required ({!results_nosreq.size})" name="name3" id="tabThree">
+            <apex:pageBlock >
+                <apex:pageBlockTable value="{!results_nosreq}" var="wt" >
+                    <apex:column >
+                        <apex:outputLink value="{!URLFOR($Action.WorkType.View, wt.id)}">
+                            {!wt.name}
+                        </apex:outputLink>
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageBlock>
+        </apex:tab>
+
+    </apex:tabPanel>
+</apex:page>

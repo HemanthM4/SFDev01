@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>bharat.vyas@aspect.co.uk</email>
+    <name>LiveMessage Group</name>
+    <queueMembers>
+        <users>
+            <user>bharat.vyas@aspect.co.uk</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Admin_Queue</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

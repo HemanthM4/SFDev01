@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Online_Bookings_Gas_Plumb_Drainage_LD</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Work_Type__c</columns>
+    <columns>Postcode__c</columns>
+    <columns>Preferred_date__c</columns>
+    <columns>Preferred_arrival_time_slot__c</columns>
+    <columns>Mobile_number__c</columns>
+    <columns>WO_Status__c</columns>
+    <columns>Account__c</columns>
+    <columns>OLB_contact__c</columns>
+    <columns>TI_Online_Booking__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Work_Type__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>8/1/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>WO_Status__c</field>
+        <operation>equals</operation>
+        <value>Pending</value>
+    </filters>
+    <filters>
+        <field>Work_Type__c</field>
+        <operation>equals</operation>
+        <value>Heating &amp; Hot Water (Domestic) Online Booking</value>
+    </filters>
+    <label>Online Bookings Gas/Plumb/Drainage/LD</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Primary Site Contacts phone number --></help>
+        <label><!-- Primary Site Contact Phone --></label>
+        <name>Primary_Site_Contact_Phone__c</name>
+    </CustomFieldTranslation>

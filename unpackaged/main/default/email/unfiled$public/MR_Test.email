@@ -1,0 +1,5 @@
+{!Customer_Invoice__c.Id}
+
+{!Customer_Invoice__c.RecordType}
+
+{!Customer_Invoice__c.RecordTypeId}

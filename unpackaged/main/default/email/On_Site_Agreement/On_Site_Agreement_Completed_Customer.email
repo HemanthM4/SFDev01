@@ -1,0 +1,507 @@
+<html>
+<head>
+</head>
+<body style="margin:0;padding:0;background-color:#fff;background:#fff;">
+    <!--
+<table width="100%"
+bgcolor="#eee"
+cellpadding="0"
+cellspacing="0"
+border="0"
+style="background-color:#fff;background:#fff;">
+<tbody>
+<tr>
+<td>-->
+
+<!--
+    <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto;">
+        <tbody>
+            <tr>
+                <td width="40">&nbsp;</td>
+                <td style="line-height:24px;">&nbsp;</td>
+                <td width="40">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+-->
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           width="600"
+           align="center"
+           style="margin:0 auto; background-color:#fff;background:#fff;">
+        <tbody>
+            <tr>
+                <td colspan="2" valign="top" bgcolor="#F3E500" style="line-height: 45px">
+                    <table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#F3E500" >
+                        <tbody>
+                            <tr>
+                                <td width="84">&nbsp;</td>
+                                <td width="66" style="line-height: 30px">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top">&nbsp;</td>
+                                <td>
+                                    <img border="0"
+                                         alt="Aspect"
+                                         style="display:block;border:none;outline:none;
+                                         text-decoration:none"
+                                         src="https://www.aspect.co.uk/email-templates/sf/assets/aspect-logo-vert.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td colspan="2" bgcolor="#001871">
+                    <table width="450" border="0" cellspacing="0" cellpadding="0" bgcolor="#001871">
+                        <tbody>
+                            <tr>
+                                <td width="38" style="line-height: 65px">&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td width="412"
+                                    align="left"
+                                    bgcolor="#001871"
+                                    style="font-family:arial,sans-serif;font-size:14px;
+                                    font-weight:normal;text-transform:none;">
+                                    <p style="font-size: 65px; color: #FFFFFF;
+                                    font-weight:bold;text-transform:none; line-height:
+                                    60px;padding:0; margin:0">
+
+                                    Visit<br/>
+                                    completed
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="line-height: 45px">&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td align="left" bgcolor="#001871">
+                                    <a href="https://www.aspect.co.uk/callback/"
+                                       style="display:block;background-color:#FF00DF;
+                                       text-align:center;border-radius:28px;font-family:arial,sans-serif;
+                                       font-size:20px;font-weight:normal;color:#ffffff;
+                                       line-height:20px;text-decoration:none;border-top:8px solid #FF00DF;
+                                       border-bottom:8px solid #FF00DF;border-left:28px solid #FF00DF;
+                                       border-right:28px solid #FF00DF; width: 160px">
+                                        <span style="display:block;font-family:arial,sans-serif;">
+
+                                           contact us 
+
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td style="line-height:45px">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           bgcolor="#E7E7E7"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#ffffff;">
+        <tbody>
+
+            <tr>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" style="line-height:35px;">&nbsp;</td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+            <tr>
+                <td bgcolor="#E7E7E7" width="55" style="font-size:1px;line-height:1px">&nbsp;</td> 
+                <td bgcolor="#E7E7E7" width="490" style="font-family:arial,sans-serif;
+                font-size:14px;color:#555559;line-height:20px;font-weight:normal;text-transform:none; ">
+                    <p style="font-size:20px;color:#555559;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-left: 0px">
+                    Hi {!On_site_agreement__c.Customer_first_name__c},
+                    </p>
+                    
+                    <p style="font-size:16px;color:#555559;line-height:22px;font-weight:bold;
+                    text-transform:none; padding-bottom: 10px; padding-left: 0px; margin-bottom: 15px">
+                    Congratulations!
+                    </p>
+                    
+                    <p style="font-size: 16px; font-weight:normal;text-transform:none; padding: 0; 
+                    margin-top: px; margin-right: 0; margin-bottom:30px; margin-left: 0">
+                    Your visit has been completed and we’ve received the final payment for the remaining balance.  Thank you for choosing Aspect.  
+
+                    </p>
+
+                </td>
+                <td bgcolor="#E7E7E7" width="55">&nbsp;</td> 
+            </tr>
+
+            <tr>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+                <td bgcolor="#E7E7E7" style="line-height:24px;"> &nbsp;</td>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+                <td bgcolor="#E7E7E7">
+                    <table cellpadding="8"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Order number
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!On_site_agreement__c.Name}
+                                    </p>
+                                </td>
+
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Name
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!On_site_agreement__c.Customer_first_name__c} {!On_site_agreement__c.Customer_last_name__c}
+                                    </p>
+                                </td>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;color:#555559;
+                                    line-height:20px;font-weight:normal;text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+                                        Property address
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!On_site_agreement__c.Property_address_line_1__c} {!On_site_agreement__c.Property_address_line_2__c} {!On_site_agreement__c.Property_Address_Town_City__c} {!On_site_agreement__c.Property_address_county__c} {!On_site_agreement__c.Property_address_postcode__c} 
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td bgcolor="#E7E7E7" style="line-height:5px;">&nbsp;</td>
+                            </tr>
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Total charge excl. VAT
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!On_site_agreement__c.Fixed_total_charge_excl_VAT__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        VAT
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+
+                                    {!On_site_agreement__c.VAT__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7; 
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Total charge incl. VAT
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    {!On_site_agreement__c.Fixed_total_charge_incl_VAT__c}
+
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td bgcolor="#E7E7E7" style="line-height:5px;">&nbsp;</td>
+                            </tr>
+
+
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Your signature
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+                                    <img border="0"
+                                         style="display:block;border:none;outline:none;text-decoration:none"
+                                         src="{!On_site_agreement__c.Signature_final_customer_link__c}" width="200" alt="Customer Signature"/>
+
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Remaining balance received
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+
+                                    {!On_site_agreement__c.Final_payment_received__c}
+                                    </p>
+                                </td>
+                            </tr>
+ 
+                            <tr style="border-bottom-color:#8C8C8C;
+                            border-bottom-width: 1px; border-bottom-style: solid">
+                                <td bgcolor="#ffffff"
+                                    style="font-family:arial,sans-serif;font-size:16px;
+                                    color:#555559;line-height:20px;font-weight:normal;
+                                    text-transform:none;border-bottom-color:#E7E7E7;
+                                    border-bottom-width:1px; border-bottom-style: solid ">
+                                    <p style="margin-bottom: 5px;padding: 0;"><strong>
+
+                                        Total amount received
+                                    </strong></p>
+                                    <p style="padding: 0; margin: 0">
+
+                                    {!On_site_agreement__c.Total_Payment_Received__c}
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </td>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+                <td bgcolor="#E7E7E7" style="line-height:55px;">
+                    &nbsp;</td>
+                <td bgcolor="#E7E7E7">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           bgcolor="#0d60b5"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#0d60b5">
+        <tbody>
+            <tr>
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+                <td width="490" bgcolor="#0d60b5" style="line-height:45px;">&nbsp;</td>
+                <td bgcolor="#0d60b5" width="55">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0d60b5" width="55" style="font-size:1px;line-height:1px">&nbsp;</td>
+                <td bgcolor="#001871" style="font-family:arial,sans-serif;font-size:14px;
+                color:#ffffff;line-height:20px;font-weight:normal;text-transform:none">
+                    <table cellpadding="30"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#001871"
+                                    style="font-family:arial,sans-serif;
+                                    color:#FFFFFF;font-weight:normal;text-transform:none;">
+                                    <p style="font-size: 28px; font-weight:bold;text-transform:none;
+                                    padding: 0; margin: 0; line-height: 18px">
+                                    What&rsquo;s next?
+                                    </p>
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    line-height:30px; padding-bottom: 0px; margin-bottom: 0px">
+                                    Your final invoice is being produced. We'll try our absolute best to get this to you within 10 working days. 
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    line-height:30px; padding-bottom: 0px; margin-bottom: 0px">
+                                    If you'd like to work with us in the future,
+
+                                    <a href="https://www.aspect.co.uk/book-now/"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                        book online </a> and save time. 
+                                    </p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+                <td bgcolor="#0d60b5" width="55" style="font-size:1px;line-height:1px">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+                <td bgcolor="#0d60b5" style="line-height:20px;">&nbsp;</td>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+                <td bgcolor="#0d60b5" style="line-height:34px;">
+                    <table cellpadding="8"
+                           cellspacing="0"
+                           border="0"
+                           width="490"
+                           align="center"
+                           style="margin:0 auto">
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#0d60b5"
+                                    style="font-family:arial,sans-serif;
+                                    color:#FFFFFF;line-height:26px;font-weight:normal;
+                                    text-transform:none;">
+                                    <p style=" font-size: 28px; font-weight:bold;
+                                    text-transform:none; margin-bottom: 4px; padding-bottom: 4px; padding-top:30px">
+                                    Happy with the job done?
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    Your satisfaction is our number one priority. If you have any feedback on how we can improve our service or want to share your experience, we appreciate it if you
+                                    <a href="https://uk.trustpilot.com/review/aspect.co.uk"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                        leave a review.</a>
+                                    </p>
+
+                                    <p style="font-size: 16px; font-weight:normal;text-transform:none;
+                                    padding: 0; margin-top: px; margin-right: 0; margin-bottom:0px; margin-left: 0">
+                                    Unhappy with the works done? Please 
+                                    <a href="https://www.aspect.co.uk/callback/"
+                                       style="text-decoration:none; font-weight:bold; color: #FF00DF">
+                                       share your concerns.</a> We're here to help. 
+                                         
+                                    </p>
+
+                                    <p style="font-size:20px;color:#ffffff;line-height:22px;font-weight:bold;
+                                    text-transform:none; padding-bottom: 10px; padding-left: 0px;
+                                    padding-top:30px; margin-bottom: 15px">
+                                    Help made easy.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td bgcolor="#0d60b5">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0"
+           cellspacing="0"
+           border="0"
+           width="600"
+           align="center"
+           style="margin:0 auto;background-color:#001871">
+        <tbody>
+            <tr style="padding:0;">
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <td align="right"
+                    style="padding: 0;">
+                    <span style="position:relative; top:-30px;">
+                    <img border="0"
+                         style="display:block;border:none;outline:none;text-decoration:none "
+                         src="https://www.aspect.co.uk/wp-content/themes/aspect/static/img/van-aspect@2x.png"
+                         height="200"
+                         alt="Aspect Van"/>
+                    </span>
+                </td>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <td 
+                    bgcolor="#001871"
+                    style="font-family:arial,sans-serif;font-size:16px;color:#ffffff;
+                    font-weight:normal;text-transform:none
+                    ">
+                    <span style="position:relative; top:-50px;">
+                    <p>&copy; 2020 Aspect</p>
+                    <p>Aspect Maintenance Services Limited, E7 Barwell Business Park,<br/>
+                    Leatherhead Road, Chessington, London, KT9 2NY</p>
+                    </span>
+                </td>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+            </tr>
+            <tr>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+                <td bgcolor="#001871" style="line-height:30px;">&nbsp;</td>
+                <td bgcolor="#001871" width="55">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0" width="600" align="center" style="margin:0 auto;">
+        <tbody>
+            <tr>
+                <td width="40">&nbsp;</td>
+                <td style="line-height:24px;">&nbsp;</td>
+                <td width="40">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

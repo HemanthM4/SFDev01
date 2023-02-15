@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Invoices</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Copy crystal sagster pagelayout - INVOICE Layout</layout>
+        <sections>
+            <label><!-- Balances --></label>
+            <section>Balances</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Control --></label>
+            <section>Credit Control</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Engineer - INVOICE Layout</layout>
+        <sections>
+            <label><!-- Balances --></label>
+            <section>Balances</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Control --></label>
+            <section>Credit Control</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MANAGER USER - INVOICE Layout</layout>
+        <sections>
+            <label><!-- Balances --></label>
+            <section>Balances</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Control --></label>
+            <section>Credit Control</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - Consolidated Invoice Layout</layout>
+        <sections>
+            <label><!-- Balances --></label>
+            <section>Balances</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Notifications --></label>
+            <section>Notifications</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - Deposit Layout</layout>
+        <sections>
+            <label><!-- Balances --></label>
+            <section>Balances</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Control --></label>
+            <section>Credit Control</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>STANDARD USER - INVOICE Layout</layout>
+        <sections>
+            <label><!-- Balances --></label>
+            <section>Balances</section>
+        </sections>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Control --></label>
+            <section>Credit Control</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <section>Payments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>System Admin</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Info --></label>
+            <section>Invoice Info</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- PDF Template --></label>
+            <section>PDF Template</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Cancellation Invoice --></label>
+        <name>Cancellation_Invoice</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Consolidated Invoice --></label>
+        <name>Consolidated_Invoice</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deposit --></label>
+        <name>Deposit</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For Fixed Price Jobs --></description>
+        <label><!-- Final --></label>
+        <name>Final</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Invoice --></label>
+        <name>Invoice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For Reactive Jobs --></description>
+        <label><!-- Reactive --></label>
+        <name>Reactive</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- CongaSign_sendForSignature --></label>
+        <name>CongaSign_sendForSignature</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Credit_Note --></label>
+        <name>Create_Credit_Note</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Invoice_to_PDF --></label>
+        <name>Invoice_to_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Re_Send_Email_to_Customer --></label>
+        <name>Re_Send_Email_to_Customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Take_Deposit --></label>
+        <name>Take_Deposit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Take_Payment --></label>
+        <name>Take_Payment</name>
+    </webLinks>
+</CustomObjectTranslation>

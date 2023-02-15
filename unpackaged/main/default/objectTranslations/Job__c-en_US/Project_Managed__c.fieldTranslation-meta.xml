@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is the Job being Project Managed or Not? --></help>
+        <label><!-- Project Managed --></label>
+        <name>Project_Managed__c</name>
+        <picklistValues>
+            <masterLabel>Not Project Managed</masterLabel>
+            <translation><!-- Not Project Managed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Managed</masterLabel>
+            <translation><!-- Project Managed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

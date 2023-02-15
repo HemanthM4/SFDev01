@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PO Hire</name>
+    <style>none</style>
+    <subject>Aspect {!Purchase_Order__c.Name}</subject>
+    <textOnly>Purchase
+order
+
+HIRE CONTACT
+
+ORDER DETAILS
+
+Phone: {!Purchase_Order__c.Supplier_Telephone__c}{!Purchase_Order__c.Supplier_Mobile__c}
+Email: : {!Purchase_Order__c.Supplier_Email__c}
+{!Purchase_Order__c.Supplier_Name__c}
+{!Purchase_Order__c.Supplier_Street__c}
+{!Purchase_Order__c.Supplier_City__c}
+{!Purchase_Order__c.Supplier_State__c}
+{!Purchase_Order__c.Supplier_Postal_Code__c}
+{!Purchase_Order__c.Supplier_Country__c}
+
+Requested by: {!Purchase_Order__c.Requested_By__c}
+Hire period from: {!Purchase_Order__c.Hire_Period_From_Date__c}
+Hire period to: {!Purchase_Order__c.Hire_Period_To_Date__c}
+PO Number: {!Purchase_Order__c.Name}
+WO Number: {!Purchase_Order__c.Work_Order__c}
+Document: {!Purchase_Order__c.Purchase_Order_Document_URL__c}
+
+REQUIRED AT
+
+{!Purchase_Order__c.Delivery_Options__c}
+{!Purchase_Order__c.Delivery_Street__c}
+{!Purchase_Order__c.Delivery_PostalCode__c}
+{!Purchase_Order__c.Delivery_City__c}
+{!Purchase_Order__c.Delivery_State__c}
+{!Purchase_Order__c.Delivery_Country__c}
+
+DETAILS
+
+{!Purchase_Order__c.Product_Description__c}
+
+Order subtotal
+VAT
+Order Total
+
+{!Purchase_Order__c.Rolled_up_POLI_Ex_VAT__c}
+{!Purchase_Order__c.Rolled_up_VAT_Amount__c}
+{!Purchase_Order__c.Total_PO_Amount_Incl_VAT__c}
+
+All Supplier Invoices must quote a valid Purchase Order No. Please acknowledge receipt of this order by fax, quoting an expected delivery date. This order is to be accepted under Aspect Maintenance Standard Terms and Conditions.
+
+Aspect Maintenance Services Ltd Unit E7 Barwell Business Park, Leatherhead Road, Chessington, KT9 2NY
+Phone: 02045027541
+Fax: 0844 884 1181
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

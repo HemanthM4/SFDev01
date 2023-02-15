@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complaint_Resolved__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To be ticked when the complaint has been resolved</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be ticked when the complaint has been resolved</inlineHelpText>
+    <label>Complaint Resolved</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

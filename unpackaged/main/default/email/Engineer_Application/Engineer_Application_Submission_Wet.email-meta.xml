@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is the first email with the calendley to the new Op</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Engineer Application Submission Wet</name>
+    <style>none</style>
+    <subject>Thank you, we&#39;ve received your application</subject>
+    <textOnly>Thank you
+for applying
+
+Dear {!Engineer_Application__c.First_Name__c},
+
+Thank you for applying for a tradesperson role at Aspect. Your application shows that you may be a good fit for us and to move forward, we&#39;d love to conduct a quick phone interview.
+
+To book the availability for your phone interview, please follow this link: https://calendly.com/kerry-pantony/wet-trade-interview
+
+Please feel free to reach out if you have any questions.
+
+Kind Regards,
+
+Rose Slack
+Community Manager
+07912 780 825
+
+
+BOOK YOUR INTERVIEW
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

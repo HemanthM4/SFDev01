@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cant_be_not_needed_and_completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+				 Needed__c = FALSE
+				,
+				ISPICKVAL(Status,&#39;Visit Complete&#39;)
+				)</errorConditionFormula>
+    <errorMessage>The Work Order Line item can&#39;t be Completed and not needed at the same time. It has to be one or the other</errorMessage>
+</ValidationRule>

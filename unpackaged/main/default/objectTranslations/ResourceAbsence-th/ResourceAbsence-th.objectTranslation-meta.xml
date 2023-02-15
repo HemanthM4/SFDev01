@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Resource Absence Layout</layout>
+        <sections>
+            <label><!-- Other Fields --></label>
+            <section>Other Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Leave Request --></label>
+        <name>Leave_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Office Entry --></label>
+        <name>Office_Entry</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The maximum length of time for a Resource Absence of Type &apos;Break&apos; can be is 30 minutes. --></errorMessage>
+        <name>Break_Max_30_Mins</name>
+    </validationRules>
+</CustomObjectTranslation>

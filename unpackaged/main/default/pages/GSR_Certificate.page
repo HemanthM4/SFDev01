@@ -1,0 +1,1405 @@
+<apex:page renderAs="pdf" controller="GSR_Certificate_Controller">
+    <apex:stylesheet value="{!$Resource.gsr_main}"/>
+    <html>
+        <head>
+            <meta charset='UTF-8'/>
+            <meta name="keywords" content="Aspect Maintenance, GSR Certificate"/>
+            <meta name="author" content="Aspect Maintenance"/>
+        </head>
+        <body>
+            <div style="{!IF((showFirstTable ==false ), 'display:block', 'display:none')}" > 
+                <div class="header">
+                    <table class="row_1_heading">
+                        <tbody> 
+                            <tr> 
+                                <td style="padding: px; background-color: #F3E500;"><apex:image url="{!$Resource.Aspect_Logo_yellow_background}" alt="aspect logo" width="120"/></td>
+                                <td style="font-size: 16px !important; font-weight: bold; color: white; flex: 1 1 0%; width: 65%;">LANDLORD/HOMEOWNER GAS SAFETY RECORD</td>
+                                <td style="color: white; text-align: right !important; width: 5%; font-size: 10px !important;">Serial No:</td>
+                                <td style="width: 20%; background-color: #FFFFFF;">
+                                    <span>
+                                        <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="gsr_sn">
+                                            <apex:column value="{!gsr.Name}"/>
+                                        </apex:dataTable>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="row_2_disclaimer"> 
+                        <tbody> 
+                            <tr> 
+                                <td>This inspection is for gas safety purposes only to comply with the Gas Safety (Installation and Use) Regulations. Flues have been inspected visually and checked for the satisfactory evacuation of products of combustion. A detailed internal inspection of flue integrity, construction and lining have NOT been carried out.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="main_body_1"> 
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table id="row_3_generalDetails">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 30%; padding-right: 0.3em; vertical-align: top; margin: auto;"> 
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td width="80%" class="table_heading_styling blue_border_thick" colspan="3" style="white-space: nowrap; padding: 2px;">REGISTERED BUSINESS DETAILS</td>
+                                                                <td width="20%" class="blue_border_thick white_background" style="padding: 0.2em; width: 100%; height: 17px; color: #000000; text-align: center;"><strong>Reg No:</strong> 213844</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Gas Engineer: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%">
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">GS License: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0, number, #####0}"> 
+                                                                                <apex:param value="{!gsr.Gas_Safe_Engineer_License_Number__c}"/>
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>                                                    
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Company: </td>
+                                                                <td class="table_cell_styling" colspan="3">Aspect Maintenance Ltd</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td class="table_cell_styling" colspan="3">E7, Barwell Business Park,</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td class="table_cell_styling" width="100%" colspan="4">Leatherhead Road, Chessington</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">KT9 2NY</td>
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">020 8879 9600</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 30%; padding-right: 0.3em; margin: auto;"> 
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" colspan="4" style="padding: 2px; color: white; font-weight: bold; text-align: center;">INSPECTION/INSTALLATION ADDRESS</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title:  </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.FirstName} {!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.LastName}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr"  styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Street__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr> 
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c}, {!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_PostalCode__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact_Phone__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table width="100%" style="margin-top: 0.3em; border-collapse: collapse; vertical-align: top;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="margin-top: 0.2em; height: 17px;">
+                                                                <td class="table_cell_styling" colspan="4" style="font-weight: bold; font-size: 10px !important;">I certify that I carried out the inspections on the appliances detailed below.</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Signed: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important; white-space: nowrap;">Inspection Date: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                                                <apex:param value="{!gsr.Completed_Date_Time__c}" /> 
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>                                                   
+                                                </td>
+                                                <td style="width: 33%; padding-left: 0.3em; vertical-align: top; margin: auto;">
+                                                    <table style="width: 100%; border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;"> 
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" style="padding: 2px; color: white; font-weight: bold; width: 99.5%; text-align: center;" colspan="4">LANDLORD (OR AGENT) NAME &amp; ADDRESS</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Name}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Primary Contact: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Account.First_Name__c} {!gsr.Work_Order_Lookup__r.Account.Last_Name__c}" rendered="{!gsr.Work_Order_Lookup__r.Account.RecordTypeId =='0120N000000okPdQAI'}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingStreet}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCity}, {!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingPostalCode}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Phone}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="header1">
+                    <table class="row_1_heading">
+                        <tbody> 
+                            <tr> 
+                                <td style="padding: 1px; background-color: #F3E500;"><apex:image url="{!$Resource.Aspect_Logo_yellow_background}" alt="aspect logo" width="120"/></td>
+                                <td style="font-size: 16px !important; font-weight: bold; color: white; flex: 1 1 0%; width: 65%;">LANDLORD/HOMEOWNER GAS SAFETY RECORD</td>
+                                <td style="color: white; text-align: right !important; width: 5%; font-size: 10px !important;">Serial No:</td>
+                                <td style="width: 20%; background-color: #FFFFFF;">
+                                    <span>
+                                        <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="gsr_sn">
+                                            <apex:column value="{!gsr.Name}"/>
+                                        </apex:dataTable>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="row_2_disclaimer"> 
+                        <tbody> 
+                            <tr> 
+                                <td>This inspection is for gas safety purposes only to comply with the Gas Safety (Installation and Use) Regulations. Flues have been inspected visually and checked for the satisfactory evacuation of products of combustion. A detailed internal inspection of flue integrity, construction and lining have NOT been carried out.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <table class="main_body_1"> 
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table id="row_3_generalDetails">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 30%; padding-right: 0.3em; vertical-align: top; margin: auto;"> 
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td width="80%" colspan="3" class="table_heading_styling blue_border_thick" style="white-space: nowrap; padding: 2px;">REGISTERED BUSINESS DETAILS</td>
+                                                                <td width="20%" class="blue_border_thick white_background" style="padding: 0.2em; width: 100%; height: 17px; color: #000000; text-align: center;"><strong>Reg No:</strong> 213844</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Gas Engineer: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">GS License: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0, number, #####0}"> 
+                                                                                <apex:param value="{!gsr.Gas_Safe_Engineer_License_Number__c}"/>
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>                                                    
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Company: </td>
+                                                                <td class="table_cell_styling" colspan="3">Aspect Maintenance Ltd</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td class="table_cell_styling" colspan="3">E7, Barwell Business Park,</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td class="table_cell_styling" width="100%" colspan="4">Leatherhead Road, Chessington</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">KT9 2NY</td>
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">020 8879 9600</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 30%; padding-right: 0.3em; margin: auto;">
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" colspan="4" style="padding: 2px; color: white; font-weight: bold; text-align: center;">INSPECTION/INSTALLATION ADDRESS</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title:  </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.FirstName} {!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.LastName}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" id="siteAddress1" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Street__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr> 
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" id="siteAddress2" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c}, {!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_PostalCode__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact_Phone__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table width="100%" style="margin-top: 0.3em; border-collapse: collapse; vertical-align: top;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="margin-top: 0.2em; height: 17px;">
+                                                                <td class="table_cell_styling" colspan="4" style="font-weight: bold; font-size: 10px !important;">I certify that I carried out the inspections on the appliances detailed below.</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Signed: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important; white-space: nowrap;">Inspection Date: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                                                <apex:param value="{!gsr.Completed_Date_Time__c}" /> 
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 33%; padding-left: 0.3em; vertical-align: top; margin: auto;">
+                                                    <table style="width: 100%; border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;"> 
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" style="padding: 2px; color: white; font-weight: bold; width: 99.5%; text-align: center;" colspan="4">LANDLORD (OR AGENT) NAME &amp; ADDRESS</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Name}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Primary Contact: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Account.First_Name__c} {!gsr.Work_Order_Lookup__r.Account.Last_Name__c}" rendered="{!gsr.Work_Order_Lookup__r.Account.RecordTypeId =='0120N000000okPdQAI'}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingStreet}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCity}, {!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingPostalCode}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Phone}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="footer">
+                    <apex:Repeat value="{!gsr_submission}" var="gsr" >
+                        <table class="main_body_1">
+                            <tbody style="width: 100%;">
+                                <tr style="height: 17px;">
+                                    <td width="33%" style="vertical-align: top;"> 
+                                        <table style="background-color: #FFF !important; border: 2px solid #001871; padding: 5px; width: 100%; vertical-align: top;">
+                                            <tbody> 
+                                                <tr> 
+                                                    <td colspan="2" class="table_heading_styling2" style="white-space: nowrap; border: none; font-weight: bold; color: #FFF;">Gas Installation Pipework</td>
+                                                </tr>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Satisfactory Visual Inspection (Yes/No/Na):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;" align="right">
+                                                        <apex:outputText value="{!gsr.Satisfactory_visual_inspection__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Emergency Control Accessible (Yes/No/Na):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Emergency_control_valve_access_satisfact__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Satisfactory Gas Tightness (Yes/No):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Satisfactory_gas_tightness_test__c}"/>
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Equipotential Bonding Satisfactory (Yes/No):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Equipotential_bonding_satisfactory__c}"/>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td width="33%" style="vertical-align: top;">
+                                        <table style="background-color: #FFF !important; border: 2px solid #001871; padding: 5px; width: 100%; vertical-align: top;">
+                                            <tbody>
+                                                <tr> 
+                                                    <td colspan="2" class="table_heading_styling2" style="white-space: nowrap; border: none; font-weight: bold; color: #FFF;">Audible CO Alarms</td>
+                                                </tr>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; color: black;" align="right">Approved CO Alarms Fitted (Yes/No/NA):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Approved_CO_alarms_fitted__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right">Are CO Alarms in Date? (Yes/No/NA):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.CO_alarms_are_in_date__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" width="100px" align="right">Testing of CO Alarms Satisfactory (Yes/No/NA):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Testing_of_CO_alarms_satisfactory__c}"/>
+                                                    </td>  
+                                                </tr>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; color: black;" width="100px" align="right">Smoke Alarms Fitted (Yes/No):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Smoke_alarms_fitted__c}"/>
+                                                    </td> 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td width="33%" style="vertical-align: top;">
+                                        <table style="background-color: #FFF !important; border: 2px solid #001871; padding: 5px; width: 80%;">
+                                            <tbody>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; font-weight: bold;  color: #000000;">Number of appliances Tested</td>
+                                                    <td class="table_cell_styling3">
+                                                        <apex:outputText value="{!gsr.Number_of_Appliances_Tested__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; font-weight: bold; color: #000000;">This record is issued by:</td>
+                                                    <td class="table_cell_styling3" width="20%">
+                                                        <apex:outputText value="{!gsr.Engineer_Name__c}"/>
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; width:20%; font-weight: bold; color: #000000;">Received on behalf of the Landlord/Home owner:</td>
+                                                    <td class="table_cell_styling3">
+                                                        <apex:outputText value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.FirstName} {!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.LastName}"/>
+                                                    </td>
+                                                    <td style="font-weight:bold; font-size: 9px; padding-left: 5px; color: #000000;">
+                                                        <apex:outputText value="{!gsr.Report_Received_By_Type__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight:bold; color: #000000;">Date:</td>
+                                                    <td class="table_cell_styling3">
+                                                        <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                            <apex:param value="{!gsr.Service_Appointment_Lookup__r.Scheduled_Date__c}"/> 
+                                                        </apex:outputText>
+                                                    </td>
+                                                </tr>
+                                                <tr> 
+                                                    <td style="font-weight:bold; color: #000000;">Completed Date:</td>
+                                                    <td class="table_cell_styling3" width="20%">
+                                                        <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                            <apex:param value="{!gsr.Completed_Date_Time__c}"/> 
+                                                        </apex:outputText>
+                                                    </td> 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" style="border-bottom: 1px solid #000;">
+                            <tr>
+                                <td width="100%" colspan="3" class="next_gsc">NEXT GAS SAFETY CHECK MUST BE CARRIED OUT WITHIN 12 MONTHS</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" valign="bottom" style="font-size: 9px; padding:0px; padding-top:30px; color: #000000;" >
+                                    Aspect Maintenance Services Limited. Registered in England No. 5296195. JII110520000
+                                </td>
+                                <td valign="bottom" align="right" style="font-size: 9px; padding:0px; color: #000000;">
+                                    <div>Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </apex:Repeat>
+                    
+                </div>
+                <div class="content">
+                    <apex:repeat value="{!approvalMap}" var="key">
+                        <apex:dataTable style="page-break-inside: avoid !important; white-space: nowrap; overflow: hidden;" styleClass="table_cell_styling2" 
+                                        value="{!approvalMap[key]}" var="appR" border="1" cellpadding="3px" headerClass="table_heading_styling">
+                            <apex:facet name="header">APPLIANCE DETAILS</apex:facet>
+                            <apex:column headerValue="Location" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Appliance_Location__c}"/>
+                            </apex:column>
+                            <apex:column headerValue="Make & Model" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Appliance_Manufacturer__c} {!appR.Appliance_model__c}"/>
+                            </apex:column>
+                            <apex:column headerValue="Gas Council Number" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Gas_Council_Number__c}"/>
+                                <apex:outputText value="N/A" rendered="{! appR.Gas_Council_Number__c == ''}"/>
+                            </apex:column>  
+                            <apex:column headerValue="Type" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Appliance_Type__c}"/>
+                            </apex:column> 
+                            <apex:column headerValue="Landlord's appliance Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="Yes" rendered="{!appR.Landlords_Device__c}"/> 
+                                <apex:outputText value="No" rendered="{!NOT appR.Landlords_Device__c}"/>
+                            </apex:column>  
+                            <apex:column headerValue="Flue Type OF/RS/FL" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Flue_Type__c}"/>
+                            </apex:column>
+                            <apex:column headerValue="Inspected Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Inspected__c}"/>
+                            </apex:column>
+                        </apex:dataTable>
+                    </apex:repeat>
+                    
+                    <apex:repeat value="{!approvalMap}" var="key">
+                        <apex:dataTable style="page-break-inside: avoid !important; white-space: nowrap; overflow: hidden;"  styleClass="table_cell_styling2"
+                                        value="{!approvalMap[key]}" var="appR" border="1"  cellpadding="1px" headerClass="table_heading_styling">
+                            <apex:facet name="header" >INSPECTION DETAILS</apex:facet>
+                            <apex:column headerValue="Final Combustion Reading" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Combustion_Final_Reading__c}"/>
+                            </apex:column>
+                            <apex:column headerValue="Satisfactory termination Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Satisfactory_termination__c}"/>
+                            </apex:column>
+                            <apex:column headerValue="Operating Pressure in mbar or heat input in kw/h or Btu/h" 
+                                         headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF; width: 20px !important;">
+                                <apex:outputText value="{!appR.Appliance_measurement_type__c} {!appR.Appliance_Measurement__c}"/>
+                            </apex:column> 
+                            <apex:column headerValue="Safety Device(s) correct operation Yes/No/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF; width: 20px !important;">
+                                <apex:outputText value="{!appR.Safety_devices_correct_operation__c}"/>
+                            </apex:column>   
+                            <apex:column headerValue="Spillage test Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Spillage_test__c}"/>
+                            </apex:column>    
+                            <apex:column headerValue="Smoke pellet flue flow test Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Smoke_pellet_flue_flow_test__c}"/>
+                            </apex:column>
+                            <apex:column headerValue="Flue visual condition Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Satisfactory_Flue_visual_condition__c}"/>
+                            </apex:column> 
+                            <apex:column headerValue="Adequate ventilation Yes/No/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Adequate_ventilation__c}"/>
+                            </apex:column> 
+                            <apex:column headerValue="Appliance Serviced Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Appliance_serviced__c}"/>
+                            </apex:column> 
+                            <apex:column headerValue="Appliance Safe to use Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                                <apex:outputText value="{!appR.Appliance_safe_to_use__c}"/>
+                            </apex:column>
+                        </apex:dataTable>
+                    </apex:repeat>
+                    
+                    <apex:outputPanel rendered="{!showStandardTable}">
+                        <table class="main_body_2">
+                            <tbody>
+                                <apex:dataTable style="page-break-inside: avoid !important; overflow: hidden;" styleClass="table_cell_styling2"
+                                                value="{!installation_faults}" var="if" border="1" cellpadding="2px">
+                                    <apex:column headerValue="GIVE DETAILS OF ANY FAULTS" 
+                                                 headerClass="table_heading_styling apex_dataTable_header_type1"
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;">
+                                        <apex:outputText value="{!if.Give_details_of_any_faults__c}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="RECTIFICATION WORK CARRIED OUT" 
+                                                 headerClass="table_heading_styling apex_dataTable_header_type2" 
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;">
+                                        <apex:outputText value="{!if.Rectification_work_carried_out__c}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING NOTICE ISSUED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;">
+                                        <apex:outputText value="{!if.Warning_notice_issued__c}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING TAG or STICKER FIXED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;">
+                                        <apex:outputText value="{!if.Warning_tag_or_sticker_fixed__c}"/>
+                                    </apex:column>
+                                </apex:dataTable> 
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!hideStandardTable}">
+                        <table id="inst_faults_tbl_empty">
+                            <tbody>
+                                <apex:dataTable style="page-break-inside: avoid !important; white-space: nowrap; overflow: hidden;" styleClass="table_cell_styling2"
+                                                value="{!gsrWrap}" var="if" border="1"  cellpadding="2px">
+                                    <apex:column headerValue="GIVE DETAILS OF ANY FAULTS" 
+                                                 headerClass="table_heading_styling apex_dataTable_header_type1" 
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;">
+                                        <apex:outputText value="{!if.giveDetailsOfAnyFaults}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="RECTIFICATION WORK CARRIED OUT" 
+                                                 headerClass="table_heading_styling apex_dataTable_header_type2" 
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;">
+                                        <apex:outputText value="{!if.recitificationWOrkCarrriedOut}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING NOTICE ISSUED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;">
+                                        <apex:outputText value="{!if.warningNoticedIssues}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING TAG or STICKER FIXED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;">
+                                        <apex:outputText value="{!if.warningTagStickFixed}"/>
+                                    </apex:column>
+                                </apex:dataTable>
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                </div>
+            </div>
+            
+            <div style="{!IF((showsecondTable==false), 'display:block', 'display:none')}">
+                <div class="header">
+                    <table class="row_1_heading">
+                        <tbody> 
+                            <tr> 
+                                <td style="padding: px; background-color: #F3E500;"><apex:image url="{!$Resource.Aspect_Logo_yellow_background}" alt="aspect logo" width="120"/></td>
+                                <td style="font-size: 16px !important; font-weight: bold; color: white; flex: 1 1 0%; width: 65%;">LANDLORD/HOMEOWNER GAS SAFETY RECORD</td>
+                                <td style="color: white; text-align: right !important; width: 5%; font-size: 10px !important;">Serial No:</td>
+                                <td style="width: 20%; background-color: #FFFFFF;">
+                                    <span>
+                                        <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="gsr_sn">
+                                            <apex:column value="{!gsr.Name}"/>
+                                        </apex:dataTable>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="row_2_disclaimer"> 
+                        <tbody> 
+                            <tr> 
+                                <td>This inspection is for gas safety purposes only to comply with the Gas Safety (Installation and Use) Regulations. Flues have been inspected visually and checked for the satisfactory evacuation of products of combustion. A detailed internal inspection of flue integrity, construction and lining have NOT been carried out.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="main_body_1"> 
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table id="row_3_generalDetails">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 30%; padding-right: 0.3em; vertical-align: top; margin: auto;"> 
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td width="80%" class="table_heading_styling blue_border_thick" colspan="3" style="white-space: nowrap; padding: 2px;">REGISTERED BUSINESS DETAILS</td>
+                                                                <td width="20%" class="blue_border_thick white_background" style="padding: 0.2em; width: 100%; height: 17px; color: #000000; text-align: center;"><strong>Reg No:</strong> 213844</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Gas Engineer: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%">
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">GS License: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0, number, #####0}"> 
+                                                                                <apex:param value="{!gsr.Gas_Safe_Engineer_License_Number__c}"/>
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>                                                    
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Company: </td>
+                                                                <td class="table_cell_styling" colspan="3">Aspect Maintenance Ltd</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td class="table_cell_styling" colspan="3">E7, Barwell Business Park,</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td class="table_cell_styling" width="100%" colspan="4">Leatherhead Road, Chessington</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">KT9 2NY</td>
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">020 8879 9600</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 30%; padding-right: 0.3em; margin: auto;"> 
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" colspan="4" style="padding: 2px; color: white; font-weight: bold; text-align: center;">INSPECTION/INSTALLATION ADDRESS</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title:  </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.FirstName} {!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.LastName}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr"  styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Street__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr> 
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c}, {!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_PostalCode__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact_Phone__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table width="100%" style="margin-top: 0.3em; border-collapse: collapse; vertical-align: top;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="margin-top: 0.2em; height: 17px;">
+                                                                <td class="table_cell_styling" colspan="4" style="font-weight: bold; font-size: 10px !important;">I certify that I carried out the inspections on the appliances detailed below.</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Signed: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important; white-space: nowrap;">Inspection Date: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                                                <apex:param value="{!gsr.Completed_Date_Time__c}" /> 
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>                                                   
+                                                </td>
+                                                <td style="width: 33%; padding-left: 0.3em; vertical-align: top; margin: auto;">
+                                                    <table style="width: 100%; border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;"> 
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" style="padding: 2px; color: white; font-weight: bold; width: 99.5%; text-align: center;" colspan="4">LANDLORD (OR AGENT) NAME &amp; ADDRESS</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Name}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Primary Contact: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Account.First_Name__c} {!gsr.Work_Order_Lookup__r.Account.Last_Name__c}" rendered="{!gsr.Work_Order_Lookup__r.Account.RecordTypeId =='0120N000000okPdQAI'}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingStreet}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCity}, {!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingPostalCode}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Phone}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
+                <div class="header1">
+                    <table class="row_1_heading">
+                        <tbody> 
+                            <tr> 
+                                <td style="padding: 1px; background-color: #F3E500;"><apex:image url="{!$Resource.Aspect_Logo_yellow_background}" alt="aspect logo" width="120"/></td>
+                                <td style="font-size: 16px !important; font-weight: bold; color: white; flex: 1 1 0%; width: 65%;">LANDLORD/HOMEOWNER GAS SAFETY RECORD</td>
+                                <td style="color: white; text-align: right !important; width: 5%; font-size: 10px !important;">Serial No:</td>
+                                <td style="width: 20%; background-color: #FFFFFF;">
+                                    <span>
+                                        <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="gsr_sn">
+                                            <apex:column value="{!gsr.Name}"/>
+                                        </apex:dataTable>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="row_2_disclaimer"> 
+                        <tbody> 
+                            <tr> 
+                                <td>This inspection is for gas safety purposes only to comply with the Gas Safety (Installation and Use) Regulations. Flues have been inspected visually and checked for the satisfactory evacuation of products of combustion. A detailed internal inspection of flue integrity, construction and lining have NOT been carried out.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="main_body_1"> 
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <table id="row_3_generalDetails">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 30%; padding-right: 0.3em; vertical-align: top; margin: auto;"> 
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td width="80%" colspan="3" class="table_heading_styling blue_border_thick" style="white-space: nowrap; padding: 2px;">REGISTERED BUSINESS DETAILS</td>
+                                                                <td width="20%" class="blue_border_thick white_background" style="padding: 0.2em; width: 100%; height: 17px; color: #000000; text-align: center;"><strong>Reg No:</strong> 213844</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Gas Engineer: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">GS License: </td>
+                                                                <td class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0, number, #####0}"> 
+                                                                                <apex:param value="{!gsr.Gas_Safe_Engineer_License_Number__c}"/>
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>                                                    
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Company: </td>
+                                                                <td class="table_cell_styling" colspan="3">Aspect Maintenance Ltd</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10px" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td class="table_cell_styling" colspan="3">E7, Barwell Business Park,</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td class="table_cell_styling" width="100%" colspan="4">Leatherhead Road, Chessington</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">KT9 2NY</td>
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">020 8879 9600</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 30%; padding-right: 0.3em; margin: auto;">
+                                                    <table width="100%" style="border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" colspan="4" style="padding: 2px; color: white; font-weight: bold; text-align: center;">INSPECTION/INSTALLATION ADDRESS</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title:  </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3"> 
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.FirstName} {!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.LastName}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" id="siteAddress" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Street__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr> 
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" id="siteAddress21" width="100%" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c}, {!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_Country__c}" rendered="{!gsr.Work_Order_Lookup__r.Site__r.Site_City__c == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Site_PostalCode__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact_Phone__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table width="100%" style="margin-top: 0.3em; border-collapse: collapse; vertical-align: top;">
+                                                        <tbody style="width: 100%;">
+                                                            <tr style="margin-top: 0.2em; height: 17px;">
+                                                                <td class="table_cell_styling" colspan="4" style="font-weight: bold; font-size: 10px !important;">I certify that I carried out the inspections on the appliances detailed below.</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Signed: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Engineer_Name__c}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important; white-space: nowrap;">Inspection Date: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                                                <apex:param value="{!gsr.Completed_Date_Time__c}" /> 
+                                                                            </apex:outputText>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td style="width: 33%; padding-left: 0.3em; vertical-align: top; margin: auto;">
+                                                    <table style="width: 100%; border-collapse: collapse; vertical-align: top; border: 2px solid #001871;">
+                                                        <tbody style="width: 100%;"> 
+                                                            <tr style="height: 17px;">
+                                                                <td class="blue_border_thick blue_background" style="padding: 2px; color: white; font-weight: bold; width: 99.5%; text-align: center;" colspan="4">LANDLORD (OR AGENT) NAME &amp; ADDRESS</td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Name &amp; Title: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Name}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Primary Contact: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column >
+                                                                            <apex:outputText value="{!gsr.Work_Order_Lookup__r.Account.First_Name__c} {!gsr.Work_Order_Lookup__r.Account.Last_Name__c}" rendered="{!gsr.Work_Order_Lookup__r.Account.RecordTypeId =='0120N000000okPdQAI'}"/>
+                                                                        </apex:column>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="10%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Address: </td>
+                                                                <td width="90%" class="table_cell_styling" colspan="3">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingStreet}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr style="height: 17px;">
+                                                                <td width="100%" class="table_cell_styling" colspan="4">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCity}, {!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity != ''}"/>
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingCountry}" rendered="{!gsr.Work_Order_Lookup__r.Account.BillingCity == ''}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="25%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Postal Code: </td>
+                                                                <td width="25%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.BillingPostalCode}"/>
+                                                                    </apex:dataTable>
+                                                                </td> 
+                                                                <td width="15%" class="table_cell_styling" style="font-weight: bold; border-right-style: hidden !important;">Tel: </td>
+                                                                <td width="35%" class="table_cell_styling">
+                                                                    <apex:dataTable value="{!gsr_submission}" var="gsr" styleClass="apex_dataTable_cell_type3">    
+                                                                        <apex:column value="{!gsr.Work_Order_Lookup__r.Account.Phone}"/>
+                                                                    </apex:dataTable>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>         
+                <div class="footer">
+                    <apex:Repeat value="{!gsr_submission}" var="gsr" >
+                        <table class="main_body_1">
+                            <tbody style="width: 100%;">
+                                <tr style="height: 17px;">
+                                    <td width="33%" style="vertical-align: top;"> 
+                                        <table style="background-color: #FFF !important; border: 2px solid #001871; padding: 5px; width: 100%; vertical-align: top;">
+                                            <tbody> 
+                                                <tr> 
+                                                    <td colspan="2" class="table_heading_styling2" style="white-space: nowrap; border: none; font-weight: bold; color: #FFF;">Gas Installation Pipework</td>
+                                                </tr>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Satisfactory Visual Inspection (Yes/No/Na):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;" align="right">
+                                                        <apex:outputText value="{!gsr.Satisfactory_visual_inspection__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Emergency Control Accessible (Yes/No/Na):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Emergency_control_valve_access_satisfact__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Satisfactory Gas Tightness (Yes/No):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Satisfactory_gas_tightness_test__c}"/>
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Equipotential Bonding Satisfactory (Yes/No):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Equipotential_bonding_satisfactory__c}"/>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td width="33%" style="vertical-align: top;">
+                                        <table style="background-color: #FFF !important; border: 2px solid #001871; padding: 5px; width: 100%; vertical-align: top;">
+                                            <tbody>
+                                                <tr> 
+                                                    <td colspan="2" class="table_heading_styling2" style="white-space: nowrap; border: none; font-weight: bold; color: #FFF;">Audible CO Alarms</td>
+                                                </tr>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; color: black;" align="right">Approved CO Alarms Fitted (Yes/No/NA):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Approved_CO_alarms_fitted__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right">Are CO Alarms in Date? (Yes/No/NA):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.CO_alarms_are_in_date__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Testing of CO Alarms Satisfactory (Yes/No/NA):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Testing_of_CO_alarms_satisfactory__c}"/>
+                                                    </td>  
+                                                </tr>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; color: black;" align="right" width="100px">Smoke Alarms Fitted (Yes/No):</td>
+                                                    <td class="table_cell_styling3" width="40px" style="text-align: center !important;">
+                                                        <apex:outputText value="{!gsr.Smoke_alarms_fitted__c}"/>
+                                                    </td> 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td width="33%" style="vertical-align: top;">
+                                        <table style="background-color: #FFF !important; border: 2px solid #001871; padding: 5px; width: 80%;">
+                                            <tbody>
+                                                <tr> 
+                                                    <td style="white-space: nowrap; font-weight: bold;  color: #000000;">Number of appliances Tested</td>
+                                                    <td class="table_cell_styling3">
+                                                        <apex:outputText value="{!gsr.Number_of_Appliances_Tested__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; font-weight: bold; color: #000000;">This record is issued by:</td>
+                                                    <td class="table_cell_styling3" width="20%">
+                                                        <apex:outputText value="{!gsr.Engineer_Name__c}"/>
+                                                    </td> 
+                                                </tr>
+                                                <tr>
+                                                    <td style="white-space: nowrap; width:20%; font-weight: bold; color: #000000;">Received on behalf of the Landlord/Home owner:</td>
+                                                    <td class="table_cell_styling3">
+                                                        <apex:outputText value="{!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.FirstName} {!gsr.Work_Order_Lookup__r.Site__r.Primary_Site_Contact__r.LastName}"/>
+                                                    </td>
+                                                    <td style="font-weight:bold; font-size: 9px; padding-left: 5px; color: #000000;">
+                                                        <apex:outputText value="{!gsr.Report_Received_By_Type__c}"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight:bold; color: #000000;">Date:</td>
+                                                    <td class="table_cell_styling3">
+                                                        <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                            <apex:param value="{!gsr.Service_Appointment_Lookup__r.Scheduled_Date__c}"/> 
+                                                        </apex:outputText>
+                                                    </td>
+                                                </tr>
+                                                <tr> 
+                                                    <td style="font-weight:bold; color: #000000;">Completed Date:</td>
+                                                    <td class="table_cell_styling3" width="20%">
+                                                        <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+                                                            <apex:param value="{!gsr.Completed_Date_Time__c}"/> 
+                                                        </apex:outputText>
+                                                    </td> 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table width="100%" style="border-bottom: 1px solid #000;">
+                            <tr>
+                                <td width="100%" colspan="3" class="next_gsc">NEXT GAS SAFETY CHECK MUST BE CARRIED OUT WITHIN 12 MONTHS</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" valign="bottom" style="font-size: 9px; padding:0px; padding-top:30px; color: #000000;" >
+                                    Aspect Maintenance Services Limited. Registered in England No. 5296195. JII110520000
+                                </td>
+                                <td valign="bottom" align="right" style="font-size: 9px; padding:0px; color: #000000;">
+                                    <div>Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </apex:Repeat>
+                    
+                </div>
+                <div class="content">
+                    <apex:dataTable style="page-break-inside: avoid !important; white-space: nowrap; overflow: hidden;" styleClass="table_cell_styling2" 
+                                    value="{!appliance_results}" var="appR" border="1" cellpadding="3px" headerClass="table_heading_styling">
+                        <apex:facet name="header">APPLIANCE DETAILS</apex:facet>
+                        <apex:column headerValue="Location" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Appliance_Location__c}"/>
+                        </apex:column>
+                        <apex:column headerValue="Make & Model" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Appliance_Manufacturer__c} {!appR.Appliance_model__c}"/>
+                        </apex:column>
+                        <apex:column headerValue="Gas Council Number" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Gas_Council_Number__c}"/>
+                            <apex:outputText value="N/A" rendered="{! appR.Gas_Council_Number__c == ''}"/>
+                        </apex:column>  
+                        <apex:column headerValue="Type" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Appliance_Type__c}"/>
+                        </apex:column> 
+                        <apex:column headerValue="Landlord's appliance Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="Yes" rendered="{!appR.Landlords_Device__c}"/> 
+                            <apex:outputText value="No" rendered="{!NOT appR.Landlords_Device__c}"/>
+                        </apex:column>  
+                        <apex:column headerValue="Flue Type OF/RS/FL" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Flue_Type__c}"/>
+                        </apex:column>
+                        <apex:column headerValue="Inspected Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Inspected__c}"/>
+                        </apex:column>
+                    </apex:dataTable>
+                    
+                    <apex:dataTable style="page-break-inside: avoid !important; white-space: nowrap; overflow: hidden;"  styleClass="table_cell_styling2"
+                                    value="{!appliance_results}" var="appR" border="1"  cellpadding="1px" headerClass="table_heading_styling">
+                        <apex:facet name="header" >INSPECTION DETAILS</apex:facet>
+                        <apex:column headerValue="Final Combustion Reading" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Combustion_Final_Reading__c}"/>
+                        </apex:column>
+                        <apex:column headerValue="Satisfactory termination Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Satisfactory_termination__c}"/>
+                        </apex:column>
+                        <apex:column headerValue="Operating Pressure in mbar or heat input in kw/h or Btu/h" 
+                                     headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF; width: 20px !important;">
+                            <apex:outputText value="{!appR.Appliance_measurement_type__c} {!appR.Appliance_Measurement__c}"/>
+                        </apex:column> 
+                        <apex:column headerValue="Safety Device(s) correct operation Yes/No/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF; width: 20px !important;">
+                            <apex:outputText value="{!appR.Safety_devices_correct_operation__c}"/>
+                        </apex:column>   
+                        <apex:column headerValue="Spillage test Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Spillage_test__c}"/>
+                        </apex:column>    
+                        <apex:column headerValue="Smoke pellet flue flow test Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Smoke_pellet_flue_flow_test__c}"/>
+                        </apex:column>
+                        <apex:column headerValue="Flue visual condition Pass/Fail/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Satisfactory_Flue_visual_condition__c}"/>
+                        </apex:column> 
+                        <apex:column headerValue="Adequate ventilation Yes/No/NA" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Adequate_ventilation__c}"/>
+                        </apex:column> 
+                        <apex:column headerValue="Appliance Serviced Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Appliance_serviced__c}"/>
+                        </apex:column> 
+                        <apex:column headerValue="Appliance Safe to use Yes/No" headerClass="sub_heading_styling apex_dataTable_header_type3" style="border: 1px solid black; text-align: center; background-color: #FFFFFF;">
+                            <apex:outputText value="{!appR.Appliance_safe_to_use__c}"/>
+                        </apex:column>
+                    </apex:dataTable>
+                    
+                    <apex:outputPanel rendered="{!showStandardTable}">
+                        <table class="main_body_2">
+                            <tbody>
+                                <apex:dataTable style="page-break-inside: avoid !important; overflow: hidden;" styleClass="table_cell_styling2"
+                                                value="{!installation_faults}" var="if" border="1" cellpadding="2px" headerClass="table_heading_styling">
+                                    <apex:facet name="header" >INSTALLATION FAULTS </apex:facet>
+                                    <apex:column headerValue="GIVE DETAILS OF ANY FAULTS" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3"
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;" width="35%">
+                                        <apex:outputText value="{!if.Give_details_of_any_faults__c}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="RECTIFICATION WORK CARRIED OUT" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;" width="35%">
+                                        <apex:outputText value="{!if.Rectification_work_carried_out__c}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING NOTICE ISSUED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;" width="15%">
+                                        <apex:outputText value="{!if.Warning_notice_issued__c}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING TAG or STICKER FIXED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;" width="15%">
+                                        <apex:outputText value="{!if.Warning_tag_or_sticker_fixed__c}"/>
+                                    </apex:column>
+                                </apex:dataTable> 
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                    <apex:outputPanel rendered="{!hideStandardTable}">
+                        <table id="inst_faults_tbl_empty">
+                            <tbody>
+                                <apex:dataTable style="page-break-inside: avoid !important; white-space: nowrap; overflow: hidden;" styleClass="table_cell_styling2"
+                                                value="{!gsrWrap}" var="if" border="1"  cellpadding="2px">
+                                    <apex:column headerValue="GIVE DETAILS OF ANY FAULTS" 
+                                                 headerClass="table_heading_styling apex_dataTable_header_type1" 
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;" width="35%">
+                                        <apex:outputText value="{!if.giveDetailsOfAnyFaults}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="RECTIFICATION WORK CARRIED OUT" 
+                                                 headerClass="table_heading_styling apex_dataTable_header_type2" 
+                                                 style="text-align: justify; border: 1px solid #000000; background-color: #FFFFFF; vertical-align: top;" width="35%">
+                                        <apex:outputText value="{!if.recitificationWOrkCarrriedOut}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING NOTICE ISSUED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;" width="15%">
+                                        <apex:outputText value="{!if.warningNoticedIssues}"/>
+                                    </apex:column>
+                                    <apex:column headerValue="WARNING TAG or STICKER FIXED Yes/No/NA" 
+                                                 headerClass="sub_heading_styling apex_dataTable_header_type3" 
+                                                 style="border: 1px solid black; background-color: #FFFFFF; text-align: center;" width="15%">
+                                        <apex:outputText value="{!if.warningTagStickFixed}"/>
+                                    </apex:column>
+                                </apex:dataTable>
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                </div>
+            </div>
+        </body>
+    </html>
+</apex:page>

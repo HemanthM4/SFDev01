@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Home Owner</fullName>
+        <default>false</default>
+        <label>Home Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>House Staff</fullName>
+        <default>false</default>
+        <label>House Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>Neighbour</fullName>
+        <default>false</default>
+        <label>Neighbour</label>
+    </customValue>
+    <customValue>
+        <fullName>Relative</fullName>
+        <default>false</default>
+        <label>Relative</label>
+    </customValue>
+    <customValue>
+        <fullName>Key Access (No on site contact)</fullName>
+        <default>false</default>
+        <label>Key Access (No on site contact)</label>
+    </customValue>
+    <customValue>
+        <fullName>Landlord</fullName>
+        <default>false</default>
+        <label>Landlord</label>
+    </customValue>
+    <customValue>
+        <fullName>Estate Agent</fullName>
+        <default>false</default>
+        <label>Estate Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Management</fullName>
+        <default>false</default>
+        <label>Property Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant</fullName>
+        <default>false</default>
+        <label>Tenant</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Owner</fullName>
+        <default>false</default>
+        <label>Business Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Management</fullName>
+        <default>false</default>
+        <label>Business Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee</fullName>
+        <default>false</default>
+        <label>Employee</label>
+    </customValue>
+    <description>Relationship the contact has with the site</description>
+    <masterLabel>Site Contact Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To submit for quote approval --></help>
+        <label><!-- Needed --></label>
+        <name>Needed__c</name>
+    </CustomFieldTranslation>

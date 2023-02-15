@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Handler_Names__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>comma separated names of trigger handlers to which this custom setting applies. &#39;ALL&#39; in the names list or empty names list - means all triggers, regardless of any other handler names listed</inlineHelpText>
+    <label>Handler Names</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

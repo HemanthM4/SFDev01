@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is to be sent to unsuitable applicants.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Unsuitable Applicants</name>
+    <style>none</style>
+    <subject>Aspect - Application feedback</subject>
+    <textOnly>Thank you
+for applying
+
+Dear {!Engineer_Application__c.First_Name__c},
+
+Thank you for applying for a tradesperson role at Aspect. Your application shows that you may be a good fit for us and to move forward, we&#39;d love to conduct a quick phone interview.
+
+To book the availability for your phone interview, please follow this link: https://calendly.com/rose-slack-aspect/wet-trade-interview
+
+Please feel free to reach out if you have any questions.
+
+Kind regards,
+
+Rose Slack
+Community Manager
+07912 780 825
+
+WHAT&#39;S NEXT
+
+1
+If you don&#39;t have a valid payment method on file, you&#39;ll have received an email with a request to provide a payment method via our secure payment gateway.
+
+2
+A booking confirmation email confirming the date and arrival time of our attendance will be sent.
+
+3
+As soon as our operative is on the way to your property we&#39;ll let you know via email and text message.
+
+4
+If you need to contact us, use the blue support button below.
+
+SUPPORT
+
+Got a question?
+We&#39;re here to help
+
+Help made easy.
+
+© 2022 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

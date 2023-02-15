@@ -1,0 +1,228 @@
+<apex:page renderAs="pdf" controller="AccountStatementController">
+<apex:stylesheet value="{!$Resource.aspect_main}"/>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <meta name="keywords" content="Aspect Maintenance, Statement"/>
+        <meta name="author" content="Aspect Maintenance"/>
+    </head>
+    <body>
+        <div class="header">
+            <table>
+                <tbody>
+                    <!-- header -->
+                    <tr valign="top">
+                        <td><img title="aspect-tagline.png" src="{!$Resource.Aspect_Logo_Main_500}" alt="aspect" height="70"/></td>
+                        <td width='160px'>&nbsp;</td>
+                        <td align="right">
+                            <div class="title">statement</div>
+                            <div class="title-subtext">
+                                <br/>
+                                E7 Barwell Business Park, Leatherhead Road<br/>
+                                Chessington, London, KT9 2NY<br/><br/>
+                                VAT Number: 854 0599 06
+                                <br/><br/>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td class="outer" colspan="3">
+                            <table>
+                                <thead > 
+                                    <tr>
+                                        <th style="width: 12%">Invoice</th>
+                                        <th style="width: 12%;">Date</th>
+                                        <th style="width: 8%;">Job</th>
+                                        <th style="width: 32%;">Address</th>
+                                        <th align="right" style="width: 8%;">Net</th>
+                                        <th align="right" style="width: 8%;">VAT</th>
+                                        <th align="right" style="width: 8%;">Total</th>
+                                        <th align="right" style="width: 12%;">Outstanding</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>  
+        <div class="header1">
+            <table>
+                <tbody>
+                    <!-- header -->
+                    <tr valign="top">
+                        <td><img title="aspect-tagline.png" src="{!$Resource.Aspect_Logo_Main_500}" alt="aspect" height="70"/></td>
+                        <td width='160px'>&nbsp;</td>
+                        <td align="right">
+                            <div class="title">statement</div>
+                            <div class="title-subtext">
+                                <br/>
+                                E7 Barwell Business Park, Leatherhead Road<br/>
+                                Chessington, London, KT9 2NY<br/><br/>
+                                VAT Number: 854 0599 06
+                                <br/><br/>
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- invoice info -->
+                    <tr>
+                        <td class="header-box">
+                            <p> <strong>{!account.Name}</strong></p>
+                            <p class="billing_address">
+                                {!account.BillingStreet}<br/>
+                                {!account.BillingCity}<br/>
+                                {!account.BillingPostalCode}<br/>
+                                {!account.BillingCountry}
+                            </p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td class="outer" valign="top">
+                            <table >
+                                <tbody>
+                                    <tr >
+                                        <td class="border-top" width="100" style="background-color:#eee;color:rgb(0,24,113);font-weight: bold;">
+                                            Statement Date
+                                        </td>
+                                        <td class="border-top" width="140" align="right">
+                                            <apex:outputText value="{0,date,dd'/'MM'/'yyyy}"><apex:param value="{!TODAY()}" /></apex:outputText>
+                                        </td>
+                                    </tr>
+                                    <tr >
+                                        <td class="border-bottom" width="100" style=" background-color:#eee;color:rgb(0,24,113);font-weight: bold;">
+                                            Account Number
+                                        </td>
+                                        <td class="border-bottom" width="140" align="right" >
+                                            {!account.Account_Reference__c}
+                                        </td>
+                                    </tr>            
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td>&nbsp;</td></tr>
+                    <tr>
+                        <td class="outer" colspan="3">
+                            <table>
+                                <thead> 
+                                    <tr>
+                                        <th style="width: 12%">Invoice</th>
+                                        <th style="width: 12%;">Date</th>
+                                        <th style="width: 8%;">Job</th>
+                                        <th style="width: 32%;">Address</th>
+                                        <th align="right" style="width: 8%;">Net</th>
+                                        <th align="right" style="width: 8%;">VAT</th>
+                                        <th align="right" style="width: 8%;">Total</th>
+                                        <th align="right" style="width: 12%;">Outstanding</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+                  
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="outer" valign="bottom" >
+                            <table>
+                                <tbody>
+                                    <tr >
+                                        <td class="border-top" style=" font-weight: bold;">3 months+</td>
+                                        <td class="border-top" align="right">{!ThreeMonthsDue}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-top" style="font-weight: bold;">2 months</td>
+                                        <td class="border-top" align="right">{!TwoMonthsDue}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-bottom" style="font-weight: bold;">1 month</td>
+                                        <td class="border-bottom" align="right">{!OneMonthDue}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td width="200px;" >&nbsp;</td>
+                        <td class="outer" valign="bottom" >
+                            <table cellpadding="0" cellspacing="0" style="border-collapse:collapse"  >
+                                <tbody>
+                                    <tr>
+                                        <td class="border-top" style="font-weight: bold;">Not Due</td>
+                                        <td class="border-top" align="right" >{!NotDue}</td>
+                                    </tr>
+                                    <tr>
+                                        <td  class="border-top" style="font-weight: bold;">Total Due</td>
+                                        <td  class="border-top" align="right" >{!TotalDue}</td>
+                                    </tr>
+                                    <tr style="color: rgb(255, 255, 255);background-color: #001871;" >
+                                        <td  style="font-weight: bold;">Balance Outstanding</td>
+                                        <td  align="right" >{!BalanceOutstanding}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" valign="bottom" style="font-size: 6.0px; padding:0px; padding-top:30px" >
+                            Aspect Maintenance Services Limited. Registered in England No. 5296195. JII110520000
+                        </td>
+                        <td valign="bottom" align="right" style="font-size: 6.0px; padding:0px;">
+                        	<div>Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="content">
+            <table>
+                <tbody>                                                
+                    <apex:repeat value="{!invoices}" var="cin">
+                        <tr>
+                            <td style="width: 12%; font-weight: bold;" >
+                                <apex:outputText escape="false" value="{!cin.Name}"/>
+                            </td>
+                            <td style="width: 12%;" >
+                                <apex:outputText escape="false" value="{0,date,dd'/'MM'/'yyyy}">
+                                    <apex:param value="{!cin.Date__c}" /> 
+                                </apex:outputText>
+                            </td>
+                            <td style="width: 8%;">
+                                <apex:outputText escape="false" value="{!cin.Job_Number__c}"/>
+                            </td>
+                            <td style="width: 32%;">
+                                <apex:outputText escape="false" value="{!cin.Site_Address__c}"/>
+                            </td>
+                            <td  align="right" style="width: 8%;" >
+                                <apex:outputText escape="false" value="{0, number, 00.00}">
+                                    <apex:param value="{!cin.Charge_Net__c}"/>
+                                </apex:outputText>
+                            </td>
+                            <td  align="right" style="width: 8%;">
+                                <apex:outputText escape="false" value="{0, number, 00.00}">
+                                    <apex:param value="{!cin.Charge_VAT__c}"/>
+                                </apex:outputText>
+                            </td>
+                            <td align="right" style="width: 8%;" >
+                                <apex:outputText escape="false" value="{0, number, 00.00}">
+                                    <apex:param value="{!cin.Charge_Gross__c}"/>
+                                </apex:outputText>
+                            </td>
+                            <td align="right" style="width: 12%; font-weight: bold;">
+                                <apex:outputText escape="false" value="{0, number, 00.00}">
+                                    <apex:param value="{!cin.Balance_Outstanding__c}"/>
+                                </apex:outputText>
+                            </td>
+                        </tr>
+                    </apex:repeat>
+                </tbody>
+            </table>      
+            
+              
+            
+        </div>
+    </body>
+</html>
+</apex:page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Temp field for admin use in bug tracking --></help>
+        <label><!-- Temporary Admin --></label>
+        <name>tmp__c</name>
+    </CustomFieldTranslation>

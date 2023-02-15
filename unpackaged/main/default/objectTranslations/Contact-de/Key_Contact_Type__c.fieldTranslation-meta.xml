@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Key Contact Type --></label>
+        <name>Key_Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Management</masterLabel>
+            <translation><!-- Business Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate Agent</masterLabel>
+            <translation><!-- Estate Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House Staff</masterLabel>
+            <translation><!-- House Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Access (No on site contact)</masterLabel>
+            <translation><!-- Key Access (No on site contact) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighbour</masterLabel>
+            <translation><!-- Neighbour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Management</masterLabel>
+            <translation><!-- Property Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relative</masterLabel>
+            <translation><!-- Relative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenant</masterLabel>
+            <translation><!-- Tenant --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

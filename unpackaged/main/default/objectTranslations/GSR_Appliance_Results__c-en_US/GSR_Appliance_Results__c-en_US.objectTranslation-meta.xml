@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>GSR Appliance Results</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>GSR Appliance Results</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>GSR Appliance Results Layout</layout>
+        <sections>
+            <label><!-- Combustion Readings --></label>
+            <section>Combustion Readings</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flue Tests --></label>
+            <section>Flue Tests</section>
+        </sections>
+        <sections>
+            <label><!-- Inspection Details --></label>
+            <section>Inspection Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+Dear {!WorkOrder.Contact} 
+
+The payment for Work Order {!WorkOrder.WorkOrderNumber} has been declined. 
+
+Please, find attached the invoice to be paid 
+***
+
+Note: Disregard this email if you have already processed the payment.  
+
+Kind Regards,
+Aspect

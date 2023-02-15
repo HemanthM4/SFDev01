@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>General_Code_Change</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Email notification</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>General_Ledger_Code__c.General_Code_Change</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>General Ledger Code is Updated</label>
+        </rules>
+    </decisions>
+    <description>This is the Process builder to sync up any of the General edger Code Processes</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>OR
+(
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.Booking_Team.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.Booking_Team_Manager.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.System_Administrator.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.Engineer_Partner_Community.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Credit_Control.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Credit_Control_Manager.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Human_Resources.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Wrap_Team.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Integration_Profile.X15_Char_Profile_ID__c ,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Operations_Director.X15_Char_Profile_ID__c,
+$Profile.Id=$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Field_Support.X15_Char_Profile_ID__c
+)
+</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>OR
+(
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.Booking_Team.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.Booking_Team_Manager.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.System_Administrator.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.Engineer_Partner_Community.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Credit_Control.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Credit_Control_Manager.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Human_Resources.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Wrap_Team.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Integration_Profile.X15_Char_Profile_ID__c} ,
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Operations_Director.X15_Char_Profile_ID__c},
+{!$Profile.Id}={!$CustomMetadata.PHASE_2_Profile_IDs__mdt.PHASE_2_Field_Support.X15_Char_Profile_ID__c}
+)</expression>
+    </formulas>
+    <interviewLabel>General_Ledger_Code_Processes-3_InterviewLabel</interviewLabel>
+    <label>PHASE 2 General Ledger Code Processes</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>General_Ledger_Code__c</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myDecision</startElementReference>
+    <status>Obsolete</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>General_Ledger_Code__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>General_Ledger_Code__c</objectType>
+    </variables>
+</Flow>

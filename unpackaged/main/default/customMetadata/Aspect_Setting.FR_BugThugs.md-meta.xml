@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FR-BugThugs</label>
+    <protected>false</protected>
+    <values>
+        <field>Bank_Account_Code__c</field>
+        <value xsi:type="xsd:string">34224444</value>
+    </values>
+    <values>
+        <field>Bank_Sort_Code__c</field>
+        <value xsi:type="xsd:string">3434</value>
+    </values>
+    <values>
+        <field>Cancellation_Fee__c</field>
+        <value xsi:type="xsd:double">50.0</value>
+    </values>
+    <values>
+        <field>City__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Company_Registered_Number__c</field>
+        <value xsi:type="xsd:string">213123</value>
+    </values>
+    <values>
+        <field>Country__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>County_State__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Customer_Markup__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Deposit_Percentage__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Email__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Fax_Number__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Full_Address__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Is_Franchisee__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>LM_Rate_For_Cash_Customers__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>LM_Rate_For_Credit_Customers__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Material_Collection_Charge__c</field>
+        <value xsi:type="xsd:double">50.0</value>
+    </values>
+    <values>
+        <field>Postcode__c</field>
+        <value xsi:type="xsd:string">KT9 5EW</value>
+    </values>
+    <values>
+        <field>Purchase_Order_Mobile_App_Limit__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Rescheduling_fee__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Retention_Hold_Percentage__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Retention_Maximum_Limit__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Street__c</field>
+        <value xsi:type="xsd:string">1 New Street</value>
+    </values>
+    <values>
+        <field>Telephone_Number__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>VAT_Rate__c</field>
+        <value xsi:type="xsd:double">20.0</value>
+    </values>
+    <values>
+        <field>VAT_Registration_Number__c</field>
+        <value xsi:type="xsd:string">3123123</value>
+    </values>
+    <values>
+        <field>X15_Minute_Rule__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

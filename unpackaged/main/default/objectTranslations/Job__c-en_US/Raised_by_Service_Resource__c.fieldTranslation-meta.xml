@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Raised by Service Resource --></label>
+        <name>Raised_by_Service_Resource__c</name>
+        <relationshipLabel><!-- Jobs (Raised by Service Resource) --></relationshipLabel>
+    </CustomFieldTranslation>

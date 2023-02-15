@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Supplier fulfilling the order</description>
+    <externalId>false</externalId>
+    <label>Supplier Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Purchase Orders</relationshipLabel>
+    <relationshipName>Purchase_Ledgers</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

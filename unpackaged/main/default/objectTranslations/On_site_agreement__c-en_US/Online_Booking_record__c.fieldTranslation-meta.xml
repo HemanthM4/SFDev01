@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Online Booking record --></label>
+        <name>Online_Booking_record__c</name>
+        <relationshipLabel><!-- On Site Agreements --></relationshipLabel>
+    </CustomFieldTranslation>

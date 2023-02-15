@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Email For Newly Created Accounts</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Welcome_email</name>
+    <style>none</style>
+    <subject>Welcome to Aspect {!Account.Account_Reference__c}</subject>
+    <textOnly>Welcome to
+Aspect
+
+Hi {!Account.Name},
+
+Thank you for choosing Aspect. Your account is now set up and ready.
+In this email, you’ll find the details of our company and provided trades.
+
+Account Name: {!Account.Name}
+Account number: {!Account.AccountNumber}
+
+Aspect is a property maintenance company with a difference. So, you can expect as an Aspect customer:
+
+*All the trades you’ll ever need under one roof
+*24/7 emergency help, just a click or call away
+*Clear pricing with no hidden extras
+
+LOG A QUERY
+
+BOOK ONLINE
+
+Any questions regarding a job? Let us know
+
+
+Alternatively you can call in to make bookings or raise a case using the telephone on -  020 3930 1538. When booking a job with us telephonically, please provide us with your account number.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2022 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

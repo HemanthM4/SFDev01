@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Action Required --></label>
+        <name>Action_Required__c</name>
+        <picklistValues>
+            <masterLabel>Aspect not at fault - Any remedial works are chargeable</masterLabel>
+            <translation><!-- Aspect not at fault - Any remedial works are chargeable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operative to complete the following works ONLY</masterLabel>
+            <translation><!-- Operative to complete the following works ONLY --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

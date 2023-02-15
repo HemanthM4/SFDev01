@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the index used by 123FB to order the line items on a client estimate --></help>
+        <label><!-- Line Item Number --></label>
+        <name>Line_Item_Number__c</name>
+    </CustomFieldTranslation>

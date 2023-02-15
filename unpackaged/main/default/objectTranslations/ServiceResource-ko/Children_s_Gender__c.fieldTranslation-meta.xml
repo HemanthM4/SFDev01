@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Children&apos;s Gender --></label>
+        <name>Children_s_Gender__c</name>
+        <picklistValues>
+            <masterLabel>Both Male and Female</masterLabel>
+            <translation><!-- Both Male and Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

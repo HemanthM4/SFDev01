@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Date_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATETIMEVALUE(TEXT(Preferred_date__c) &amp; &quot; &quot; &amp; LEFT(Preferred_arrival_time_slot__c,5)&amp;&quot;:00&quot; )-0.041666667</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Preferred Date Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

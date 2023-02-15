@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Boolean value. If TRUE, managers rate override has been applied - see &quot;Manager Override Section&quot; for details. --></help>
+        <label><!-- Override Applied --></label>
+        <name>Override_Applied__c</name>
+    </CustomFieldTranslation>

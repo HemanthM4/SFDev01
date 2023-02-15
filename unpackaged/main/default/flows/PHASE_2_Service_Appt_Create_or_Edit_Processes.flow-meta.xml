@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionCalls>
+        <name>FP_Booking_Confirmation</name>
+        <label>FP Booking Confirmation</label>
+        <locationX>116</locationX>
+        <locationY>2543</locationY>
+        <actionName>ServiceAppointment.Booking_Confirmation_Fixed_Price_SA</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>ONLINE_BOOK_Reactive_Send_Cust_Booking_Email</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Canx_Email_to_Customer</name>
+        <label>Send Canx Email to Customer</label>
+        <locationX>116</locationX>
+        <locationY>8351</locationY>
+        <actionName>ServiceAppointment.Service_Appointment_Status_is_Cancelled_send_Booking_Cancellation_email_to_Custo</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Update_to_say_Canx_Email_sent</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Cust_Email</name>
+        <label>Send Cust Email</label>
+        <locationX>116</locationX>
+        <locationY>3791</locationY>
+        <actionName>ServiceAppointment.Booking_confirmation_SA</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>update_sent_email_to_TRUE_Update</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Email</name>
+        <label>Send Email</label>
+        <locationX>116</locationX>
+        <locationY>4367</locationY>
+        <actionName>ServiceAppointment.Dispatched_Confirmation_SA</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Mark_as_Sent</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_ONLINE_Cust_Email</name>
+        <label>Send ONLINE Cust Email</label>
+        <locationX>116</locationX>
+        <locationY>2879</locationY>
+        <actionName>ServiceAppointment.ONLINE_Booking_confirmation_SA</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>update_sent_email_to_TRUE</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_TI_Online_customer_email</name>
+        <label>Send TI Online customer email</label>
+        <locationX>116</locationX>
+        <locationY>3335</locationY>
+        <actionName>ServiceAppointment.ONLINE_Booking_confirmation_SA_TI</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>update_sent_email_to_TRUE2</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Txt_Msg_to_Customer_of_In_Transit</name>
+        <label>Txt Msg to Customer of In Transit</label>
+        <locationX>116</locationX>
+        <locationY>10415</locationY>
+        <actionName>liveMessageNotificationNotFound</actionName>
+        <actionType xsi:nil="true" />
+        <connector>
+            <targetReference>Cancelled_SMS_to_Engineer</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextRecordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelDeveloperName</name>
+            <value>
+                <stringValue>Text_GB_447860019362</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>templateDeveloperName</name>
+            <value>
+                <stringValue>Engineer_In_Transit</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientPhone</name>
+            <value>
+                <elementReference>$Record.Contact.Phone</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientRecordId</name>
+            <value>
+                <elementReference>$Record.Contact.Id</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Txt_Msg_to_Engineer_of_Dispatched</name>
+        <label>Txt Msg to Engineer of Dispatched</label>
+        <locationX>116</locationX>
+        <locationY>8015</locationY>
+        <actionName>liveMessageNotificationNotFound</actionName>
+        <actionType xsi:nil="true" />
+        <connector>
+            <targetReference>SA_Status_is_Cancelled</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextRecordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelDeveloperName</name>
+            <value>
+                <stringValue>Text_GB_447860019362</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>templateDeveloperName</name>
+            <value>
+                <stringValue>Engineer_Dispatched</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientPhone</name>
+            <value>
+                <elementReference>$Record.Allocated_Engineer__r.Mobile_No__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientRecordId</name>
+            <value>
+                <elementReference>$Record.Allocated_Engineer__c</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Txt_Msg_to_Engineer_of_SA_Cancelled</name>
+        <label>Txt Msg to Engineer of SA Cancelled</label>
+        <locationX>116</locationX>
+        <locationY>8831</locationY>
+        <actionName>liveMessageNotificationNotFound</actionName>
+        <actionType xsi:nil="true" />
+        <connector>
+            <targetReference>SA_Status_is_Cancelled_2</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextRecordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>channelDeveloperName</name>
+            <value>
+                <stringValue>Text_GB_447860019362</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>templateDeveloperName</name>
+            <value>
+                <stringValue>Notifiy_Operative_Service_Appointment_Cancelled</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientPhone</name>
+            <value>
+                <elementReference>$Record.Allocated_Engineer__r.Mobile_No__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientRecordId</name>
+            <value>
+                <elementReference>$Record.Allocated_Engineer__c</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Cancelled_SMS_to_Engineer</name>
+        <label>Cancelled SMS to Engineer</label>
+        <locationX>248</locationX>
+        <locationY>10631</locationY>
+        <defaultConnector>
+            <targetReference>Office_Feedback_field_changed_and_not_null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Cancelled_SMS_to_Engineer_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Cancelled_SMS_Formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_to_TRUE_sent_SMS_Cancelled_Engineer_Notification</targetReference>
+            </connector>
+            <label>Cancelled SMS to Engineer True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Dispatched_SMS_to_engineer</name>
+        <label>Dispatched SMS to engineer</label>
+        <locationX>248</locationX>
+        <locationY>7775</locationY>
+        <defaultConnector>
+            <targetReference>SA_Status_is_Cancelled</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Dispatched_SMS_to_engineer_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Dispatched_engineer_formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>mark_as_sent2</targetReference>
+            </connector>
+            <label>Dispatched SMS to engineer True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Fixed_Price_Dispatched</name>
+        <label>Fixed Price Dispatched</label>
+        <locationX>248</locationX>
+        <locationY>2303</locationY>
+        <defaultConnector>
+            <targetReference>ONLINE_BOOK_Reactive_Send_Cust_Booking_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Fixed_Price_Dispatched_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Fixed_Price_Dispatched_Formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Call_Flow_to_send_SA_Booking_Confirm_email_after_Balance_Recd_updated</targetReference>
+            </connector>
+            <label>Fixed Price Dispatched True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>In_Transit_SMS_to_Customer</name>
+        <label>In Transit SMS to Customer</label>
+        <locationX>248</locationX>
+        <locationY>10175</locationY>
+        <defaultConnector>
+            <targetReference>Cancelled_SMS_to_Engineer</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>In_Transit_SMS_to_Customer_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>In_Transit_Formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_to_TRUE_sent_In_Transit_SMS</targetReference>
+            </connector>
+            <label>In Transit SMS to Customer True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>is_FP</name>
+        <label>is FP</label>
+        <locationX>248</locationX>
+        <locationY>1391</locationY>
+        <defaultConnector>
+            <targetReference>Status_Dispatched</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>is_FP_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Record_Type_Name__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Fixed Price</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>mark_GANTT_as_FP</targetReference>
+            </connector>
+            <label>is FP True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>is_FSL_Reactive</name>
+        <label>is FSL Reactive</label>
+        <locationX>446</locationX>
+        <locationY>11087</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>is_FSL_Reactive_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Booking_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Op App Self Service</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Record_Type_Name__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reactive</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Mark_GANTT_as_Reactive_Referral</targetReference>
+            </connector>
+            <label>is FSL Reactive True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ISNEW</name>
+        <label>ISNEW()</label>
+        <locationX>248</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>is_FP</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ISNEW_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Is_New</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Stamp_Contacts_Email</targetReference>
+            </connector>
+            <label>ISNEW() True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ISNEW_TRUE_and_Duration_10</name>
+        <label>ISNEW()=TRUE and Duration&gt;10</label>
+        <locationX>248</locationX>
+        <locationY>5735</locationY>
+        <defaultConnector>
+            <targetReference>Service_Report_Required_Override_TRUE</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ISNEW_TRUE_and_Duration_10_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Is_New</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Duration</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>10.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_IsMultiDay_TRUE</targetReference>
+            </connector>
+            <label>ISNEW()=TRUE and Duration&gt;10 True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Office_Feedback_field_changed_and_not_null</name>
+        <label>Office Feedback field changed and not null</label>
+        <locationX>248</locationX>
+        <locationY>10967</locationY>
+        <defaultConnector>
+            <targetReference>is_FSL_Reactive</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Office_Feedback_field_changed_and_not_null_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Office_Feedback__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Office_Feedback__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_User_and_Date_Time_feedback_given</targetReference>
+            </connector>
+            <label>Office Feedback field changed and not null True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ONLINE_BOOK_Reactive_Send_Cust_Booking_Email</name>
+        <label>ONLINE BOOK Reactive Send Cust Booking Email</label>
+        <locationX>248</locationX>
+        <locationY>2759</locationY>
+        <defaultConnector>
+            <targetReference>ONLINE_TI_BOOK_Reactive_Send_Cust_Booking_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ONLINE_BOOK_Reactive_Send_Cust_Booking_Email_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ONLINE_BOOK_Formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_ONLINE_Cust_Email</targetReference>
+            </connector>
+            <label>ONLINE BOOK Reactive Send Cust Booking Email True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>ONLINE_TI_BOOK_Reactive_Send_Cust_Booking_Email</name>
+        <label>ONLINE TI BOOK Reactive Send Cust Booking Email</label>
+        <locationX>248</locationX>
+        <locationY>3215</locationY>
+        <defaultConnector>
+            <targetReference>Reactive_Send_Cust_Booking_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ONLINE_TI_BOOK_Reactive_Send_Cust_Booking_Email_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ONLINE_TI_BOOK_Formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_TI_Online_customer_email</targetReference>
+            </connector>
+            <label>ONLINE TI BOOK Reactive Send Cust Booking Email True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Reactive_Send_Cust_Booking_Email</name>
+        <label>Reactive Send Cust Booking Email</label>
+        <locationX>248</locationX>
+        <locationY>3671</locationY>
+        <defaultConnector>
+            <targetReference>Status_In_Transit</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Reactive_Send_Cust_Booking_Email_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Reactive_Send_Formula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Cust_Email</targetReference>
+            </connector>
+            <label>Reactive Send Cust Booking Email True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SA_Status_is_Cancelled</name>
+        <label>SA Status is Cancelled</label>
+        <locationX>248</locationX>
+        <locationY>8231</locationY>
+        <defaultConnector>
+            <targetReference>SA_Status_is_Cancelled_2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SA_Status_is_Cancelled_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SA_Status_Cancelled_Customer_Email_Sent__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Canx_Email_to_Customer</targetReference>
+            </connector>
+            <label>SA Status is Cancelled True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SA_Status_is_Cancelled_2</name>
+        <label>SA Status is Cancelled 2</label>
+        <locationX>248</locationX>
+        <locationY>9047</locationY>
+        <defaultConnector>
+            <targetReference>Status_Job_Closure</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SA_Status_is_Cancelled_2_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_WO_Status_to_Rejected</targetReference>
+            </connector>
+            <label>SA Status is Cancelled 2 True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Service_Report_Required_Override_TRUE</name>
+        <label>Service Report Required Override=TRUE</label>
+        <locationX>248</locationX>
+        <locationY>6071</locationY>
+        <defaultConnector>
+            <targetReference>Status_Onsite_no_ETC</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Service_Report_Required_Override_TRUE_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Service_Report_Required_Override__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_User_ticked_SR_Override</targetReference>
+            </connector>
+            <label>Service Report Required Override=TRUE True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Dispatched</name>
+        <label>Status=Dispatched</label>
+        <locationX>248</locationX>
+        <locationY>1727</locationY>
+        <defaultConnector>
+            <targetReference>Fixed_Price_Dispatched</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Dispatched_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dispatched</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>WO_Status_to_Live</targetReference>
+            </connector>
+            <label>Status=Dispatched True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_In_Transit</name>
+        <label>Status=In Transit</label>
+        <locationX>248</locationX>
+        <locationY>4127</locationY>
+        <defaultConnector>
+            <targetReference>Status_Visit_Complete_Fixed_P</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_In_Transit_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>In Transit</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email_In_Transit_Sent__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Account.Comms_Control_In_transit_text__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_gannt_colour</targetReference>
+            </connector>
+            <label>Status=In Transit True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Job_Closure</name>
+        <label>Status Job Closure</label>
+        <locationX>248</locationX>
+        <locationY>9503</locationY>
+        <defaultConnector>
+            <targetReference>Status_Rescheduled</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Job_Closure_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Job Closure</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_WO_SA_Status4</targetReference>
+            </connector>
+            <label>Status Job Closure True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Onsite_no_ETC</name>
+        <label>Status Onsite no ETC</label>
+        <locationX>248</locationX>
+        <locationY>6407</locationY>
+        <defaultConnector>
+            <targetReference>Status_Onsite_with_ETC</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Onsite_no_ETC_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>On site</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Original_Scheduled_End__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_gantt_colour3</targetReference>
+            </connector>
+            <label>Status Onsite no ETC True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Onsite_with_ETC</name>
+        <label>Status Onsite with ETC</label>
+        <locationX>248</locationX>
+        <locationY>6863</locationY>
+        <defaultConnector>
+            <targetReference>Status_Scheduled</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Onsite_with_ETC_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>On site</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Original_Scheduled_End__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_gantt_colour4</targetReference>
+            </connector>
+            <label>Status Onsite with ETC True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Rescheduled</name>
+        <label>Status Rescheduled</label>
+        <locationX>248</locationX>
+        <locationY>9839</locationY>
+        <defaultConnector>
+            <targetReference>In_Transit_SMS_to_Customer</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Rescheduled_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rescheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_WO_SA_Status5</targetReference>
+            </connector>
+            <label>Status Rescheduled True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Scheduled</name>
+        <label>Status Scheduled</label>
+        <locationX>248</locationX>
+        <locationY>7319</locationY>
+        <defaultConnector>
+            <targetReference>Dispatched_SMS_to_engineer</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Scheduled_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_gantt_colour5</targetReference>
+            </connector>
+            <label>Status Scheduled True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Visit_Complete_Fixed_P</name>
+        <label>Status=Visit Complete (Fixed P)</label>
+        <locationX>248</locationX>
+        <locationY>4823</locationY>
+        <defaultConnector>
+            <targetReference>Status_Visit_Complete_Reactive</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Visit_Complete_Fixed_P_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Visit Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Record_Type_Name__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Fixed Price</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_gantt_colour</targetReference>
+            </connector>
+            <label>Status=Visit Complete (Fixed P) True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_Visit_Complete_Reactive</name>
+        <label>Status=Visit Complete (Reactive)</label>
+        <locationX>248</locationX>
+        <locationY>5279</locationY>
+        <defaultConnector>
+            <targetReference>ISNEW_TRUE_and_Duration_10</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Visit_Complete_Reactive_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Visit Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Record_Type_Name__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reactive</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>WO_Status_to_Complete</targetReference>
+            </connector>
+            <label>Status=Visit Complete (Reactive) True</label>
+        </rules>
+    </decisions>
+    <description>Flow with updated SMS actions - BV 1.0</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>Cancelled_SMS_Formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF
+(
+ISBLANK({!$Record.Allocated_Engineer__c})=FALSE,
+AND
+(
+TEXT({!$Record.Status})=&#39;Cancelled&#39;,
+{!$Record.SMS_Cancelled_Engineer_Notification__c}=FALSE,
+ISBLANK({!$Record.Allocated_Engineer__r.Mobile_No__c})=FALSE
+)
+,
+FALSE
+)</expression>
+    </formulas>
+    <formulas>
+        <name>Dispatched_engineer_formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(
+ISBLANK({!$Record.Allocated_Engineer__c})=FALSE,
+AND(
+TEXT({!$Record.Status})=&#39;Dispatched&#39;,
+{!$Record.SMS_Engineer_Notification__c}=FALSE,
+ISBLANK({!$Record.Allocated_Engineer__r.Mobile_No__c})=FALSE),
+FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>Fixed_Price_Dispatched_Formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(AND(ISBLANK({!$Record.Work_Order__c})=FALSE,ISBLANK({!$Record.Contact_Email__c})=FALSE,
+{!$Record.Account.Comms_Control_Online_Booking__c}=TRUE 
+),
+AND
+(
+{!$Record.Work_Order__r.Record_Type_Name__c} =&#39;Fixed Price&#39;,
+{!$Record.Email_Booking_Confirmation_Sent__c}=FALSE, 
+ISBLANK({!$Record.Work_Order__c})=FALSE,
+TEXT({!$Record.Status})=&#39;Scheduled&#39; 
+/*ISBLANK({!$Record.Allocated_Engineer__c})=FALSE,*/
+)
+,
+FALSE
+)</expression>
+    </formulas>
+    <formulas>
+        <name>Gantt_formula</name>
+        <dataType>String</dataType>
+        <expression>IF(FIND(&quot; &quot;, {!$Record.PostalCode})&gt;0,
+LEFT({!$Record.PostalCode},FIND(&quot; &quot;, {!$Record.PostalCode})-1 ) &amp; &quot; - &quot; &amp; {!$Record.Group__c},
+{!$Record.PostalCode} &amp; &quot; - &quot; &amp; {!$Record.Group__c}
+)</expression>
+    </formulas>
+    <formulas>
+        <name>In_Transit_Formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF
+(
+ISBLANK({!$Record.Contact_Phone__c})=FALSE,
+AND
+(
+TEXT({!$Record.Status})=&#39;In Transit&#39;,
+{!$Record.SMS_In_Transit_Customer_Notification__c} =FALSE,
+{!$Record.Account.Comms_Control_In_transit_text__c} = TRUE
+)
+,
+FALSE
+)</expression>
+    </formulas>
+    <formulas>
+        <name>Is_New</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <formulas>
+        <name>notes_formula</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Work_Order__r.Description} &amp;
+IF(ISBLANK({!$Record.Work_Order__r.Access_Details__c}) , &quot;&quot;,
+BR()&amp;&quot;Access details: &quot; &amp; {!$Record.Work_Order__r.Access_Details__c})</expression>
+    </formulas>
+    <formulas>
+        <name>ONLINE_BOOK_Formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(AND(ISBLANK({!$Record.Work_Order__c})=FALSE,ISBLANK({!$Record.Contact_Email__c})=FALSE,
+{!$Record.Account.Comms_Control_Online_Booking__c}=TRUE ),
+AND (
+{!$Record.Work_Order__r.Record_Type_Name__c} =&#39;Reactive&#39;,
+{!$Record.Email_Booking_Confirmation_Sent__c}=FALSE, 
+ISBLANK({!$Record.Work_Order__c})=FALSE,
+ISBLANK({!$Record.Allocated_Engineer__c})=FALSE,
+TEXT({!$Record.Status})=&#39;Scheduled&#39;,
+{!$Record.Online_Booking_SA__c}=TRUE, 
+{!$Record.Work_Order__r.Job__r.TI_online_checkbox__c} =FALSE
+),FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>ONLINE_TI_BOOK_Formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(AND(ISBLANK({!$Record.Work_Order__c})=FALSE,ISBLANK({!$Record.Contact_Email__c})=FALSE, {!$Record.Account.Comms_Control_Online_Booking__c}=TRUE ), AND ( {!$Record.Work_Order__r.Record_Type_Name__c} =&#39;Reactive&#39;, {!$Record.Email_Booking_Confirmation_Sent__c}=FALSE, ISBLANK({!$Record.Work_Order__c})=FALSE, ISBLANK({!$Record.Allocated_Engineer__c})=FALSE, TEXT({!$Record.Status})=&#39;Scheduled&#39;, {!$Record.Online_Booking_SA__c}=TRUE, {!$Record.Work_Order__r.Job__r.TI_online_checkbox__c} =TRUE),FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>Reactive_Send_Formula</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(AND(ISBLANK({!$Record.Work_Order__c})=FALSE,ISBLANK({!$Record.Contact_Email__c})=FALSE, {!$Record.Account.Comms_Control_Online_Booking__c}=TRUE ), AND ( {!$Record.Work_Order__r.Record_Type_Name__c} =&#39;Reactive&#39;, {!$Record.Email_Booking_Confirmation_Sent__c}=FALSE, ISBLANK({!$Record.Work_Order__c})=FALSE, ISBLANK({!$Record.Allocated_Engineer__c})=FALSE, TEXT({!$Record.Status})=&#39;Scheduled&#39;, {!$Record.Online_Booking_SA__c}=FALSE ),FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>User_ticket_formula</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$User.FirstName} &amp; &quot; &quot; &amp; {!$User.LastName} &amp; &quot; Date/Time: &quot; &amp; TEXT(NOW()),254)</expression>
+    </formulas>
+    <interviewLabel>PHASE 2 - Service Appt Create or Edit Processes {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 - Service Appt Create or Edit Processes</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>add_Job_site_link</name>
+        <label>add Job/site link</label>
+        <locationX>116</locationX>
+        <locationY>1175</locationY>
+        <connector>
+            <targetReference>is_FP</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Job__c</field>
+            <value>
+                <elementReference>$Record.Work_Order__r.Job__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Site__c</field>
+            <value>
+                <elementReference>$Record.Work_Order__r.Site__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Add_WO_link</name>
+        <label>Add WO link</label>
+        <locationX>116</locationX>
+        <locationY>575</locationY>
+        <connector>
+            <targetReference>Update_Notes</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttLabel__c</field>
+            <value>
+                <elementReference>Gantt_formula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Work_Order__c</field>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Mark_as_Sent</name>
+        <label>Mark as Sent</label>
+        <locationX>116</locationX>
+        <locationY>4487</locationY>
+        <connector>
+            <targetReference>Set_WO_SA_Status</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Email_In_Transit_Sent__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>mark_as_sent2</name>
+        <label>mark as sent</label>
+        <locationX>116</locationX>
+        <locationY>7895</locationY>
+        <connector>
+            <targetReference>Txt_Msg_to_Engineer_of_Dispatched</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>SMS_Engineer_Notification__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>mark_GANTT_as_FP</name>
+        <label>mark GANTT as FP</label>
+        <locationX>116</locationX>
+        <locationY>1511</locationY>
+        <connector>
+            <targetReference>Status_Dispatched</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttIcon__c</field>
+            <value>
+                <stringValue>https://www.aspect.co.uk/form-titan/assets/white-square.png</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Mark_GANTT_as_Reactive_Referral</name>
+        <label>Mark GANTT as Reactive Referral</label>
+        <locationX>314</locationX>
+        <locationY>11207</locationY>
+        <inputAssignments>
+            <field>FSL__GanttIcon__c</field>
+            <value>
+                <stringValue>https://www.aspect.co.uk/wp-content/uploads/2022/01/White-Circle-NO.png</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_Gannt_Colour</name>
+        <label>Set Gannt Colour</label>
+        <locationX>116</locationX>
+        <locationY>1967</locationY>
+        <connector>
+            <targetReference>Alert_Operative</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#0000ff</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_IsMultiDay_TRUE</name>
+        <label>Set IsMultiDay=TRUE</label>
+        <locationX>116</locationX>
+        <locationY>5855</locationY>
+        <connector>
+            <targetReference>Service_Report_Required_Override_TRUE</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__IsMultiDay__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_to_TRUE_sent_In_Transit_SMS</name>
+        <label>Set to TRUE sent In Transit SMS</label>
+        <locationX>116</locationX>
+        <locationY>10295</locationY>
+        <connector>
+            <targetReference>Txt_Msg_to_Customer_of_In_Transit</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>SMS_In_Transit_Customer_Notification__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_to_TRUE_sent_SMS_Cancelled_Engineer_Notification</name>
+        <label>Set to TRUE sent SMS Cancelled Engineer Notification</label>
+        <locationX>116</locationX>
+        <locationY>10751</locationY>
+        <connector>
+            <targetReference>Office_Feedback_field_changed_and_not_null</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>SMS_Cancelled_Engineer_Notification__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_User_and_Date_Time_feedback_given</name>
+        <label>Set User and Date/Time feedback given</label>
+        <locationX>50</locationX>
+        <locationY>11087</locationY>
+        <inputAssignments>
+            <field>Office_Feedback_Date_Time__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Office_Feedback_by__c</field>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_WO_has_SA_to_TRUE</name>
+        <label>Set &#39;WO has SA&#39; to TRUE</label>
+        <locationX>116</locationX>
+        <locationY>815</locationY>
+        <connector>
+            <targetReference>Flow_to_update_Scope_of_Works</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>WO_has_SA__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_WO_SA_Status</name>
+        <label>Set WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>4607</locationY>
+        <connector>
+            <targetReference>Status_Visit_Complete_Fixed_P</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>In Transit</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_WO_SA_Status2</name>
+        <label>Set WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>6647</locationY>
+        <connector>
+            <targetReference>Status_Onsite_with_ETC</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>On site</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_WO_Status_to_Rejected</name>
+        <label>Set WO Status to Rejected</label>
+        <locationX>116</locationX>
+        <locationY>9167</locationY>
+        <connector>
+            <targetReference>Update_SA_Status2</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Rejected</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Stamp_Contacts_Email</name>
+        <label>Stamp Contacts Email</label>
+        <locationX>116</locationX>
+        <locationY>455</locationY>
+        <connector>
+            <targetReference>Add_WO_link</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Contact_Email__c</field>
+            <value>
+                <elementReference>$Record.Contact.Email</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_gannt_colour</name>
+        <label>Update gannt colour</label>
+        <locationX>116</locationX>
+        <locationY>4247</locationY>
+        <connector>
+            <targetReference>Send_Email</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#ffff00</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_gantt_colour</name>
+        <label>Update gantt colour</label>
+        <locationX>116</locationX>
+        <locationY>4943</locationY>
+        <connector>
+            <targetReference>Update_SA_Status</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#ced5df</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_gantt_colour2</name>
+        <label>Update gantt colour</label>
+        <locationX>116</locationX>
+        <locationY>5519</locationY>
+        <connector>
+            <targetReference>ISNEW_TRUE_and_Duration_10</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#ced5df</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_gantt_colour3</name>
+        <label>update gantt colour</label>
+        <locationX>116</locationX>
+        <locationY>6527</locationY>
+        <connector>
+            <targetReference>Set_WO_SA_Status2</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#ff7f00</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_gantt_colour4</name>
+        <label>update gantt colour</label>
+        <locationX>116</locationX>
+        <locationY>6983</locationY>
+        <connector>
+            <targetReference>Update_WO_SA_Status</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#00ff00</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_gantt_colour5</name>
+        <label>update gantt colour</label>
+        <locationX>116</locationX>
+        <locationY>7439</locationY>
+        <connector>
+            <targetReference>Update_WO_SA_Status2</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FSL__GanttColor__c</field>
+            <value>
+                <stringValue>#0088FF</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Notes</name>
+        <label>Update Notes</label>
+        <locationX>116</locationX>
+        <locationY>695</locationY>
+        <connector>
+            <targetReference>Set_WO_has_SA_to_TRUE</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Notes__c</field>
+            <value>
+                <elementReference>notes_formula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_SA_Status</name>
+        <label>Update SA Status</label>
+        <locationX>116</locationX>
+        <locationY>5063</locationY>
+        <connector>
+            <targetReference>Status_Visit_Complete_Reactive</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Visit Complete</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_SA_Status2</name>
+        <label>Update SA Status</label>
+        <locationX>116</locationX>
+        <locationY>9287</locationY>
+        <connector>
+            <targetReference>Status_Job_Closure</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Cancelled</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_SA_Work_Order</name>
+        <label>update SA.Work Order</label>
+        <locationX>116</locationX>
+        <locationY>1055</locationY>
+        <connector>
+            <targetReference>add_Job_site_link</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Work_Order__c</field>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_sent_email_to_TRUE</name>
+        <label>update sent email to TRUE</label>
+        <locationX>116</locationX>
+        <locationY>2999</locationY>
+        <connector>
+            <targetReference>ONLINE_TI_BOOK_Reactive_Send_Cust_Booking_Email</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Email_Booking_Confirmation_Sent__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_sent_email_to_TRUE2</name>
+        <label>update sent email to TRUE</label>
+        <locationX>116</locationX>
+        <locationY>3455</locationY>
+        <connector>
+            <targetReference>Reactive_Send_Cust_Booking_Email</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Email_Booking_Confirmation_Sent__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>update_sent_email_to_TRUE_Update</name>
+        <label>update sent email to TRUE</label>
+        <locationX>116</locationX>
+        <locationY>3911</locationY>
+        <connector>
+            <targetReference>Status_In_Transit</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Email_Booking_Confirmation_Sent__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_to_say_Canx_Email_sent</name>
+        <label>Update to say Canx Email sent</label>
+        <locationX>116</locationX>
+        <locationY>8471</locationY>
+        <connector>
+            <targetReference>Update_WO_SA_Status3</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>SA_Status_Cancelled_Customer_Email_Sent__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_User_ticked_SR_Override</name>
+        <label>Update User ticked SR Override</label>
+        <locationX>116</locationX>
+        <locationY>6191</locationY>
+        <connector>
+            <targetReference>Status_Onsite_no_ETC</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>User_Date_Time_Service_Report_Override__c</field>
+            <value>
+                <elementReference>User_ticket_formula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_WO_SA_Status</name>
+        <label>Update WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>7103</locationY>
+        <connector>
+            <targetReference>Status_Scheduled</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>On site</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_WO_SA_Status2</name>
+        <label>Update WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>7559</locationY>
+        <connector>
+            <targetReference>Dispatched_SMS_to_engineer</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Scheduled</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Accepted/Live</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_WO_SA_Status3</name>
+        <label>Update WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>8591</locationY>
+        <connector>
+            <targetReference>Alert_Operative2</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Cancelled</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_WO_SA_Status4</name>
+        <label>Update WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>9623</locationY>
+        <connector>
+            <targetReference>Status_Rescheduled</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Job Closure</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_WO_SA_Status5</name>
+        <label>Update WO.SA Status</label>
+        <locationX>116</locationX>
+        <locationY>9959</locationY>
+        <connector>
+            <targetReference>In_Transit_SMS_to_Customer</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Rescheduled</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>WO_Status_to_Complete</name>
+        <label>WO Status to Complete</label>
+        <locationX>116</locationX>
+        <locationY>5399</locationY>
+        <connector>
+            <targetReference>Update_gantt_colour2</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Visit Complete</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Complete</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>WO_Status_to_Live</name>
+        <label>WO Status to Live</label>
+        <locationX>116</locationX>
+        <locationY>1847</locationY>
+        <connector>
+            <targetReference>Set_Gannt_Colour</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Service_Appointment_Status__c</field>
+            <value>
+                <stringValue>Dispatched</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Accepted/Live</stringValue>
+            </value>
+        </inputAssignments>
+        <object>WorkOrder</object>
+    </recordUpdates>
+    <start>
+        <locationX>122</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>ISNEW</targetReference>
+        </connector>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <subflows>
+        <name>Alert_Operative</name>
+        <label>Alert Operative</label>
+        <locationX>116</locationX>
+        <locationY>2087</locationY>
+        <connector>
+            <targetReference>Fixed_Price_Dispatched</targetReference>
+        </connector>
+        <flowName>FL_Service_Appointment_is_Dispatched_send_Notification</flowName>
+        <inputAssignments>
+            <name>var_ServApptID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Alert_Operative2</name>
+        <label>Alert Operative</label>
+        <locationX>116</locationX>
+        <locationY>8711</locationY>
+        <connector>
+            <targetReference>Txt_Msg_to_Engineer_of_SA_Cancelled</targetReference>
+        </connector>
+        <flowName>FL_Service_Appointment_is_Cancelled_send_Notification</flowName>
+        <inputAssignments>
+            <name>var_ServApptID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Call_Flow_to_send_SA_Booking_Confirm_email_after_Balance_Recd_updated</name>
+        <label>Call Flow to send SA Booking Confirm. email after Balance Recd updated</label>
+        <locationX>116</locationX>
+        <locationY>2423</locationY>
+        <connector>
+            <targetReference>FP_Booking_Confirmation</targetReference>
+        </connector>
+        <flowName>PHASE_2_FL_Update_SA_Balance_Received_from_Job_and_Send_FP_Booking_Confirm_Email</flowName>
+        <inputAssignments>
+            <name>var_ServApptID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>var_WorkOrderID</name>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Flow_to_update_Scope_of_Works</name>
+        <label>Flow to update Scope of Works</label>
+        <locationX>116</locationX>
+        <locationY>935</locationY>
+        <connector>
+            <targetReference>update_SA_Work_Order</targetReference>
+        </connector>
+        <flowName>PHASE_2_FL_Update_Service_Appointment_with_WO_Scope_of_Works</flowName>
+        <inputAssignments>
+            <name>var_ServApptID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

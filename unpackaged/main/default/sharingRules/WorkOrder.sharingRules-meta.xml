@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CEO_with_CEO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CEO with CEO</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_Credit_Control</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with Credit Control</label>
+        <sharedTo>
+            <role>Credit_Control</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_Credit_Control_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with Credit Control Manager</label>
+        <sharedTo>
+            <role>Credit_Control_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_CEO_with_General_Office_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share CEO with General Office Manager</label>
+        <sharedTo>
+            <role>General_Office_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_Manager_with_Credit_Control_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control Manager with Credit Control Manager</label>
+        <sharedTo>
+            <role>Credit_Control_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_Manager_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control Manager with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_with_Credit_Control</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control with Credit Control</label>
+        <sharedTo>
+            <role>Credit_Control</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Credit_Control_with_Credit_Control_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Credit Control with Credit Control Manager</label>
+        <sharedTo>
+            <role>Credit_Control_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Credit_Control</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_General_Office_Manager_with_Credit_Control</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share General Office Manager with Credit Control</label>
+        <sharedTo>
+            <role>Credit_Control</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_General_Office_Manager_with_General_Office</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share General Office Manager with General Office</label>
+        <sharedTo>
+            <role>General_Office</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_General_Office_Manager_with_General_Office_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share General Office Manager with General Office Manager</label>
+        <sharedTo>
+            <role>General_Office_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office_Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_General_Office_with_Credit_Control_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share General Office with Credit Control Manager</label>
+        <sharedTo>
+            <role>Credit_Control_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_General_Office_with_General_Office_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share General Office with General Office Manager</label>
+        <sharedTo>
+            <role>General_Office_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>General_Office</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

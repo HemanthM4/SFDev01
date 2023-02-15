@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need_Key_Contact</fullName>
+    <active>false</active>
+    <description>DO NOT ACTIVATE</description>
+    <errorConditionFormula>AND( ISBLANK(TEXT( Key_Contact_Type__c) ) ,  Is_Primary_Contact__c = TRUE)</errorConditionFormula>
+    <errorDisplayField>Key_Contact_Type__c</errorDisplayField>
+    <errorMessage>If this is the primary contact, a Key contact Type needs to be selected</errorMessage>
+</ValidationRule>

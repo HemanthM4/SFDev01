@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Application Status</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Applicant</fullName>
+                <default>true</default>
+                <label>New Applicant</label>
+            </value>
+            <value>
+                <fullName>Telephone_Screen_ -_ Dry</fullName>
+                <default>false</default>
+                <label>Telephone Screen - Dry</label>
+            </value>
+            <value>
+                <fullName>Trial Offered</fullName>
+                <default>false</default>
+                <label>Trial Offered</label>
+            </value>
+            <value>
+                <fullName>Trial Booked</fullName>
+                <default>false</default>
+                <label>Trial Booked</label>
+            </value>
+            <value>
+                <fullName>Trial Missed</fullName>
+                <default>false</default>
+                <label>Trial Missed</label>
+            </value>
+            <value>
+                <fullName>Onboarding_Offered</fullName>
+                <default>false</default>
+                <label>Onboarding Offered</label>
+            </value>
+            <value>
+                <fullName>Onboarding Booked</fullName>
+                <default>false</default>
+                <label>Onboarding Booked</label>
+            </value>
+            <value>
+                <fullName>Onboarding Missed</fullName>
+                <default>false</default>
+                <label>Onboarding Missed</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>Rejected Us</fullName>
+                <default>false</default>
+                <label>Rejected Us</label>
+            </value>
+            <value>
+                <fullName>Unsuitable</fullName>
+                <default>false</default>
+                <label>Unsuitable</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Hired</fullName>
+                <default>false</default>
+                <label>Hired</label>
+            </value>
+            <value>
+                <fullName>Dry Interview Booked</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dry Interview Booked</label>
+            </value>
+            <value>
+                <fullName>Dry On Trial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dry On Trial</label>
+            </value>
+            <value>
+                <fullName>Interview</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interview</label>
+            </value>
+            <value>
+                <fullName>Interview - Dry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interview - Dry</label>
+            </value>
+            <value>
+                <fullName>Interview - Wet</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interview - Wet</label>
+            </value>
+            <value>
+                <fullName>Interview Booked</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interview Booked</label>
+            </value>
+            <value>
+                <fullName>Interview Missed - Dry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interview Missed - Dry</label>
+            </value>
+            <value>
+                <fullName>Interview Missed - Wet</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interview Missed - Wet</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Telephone_Screen_ -_ Wet</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Telephone Screen - Wet</label>
+            </value>
+            <value>
+                <fullName>Wet Interview Booked</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wet Interview Booked</label>
+            </value>
+            <value>
+                <fullName>Wet On Trial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wet On Trial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

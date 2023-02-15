@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wet_Trade</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Application_Status__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Residential_Postcode__c</columns>
+    <columns>Contact_Number__c</columns>
+    <columns>Primary_Trade__c</columns>
+    <columns>Secondary_Trade__c</columns>
+    <columns>Interview_Date__c</columns>
+    <columns>Trial_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Wet_Trade__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Wet Trade</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

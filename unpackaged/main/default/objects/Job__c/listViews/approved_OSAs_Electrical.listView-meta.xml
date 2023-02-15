@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>approved_OSAs_Electrical</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Raised_by_Service_Resource__c</columns>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>Site__c</columns>
+    <columns>Job_Type__c</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Deposit_Invoice_Balance_Received__c</columns>
+    <columns>Charge_Total_pre_discount__c</columns>
+    <columns>User_ticked_Approv_Process_Unlock_Record__c</columns>
+    <columns>Payment_Value__c</columns>
+    <columns>Customer_Facing_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Approved by Client</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>6/25/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Account__c</field>
+        <operation>notContain</operation>
+        <value>Phase 2</value>
+    </filters>
+    <filters>
+        <field>Job_Type_Trade__c</field>
+        <operation>equals</operation>
+        <value>electrical</value>
+    </filters>
+    <label>approved OSAs Electrical</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

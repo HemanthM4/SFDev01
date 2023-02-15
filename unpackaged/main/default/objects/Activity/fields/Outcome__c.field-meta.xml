@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Outcome</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Contact_Purpose__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lead - Booked - Reactive</fullName>
+                <default>false</default>
+                <label>Lead - Booked - Reactive</label>
+            </value>
+            <value>
+                <fullName>Lead - Booked - Estimate</fullName>
+                <default>false</default>
+                <label>Lead - Booked - Estimate</label>
+            </value>
+            <value>
+                <fullName>Lead - Pending</fullName>
+                <default>false</default>
+                <label>Lead - Pending</label>
+            </value>
+            <value>
+                <fullName>Not Booked - Cost</fullName>
+                <default>false</default>
+                <label>Not Booked - Cost</label>
+            </value>
+            <value>
+                <fullName>Not Booked - Card Details</fullName>
+                <default>false</default>
+                <label>Not Booked - Card Details</label>
+            </value>
+            <value>
+                <fullName>Not Booked - Out of area</fullName>
+                <default>false</default>
+                <label>Not Booked - Out of area</label>
+            </value>
+            <value>
+                <fullName>Not Booked - Response time</fullName>
+                <default>false</default>
+                <label>Not Booked - Response time</label>
+            </value>
+            <value>
+                <fullName>Not Booked - Service type</fullName>
+                <default>false</default>
+                <label>Not Booked - Service type</label>
+            </value>
+            <value>
+                <fullName>Not Booked - Bad line</fullName>
+                <default>false</default>
+                <label>Not Booked - Bad line</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Resolved</label>
+            </value>
+            <value>
+                <fullName>Not Resolved</fullName>
+                <default>false</default>
+                <label>Not Resolved</label>
+            </value>
+            <value>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+                <label>Wrong Number</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sales &amp; Marketing</controllingFieldValue>
+            <controllingFieldValue>Work for Aspect</controllingFieldValue>
+            <controllingFieldValue>Genral Public reporting aspect</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Arrival Time Update</controllingFieldValue>
+            <controllingFieldValue>Discuss On going or follow-on work</controllingFieldValue>
+            <controllingFieldValue>Change details of a booking</controllingFieldValue>
+            <controllingFieldValue>Cancel a booking</controllingFieldValue>
+            <controllingFieldValue>Issue with work carried out</controllingFieldValue>
+            <controllingFieldValue>Billing or payment query</controllingFieldValue>
+            <controllingFieldValue>Resources / Fleet</controllingFieldValue>
+            <controllingFieldValue>Engineer - Job / Shift related</controllingFieldValue>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <valueName>Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales &amp; Marketing</controllingFieldValue>
+            <controllingFieldValue>Work for Aspect</controllingFieldValue>
+            <controllingFieldValue>Genral Public reporting aspect</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Arrival Time Update</controllingFieldValue>
+            <controllingFieldValue>Discuss On going or follow-on work</controllingFieldValue>
+            <controllingFieldValue>Change details of a booking</controllingFieldValue>
+            <controllingFieldValue>Cancel a booking</controllingFieldValue>
+            <controllingFieldValue>Issue with work carried out</controllingFieldValue>
+            <controllingFieldValue>Billing or payment query</controllingFieldValue>
+            <controllingFieldValue>Resources / Fleet</controllingFieldValue>
+            <controllingFieldValue>Engineer - Job / Shift related</controllingFieldValue>
+            <controllingFieldValue>Engineer</controllingFieldValue>
+            <valueName>Not Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrong Number</controllingFieldValue>
+            <valueName>Wrong Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Lead - Booked - Reactive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Lead - Booked - Estimate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Lead - Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Not Booked - Cost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Not Booked - Card Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Not Booked - Out of area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Not Booked - Response time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Not Booked - Service type</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Booking Request</controllingFieldValue>
+            <valueName>Not Booked - Bad line</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

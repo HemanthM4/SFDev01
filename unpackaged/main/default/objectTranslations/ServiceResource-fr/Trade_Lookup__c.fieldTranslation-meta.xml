@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Trade Group (lookup) --></label>
+        <name>Trade_Lookup__c</name>
+        <picklistValues>
+            <masterLabel>Drainage</masterLabel>
+            <translation><!-- Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical &amp; HVAC</masterLabel>
+            <translation><!-- Electrical &amp; HVAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical Testing</masterLabel>
+            <translation><!-- Electrical Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection</masterLabel>
+            <translation><!-- Leak Detection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi</masterLabel>
+            <translation><!-- Multi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM</masterLabel>
+            <translation><!-- PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing</masterLabel>
+            <translation><!-- Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Ops</masterLabel>
+            <translation><!-- Test Ops --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

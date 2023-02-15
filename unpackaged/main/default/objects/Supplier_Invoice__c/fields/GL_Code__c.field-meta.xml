@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GL_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>GL code for the purchase order. Derived from the GL Code for Type of Purchase(to be confirmed with Richard/Jeya), Customer(Domestic/Commercial), Payment Type(Cash/Credit), Trade</description>
+    <externalId>false</externalId>
+    <label>GL Code</label>
+    <referenceTo>General_Ledger_Code__c</referenceTo>
+    <relationshipName>Supplier_Invoices</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

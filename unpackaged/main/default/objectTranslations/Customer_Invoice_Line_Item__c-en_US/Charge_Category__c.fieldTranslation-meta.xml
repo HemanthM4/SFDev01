@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Charge Category --></label>
+        <name>Charge_Category__c</name>
+        <picklistValues>
+            <masterLabel>Call Out Fee</masterLabel>
+            <translation><!-- Call Out Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation Fee</masterLabel>
+            <translation><!-- Cancellation Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection</masterLabel>
+            <translation><!-- Collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation><!-- Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Price Admin Fee</masterLabel>
+            <translation><!-- Fixed Price Admin Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labour</masterLabel>
+            <translation><!-- Labour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Price Service</masterLabel>
+            <translation><!-- List Price Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ULEZ</masterLabel>
+            <translation><!-- ULEZ --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

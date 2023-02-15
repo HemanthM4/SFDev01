@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Booking Confirmation Fixed Price Work</name>
+    <style>none</style>
+    <subject>Your booking confirmation {!ServiceAppointment.AppointmentNumber}</subject>
+    <textOnly>Thanks for
+your booking
+
+Hi {!ServiceAppointment.Contact_First_Name__c},
+
+Thank you for choosing Aspect. 						Have we got everything straight? Please check the booking details below and let us know if anything needs to change.
+
+Please note that waste removal is not included with our prices unless stated in your booking details. If you require waste removal, we’re able to provide a fixed price waste removal service which can be arranged directly through one of our trades people.
+
+Job number {!ServiceAppointment.Job_Number__c}
+Service appointment number {!ServiceAppointment.AppointmentNumber}
+Account number {!ServiceAppointment.Account_Reference__c}
+
+PROPERTY ADDRESS
+
+ORDER DETAILS
+
+{!ServiceAppointment.Address}
+
+Trade: {!ServiceAppointment.Scheduled_Trade__c}
+Date: {!ServiceAppointment.Scheduled_Date__c}
+Arrival: {!ServiceAppointment.Scheduled_Arrival_Window__c}
+Total charge: {!ServiceAppointment.Gross_Value_Of_Job__c}
+Deposit received: {!ServiceAppointment.Balance_Received__c}
+
+JOB DETAILS
+
+{!ServiceAppointment.Scope_of_Works__c}
+
+{!ServiceAppointment.Scope_of_Works_2__c}
+
+{!ServiceAppointment.Scope_of_Works_3__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+WHAT&#39;S NEXT?
+
+Once we’ve received the deposit, we’ll order any required materials and confirm your appointment via email. If materials or availability result in us not being able to meet your requested appointment date, we’ll be in touch to find a day and time frame that suits you best.
+
+ON THE DAY
+
+As soon as the work is finished, you’ll be asked for a signature to confirm you’re happy with the work and the final cost. Your operative will either process payment with you on site or will send you a payment request via email.
+
+The remaining balance will be taken from the last card you provided us with. If you wish to amend your card details, please get in touch through the support link in this email.
+
+Should there be any problems on the day, e.g. we can’t gain access to your property, or the tradesperson’s held up, we’ll inform you straight away.
+
+HOW WE CHARGE
+
+For pre-defined fixed-price jobs, we charge the rate quoted. They are designed to take into account the investigation of the required works, trusted trade knowledge, trade accredited body requirements, and any registrations that we must undertake.
+
+There’ll be no extra charges for parts, materials or collections. In case the works take less or more time than calculated for, the charge to you will remain the same.
+
+If we have to amend the scope of work, we’ll reach out to you to discuss any change in costs before proceeding. For more information read our terms and conditions.
+
+OUR CANCELLATION POLICY
+
+If you want to cancel your booking once we’ve allocated a tradesperson, you may be charged a cancellation fee. For more information please check our cancellation policy.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. 						If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

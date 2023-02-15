@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is to gather feedback, from our engineers, regarding our applicants</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Trial Feedback</name>
+    <style>none</style>
+    <subject>Applicant trial feedback request</subject>
+    <textOnly>Applicant trial
+feedback request
+
+Dear {!Engineer_Application__c.Service_Resource_Trial__c},
+
+We really appreciate you overseeing the trial for {!Engineer_Application__c.First_Name__c} {!Engineer_Application__c.Last_Name__c}.
+
+We would like to gather your thoughts regarding how the trial went. Please provide as much feedback as possible, by filling out this form: https://forms.office.com/r/5WTtjgFhG7.
+
+If you have any questions, please reach out to your Field Manager.
+
+Kind Regards,
+
+Aspect Resources Team
+
+
+TRIAL FEEDBACK
+FORM
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

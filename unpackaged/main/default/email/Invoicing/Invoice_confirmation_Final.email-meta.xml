@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Invoice confirmation Final</name>
+    <style>none</style>
+    <subject>Your invoice is ready</subject>
+    <textOnly>Your invoice
+is ready
+
+Hi {!Customer_Invoice__c.Customer_First_Name__c},
+
+Please  check your invoice.  If there&#39;s an outstanding amount could you please organise payment via the payment request email that we have sent you separately.
+
+Job number {!Customer_Invoice__c.Job_Number__c}
+Invoice number {!Customer_Invoice__c.Name}
+Account number {!Customer_Invoice__c.Account_Number__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+(credit accounts exluded)
+
+WHAT&#39;S NEXT?
+
+If there&#39;s an outstanding payment, you&#39;ll have received a separate email with a payment request. Please organise payment at your earliest convenience. Once we&#39;ve processed your payment we&#39;ll send you a payment confirmation email.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+For more information read our terms and conditions.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Third Trade --></label>
+        <name>Third_Trade__c</name>
+        <picklistValues>
+            <masterLabel>Access</masterLabel>
+            <translation><!-- Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brickwork &amp; Paving</masterLabel>
+            <translation><!-- Brickwork &amp; Paving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carpentry</masterLabel>
+            <translation><!-- Carpentry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drainage</masterLabel>
+            <translation><!-- Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drainage Survey</masterLabel>
+            <translation><!-- Drainage Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drains &amp; Blockages (Soil Water)</masterLabel>
+            <translation><!-- Drains &amp; Blockages (Soil Water) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drains &amp; Blockages (Waste Water)</masterLabel>
+            <translation><!-- Drains &amp; Blockages (Waste Water) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical</masterLabel>
+            <translation><!-- Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical Testing</masterLabel>
+            <translation><!-- Electrical Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fencing, Decking &amp; Cladding</masterLabel>
+            <translation><!-- Fencing, Decking &amp; Cladding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gardening</masterLabel>
+            <translation><!-- Gardening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Commercial</masterLabel>
+            <translation><!-- Gas Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazing</masterLabel>
+            <translation><!-- Glazing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heating, Ventilation, &amp; Air Conditioning</masterLabel>
+            <translation><!-- Heating, Ventilation, &amp; Air Conditioning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection - Drainage</masterLabel>
+            <translation><!-- Leak Detection - Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection - Heating/Hot Water</masterLabel>
+            <translation><!-- Leak Detection - Heating/Hot Water --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection - Multi</masterLabel>
+            <translation><!-- Leak Detection - Multi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection - Plumbing</masterLabel>
+            <translation><!-- Leak Detection - Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection - Roofing</masterLabel>
+            <translation><!-- Leak Detection - Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locksmith</masterLabel>
+            <translation><!-- Locksmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Skilled</masterLabel>
+            <translation><!-- Multi Skilled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painting &amp; Decorating</masterLabel>
+            <translation><!-- Painting &amp; Decorating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pest Control</masterLabel>
+            <translation><!-- Pest Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plastering</masterLabel>
+            <translation><!-- Plastering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing</masterLabel>
+            <translation><!-- Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation><!-- Project Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiling</masterLabel>
+            <translation><!-- Tiling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventilation</masterLabel>
+            <translation><!-- Ventilation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Clearance</masterLabel>
+            <translation><!-- Waste Clearance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows &amp; Doors</masterLabel>
+            <translation><!-- Windows &amp; Doors --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

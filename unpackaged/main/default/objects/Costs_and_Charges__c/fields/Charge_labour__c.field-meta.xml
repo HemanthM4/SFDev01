@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charge_labour__c</fullName>
+    <externalId>false</externalId>
+    <formula>/*CASE(Record_Type__c, 
+
+&quot;F&quot;,
+FP_Chargeable_Duration_R1__c *  Hourly_Charge_R1__c +
+FP_Chargeable_Duration_R2__c *  Hourly_Charge_R2__c +
+FP_Chargeable_Duration_R3__c *  Hourly_Charge_R3__c
+,
+*/
+Chargeable_Duration_R1__c *  Hourly_Charge_R1__c +
+Chargeable_Duration_R2__c *  Hourly_Charge_R2__c +
+Chargeable_Duration_R3__c *  Hourly_Charge_R3__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Charge: Labour</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

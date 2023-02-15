@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contact Purpose --></label>
+        <name>Contact_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Arrival Time Update</masterLabel>
+            <translation><!-- Arrival Time Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing or payment query</masterLabel>
+            <translation><!-- Billing or payment query --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booking Opportunity</masterLabel>
+            <translation><!-- Booking Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel a booking</masterLabel>
+            <translation><!-- Cancel a booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change details of a booking</masterLabel>
+            <translation><!-- Change details of a booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discuss On going or follow-on work</masterLabel>
+            <translation><!-- Discuss On going or follow-on work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer - Job / Shift related</masterLabel>
+            <translation><!-- Engineer - Job / Shift related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genral Public reporting aspect</masterLabel>
+            <translation><!-- Genral Public reporting aspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue with work carried out</masterLabel>
+            <translation><!-- Issue with work carried out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resources / Fleet</masterLabel>
+            <translation><!-- Resources / Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales &amp; Marketing</masterLabel>
+            <translation><!-- Sales &amp; Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work for Aspect</masterLabel>
+            <translation><!-- Work for Aspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Number</masterLabel>
+            <translation><!-- Wrong Number --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

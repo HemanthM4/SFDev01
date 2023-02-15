@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be ticked if the Engineer has requested that the Accept an Estimate email should be sent to the Customer. --></help>
+        <label><!-- Engineer requests Estimate email be sent --></label>
+        <name>Engineer_requests_Estimate_email_be_sent__c</name>
+    </CustomFieldTranslation>

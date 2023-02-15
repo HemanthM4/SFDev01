@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Credit Note</name>
+    <style>none</style>
+    <subject>Here&#39;s your credit note</subject>
+    <textOnly>credit
+
+02045027541
+enquiries@aspect.co.uk
+aspect.co.uk
+
+E7 Barwell Business Park, Leatherhead Road
+Chessington, London, KT9 2NY
+
+VAT Number: 854 0599 06
+
+{!Customer_Credit_Note__c.Account__c}
+
+{!Customer_Credit_Note__c.Property_Address__c}
+
+Credit Number  {!Customer_Credit_Note__c.Name}
+
+Credit Date  {!Customer_Credit_Note__c.Date__c}
+
+Job Number  {!Customer_Credit_Note__c.Job_Number__c}
+
+Account Number  {!Customer_Credit_Note__c.Account_Number__c}
+
+Reference:  {!Customer_Credit_Note__c.Job_Number__c} - {!Customer_Credit_Note__c.Job_Description__c}
+Address:  {!Customer_Credit_Note__c.Site_Address__c}
+Contact:  {!Customer_Credit_Note__c.Site_Contact__c}
+
+Description  Sub-Total  VAT  Total
+{!Customer_Credit_Note__c.Invoice_Number__c}  {!Customer_Credit_Note__c.Charge_Net__c}  {!Customer_Credit_Note__c.Charge_VAT__c}  {!Customer_Credit_Note__c.Charge_Gross__c}
+
+Net Total  {!Customer_Credit_Note__c.Charge_Net__c}
+VAT  {!Customer_Credit_Note__c.Charge_VAT__c}
+Credit Total  {!Customer_Credit_Note__c.Charge_Gross__c}
+
+air  con  |  carpentry  |  decorating  |  drainage  |  electrics  |  glazing  |  handyman  |  heating  |  leak  detection  |  plumbing  |  roofing  |  and  more
+For a full list of accreditations, please visit www.aspect.co.uk/accreditations
+Aspect Maintenance Services Limited. Registered in England No. 5296195. JII110520000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

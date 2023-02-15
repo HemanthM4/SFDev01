@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Only_Created_by_RL</fullName>
+    <active>false</active>
+    <errorConditionFormula>Job_Raised_by__c  = &#39;0037E00000riUgC&#39;</errorConditionFormula>
+    <errorMessage>this contact cannot create Jobs!!!</errorMessage>
+</ValidationRule>

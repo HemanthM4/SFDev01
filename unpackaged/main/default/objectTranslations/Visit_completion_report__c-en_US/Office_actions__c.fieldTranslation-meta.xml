@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Office actions --></label>
+        <name>Office_actions__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office actions</masterLabel>
+            <translation><!-- Office actions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To action default</masterLabel>
+            <translation><!-- To action default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With client</masterLabel>
+            <translation><!-- With client --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

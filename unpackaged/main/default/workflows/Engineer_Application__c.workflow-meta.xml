@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Engineer_Application_Interview_Dry</fullName>
+        <description>Engineer Application Interview Dry</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Engineer_Application_Submission_Dry</template>
+    </alerts>
+    <alerts>
+        <fullName>Engineer_Application_Interview_Wet</fullName>
+        <description>Engineer Application Interview Wet</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Engineer_Application_Submission_Wet</template>
+    </alerts>
+    <alerts>
+        <fullName>Engineer_Application_Missed_Interview_Dry</fullName>
+        <description>Engineer Application Missed Interview Dry</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Engineer_Application_Missed_Interview_Dry</template>
+    </alerts>
+    <alerts>
+        <fullName>Engineer_Application_Missed_Interview_Wet</fullName>
+        <description>Engineer Application Missed Interview Wet</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Engineer_Application_Missed_Interview_Wet</template>
+    </alerts>
+    <alerts>
+        <fullName>Engineer_Application_New_Starter</fullName>
+        <ccEmails>StartersandLeavers@aspect.co.uk</ccEmails>
+        <ccEmails>hus.hassan@aspect.co.uk</ccEmails>
+        <ccEmails>aspect@crystal-tax.com</ccEmails>
+        <description>Engineer Application New Starter</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>rose.slack@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Engineer_Application_New_Starter</template>
+    </alerts>
+    <alerts>
+        <fullName>Engineer_Application_Unresponsive_Applicants</fullName>
+        <description>Engineer Application Unresponsive Applicants</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>recruitment@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Unresponsive_Applicants</template>
+    </alerts>
+    <alerts>
+        <fullName>Engineer_Application_Unsuitable_Applicants</fullName>
+        <description>Engineer Application Unsuitable Applicants</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Unsuitable_Applicants</template>
+    </alerts>
+    <alerts>
+        <fullName>Onboarding_Missed</fullName>
+        <description>Onboarding Missed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/NEW_Onboarding_Missed</template>
+    </alerts>
+    <alerts>
+        <fullName>Onboarding_Offered</fullName>
+        <description>Onboarding Offered</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/NEW_Onboarding_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Trial_Email</fullName>
+        <description>Trial Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/NEW_Trial_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Trial_Feedback</fullName>
+        <ccEmails>ziaaspect@gmail.com</ccEmails>
+        <ccEmails>hus.hassan@aspect.co.uk</ccEmails>
+        <description>Trial Feedback</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Service_Resource_Trial__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/Trial_Feedback</template>
+    </alerts>
+    <alerts>
+        <fullName>Trial_Missed</fullName>
+        <description>Trial Missed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Engineer_Application/NEW_Trial_Missed</template>
+    </alerts>
+</Workflow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signature_final_operative_link__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;, &quot;https://aspect.co.uk/&quot;, &quot;https://aspect.co.uk.hyv.gotest.it/&quot;
+)&amp;&quot;?page=gf_signature&amp;signature=&quot;&amp;SUBSTITUTE(  Signature_final_operative__c , &quot;.png&quot;, &quot;&quot;)</formula>
+    <label>Signature final operative link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

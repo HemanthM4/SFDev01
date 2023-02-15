@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Work_Order_for_Credit_Customer_or_Bank_Transfer_payment</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Work Order for Credit Customer or Bank Transfer payment</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_ONSA_Deposit_Not_Paid_Create_Associated_Records?var_ONSAID={!On_site_agreement__c.Id}&amp;retURL={!On_site_agreement__c.Id}</url>
+</WebLink>

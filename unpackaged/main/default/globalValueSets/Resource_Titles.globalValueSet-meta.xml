@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Engineer</fullName>
+        <default>false</default>
+        <label>Engineer</label>
+    </customValue>
+    <customValue>
+        <fullName>Estimator</fullName>
+        <default>false</default>
+        <label>Estimator</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </customValue>
+    <description>Resource titles</description>
+    <masterLabel>Resource Titles</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

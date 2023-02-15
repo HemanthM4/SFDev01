@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>send_email_alert</name>
+        <label>send email alert</label>
+        <locationX>949</locationX>
+        <locationY>738</locationY>
+        <actionName>asp04__Refund__c.Refund_Notification_to_Customer</actionName>
+        <actionType>emailAlert</actionType>
+        <faultConnector>
+            <targetReference>send_error_message</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>send error message on any failure</description>
+        <name>send_error_message</name>
+        <label>send error message</label>
+        <locationX>656</locationX>
+        <locationY>822</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>matthew.radoja@aspect.co.uk</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>$User.Username</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Error in flow</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>refund_is_new</name>
+        <label>refund is new</label>
+        <locationX>853</locationX>
+        <locationY>390</locationY>
+        <defaultConnector>
+            <targetReference>recalculate_invoice</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>not new</defaultConnectorLabel>
+        <rules>
+            <name>is_new</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>f_refund_is_new</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_new_refund</targetReference>
+            </connector>
+            <label>is new</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>send_email</name>
+        <label>send email?</label>
+        <locationX>1063</locationX>
+        <locationY>599</locationY>
+        <defaultConnectorLabel>email not to be sent</defaultConnectorLabel>
+        <rules>
+            <name>email_to_be_sent</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Email_Sent__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.asp04__Refund_Stage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Refunded to customer</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Account_Email__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>send_email_alert</targetReference>
+            </connector>
+            <label>email to be sent</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>f_refund_is_new</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>PHASE 2 - FL - Refund Created OR Edited {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PHASE 2 - FL - Refund Created OR Edited</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>update_new_refund</name>
+        <label>update new refund</label>
+        <locationX>667</locationX>
+        <locationY>479</locationY>
+        <connector>
+            <targetReference>recalculate_invoice</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Account_Email__c</field>
+            <value>
+                <elementReference>$Record.asp04__Payment__r.Account_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Account__c</field>
+            <value>
+                <elementReference>$Record.asp04__Payment__r.Customer_Invoice__r.Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Customer_Invoice__c</field>
+            <value>
+                <elementReference>$Record.asp04__Payment__r.Customer_Invoice__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>700</locationX>
+        <locationY>61</locationY>
+        <connector>
+            <targetReference>refund_is_new</targetReference>
+        </connector>
+        <filterFormula>OR(
+ISCHANGED({!$Record.asp04__Refund_Stage__c}),
+ISNEW()
+)</filterFormula>
+        <object>asp04__Refund__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>recalculate_invoice</name>
+        <label>recalculate invoice</label>
+        <locationX>1063</locationX>
+        <locationY>479</locationY>
+        <connector>
+            <targetReference>send_email</targetReference>
+        </connector>
+        <flowName>FL_Sum_Payment_Records_on_Customer_Invoice_System</flowName>
+        <inputAssignments>
+            <name>var_PaymentID</name>
+            <value>
+                <elementReference>$Record.asp04__Payment__c</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+</Flow>

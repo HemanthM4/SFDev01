@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Dispatched</name>
+    <style>none</style>
+    <subject>We&#39;re on our way {!ServiceAppointment.AppointmentNumber}</subject>
+    <textOnly>We&#39;re on
+our way
+
+Hi {!ServiceAppointment.Contact_First_Name__c},
+
+We want to let you know that a trades person is on the way to your property to carry out the requested works. We’ll aim to arrive between {!ServiceAppointment.Scheduled_Arrival_Window__c}. In the rare case of running behind schedule, we’ll make sure to keep you updated.
+
+Please note that waste removal is not included with our prices unless stated in the order details. If you require waste removal, we’re able to provide a fixed price waste removal service which can be arranged directly through one of our trades people.
+
+In the mean time find your order details below.
+
+Job number {!ServiceAppointment.Job_Number__c}
+Service appointment number {!ServiceAppointment.AppointmentNumber}
+Account number {!ServiceAppointment.Account_Reference__c}
+
+PROPERTY ADDRESS
+
+ORDER DETAILS
+
+{!ServiceAppointment.Address}
+
+Trade: {!ServiceAppointment.Scheduled_Trade__c}
+Arrival: {!ServiceAppointment.Scheduled_Start_TEXT__c}
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+WHAT&#39;S NEXT?
+
+We expect our trades people to complete any works to your satisfaction. Once the works have been completed, we’ll obtain your acceptance prior to processing payment. Your acceptance will be requested via the trades person on site or via an email we send to you. If you have any concerns regarding the work, please raise these directly with your trades person.
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+For more information read our terms and conditions.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Total Outstanding Balance (Incl. VAT) from All Customer Invoices --></help>
+        <label><!-- Outstanding Balance (Incl. VAT) --></label>
+        <name>Outstanding_Balance_Incl_VAT__c</name>
+    </CustomFieldTranslation>

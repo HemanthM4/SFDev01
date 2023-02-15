@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To be ticked when the Job requires an Electrical Certification. This will create a Task for the Technical Support Team when selected --></help>
+        <label><!-- Awaiting Electrical Cert --></label>
+        <name>Awaiting_Electrical_Cert__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates that the Operative who submitted the On Site Agreement form started the work at that moment and therefore there is no need for any office staff to create a Service Appointment. --></help>
+        <label><!-- Work Commenced Immediately --></label>
+        <name>Work_Commenced_Immediately__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmation of estimate acceptance for credit accounts</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Estimate Acceptance Confirmation Credit Accounts</name>
+    <style>none</style>
+    <subject>Confirmation of your acceptance {!Job__c.Name}</subject>
+    <textOnly>Thank you!
+
+Hi {!Job__c.Customer_First_Name__c},
+
+We’ve received your estimate acceptance.
+
+Thank you for choosing Aspect.
+
+Account number {!Job__c.Account_Reference__c}
+Job number {!Job__c.Name}
+
+PROPERTY ADDRESS
+
+ESTIMATE STATUS
+
+{!Job__c.Property_Address__c}
+
+Accepted
+
+SUPPORT
+
+BOOK ONLINE
+
+Got a question?
+We&#39;re here to help
+
+Book online
+to receive 10% off
+
+From emergency repairs to large scale refurbishment work and everything in between, we&#39;re here to help. If you have any questions about your order please get in touch or take a look at our full list of  trades.
+
+For more information read our terms and conditions.
+
+Help made easy.
+
+© 2020 Aspect
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park, Leatherhead Road, Chessington, London, KT9 2NY</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

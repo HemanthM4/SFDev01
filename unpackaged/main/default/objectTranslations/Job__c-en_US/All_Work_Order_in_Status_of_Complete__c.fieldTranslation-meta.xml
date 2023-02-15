@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Will be ticked when All Work Orders are in a Status of Complete --></help>
+        <label><!-- All Work Order in Status of Complete --></label>
+        <name>All_Work_Order_in_Status_of_Complete__c</name>
+    </CustomFieldTranslation>

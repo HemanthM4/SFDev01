@@ -1,0 +1,8 @@
+The following Work Order {!WorkOrder.WorkOrderNumber} hasn't been paid yet and needs your review in order to send or not for Court. 
+
+Please Approve or Reject: 
+
+{!WorkOrder.Link}
+
+Kind Regards, 
+Credit Control Team

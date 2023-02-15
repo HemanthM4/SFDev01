@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Work_Type_Parent_Child</fullName>
+    <active>false</active>
+    <description>Disabled as part of UAT-162</description>
+    <errorConditionFormula>WorkOrder.WorkType.Id &lt;&gt;   WorkType.00N0N00000FEy8u.Id</errorConditionFormula>
+    <errorDisplayField>WorkTypeId</errorDisplayField>
+    <errorMessage>Please, select a Sub-Task related to the same Sub-Category (Work Type)</errorMessage>
+</ValidationRule>

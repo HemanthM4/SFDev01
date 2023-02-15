@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>On Site Agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>On Site Agreements</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>On-site agreement Layout</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Costs --></label>
+            <section>Costs</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deposit --></label>
+            <section>Deposit</section>
+        </sections>
+        <sections>
+            <label><!-- Materials --></label>
+            <section>Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Performance Tracking --></label>
+            <section>Performance Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <section>Purchase Orders</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule --></label>
+            <section>Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Sign off --></label>
+            <section>Sign off</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Works --></label>
+            <section>Works</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>On-site agreement Layout Manager</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Complaints --></label>
+            <section>Complaints</section>
+        </sections>
+        <sections>
+            <label><!-- Costs --></label>
+            <section>Costs</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deposit --></label>
+            <section>Deposit</section>
+        </sections>
+        <sections>
+            <label><!-- Materials --></label>
+            <section>Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Performance Tracking --></label>
+            <section>Performance Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <section>Purchase Orders</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule --></label>
+            <section>Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Sign off --></label>
+            <section>Sign off</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Works --></label>
+            <section>Works</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>On-site agreement Layout With Bypass Buttons</layout>
+        <sections>
+            <label><!-- Charges --></label>
+            <section>Charges</section>
+        </sections>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Complaints --></label>
+            <section>Complaints</section>
+        </sections>
+        <sections>
+            <label><!-- Costs --></label>
+            <section>Costs</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deposit --></label>
+            <section>Deposit</section>
+        </sections>
+        <sections>
+            <label><!-- Materials --></label>
+            <section>Materials</section>
+        </sections>
+        <sections>
+            <label><!-- Performance Tracking --></label>
+            <section>Performance Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <section>Purchase Orders</section>
+        </sections>
+        <sections>
+            <label><!-- Schedule --></label>
+            <section>Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Sign off --></label>
+            <section>Sign off</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Works --></label>
+            <section>Works</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot edit/change the &apos;Description of works to carry out&apos; field once the Off Site Agreement has been Accepted or is Complete. --></errorMessage>
+        <name>Description_works_Not_Edit_if_Accepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Once Siclops Stage 1 or Siclops Stage 2 has been checked you cannot uncheck it. --></errorMessage>
+        <name>Siclops_Stage_1_and_2_Only_Check_Once</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Bypass_Final_Payment_for_Credit_Customer_or_Paid_via_Bacs --></label>
+        <name>Bypass_Final_Payment_for_Credit_Customer_or_Paid_via_Bacs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Work_Order_for_Credit_Customer_or_Bank_Transfer_payment --></label>
+        <name>Create_Work_Order_for_Credit_Customer_or_Bank_Transfer_payment</name>
+    </webLinks>
+</CustomObjectTranslation>

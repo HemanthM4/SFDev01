@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Booking Confirmation FINAL</name>
+    <style>none</style>
+    <subject>Thanks for booking an Aspect tradesperson</subject>
+    <textOnly>Thanks for booking an Aspect tradesperson
+
+Please check the details below and if you need to get in touch, just click one of the links at the bottom of the email. 
+
+Your booking details
+
+Customer account number: XXXXXXXXXXXXX
+Job number: XXXXXXXXXXXXX
+Work order number: XXXXXXXXXX
+Job address: XXXXXXXXXXXXX
+Your contact details: XXXXXXXXXXXXXXX
+Date booked for: XX / XX / XX
+Job type: XXXXXXXXXXXXXXX
+Job rate: XXXXXXXXXXX (including VAT)
+Trade type: XXXXXXXXXXXX
+Access to property details: XXXXXXXXXXXXXXXXXXX
+Special notes: XXXXXXXXXXXXXXX
+Appointment time: XXXXXX – XXXXXX
+Payment type: XXXXXXXXXXXXXX
+
+So what happens next?
+
+Please check your booking details and if anything’s incorrect or needs to change, please get in touch using one of the links below.
+
+Then once we’ve allocated a tradesperson, we’ll send a text message with a more accurate estimated arrival time.
+
+When we’re at your property
+
+If you’ve booked an hourly rate job, once the tradesperson has finished their initial investigation, you can ask them to provide a fixed price quote to complete the work.
+
+All of our tradespeople are extremely knowledgeable and friendly. They’ll be happy to answer any questions you have about the work they’re carrying out at your property.
+
+As soon as the work is finished, the tradesperson will ask for your signature to confirm that you’re happy with the work and the final cost.
+
+Should there be any problems on the day, e.g. we’re unable to gain access to your property, or the tradesperson is held up, we’ll inform you straight away via text message.
+
+What if you’re unhappy with the work?
+
+You’re our number one priority. If for any reason you’re dissatisfied with the work, please get in touch straight away using one of the links below.
+
+Our cancellation policy
+
+Please note; if you want to cancel your booking once we’ve allocated a tradesperson, you may be charged a cancellation fee. See our cancellation policy for more details.
+
+Need to get in touch?
+
+Email address
+Telephone number
+
+Thanks again for choosing Aspect.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

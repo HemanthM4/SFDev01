@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason for Review --></label>
+        <name>Reason_for_Review__c</name>
+        <picklistValues>
+            <masterLabel>Billing query</masterLabel>
+            <translation><!-- Billing query --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booking/expectations</masterLabel>
+            <translation><!-- Booking/expectations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents not received</masterLabel>
+            <translation><!-- Documents not received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer Communication</masterLabel>
+            <translation><!-- Engineer Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Happy with our service</masterLabel>
+            <translation><!-- Happy with our service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid Complaint</masterLabel>
+            <translation><!-- Invalid Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overcharge by engineer</masterLabel>
+            <translation><!-- Overcharge by engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor engineer conduct</masterLabel>
+            <translation><!-- Poor engineer conduct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor value for money</masterLabel>
+            <translation><!-- Poor value for money --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor workmanship</masterLabel>
+            <translation><!-- Poor workmanship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduling</masterLabel>
+            <translation><!-- Scheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade administration</masterLabel>
+            <translation><!-- Trade administration --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

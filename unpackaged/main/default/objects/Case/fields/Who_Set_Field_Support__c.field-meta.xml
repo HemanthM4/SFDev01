@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_Set_Field_Support__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The User that changed the &#39;Field Support&#39; field from its default value of &#39;Not Required&#39;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The User that changed the &#39;Field Support&#39; field from its default value of &#39;Not Required&#39;.</inlineHelpText>
+    <label>Who Set Field Support</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cases2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

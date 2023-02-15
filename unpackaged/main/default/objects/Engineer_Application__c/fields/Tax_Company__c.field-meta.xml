@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Company__c</fullName>
+    <description>Please Choose one from the List</description>
+    <externalId>false</externalId>
+    <label>Tax Company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Crystal Tax</fullName>
+                <default>false</default>
+                <label>Crystal Tax</label>
+            </value>
+            <value>
+                <fullName>In-Sync</fullName>
+                <default>false</default>
+                <label>In-Sync</label>
+            </value>
+            <value>
+                <fullName>PAYE</fullName>
+                <default>false</default>
+                <label>PAYE</label>
+            </value>
+            <value>
+                <fullName>Subcontractor Weekly Invoicing</fullName>
+                <default>false</default>
+                <label>Subcontractor Weekly Invoicing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

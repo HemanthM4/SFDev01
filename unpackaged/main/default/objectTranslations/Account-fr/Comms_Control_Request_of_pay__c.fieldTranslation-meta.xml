@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Comms Control Request of payment goes to client --></help>
+        <label><!-- Comms Control Request of pay --></label>
+        <name>Comms_Control_Request_of_pay__c</name>
+    </CustomFieldTranslation>

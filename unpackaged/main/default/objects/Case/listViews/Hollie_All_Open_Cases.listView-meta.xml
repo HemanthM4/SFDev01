@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hollie_All_Open_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Job_Number__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Postcode__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Assigned_to__c</columns>
+    <columns>QC_Notes__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Trade_Group__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Job__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CREATED_DATE_DATE_ONLY</field>
+        <operation>greaterThan</operation>
+        <value>8/5/2021 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Investigating,Awaiting Customer Response,Response Required From Aspect,Complaint,Credit Control,Estimate Needed,Fixed Price Work Needed,Reactive Work Needed,Review,Waiting on Client,Waiting on Engineer,Waiting on Manager Response,Open</value>
+    </filters>
+    <filters>
+        <field>Assigned_to__c</field>
+        <operation>equals</operation>
+        <value>Hollie Whiteman</value>
+    </filters>
+    <label>Hollie All Open Cases</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

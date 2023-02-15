@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is there an In Force Authorisation record on the Job record? --></help>
+        <label><!-- Does Valid Auth Record Exist on Job? --></label>
+        <name>Does_Valid_Auth_Record_Exist_on_Job__c</name>
+    </CustomFieldTranslation>

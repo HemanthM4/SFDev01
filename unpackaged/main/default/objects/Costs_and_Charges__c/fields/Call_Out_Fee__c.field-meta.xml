@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Out_Fee__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Call out fee - this can be account or location related (i.e. credit account call out fee OR location based fee such as ULEZ charge)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Call out fee - this can be account or location related (i.e. credit account call out fee OR location based fee such as ULEZ charge)</inlineHelpText>
+    <label>Call Out Fee</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

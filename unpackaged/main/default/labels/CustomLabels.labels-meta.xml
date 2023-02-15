@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Account_On_Stop_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account On Stop Label</shortDescription>
+        <value>48</value>
+    </labels>
+    <labels>
+        <fullName>Authorisation_Not_Exist</fullName>
+        <categories>Validation Error Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Authorisation Not Exist</shortDescription>
+        <value>&#39;Authorisation&#39; on account does not exist</value>
+    </labels>
+    <labels>
+        <fullName>CIBatchCriteria</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CIBatchCriteria</shortDescription>
+        <value>SELECT id,Exchequer_Export__c from Customer_Invoice__c WHERE Exchequer_Export__c = &#39;Not Sent&#39;</value>
+    </labels>
+    <labels>
+        <fullName>Card_Expired</fullName>
+        <categories>Validation Error Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Card Expired</shortDescription>
+        <value>Card Expired!</value>
+    </labels>
+    <labels>
+        <fullName>Default_Selected_Rate</fullName>
+        <categories>Default Rate</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Selected Rate</shortDescription>
+        <value>R1</value>
+    </labels>
+    <labels>
+        <fullName>Deposit_Invoice_Exists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deposit Invoice Exists</shortDescription>
+        <value>You need a deposit Invoice before you can request a Service Appointment.</value>
+    </labels>
+    <labels>
+        <fullName>ERROR_IDS_INCORRECT</fullName>
+        <categories>EngineerPayroll</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ERROR_IDS_INCORRECT</shortDescription>
+        <value>Ids are not correct. Please contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Exclude_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Exclude User</shortDescription>
+        <value>0054G00000B2cOV</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Account_type</fullName>
+        <categories>Validation Error Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Account type</shortDescription>
+        <value>Invalid Account type</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Authorisation</fullName>
+        <categories>Validation Error Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Authorisation</shortDescription>
+        <value>Invalid Authorisation Status and Description</value>
+    </labels>
+    <labels>
+        <fullName>JOB_SUCCESS</fullName>
+        <categories>EngineerPayroll</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JOB_SUCCESS</shortDescription>
+        <value>The job has been started successfully.</value>
+    </labels>
+    <labels>
+        <fullName>JobEPRCreationQuery</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JobEPRCreationQuery</shortDescription>
+        <value>SELECT id, CreatedDate, Temp_Key_Account_Req_Tracking__c, Status__c, Type__c, Account__r.Account_Type__c , Name, Account__r.Rate_Card__c,(SELECT Status FROM Work_Orders__r), (SELECT Name FROM Engineer_Pay_Requisitions__r), All_Work_Order_in_Status_of_Complete__c FROM Job__c WHERE Account__r.Account_Type__c !=null AND Type__c = &#39;Reactive&#39; AND Status__c = &#39;Closed&#39; AND  All_Work_Order_in_Status_of_Complete__c = TRUE AND Temp_Key_Account_Req_Tracking__c = FALSE</value>
+    </labels>
+    <labels>
+        <fullName>No_Data</fullName>
+        <categories>Validation Error Description</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Data</shortDescription>
+        <value>No data for requesting.</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_for_Quote_Creation</fullName>
+        <categories>Quote</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity for Quote Creation</shortDescription>
+        <value>0064E000007nyvJQAQ</value>
+    </labels>
+    <labels>
+        <fullName>PAYMENT_BATCH_DATES_INCORRECT</fullName>
+        <categories>EngineerPayroll</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAYMENT_BATCH_DATES_INCORRECT</shortDescription>
+        <value>Dates are incorrect</value>
+    </labels>
+    <labels>
+        <fullName>PAYMENT_BATCH_STATUS_INCORRECT</fullName>
+        <categories>EngineerPayroll</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PAYMENT_BATCH_STATUS_INCORRECT</shortDescription>
+        <value>The Payment Batch status is not \&#39;Open\&#39; or dates are incorrect.</value>
+    </labels>
+    <labels>
+        <fullName>SOMETHING_WENT_WRONG</fullName>
+        <categories>EngineerPayroll</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SOMETHING WENT WRONG</shortDescription>
+        <value>Something went wrong. Please try again or contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Service_Resources_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Resources Name</shortDescription>
+        <value>Phone Booking Cover,Online Booking Cover</value>
+    </labels>
+    <labels>
+        <fullName>SpamAlertEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SpamAlertEmail</shortDescription>
+        <value>alex.bacon@aspect.co.uk;will.davies@aspect.co.uk</value>
+    </labels>
+    <labels>
+        <fullName>SpamDetectWords</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SpamDetectWords</shortDescription>
+        <value>LEAK;BTC;PLEASE REPLY TO THIS MESSAGE;ACTION IS REQUIRED;XXXXXXXXXXX;JOKE;SPAM;OWN RISK;Current affected;MASSIVE DOWNFALL;BITCOIN;SIMPLE LEAK THE DATA;ERASED;CLIENT&#39;S FULL BIOMETRIC;GENERAL DATA PROTECTION;TO WHOM THIS MAY CONCERN;SINGLE PAYMENT;MISUSE THEIR FINANCIAL DETAILS;CREDIT CARD;aspectltd@protonmail.com;Mass data;YES;NO;Leaked online;Records;Siclops</value>
+    </labels>
+    <labels>
+        <fullName>SpamWordsCount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SpamWordsCount</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>Trustpilot_Generic_Job_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trustpilot Generic Job Id</shortDescription>
+        <value>a2f4G000005lHzCQAU</value>
+    </labels>
+    <labels>
+        <fullName>missingEprs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>missingEprs</shortDescription>
+        <value>SELECT id ,Name,Service_Resource_Email__c,Service_Resource__r.Email__c,Service_Resource__c
+ from Engineer_Pay_Requisition__c where Service_Resource_Email__c=null</value>
+    </labels>
+    <labels>
+        <fullName>updateEPRScheduleDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>updateEPRScheduleDate</shortDescription>
+        <value>SELECT id,Scheduled_Date__c,Work_Order__c,Job__c from Engineer_Pay_Requisition__c where Scheduled_Date__c = null</value>
+    </labels>
+    <labels>
+        <fullName>updateEprStatusApproved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>updateEprStatusApproved</shortDescription>
+        <value>SELECT Account_Type__c,Id,Invoice_Balance__c,Job_Type__c,Name,Scheduled_Date__c,Status__c FROM Engineer_Pay_Requisition__c  
+WHERE ((Account_Type__c = &#39;Cash&#39;  AND   Invoice_Balance__c &lt;= 0) OR ( Account_Type__c = &#39;Credit&#39; ))
+AND Status__c = &#39;new&#39;  
+AND Job_Type__c = &#39;Reactive&#39;</value>
+    </labels>
+</CustomLabels>

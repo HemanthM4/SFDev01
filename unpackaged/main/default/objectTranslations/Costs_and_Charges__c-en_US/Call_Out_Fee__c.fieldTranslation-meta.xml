@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Call out fee - this can be account or location related (i.e. credit account call out fee OR location based fee such as ULEZ charge) --></help>
+        <label><!-- Call Out Fee --></label>
+        <name>Call_Out_Fee__c</name>
+    </CustomFieldTranslation>

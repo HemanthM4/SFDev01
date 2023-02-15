@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_NonSystemAdminEditPendingWO</fullName>
+    <active>false</active>
+    <description>****will need to add the formbuilder User&#39;s User ID to the exceptions so that when Estimate is accepted it can change the Status to &#39;Accepted&#39; or whatever.</description>
+    <errorConditionFormula>AND
+(
+NOT(ISNEW()),
+$Profile.Id&lt;&gt;&#39;00e0N000001MTNl&#39;,/*System Admin*/
+$Profile.Id&lt;&gt;&#39;00e0N000001AGGt&#39;,/*FSL Admin*/
+$Profile.Id&lt;&gt;&#39;00e7E000000d6oa&#39;,/*Engineer Partner Community*/
+$Profile.Id&lt;&gt;&#39;00e7E000000cdQt&#39;,/*Booking Team*/
+TEXT(Status)&lt;&gt;&#39;Pending&#39;
+)</errorConditionFormula>
+    <errorMessage>Please do not edit a Work Order if its Status is Pending.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter Operative name --></help>
+        <label><!-- If diff Operative which do you request? --></label>
+        <name>If_diff_Operative_which_do_you_request__c</name>
+    </CustomFieldTranslation>

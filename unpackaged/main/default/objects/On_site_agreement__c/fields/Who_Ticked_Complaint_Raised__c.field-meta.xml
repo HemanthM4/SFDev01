@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_Ticked_Complaint_Raised__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The person/user who ticked the box &#39;Complaint Raised?&#39;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The person/user who ticked the box &#39;Complaint Raised?&#39;</inlineHelpText>
+    <label>Who Ticked Complaint Raised</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>On_Site_Agreements2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

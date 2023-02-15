@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For other processes - to signify that the Purchase Order Line Item data has been added/created, as created after PO. --></help>
+        <label><!-- POLI Data Added --></label>
+        <name>POLI_Data_Added__c</name>
+    </CustomFieldTranslation>

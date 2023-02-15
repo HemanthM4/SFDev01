@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- With Mark Up --></help>
+        <label><!-- Van Stock Charge --></label>
+        <name>Materials_Expenses_w_out_receipt__c</name>
+    </CustomFieldTranslation>

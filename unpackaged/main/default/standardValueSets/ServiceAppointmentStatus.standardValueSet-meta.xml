@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>SvcApptStatusCategory</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <groupingString>None</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled</fullName>
+        <default>false</default>
+        <label>Scheduled</label>
+        <groupingString>Scheduled</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Dispatched</fullName>
+        <default>false</default>
+        <label>Dispatched</label>
+        <groupingString>Dispatched</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>In Transit</fullName>
+        <default>false</default>
+        <label>In Transit</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>On site</fullName>
+        <default>false</default>
+        <label>On site</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Visit Complete</fullName>
+        <default>false</default>
+        <label>Visit Complete</label>
+        <groupingString>Completed</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <groupingString>Canceled</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Rescheduled</fullName>
+        <default>false</default>
+        <label>Rescheduled</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Job Closure</fullName>
+        <default>false</default>
+        <label>Job Closure</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+</StandardValueSet>

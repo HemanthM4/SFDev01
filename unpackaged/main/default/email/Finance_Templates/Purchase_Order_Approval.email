@@ -1,0 +1,7 @@
+Hi
+
+Please approve the purchase order: {!Purchase_Order__c.Name}
+
+{!Purchase_Order__c.Id}
+
+Thanks

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Code__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the related Product raised against the Purchase Order Line Item</description>
+    <externalId>false</externalId>
+    <label>Product Code</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Purchase Order Line Items</relationshipLabel>
+    <relationshipName>Purchase_Order_Line_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

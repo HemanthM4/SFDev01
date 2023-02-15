@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Progress__c</fullName>
+    <externalId>false</externalId>
+    <label>Progress</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Not booked</fullName>
+                <default>false</default>
+                <label>Not Booked</label>
+            </value>
+            <value>
+                <fullName>Credit Control</fullName>
+                <default>false</default>
+                <label>Credit Control</label>
+            </value>
+            <value>
+                <fullName>Estimate Required</fullName>
+                <default>false</default>
+                <label>Estimate Required</label>
+            </value>
+            <value>
+                <fullName>Estimate Accepted and Attendance Required</fullName>
+                <default>false</default>
+                <label>Estimate Accepted and Attendance Required</label>
+            </value>
+            <value>
+                <fullName>Awaiting Manager Response</fullName>
+                <default>false</default>
+                <label>Awaiting Manager Response</label>
+            </value>
+            <value>
+                <fullName>Awaiting Client Response</fullName>
+                <default>false</default>
+                <label>Awaiting Client Response</label>
+            </value>
+            <value>
+                <fullName>Online Review</fullName>
+                <default>false</default>
+                <label>Online Review</label>
+            </value>
+            <value>
+                <fullName>Awaiting Aspect Response</fullName>
+                <default>false</default>
+                <label>Awaiting Aspect Response</label>
+            </value>
+            <value>
+                <fullName>Problem Solved</fullName>
+                <default>false</default>
+                <label>Problem Solved</label>
+            </value>
+            <value>
+                <fullName>Escalated to Tech manager</fullName>
+                <default>false</default>
+                <label>Escalated to Tech manager</label>
+            </value>
+            <value>
+                <fullName>Positive Feed back</fullName>
+                <default>false</default>
+                <label>Positive Feed back</label>
+            </value>
+            <value>
+                <fullName>Reactive Work Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reactive Work Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

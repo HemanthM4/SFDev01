@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reactive_Referral_Credit_Acceptance_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF($Organization.Id = &#39;00D3H0000000ivA&#39;,&quot;https://aspect.co.uk&quot;,&quot;https://aspect.co.uk.hyv.gotest.it&quot;)&amp;
+&quot;/forms/confirm-your-booking-credit/?id=&quot;&amp; Id &amp;
+&quot;&amp;job=&quot;&amp; Name &amp;
+&quot;&amp;acc=&quot;&amp; Account__r.Account_Reference__c &amp;
+&quot;&amp;nam=&quot;&amp;SUBSTITUTE( Account__r.Name , &quot; &quot;, &quot;%20&quot;)&amp;
+&quot;&amp;wo=&quot;&amp;Earliest_Work_Order_by_Requested_Date__c</formula>
+    <label>Reactive Referral Credit Acceptance URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

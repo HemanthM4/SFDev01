@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An email to be sent out when a vehicle is now spare</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New Spare Vehicle</name>
+    <style>none</style>
+    <subject>Spare Vehicle</subject>
+    <textOnly>Spare
+vehicle
+
+ Hi all,
+
+
+The following vehicle is now Spare. Please see the details below:
+
+Van Number: {Vehicle__c.Van_Number__c}
+
+Reg Number: {Vehicle__c.Reg_No__c}
+
+Trade: {Vehicle__c.Service_Territory__c} 
+
+
+Kind Regards,
+
+Aspect Resources Team 
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

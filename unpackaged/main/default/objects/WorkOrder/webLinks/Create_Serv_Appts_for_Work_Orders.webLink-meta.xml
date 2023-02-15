@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Serv_Appts_for_Work_Orders</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Serv. Appt for Work Order</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/FL_List_Work_Orders_for_a_Job_to_book_SA_called_from_WO_or_Job_System?var_WorkOrderID={!WorkOrder.Id}&amp;retURL={!WorkOrder.Id}</url>
+</WebLink>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Expenses (Aspect) - value of all Purchase Orders - not to be paid to the engineer. --></help>
+        <label><!-- Material POs (Aspect) --></label>
+        <name>Material_POs_Aspect__c</name>
+    </CustomFieldTranslation>

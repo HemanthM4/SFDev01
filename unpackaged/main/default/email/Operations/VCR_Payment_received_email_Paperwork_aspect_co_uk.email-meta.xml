@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>VCR - Payment received - email Paperwork@aspect.co.uk</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_Letterhead</letterhead>
+    <name>VCR - Payment received - email Paperwork@aspect.co.uk</name>
+    <style>freeForm</style>
+    <subject>VCR paid - {!Visit_completion_report__c.Fixed_total_charge_excl_VAT__c} - {!Visit_completion_report__c.Customer_first_name__c} {!Visit_completion_report__c.Customer_last_name__c} - {!Visit_completion_report__c.Siclops_Call_Ref__c}</subject>
+    <textOnly>Hi Team, the Customer {!Visit_completion_report__c.Customer_first_name__c} {!Visit_completion_report__c.Customer_last_name__c} has just paid the Visit Completion report: {!Visit_completion_report__c.Name}.
+
+Date: {!Visit_completion_report__c.Date__c}
+Raised by Operative: {!Visit_completion_report__c.Operative_name__c}
+Siclops Call Ref: {!Visit_completion_report__c.Siclops_Call_Ref__c}
+Post Code: {!Visit_completion_report__c.Property_address_postcode__c}
+Work Type: {!Visit_completion_report__c.Work_type__c}
+Scope of Work:
+
+{!Visit_completion_report__c.Description_of_works_carried_out__c}
+
+Total Hours Completed: {!Visit_completion_report__c.Total_hours_completed__c}
+Further Works Required?: {!Visit_completion_report__c.Further_work_required__c}
+Material Charge: {!Visit_completion_report__c.Material_charge__c}
+Materials Supplied by Aspect Details: {!Visit_completion_report__c.Materials_supplied_by_Aspect_details__c}
+Materials Supplied by Operative Details:  {!Visit_completion_report__c.Materials_supplied_by_operative_details__c}
+Fixed Price Charge: {!Visit_completion_report__c.Fixed_price_charge__c}
+Fixed Price Service Details: {!Visit_completion_report__c.Fixed_price_service_details__c}
+Hourly Rate (time slot 1): {!Visit_completion_report__c.Hourly_rate_timeslot_1__c}
+Discount Percent: {!Visit_completion_report__c.Discount__c}
+Total Charge excl. VAT: {!Visit_completion_report__c.Fixed_total_charge_excl_VAT__c}
+VAT: {!Visit_completion_report__c.VAT__c}
+Total Charge incl. VAT: {!Visit_completion_report__c.Fixed_total_charge_incl_VAT__c}
+
+
+Work Completion Image:
+{!Visit_completion_report__c.Work_Completion_Image_1__c}
+
+Link to Visit Completion Report record:
+https://chumley.lightning.force.com/lightning/r/Visit_completion_report__c/{!Visit_completion_report__c.Id}/view</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For reporting purposes, will display a 1 if the &apos;Record Type Name&apos; field is &apos;Reactive&apos; or 0 if not. --></help>
+        <label><!-- Reactive Count (reporting) --></label>
+        <name>Reactive_Count_reporting__c</name>
+    </CustomFieldTranslation>

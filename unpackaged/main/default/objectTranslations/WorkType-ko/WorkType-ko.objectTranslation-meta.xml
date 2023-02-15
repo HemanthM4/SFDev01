@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Work Type - Standard User Layout</layout>
+        <sections>
+            <label><!-- Editable Spec --></label>
+            <section>Editable Spec</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Resources --></label>
+            <section>Resources</section>
+        </sections>
+        <sections>
+            <label><!-- Work Type --></label>
+            <section>Work Type</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- *Dont USE*Work Type` --></label>
+        <name>Dont_Use_Work_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fixed Price --></label>
+        <name>Fixed_Price</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OSA --></label>
+        <name>OSA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Online Booking --></label>
+        <name>Online_Booking</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reactive --></label>
+        <name>Reactive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Work Type --></label>
+        <name>Work_Type</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Only Administrators can change these fields: Duration Type, Work Type Name, Description, Estimated Duration Hours, Record Type, Auto-Create Service Appointment --></errorMessage>
+        <name>Only_Admin_Can_Change_Certain_Fields</name>
+    </validationRules>
+</CustomObjectTranslation>

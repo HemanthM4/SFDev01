@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CORRECT TRADE RATE CHARGED - BASED ON JOB NOTES --></help>
+        <label><!-- CORRECT TRADE RATE CHARGED-BASED JOBNOTE --></label>
+        <name>CORRECT_TRADE_RATE_CHARGED_BASED_JOBNOTE__c</name>
+    </CustomFieldTranslation>

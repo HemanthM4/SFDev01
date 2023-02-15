@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice</fullName>
+    <active>true</active>
+    <description>Invoice receipt</description>
+    <label>Invoice</label>
+    <picklistValues>
+        <picklist>Ledger_Type__c</picklist>
+        <values>
+            <fullName>Engineer Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineer Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estimator Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Receipt_Type__c</picklist>
+        <values>
+            <fullName>Material Collection Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Expenses</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Type__c</picklist>
+        <values>
+            <fullName>Bank Charge Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congestion Charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licence%28*CRB%29 Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV Insurance Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MV Repair Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Repair Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money Held Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Refunds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL Insurance Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking Fine Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retention Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timesheet Bonus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

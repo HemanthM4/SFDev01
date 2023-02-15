@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- INVOICED WHO TICKED --></label>
+        <name>INVOICED_WHO_TICKED__c</name>
+        <relationshipLabel><!-- On Site Agreements (INVOICED WHO TICKED) --></relationshipLabel>
+    </CustomFieldTranslation>

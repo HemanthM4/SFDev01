@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Access</fullName>
+        <default>false</default>
+        <label>Access</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Con, Ventilation &amp; Refrigeration</fullName>
+        <default>false</default>
+        <label>Air Con, Ventilation &amp; Refrigeration</label>
+    </customValue>
+    <customValue>
+        <fullName>Brickwork &amp; Paving</fullName>
+        <default>false</default>
+        <label>Brickwork &amp; Paving</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpentry</fullName>
+        <default>false</default>
+        <label>Carpentry</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Pumps</fullName>
+        <default>false</default>
+        <label>Commercial Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>Decorating</fullName>
+        <default>false</default>
+        <label>Decorating</label>
+    </customValue>
+    <customValue>
+        <fullName>Drainage (Soil Water)</fullName>
+        <default>false</default>
+        <label>Drainage (Soil Water)</label>
+    </customValue>
+    <customValue>
+        <fullName>Drainage (Tanker)</fullName>
+        <default>false</default>
+        <label>Drainage (Tanker)</label>
+    </customValue>
+    <customValue>
+        <fullName>Drainage (Wastewater)</fullName>
+        <default>false</default>
+        <label>Drainage (Wastewater)</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical</fullName>
+        <default>false</default>
+        <label>Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Fencing</fullName>
+        <default>false</default>
+        <label>Fencing</label>
+    </customValue>
+    <customValue>
+        <fullName>Flooring</fullName>
+        <default>false</default>
+        <label>Flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>Gardening</fullName>
+        <default>false</default>
+        <label>Gardening</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing</fullName>
+        <default>false</default>
+        <label>Glazing</label>
+    </customValue>
+    <customValue>
+        <fullName>Handyman</fullName>
+        <default>false</default>
+        <label>Handyman</label>
+    </customValue>
+    <customValue>
+        <fullName>Heating &amp; Hot Water (Commercial)</fullName>
+        <default>false</default>
+        <label>Heating &amp; Hot Water (Commercial)</label>
+    </customValue>
+    <customValue>
+        <fullName>Heating &amp; Hot Water (Domestic)</fullName>
+        <default>false</default>
+        <label>Heating &amp; Hot Water (Domestic)</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Detection</fullName>
+        <default>false</default>
+        <label>Leak Detection</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Detection Restoration</fullName>
+        <default>false</default>
+        <label>Leak Detection Restoration</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Detection Restoration Central Heating</fullName>
+        <default>false</default>
+        <label>Leak Detection Restoration Central Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Detection Restoration Drainage</fullName>
+        <default>false</default>
+        <label>Leak Detection Restoration Drainage</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Detection Restoration Plumbing</fullName>
+        <default>false</default>
+        <label>Leak Detection Restoration Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>Locksmithing</fullName>
+        <default>false</default>
+        <label>Locksmithing</label>
+    </customValue>
+    <customValue>
+        <fullName>OSA</fullName>
+        <default>false</default>
+        <label>OSA</label>
+    </customValue>
+    <customValue>
+        <fullName>Partition Walls &amp; Ceilings</fullName>
+        <default>false</default>
+        <label>Partition Walls &amp; Ceilings</label>
+    </customValue>
+    <customValue>
+        <fullName>Pest Control</fullName>
+        <default>false</default>
+        <label>Pest Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Pest Proofing</fullName>
+        <default>false</default>
+        <label>Pest Proofing</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastering</fullName>
+        <default>false</default>
+        <label>Plastering</label>
+    </customValue>
+    <customValue>
+        <fullName>Plumbing &amp; Cold Water</fullName>
+        <default>false</default>
+        <label>Plumbing &amp; Cold Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Management Decoration</fullName>
+        <default>false</default>
+        <label>Project Management Decoration</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Management Refurbishment</fullName>
+        <default>false</default>
+        <label>Project Management Refurbishment</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Manager</fullName>
+        <default>false</default>
+        <label>Project Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Roofing</fullName>
+        <default>false</default>
+        <label>Roofing</label>
+    </customValue>
+    <customValue>
+        <fullName>Roofing/Leak Detection</fullName>
+        <default>false</default>
+        <label>Roofing/Leak Detection</label>
+    </customValue>
+    <customValue>
+        <fullName>Roof Window &amp; Gutter Cleaning</fullName>
+        <default>false</default>
+        <label>Roof Window &amp; Gutter Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Rubbish Removal</fullName>
+        <default>false</default>
+        <label>Rubbish Removal</label>
+    </customValue>
+    <customValue>
+        <fullName>Sanitisation &amp; specialist cleaning</fullName>
+        <default>false</default>
+        <label>Sanitisation &amp; specialist cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Test Ops</fullName>
+        <default>false</default>
+        <label>Test Ops</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiling</fullName>
+        <default>false</default>
+        <label>Tiling</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Blended - Drainage</fullName>
+        <default>false</default>
+        <label>Utilities - Blended - Drainage</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Blended - Electrical</fullName>
+        <default>false</default>
+        <label>Utilities - Blended - Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Blended - General Building</fullName>
+        <default>false</default>
+        <label>Utilities - Blended - General Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Blended - Heating &amp; Hot Water (Commercial)</fullName>
+        <default>false</default>
+        <label>Utilities - Blended - Heating &amp; Hot Water (Commercial)</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Blended - Heating &amp; Hot Water (Domestic)</fullName>
+        <default>false</default>
+        <label>Utilities - Blended - Heating &amp; Hot Water (Domestic)</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Drying</fullName>
+        <default>false</default>
+        <label>Utilities - Drying</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Air Con, Ventilation &amp; Refrigeration</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Air Con, Ventilation &amp; Refrigeration</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Building Fabric</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Building Fabric</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Drainage</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Drainage</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Electrical</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Electrical</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Heating &amp; Hot Water (Domestic)</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Heating &amp; Hot Water (Domestic)</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Heating &amp; How Water (Commercial)</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Heating &amp; How Water (Commercial)</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Labourer</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Labourer</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project - Leak Detection</fullName>
+        <default>false</default>
+        <label>Utilities - Project - Leak Detection</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities - Project Managment</fullName>
+        <default>false</default>
+        <label>Utilities - Project Managment</label>
+    </customValue>
+    <customValue>
+        <fullName>Wallpapering</fullName>
+        <default>false</default>
+        <label>Wallpapering</label>
+    </customValue>
+    <customValue>
+        <fullName>Windows &amp; Doors</fullName>
+        <default>false</default>
+        <label>Windows &amp; Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Domestic Gas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Domestic Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Gas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Commercial Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Drainage</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Drainage</label>
+    </customValue>
+    <customValue>
+        <fullName>Plumbing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>General Building &amp; Multi Trade</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General Building &amp; Multi Trade</label>
+    </customValue>
+    <customValue>
+        <fullName>HVAC  </fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HVAC</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden and Landscaping</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Garden and Landscaping</label>
+    </customValue>
+    <customValue>
+        <fullName>Windows and Doors</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Windows and Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Waste Removal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Waste Removal</label>
+    </customValue>
+    <customValue>
+        <fullName>Franchise Work</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Franchise Work</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>Drainage Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Drainage Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Roofing Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Roofing Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Plumbing Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Plumbing Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Gas Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Commercial Gas Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Domestic Gas Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Domestic Gas Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Electrical skills</label>
+    </customValue>
+    <customValue>
+        <fullName>General Building &amp; Multi Trade Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>General Building &amp; Multi Trade Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>HVAC Skills </fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HVAC Skills </label>
+    </customValue>
+    <customValue>
+        <fullName>Garden and Landscaping Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Garden and Landscaping Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Windows and Doors Skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Windows and Doors Skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Handyman skills</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Handyman skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Conditioning</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Air Conditioning</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathroom Installation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bathroom Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Heating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Central Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Cleaning</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Decorations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Decorations</label>
+    </customValue>
+    <customValue>
+        <fullName>EP Certificates</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EP Certificates</label>
+    </customValue>
+    <customValue>
+        <fullName>Lock Smith</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lock Smith</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi Skilled</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Multi Skilled</label>
+    </customValue>
+    <customValue>
+        <fullName>Multiskilled</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Multiskilled</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Refrigeration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Refrigeration</label>
+    </customValue>
+    <customValue>
+        <fullName>Refurbishment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Refurbishment</label>
+    </customValue>
+    <customValue>
+        <fullName>Scaffolding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Scaffolding</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing, UPVC, Aluminium &amp; Locksmith</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glazing, UPVC, Aluminium &amp; Locksmith</label>
+    </customValue>
+    <customValue>
+        <fullName>Project</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Estimate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Estimate</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing, UPVC &amp; Aluminium</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glazing, UPVC &amp; Aluminium</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchen Installation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Kitchen Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Locksmith</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Locksmith</label>
+    </customValue>
+    <customValue>
+        <fullName>Parent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Parent</label>
+    </customValue>
+    <customValue>
+        <fullName>LD Restoration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LD Restoration</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical Test</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Electrical Test</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Conditioning &amp; Refrigeration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Air Conditioning &amp; Refrigeration</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpentry &amp; wooden flooring</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Carpentry &amp; wooden flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>Drains &amp; Blockages (Soil Water)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Drains &amp; Blockages (Soil Water)</label>
+    </customValue>
+    <customValue>
+        <fullName>Drains &amp; Blockages (Wastewater)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Drains &amp; Blockages (Wastewater)</label>
+    </customValue>
+    <customValue>
+        <fullName>Electricians</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Electricians</label>
+    </customValue>
+    <customValue>
+        <fullName>Fencing, Decking &amp; Cladding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fencing, Decking &amp; Cladding</label>
+    </customValue>
+    <customValue>
+        <fullName>Handyman &amp; Odd Jobs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Handyman &amp; Odd Jobs</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Detection Expert</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Leak Detection Expert</label>
+    </customValue>
+    <customValue>
+        <fullName>Painting &amp; Decorating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Painting &amp; Decorating</label>
+    </customValue>
+    <customValue>
+        <fullName>Partitioning, Walls &amp; ceilings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Partitioning, Walls &amp; ceilings</label>
+    </customValue>
+    <customValue>
+        <fullName>Roof &amp; Gutter Cleaning</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Roof &amp; Gutter Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Vinyl &amp; Safety Flooring</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vinyl &amp; Safety Flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>LDR Plumbing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LDR Plumbing</label>
+    </customValue>
+    <customValue>
+        <fullName>Handyman Multi-Trade</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Handyman Multi-Trade</label>
+    </customValue>
+    <description>This holds all of the types of trade in the company</description>
+    <masterLabel>Trade</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

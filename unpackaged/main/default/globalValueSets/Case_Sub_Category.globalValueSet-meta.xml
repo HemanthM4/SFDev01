@@ -1,0 +1,2010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>External Lighting Repair</fullName>
+        <default>false</default>
+        <label>External Lighting Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>External Lighting Installation</fullName>
+        <default>false</default>
+        <label>External Lighting Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Lighting Repair</fullName>
+        <default>false</default>
+        <label>Internal Lighting Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Lighting Installation</fullName>
+        <default>false</default>
+        <label>Internal Lighting Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Pir Domestic</fullName>
+        <default>false</default>
+        <label>Pir Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>Pir Commercial</fullName>
+        <default>false</default>
+        <label>Pir Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Pat Testing</fullName>
+        <default>false</default>
+        <label>Pat Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual Inspection Report</fullName>
+        <default>false</default>
+        <label>Visual Inspection Report</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Pre Purchase Survey</fullName>
+        <default>false</default>
+        <label>Full Pre Purchase Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual Pre Purchase Survey</fullName>
+        <default>false</default>
+        <label>Visual Pre Purchase Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Appliance Repair</fullName>
+        <default>false</default>
+        <label>Appliance Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Appliance Installation</fullName>
+        <default>false</default>
+        <label>Appliance Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Burglar Alarm Isolation</fullName>
+        <default>false</default>
+        <label>Burglar Alarm Isolation</label>
+    </customValue>
+    <customValue>
+        <fullName>Smoke/Fire Alarm Repair</fullName>
+        <default>false</default>
+        <label>Smoke/Fire Alarm Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Smoke/Fire Alarm Installation</fullName>
+        <default>false</default>
+        <label>Smoke/Fire Alarm Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Cctv Repair</fullName>
+        <default>false</default>
+        <label>Cctv Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Cctv Installation</fullName>
+        <default>false</default>
+        <label>Cctv Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Existing Light</fullName>
+        <default>false</default>
+        <label>Replace Existing Light</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Existing Socket</fullName>
+        <default>false</default>
+        <label>Replace Existing Socket</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Existing Switches</fullName>
+        <default>false</default>
+        <label>Replace Existing Switches</label>
+    </customValue>
+    <customValue>
+        <fullName>Fault Finding</fullName>
+        <default>false</default>
+        <label>Fault Finding</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Sockets</fullName>
+        <default>false</default>
+        <label>Additional Sockets</label>
+    </customValue>
+    <customValue>
+        <fullName>Burning Smell</fullName>
+        <default>false</default>
+        <label>Burning Smell</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Leakage On Electricity</fullName>
+        <default>false</default>
+        <label>Water Leakage On Electricity</label>
+    </customValue>
+    <customValue>
+        <fullName>No Lights</fullName>
+        <default>false</default>
+        <label>No Lights</label>
+    </customValue>
+    <customValue>
+        <fullName>Damaged Cables In Walls</fullName>
+        <default>false</default>
+        <label>Damaged Cables In Walls</label>
+    </customValue>
+    <customValue>
+        <fullName>Exposed Wires</fullName>
+        <default>false</default>
+        <label>Exposed Wires</label>
+    </customValue>
+    <customValue>
+        <fullName>Loss Of Supply</fullName>
+        <default>false</default>
+        <label>Loss Of Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>Rcd Tripping</fullName>
+        <default>false</default>
+        <label>Rcd Tripping</label>
+    </customValue>
+    <customValue>
+        <fullName>Circuit Breaker Tripping</fullName>
+        <default>false</default>
+        <label>Circuit Breaker Tripping</label>
+    </customValue>
+    <customValue>
+        <fullName>Lutron Lighting Repair</fullName>
+        <default>false</default>
+        <label>Lutron Lighting Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Lutron Lighting Programming</fullName>
+        <default>false</default>
+        <label>Lutron Lighting Programming</label>
+    </customValue>
+    <customValue>
+        <fullName>Lutron Lighting Installation</fullName>
+        <default>false</default>
+        <label>Lutron Lighting Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Rewire (Under 3)</fullName>
+        <default>false</default>
+        <label>Cable Rewire (Under 3)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Rewire (Plus 3)</fullName>
+        <default>false</default>
+        <label>Cable Rewire (Plus 3)</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Underfloor Heating Repair</fullName>
+        <default>false</default>
+        <label>Electric Underfloor Heating Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Underfloor Heating Install</fullName>
+        <default>false</default>
+        <label>Electric Underfloor Heating Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Radiator Repair</fullName>
+        <default>false</default>
+        <label>Electric Radiator Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Radiator Installation</fullName>
+        <default>false</default>
+        <label>Electric Radiator Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Panel Heater Repair</fullName>
+        <default>false</default>
+        <label>Panel Heater Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Panel Heater Installation</fullName>
+        <default>false</default>
+        <label>Panel Heater Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Storage Heater Repair</fullName>
+        <default>false</default>
+        <label>Storage Heater Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Storage Heater Installation</fullName>
+        <default>false</default>
+        <label>Storage Heater Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Immersion/Hot Water Heater Repair</fullName>
+        <default>false</default>
+        <label>Immersion/Hot Water Heater Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Immersion/Hot Water Heater Installation</fullName>
+        <default>false</default>
+        <label>Immersion/Hot Water Heater Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Boiler Repair</fullName>
+        <default>false</default>
+        <label>Electric Boiler Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Boiler Installation</fullName>
+        <default>false</default>
+        <label>Electric Boiler Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>3D Setup</fullName>
+        <default>false</default>
+        <label>3D Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Advice, Planning And Consultancy</fullName>
+        <default>false</default>
+        <label>Advice, Planning And Consultancy</label>
+    </customValue>
+    <customValue>
+        <fullName>Blu Ray Hd Setup</fullName>
+        <default>false</default>
+        <label>Blu Ray Hd Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Re-Routing And Tidying</fullName>
+        <default>false</default>
+        <label>Cable Re-Routing And Tidying</label>
+    </customValue>
+    <customValue>
+        <fullName>Games Console Installation</fullName>
+        <default>false</default>
+        <label>Games Console Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Cinema Setup</fullName>
+        <default>false</default>
+        <label>Home Cinema Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Projector Installation</fullName>
+        <default>false</default>
+        <label>Projector Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Tv Tuning</fullName>
+        <default>false</default>
+        <label>Tv Tuning</label>
+    </customValue>
+    <customValue>
+        <fullName>Universal Remote Setup</fullName>
+        <default>false</default>
+        <label>Universal Remote Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Wall Mounting</fullName>
+        <default>false</default>
+        <label>Wall Mounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Tidying</fullName>
+        <default>false</default>
+        <label>Cable Tidying</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre Purchase Central Heating Inspection</fullName>
+        <default>false</default>
+        <label>Pre Purchase Central Heating Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Safety Cert Domestic</fullName>
+        <default>false</default>
+        <label>Gas Safety Cert Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>Appliance Installation - Cooker / Over / Hob.</fullName>
+        <default>false</default>
+        <label>Appliance Installation - Cooker / Over / Hob.</label>
+    </customValue>
+    <customValue>
+        <fullName>Appliance Repair -  Cooker / Over / Hob.</fullName>
+        <default>false</default>
+        <label>Appliance Repair -  Cooker / Over / Hob.</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Installation Domestic</fullName>
+        <default>false</default>
+        <label>Boiler Installation Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler / Flue Inspection Hatch</fullName>
+        <default>false</default>
+        <label>Boiler / Flue Inspection Hatch</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Repair Domestic</fullName>
+        <default>false</default>
+        <label>Boiler Repair Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Service Domestic</fullName>
+        <default>false</default>
+        <label>Boiler Service Domestic</label>
+    </customValue>
+    <customValue>
+        <fullName>No Power To Boiler</fullName>
+        <default>false</default>
+        <label>No Power To Boiler</label>
+    </customValue>
+    <customValue>
+        <fullName>Refill Boiler / Low Pressure</fullName>
+        <default>false</default>
+        <label>Refill Boiler / Low Pressure</label>
+    </customValue>
+    <customValue>
+        <fullName>Scale Reducer</fullName>
+        <default>false</default>
+        <label>Scale Reducer</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Heating Repair</fullName>
+        <default>false</default>
+        <label>Central Heating Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>No Heating</fullName>
+        <default>false</default>
+        <label>No Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Magnaclean (Central Heating Filter) Installation</fullName>
+        <default>false</default>
+        <label>Magnaclean (Central Heating Filter) Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Underfloor Heating Repair</fullName>
+        <default>false</default>
+        <label>Underfloor Heating Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Underfloor Heating Installation</fullName>
+        <default>false</default>
+        <label>Underfloor Heating Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Fire Installation</fullName>
+        <default>false</default>
+        <label>Fire Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Fire Repair</fullName>
+        <default>false</default>
+        <label>Gas Fire Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipe Freezing Kit</fullName>
+        <default>false</default>
+        <label>Pipe Freezing Kit</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipework</fullName>
+        <default>false</default>
+        <label>Pipework</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Leak / Gas Smell</fullName>
+        <default>false</default>
+        <label>Gas Leak / Gas Smell</label>
+    </customValue>
+    <customValue>
+        <fullName>Lpg</fullName>
+        <default>false</default>
+        <label>Lpg</label>
+    </customValue>
+    <customValue>
+        <fullName>Thermal Store (Cylinder, Lots Of Connections) Gledhill - Pulsocoil etc</fullName>
+        <default>false</default>
+        <label>Thermal Store (Cylinder, Lots Of Connections) Gledhill - Pulsocoil etc</label>
+    </customValue>
+    <customValue>
+        <fullName>No Hot Water</fullName>
+        <default>false</default>
+        <label>No Hot Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Warm Air Unit</fullName>
+        <default>false</default>
+        <label>Warm Air Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Wireless Controls - Wiring - Tehormostat - Controls - Timer - Temp Controller</fullName>
+        <default>false</default>
+        <label>Wireless Controls - Wiring - Tehormostat - Controls - Timer - Temp Controller</label>
+    </customValue>
+    <customValue>
+        <fullName>Powerflush</fullName>
+        <default>false</default>
+        <label>Powerflush</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical Flush</fullName>
+        <default>false</default>
+        <label>Chemical Flush</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiator Bleeding</fullName>
+        <default>false</default>
+        <label>Radiator Bleeding</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiator Installation</fullName>
+        <default>false</default>
+        <label>Radiator Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Hot Water Cylinder  - Cenventional - Leak</fullName>
+        <default>false</default>
+        <label>Hot Water Cylinder  - Cenventional - Leak</label>
+    </customValue>
+    <customValue>
+        <fullName>Unvented Hot Water Cylinder / Megaflo Repair</fullName>
+        <default>false</default>
+        <label>Unvented Hot Water Cylinder / Megaflo Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Unvented Hot Water Cylinder / Megaflo Installation</fullName>
+        <default>false</default>
+        <label>Unvented Hot Water Cylinder / Megaflo Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Installation Commercial</fullName>
+        <default>false</default>
+        <label>Boiler Installation Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Repair Commercial</fullName>
+        <default>false</default>
+        <label>Boiler Repair Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Service Commercial</fullName>
+        <default>false</default>
+        <label>Boiler Service Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas Safety Cert Commercial</fullName>
+        <default>false</default>
+        <label>Gas Safety Cert Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Catering Equipmant Commercial</fullName>
+        <default>false</default>
+        <label>Catering Equipmant Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Portable  / Mobile Gas Applainces (Markets / Food Vans ) Lpg Gas</fullName>
+        <default>false</default>
+        <label>Portable  / Mobile Gas Applainces (Markets / Food Vans ) Lpg Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Pressure Test</fullName>
+        <default>false</default>
+        <label>Air Pressure Test</label>
+    </customValue>
+    <customValue>
+        <fullName>Macerator (Saniflo) Installation</fullName>
+        <default>false</default>
+        <label>Macerator (Saniflo) Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Macerator (Saniflo) Repair</fullName>
+        <default>false</default>
+        <label>Macerator (Saniflo) Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Blockage Internal</fullName>
+        <default>false</default>
+        <label>Blockage Internal</label>
+    </customValue>
+    <customValue>
+        <fullName>Blockage External</fullName>
+        <default>false</default>
+        <label>Blockage External</label>
+    </customValue>
+    <customValue>
+        <fullName>Blocked Toilet.</fullName>
+        <default>false</default>
+        <label>Blocked Toilet.</label>
+    </customValue>
+    <customValue>
+        <fullName>Cctv Survey</fullName>
+        <default>false</default>
+        <label>Cctv Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Leaking Waste Pipe</fullName>
+        <default>false</default>
+        <label>Leaking Waste Pipe</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipe Linings</fullName>
+        <default>false</default>
+        <label>Pipe Linings</label>
+    </customValue>
+    <customValue>
+        <fullName>Repairs To Soil Pies</fullName>
+        <default>false</default>
+        <label>Repairs To Soil Pies</label>
+    </customValue>
+    <customValue>
+        <fullName>Bathroom Suite / Sanitryware Istallation</fullName>
+        <default>false</default>
+        <label>Bathroom Suite / Sanitryware Istallation</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Shower Repair</fullName>
+        <default>false</default>
+        <label>Electric Shower Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Electric Shower Installaion</fullName>
+        <default>false</default>
+        <label>Electric Shower Installaion</label>
+    </customValue>
+    <customValue>
+        <fullName>Toilet Repair (Not Blockages)</fullName>
+        <default>false</default>
+        <label>Toilet Repair (Not Blockages)</label>
+    </customValue>
+    <customValue>
+        <fullName>Leak Repair &amp; Detection</fullName>
+        <default>false</default>
+        <label>Leak Repair &amp; Detection</label>
+    </customValue>
+    <customValue>
+        <fullName>Overflow Leaking</fullName>
+        <default>false</default>
+        <label>Overflow Leaking</label>
+    </customValue>
+    <customValue>
+        <fullName>Install Water Filter</fullName>
+        <default>false</default>
+        <label>Install Water Filter</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Water Filter</fullName>
+        <default>false</default>
+        <label>Replace Water Filter</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Silicone / Grouting</fullName>
+        <default>false</default>
+        <label>Replace Silicone / Grouting</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Ball Valve</fullName>
+        <default>false</default>
+        <label>Change Ball Valve</label>
+    </customValue>
+    <customValue>
+        <fullName>Remove Boxing - Undertake Tiling</fullName>
+        <default>false</default>
+        <label>Remove Boxing - Undertake Tiling</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Layers Felt System (Torch On)</fullName>
+        <default>false</default>
+        <label>3 Layers Felt System (Torch On)</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Layers Felt System (Roll And Pour)</fullName>
+        <default>false</default>
+        <label>3 Layers Felt System (Roll And Pour)</label>
+    </customValue>
+    <customValue>
+        <fullName>Asphalt (Repairs)</fullName>
+        <default>false</default>
+        <label>Asphalt (Repairs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Asphalt (New Roof)</fullName>
+        <default>false</default>
+        <label>Asphalt (New Roof)</label>
+    </customValue>
+    <customValue>
+        <fullName>Single Ply (Certificate Required)</fullName>
+        <default>false</default>
+        <label>Single Ply (Certificate Required)</label>
+    </customValue>
+    <customValue>
+        <fullName>Fibreglass (New Roof)</fullName>
+        <default>false</default>
+        <label>Fibreglass (New Roof)</label>
+    </customValue>
+    <customValue>
+        <fullName>Fibreglass (Repairs)</fullName>
+        <default>false</default>
+        <label>Fibreglass (Repairs)</label>
+    </customValue>
+    <customValue>
+        <fullName>2 Lay Overlay (Torch On)</fullName>
+        <default>false</default>
+        <label>2 Lay Overlay (Torch On)</label>
+    </customValue>
+    <customValue>
+        <fullName>Warm Deck Roof</fullName>
+        <default>false</default>
+        <label>Warm Deck Roof</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold Deck Roof</fullName>
+        <default>false</default>
+        <label>Cold Deck Roof</label>
+    </customValue>
+    <customValue>
+        <fullName>All Types Of Concrete Interlocking Tiles (New Roof)</fullName>
+        <default>false</default>
+        <label>All Types Of Concrete Interlocking Tiles (New Roof)</label>
+    </customValue>
+    <customValue>
+        <fullName>All Types Of Concrete Interlocking Tiles (Repairs)</fullName>
+        <default>false</default>
+        <label>All Types Of Concrete Interlocking Tiles (Repairs)</label>
+    </customValue>
+    <customValue>
+        <fullName>All Types Of Plain Tiles (New Roof)</fullName>
+        <default>false</default>
+        <label>All Types Of Plain Tiles (New Roof)</label>
+    </customValue>
+    <customValue>
+        <fullName>All Types Of Plain Tiles (Repairs)</fullName>
+        <default>false</default>
+        <label>All Types Of Plain Tiles (Repairs)</label>
+    </customValue>
+    <customValue>
+        <fullName>All Types Of Slates (New Roof)</fullName>
+        <default>false</default>
+        <label>All Types Of Slates (New Roof)</label>
+    </customValue>
+    <customValue>
+        <fullName>All Types Of Slates (Repairs)</fullName>
+        <default>false</default>
+        <label>All Types Of Slates (Repairs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Roll Out Insulations</fullName>
+        <default>false</default>
+        <label>Roll Out Insulations</label>
+    </customValue>
+    <customValue>
+        <fullName>Insulation Boards</fullName>
+        <default>false</default>
+        <label>Insulation Boards</label>
+    </customValue>
+    <customValue>
+        <fullName>Step Flashing</fullName>
+        <default>false</default>
+        <label>Step Flashing</label>
+    </customValue>
+    <customValue>
+        <fullName>Cover Flashings</fullName>
+        <default>false</default>
+        <label>Cover Flashings</label>
+    </customValue>
+    <customValue>
+        <fullName>Valleys</fullName>
+        <default>false</default>
+        <label>Valleys</label>
+    </customValue>
+    <customValue>
+        <fullName>Chimney Flashings, Front Aprons And Back Gutters</fullName>
+        <default>false</default>
+        <label>Chimney Flashings, Front Aprons And Back Gutters</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Flat Roofs</fullName>
+        <default>false</default>
+        <label>Lead Flat Roofs</label>
+    </customValue>
+    <customValue>
+        <fullName>Cladding</fullName>
+        <default>false</default>
+        <label>Cladding</label>
+    </customValue>
+    <customValue>
+        <fullName>Bossing</fullName>
+        <default>false</default>
+        <label>Bossing</label>
+    </customValue>
+    <customValue>
+        <fullName>Welding</fullName>
+        <default>false</default>
+        <label>Welding</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacing Rafters</fullName>
+        <default>false</default>
+        <label>Replacing Rafters</label>
+    </customValue>
+    <customValue>
+        <fullName>Boarding Flat Roofs</fullName>
+        <default>false</default>
+        <label>Boarding Flat Roofs</label>
+    </customValue>
+    <customValue>
+        <fullName>Boarding Box Gutters</fullName>
+        <default>false</default>
+        <label>Boarding Box Gutters</label>
+    </customValue>
+    <customValue>
+        <fullName>Valley Boards</fullName>
+        <default>false</default>
+        <label>Valley Boards</label>
+    </customValue>
+    <customValue>
+        <fullName>Cut And Pitching New Roof</fullName>
+        <default>false</default>
+        <label>Cut And Pitching New Roof</label>
+    </customValue>
+    <customValue>
+        <fullName>Upcv (Replace)</fullName>
+        <default>false</default>
+        <label>Upcv (Replace)</label>
+    </customValue>
+    <customValue>
+        <fullName>Upcv (Repair)</fullName>
+        <default>false</default>
+        <label>Upcv (Repair)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cast (Replace)</fullName>
+        <default>false</default>
+        <label>Cast (Replace)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cast (Repair)</fullName>
+        <default>false</default>
+        <label>Cast (Repair)</label>
+    </customValue>
+    <customValue>
+        <fullName>Aluminium (Replace)</fullName>
+        <default>false</default>
+        <label>Aluminium (Replace)</label>
+    </customValue>
+    <customValue>
+        <fullName>Aluminium (Repair)</fullName>
+        <default>false</default>
+        <label>Aluminium (Repair)</label>
+    </customValue>
+    <customValue>
+        <fullName>Timber (Replace)</fullName>
+        <default>false</default>
+        <label>Timber (Replace)</label>
+    </customValue>
+    <customValue>
+        <fullName>Timber (Repair)</fullName>
+        <default>false</default>
+        <label>Timber (Repair)</label>
+    </customValue>
+    <customValue>
+        <fullName>Upvc (Replace)</fullName>
+        <default>false</default>
+        <label>Upvc (Replace)</label>
+    </customValue>
+    <customValue>
+        <fullName>Upvc (Repair)</fullName>
+        <default>false</default>
+        <label>Upvc (Repair)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pointing</fullName>
+        <default>false</default>
+        <label>Pointing</label>
+    </customValue>
+    <customValue>
+        <fullName>Flauching</fullName>
+        <default>false</default>
+        <label>Flauching</label>
+    </customValue>
+    <customValue>
+        <fullName>Rendering (Repairs)</fullName>
+        <default>false</default>
+        <label>Rendering (Repairs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Rendering (Replacement)</fullName>
+        <default>false</default>
+        <label>Rendering (Replacement)</label>
+    </customValue>
+    <customValue>
+        <fullName>Power Paint (Fabrication Part)</fullName>
+        <default>false</default>
+        <label>Power Paint (Fabrication Part)</label>
+    </customValue>
+    <customValue>
+        <fullName>Brick Walls And Bricklaying</fullName>
+        <default>false</default>
+        <label>Brick Walls And Bricklaying</label>
+    </customValue>
+    <customValue>
+        <fullName>Re-Pointing - 1Sqm or Less</fullName>
+        <default>false</default>
+        <label>Re-Pointing - 1Sqm or Less</label>
+    </customValue>
+    <customValue>
+        <fullName>Re-Pointing - 1Sqm Plus</fullName>
+        <default>false</default>
+        <label>Re-Pointing - 1Sqm Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Laying 1 Or 2 Courses</fullName>
+        <default>false</default>
+        <label>Laying 1 Or 2 Courses</label>
+    </customValue>
+    <customValue>
+        <fullName>Brick Wall Repairs (Odd Brick)</fullName>
+        <default>false</default>
+        <label>Brick Wall Repairs (Odd Brick)</label>
+    </customValue>
+    <customValue>
+        <fullName>Laying Blocks</fullName>
+        <default>false</default>
+        <label>Laying Blocks</label>
+    </customValue>
+    <customValue>
+        <fullName>Block Up Doorway</fullName>
+        <default>false</default>
+        <label>Block Up Doorway</label>
+    </customValue>
+    <customValue>
+        <fullName>Concreting</fullName>
+        <default>false</default>
+        <label>Concreting</label>
+    </customValue>
+    <customValue>
+        <fullName>Bespoke Carpentry</fullName>
+        <default>false</default>
+        <label>Bespoke Carpentry</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitted Wardrobes</fullName>
+        <default>false</default>
+        <label>Fitted Wardrobes</label>
+    </customValue>
+    <customValue>
+        <fullName>Alcove Units, Tv Units, Shelving And Storage-Constructed</fullName>
+        <default>false</default>
+        <label>Alcove Units, Tv Units, Shelving And Storage-Constructed</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler Cupboards</fullName>
+        <default>false</default>
+        <label>Boiler Cupboards</label>
+    </customValue>
+    <customValue>
+        <fullName>Skirting And Architraves</fullName>
+        <default>false</default>
+        <label>Skirting And Architraves</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabinet Making</fullName>
+        <default>false</default>
+        <label>Cabinet Making</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabinet Making - Specialist Lock/Runner/Component Replacement</fullName>
+        <default>false</default>
+        <label>Cabinet Making - Specialist Lock/Runner/Component Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Walls - Timber</fullName>
+        <default>false</default>
+        <label>Internal Walls - Timber</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Walls - Aluminium</fullName>
+        <default>false</default>
+        <label>Internal Walls - Aluminium</label>
+    </customValue>
+    <customValue>
+        <fullName>Loft Hatch - Installation</fullName>
+        <default>false</default>
+        <label>Loft Hatch - Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Loft Hatch - Custom Fabrication</fullName>
+        <default>false</default>
+        <label>Loft Hatch - Custom Fabrication</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Doors Hung</fullName>
+        <default>false</default>
+        <label>Internal Doors Hung</label>
+    </customValue>
+    <customValue>
+        <fullName>External Doors Hung/Fitted</fullName>
+        <default>false</default>
+        <label>External Doors Hung/Fitted</label>
+    </customValue>
+    <customValue>
+        <fullName>Kitchen Fitted</fullName>
+        <default>false</default>
+        <label>Kitchen Fitted</label>
+    </customValue>
+    <customValue>
+        <fullName>Worktop Replacement/ Appliance Cutout/Mitred Joint</fullName>
+        <default>false</default>
+        <label>Worktop Replacement/ Appliance Cutout/Mitred Joint</label>
+    </customValue>
+    <customValue>
+        <fullName>Unit Replacement</fullName>
+        <default>false</default>
+        <label>Unit Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Door Adjustment</fullName>
+        <default>false</default>
+        <label>Door Adjustment</label>
+    </customValue>
+    <customValue>
+        <fullName>Door Changeover</fullName>
+        <default>false</default>
+        <label>Door Changeover</label>
+    </customValue>
+    <customValue>
+        <fullName>Hinge/Handle Repair/Replacement</fullName>
+        <default>false</default>
+        <label>Hinge/Handle Repair/Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Componant Replacement -  Runners/Softclosers</fullName>
+        <default>false</default>
+        <label>Componant Replacement -  Runners/Softclosers</label>
+    </customValue>
+    <customValue>
+        <fullName>Integrated Appliances Installed</fullName>
+        <default>false</default>
+        <label>Integrated Appliances Installed</label>
+    </customValue>
+    <customValue>
+        <fullName>Basic Plumbing -  Tap Change/Washers/Sinktrap</fullName>
+        <default>false</default>
+        <label>Basic Plumbing -  Tap Change/Washers/Sinktrap</label>
+    </customValue>
+    <customValue>
+        <fullName>Advance Plumbing - Re-Route Advance Plumbing, Re-Route Pipes, Etc.</fullName>
+        <default>false</default>
+        <label>Advance Plumbing - Re-Route Advance Plumbing, Re-Route Pipes, Etc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpet Fitting</fullName>
+        <default>false</default>
+        <label>Carpet Fitting</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpet Tiles Fitted</fullName>
+        <default>false</default>
+        <label>Carpet Tiles Fitted</label>
+    </customValue>
+    <customValue>
+        <fullName>Floor Leveling -  Latex Pour</fullName>
+        <default>false</default>
+        <label>Floor Leveling -  Latex Pour</label>
+    </customValue>
+    <customValue>
+        <fullName>Laminate Floor Laying</fullName>
+        <default>false</default>
+        <label>Laminate Floor Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineered Hard Wood Laying</fullName>
+        <default>false</default>
+        <label>Engineered Hard Wood Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Hardwood/Solidwood Floor Laying</fullName>
+        <default>false</default>
+        <label>Hardwood/Solidwood Floor Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Floor Sanding</fullName>
+        <default>false</default>
+        <label>Floor Sanding</label>
+    </customValue>
+    <customValue>
+        <fullName>Floorboard Repairs</fullName>
+        <default>false</default>
+        <label>Floorboard Repairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Floorboard Replacement</fullName>
+        <default>false</default>
+        <label>Floorboard Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Wood Floor Laquer/Finish</fullName>
+        <default>false</default>
+        <label>Wood Floor Laquer/Finish</label>
+    </customValue>
+    <customValue>
+        <fullName>Vinyl Laying Incl. Cut Outs</fullName>
+        <default>false</default>
+        <label>Vinyl Laying Incl. Cut Outs</label>
+    </customValue>
+    <customValue>
+        <fullName>Vinyl Laying</fullName>
+        <default>false</default>
+        <label>Vinyl Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Patch Plastering 1 Sqm</fullName>
+        <default>false</default>
+        <label>Patch Plastering 1 Sqm</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastering - Walls And Ceilings</fullName>
+        <default>false</default>
+        <label>Plastering - Walls And Ceilings</label>
+    </customValue>
+    <customValue>
+        <fullName>Rendering -  External Patch Repairs</fullName>
+        <default>false</default>
+        <label>Rendering -  External Patch Repairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Rendering Full Walls</fullName>
+        <default>false</default>
+        <label>Rendering Full Walls</label>
+    </customValue>
+    <customValue>
+        <fullName>Coving/Cornice</fullName>
+        <default>false</default>
+        <label>Coving/Cornice</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiling - Walls</fullName>
+        <default>false</default>
+        <label>Tiling - Walls</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiling - Floors</fullName>
+        <default>false</default>
+        <label>Tiling - Floors</label>
+    </customValue>
+    <customValue>
+        <fullName>Tile Patch Repairs</fullName>
+        <default>false</default>
+        <label>Tile Patch Repairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Grouting</fullName>
+        <default>false</default>
+        <label>Grouting</label>
+    </customValue>
+    <customValue>
+        <fullName>Masticking</fullName>
+        <default>false</default>
+        <label>Masticking</label>
+    </customValue>
+    <customValue>
+        <fullName>Drilling Tiles</fullName>
+        <default>false</default>
+        <label>Drilling Tiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Basic Plumbing  -  Tap Change/Washers/Sinktrap</fullName>
+        <default>false</default>
+        <label>Basic Plumbing  -  Tap Change/Washers/Sinktrap</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacement Bath Installation</fullName>
+        <default>false</default>
+        <label>Replacement Bath Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacement Toilet Fit</fullName>
+        <default>false</default>
+        <label>Replacement Toilet Fit</label>
+    </customValue>
+    <customValue>
+        <fullName>Shower Screen Fit</fullName>
+        <default>false</default>
+        <label>Shower Screen Fit</label>
+    </customValue>
+    <customValue>
+        <fullName>Wall Preperation -  Sanding, Filing, Caulking</fullName>
+        <default>false</default>
+        <label>Wall Preperation -  Sanding, Filing, Caulking</label>
+    </customValue>
+    <customValue>
+        <fullName>Walls And Ceiling Emulsion</fullName>
+        <default>false</default>
+        <label>Walls And Ceiling Emulsion</label>
+    </customValue>
+    <customValue>
+        <fullName>Decorative Cornice/Coving Repairs</fullName>
+        <default>false</default>
+        <label>Decorative Cornice/Coving Repairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Decorative Cornice/Coving Painting</fullName>
+        <default>false</default>
+        <label>Decorative Cornice/Coving Painting</label>
+    </customValue>
+    <customValue>
+        <fullName>Woodwork Painting</fullName>
+        <default>false</default>
+        <label>Woodwork Painting</label>
+    </customValue>
+    <customValue>
+        <fullName>External Masonary Painting</fullName>
+        <default>false</default>
+        <label>External Masonary Painting</label>
+    </customValue>
+    <customValue>
+        <fullName>External Woodwork Painting</fullName>
+        <default>false</default>
+        <label>External Woodwork Painting</label>
+    </customValue>
+    <customValue>
+        <fullName>Lining Paper</fullName>
+        <default>false</default>
+        <label>Lining Paper</label>
+    </customValue>
+    <customValue>
+        <fullName>Wallpapering</fullName>
+        <default>false</default>
+        <label>Wallpapering</label>
+    </customValue>
+    <customValue>
+        <fullName>Wallpapering Small Areas, Feature Walls, Etc.</fullName>
+        <default>false</default>
+        <label>Wallpapering Small Areas, Feature Walls, Etc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Repair</fullName>
+        <default>false</default>
+        <label>Repair</label>
+    </customValue>
+    <customValue>
+        <fullName>Install / Decomission.</fullName>
+        <default>false</default>
+        <label>Install / Decomission.</label>
+    </customValue>
+    <customValue>
+        <fullName>Gas</fullName>
+        <default>false</default>
+        <label>Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Patio Table</fullName>
+        <default>false</default>
+        <label>Assemble Patio Table</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Patio Chair</fullName>
+        <default>false</default>
+        <label>Assemble Patio Chair</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Parasol</fullName>
+        <default>false</default>
+        <label>Assemble Parasol</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Bbq</fullName>
+        <default>false</default>
+        <label>Assemble Bbq</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Patio Heater</fullName>
+        <default>false</default>
+        <label>Assemble Patio Heater</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Play House</fullName>
+        <default>false</default>
+        <label>Assemble Play House</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Small Trampoline (Less Than 6&#39; Diameter)</fullName>
+        <default>false</default>
+        <label>Assemble Small Trampoline (Less Than 6&#39; Diameter)</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Large Trampoline (More Than 6&#39; Diameter)</fullName>
+        <default>false</default>
+        <label>Assemble Large Trampoline (More Than 6&#39; Diameter)</label>
+    </customValue>
+    <customValue>
+        <fullName>Assemble Jungle Gym</fullName>
+        <default>false</default>
+        <label>Assemble Jungle Gym</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1X Small Picture (25Cm X 25Cm)</fullName>
+        <default>false</default>
+        <label>Hang 1X Small Picture (25Cm X 25Cm)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1X Medium Picture (Up To 1M X 1M)</fullName>
+        <default>false</default>
+        <label>Hang 1X Medium Picture (Up To 1M X 1M)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1X Large Picture (More Than 1M X 1M)</fullName>
+        <default>false</default>
+        <label>Hang 1X Large Picture (More Than 1M X 1M)</label>
+    </customValue>
+    <customValue>
+        <fullName>Wire Up Back Of Picture</fullName>
+        <default>false</default>
+        <label>Wire Up Back Of Picture</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1X Small Mirror (25Cm X 25Cm)</fullName>
+        <default>false</default>
+        <label>Hang 1X Small Mirror (25Cm X 25Cm)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1X Medium Mirror (Up To 1M X 1M)</fullName>
+        <default>false</default>
+        <label>Hang 1X Medium Mirror (Up To 1M X 1M)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1X Large Mirror (More Than 1Mx 1M)</fullName>
+        <default>false</default>
+        <label>Hang 1X Large Mirror (More Than 1Mx 1M)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cut Curtain Pole To Size</fullName>
+        <default>false</default>
+        <label>Cut Curtain Pole To Size</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 1M Curtain Pole, Track Or Rail</fullName>
+        <default>false</default>
+        <label>Hang 1M Curtain Pole, Track Or Rail</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang 3M Curtain Pole, Track Or Rail</fullName>
+        <default>false</default>
+        <label>Hang 3M Curtain Pole, Track Or Rail</label>
+    </customValue>
+    <customValue>
+        <fullName>Attach Pair Of Curtains To Pole</fullName>
+        <default>false</default>
+        <label>Attach Pair Of Curtains To Pole</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang Blind (Up To 1M Width)</fullName>
+        <default>false</default>
+        <label>Hang Blind (Up To 1M Width)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang Blind (More Than 1M Width)</fullName>
+        <default>false</default>
+        <label>Hang Blind (More Than 1M Width)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cut Roller Blind To Size</fullName>
+        <default>false</default>
+        <label>Cut Roller Blind To Size</label>
+    </customValue>
+    <customValue>
+        <fullName>Restring Roman Blind</fullName>
+        <default>false</default>
+        <label>Restring Roman Blind</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Tilt Control</fullName>
+        <default>false</default>
+        <label>Replace Tilt Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang Flouting Shelf</fullName>
+        <default>false</default>
+        <label>Hang Flouting Shelf</label>
+    </customValue>
+    <customValue>
+        <fullName>Hang Shelf From L-Brackets</fullName>
+        <default>false</default>
+        <label>Hang Shelf From L-Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Install Spur Shelving Uprights And Brackets</fullName>
+        <default>false</default>
+        <label>Install Spur Shelving Uprights And Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Fit Baby-Proof Catch</fullName>
+        <default>false</default>
+        <label>Fit Baby-Proof Catch</label>
+    </customValue>
+    <customValue>
+        <fullName>Fit Baby Gate</fullName>
+        <default>false</default>
+        <label>Fit Baby Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Ceiling Tile</fullName>
+        <default>false</default>
+        <label>Replace Ceiling Tile</label>
+    </customValue>
+    <customValue>
+        <fullName>Cut Ceiling Tile To Fit And Replace</fullName>
+        <default>false</default>
+        <label>Cut Ceiling Tile To Fit And Replace</label>
+    </customValue>
+    <customValue>
+        <fullName>Lift And Shift Furniture</fullName>
+        <default>false</default>
+        <label>Lift And Shift Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>Touch Up Paintwork</fullName>
+        <default>false</default>
+        <label>Touch Up Paintwork</label>
+    </customValue>
+    <customValue>
+        <fullName>Opening Up Ceilings</fullName>
+        <default>false</default>
+        <label>Opening Up Ceilings</label>
+    </customValue>
+    <customValue>
+        <fullName>Opening Up Walls</fullName>
+        <default>false</default>
+        <label>Opening Up Walls</label>
+    </customValue>
+    <customValue>
+        <fullName>Opening Up Floors</fullName>
+        <default>false</default>
+        <label>Opening Up Floors</label>
+    </customValue>
+    <customValue>
+        <fullName>Silicone Sealant Removal</fullName>
+        <default>false</default>
+        <label>Silicone Sealant Removal</label>
+    </customValue>
+    <customValue>
+        <fullName>Silicone Sealant Reseal</fullName>
+        <default>false</default>
+        <label>Silicone Sealant Reseal</label>
+    </customValue>
+    <customValue>
+        <fullName>Damage Group Replacement</fullName>
+        <default>false</default>
+        <label>Damage Group Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Grout Tub Re-Sealing</fullName>
+        <default>false</default>
+        <label>Grout Tub Re-Sealing</label>
+    </customValue>
+    <customValue>
+        <fullName>Erection</fullName>
+        <default>false</default>
+        <label>Erection</label>
+    </customValue>
+    <customValue>
+        <fullName>Treatment</fullName>
+        <default>false</default>
+        <label>Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>Weeding</fullName>
+        <default>false</default>
+        <label>Weeding</label>
+    </customValue>
+    <customValue>
+        <fullName>Seeding And Planting</fullName>
+        <default>false</default>
+        <label>Seeding And Planting</label>
+    </customValue>
+    <customValue>
+        <fullName>Mowing</fullName>
+        <default>false</default>
+        <label>Mowing</label>
+    </customValue>
+    <customValue>
+        <fullName>Turf Laying</fullName>
+        <default>false</default>
+        <label>Turf Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Artificial Turf Laying</fullName>
+        <default>false</default>
+        <label>Artificial Turf Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawn Restoration</fullName>
+        <default>false</default>
+        <label>Lawn Restoration</label>
+    </customValue>
+    <customValue>
+        <fullName>Raised Beds</fullName>
+        <default>false</default>
+        <label>Raised Beds</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Panel Replacement</fullName>
+        <default>false</default>
+        <label>Fence Panel Replacement</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Panel Repairs</fullName>
+        <default>false</default>
+        <label>Fence Panel Repairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Panel Erection</fullName>
+        <default>false</default>
+        <label>Fence Panel Erection</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Panel Treatment</fullName>
+        <default>false</default>
+        <label>Fence Panel Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>Securing Fencing</fullName>
+        <default>false</default>
+        <label>Securing Fencing</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Painting And Staining</fullName>
+        <default>false</default>
+        <label>Fence Painting And Staining</label>
+    </customValue>
+    <customValue>
+        <fullName>Railings - Build</fullName>
+        <default>false</default>
+        <label>Railings - Build</label>
+    </customValue>
+    <customValue>
+        <fullName>Railings - Install</fullName>
+        <default>false</default>
+        <label>Railings - Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Decking - Basic</fullName>
+        <default>false</default>
+        <label>Decking - Basic</label>
+    </customValue>
+    <customValue>
+        <fullName>Decking - Built to Plan</fullName>
+        <default>false</default>
+        <label>Decking - Built to Plan</label>
+    </customValue>
+    <customValue>
+        <fullName>Decking Restoration (Sanding And Treatments)</fullName>
+        <default>false</default>
+        <label>Decking Restoration (Sanding And Treatments)</label>
+    </customValue>
+    <customValue>
+        <fullName>Brick/Block Paving</fullName>
+        <default>false</default>
+        <label>Brick/Block Paving</label>
+    </customValue>
+    <customValue>
+        <fullName>Patio Laying</fullName>
+        <default>false</default>
+        <label>Patio Laying</label>
+    </customValue>
+    <customValue>
+        <fullName>Horticultural Advice</fullName>
+        <default>false</default>
+        <label>Horticultural Advice</label>
+    </customValue>
+    <customValue>
+        <fullName>Pressure Washing</fullName>
+        <default>false</default>
+        <label>Pressure Washing</label>
+    </customValue>
+    <customValue>
+        <fullName>Crown Reduction (Single Story)</fullName>
+        <default>false</default>
+        <label>Crown Reduction (Single Story)</label>
+    </customValue>
+    <customValue>
+        <fullName>Crown Thinning (Single Story)</fullName>
+        <default>false</default>
+        <label>Crown Thinning (Single Story)</label>
+    </customValue>
+    <customValue>
+        <fullName>Tree Pruning (Single Story)</fullName>
+        <default>false</default>
+        <label>Tree Pruning (Single Story)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hedge Trimming</fullName>
+        <default>false</default>
+        <label>Hedge Trimming</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey And Installation Of Upvc, Timber And Metal Windows</fullName>
+        <default>false</default>
+        <label>Survey And Installation Of Upvc, Timber And Metal Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Trim And Seal Windows Using Correct Sealants</fullName>
+        <default>false</default>
+        <label>Trim And Seal Windows Using Correct Sealants</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Casement Friction Stays</fullName>
+        <default>false</default>
+        <label>Identify And Replace Casement Friction Stays</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnose Problems In Casement Shoot Bold Mechanisms And Rectify</fullName>
+        <default>false</default>
+        <label>Diagnose Problems In Casement Shoot Bold Mechanisms And Rectify</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Espagnolettes</fullName>
+        <default>false</default>
+        <label>Identify And Replace Espagnolettes</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Windows Handles (Espag, Cockspur, Casement)</fullName>
+        <default>false</default>
+        <label>Identify And Replace Windows Handles (Espag, Cockspur, Casement)</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjust Dropped Casements (Toe And Heal)</fullName>
+        <default>false</default>
+        <label>Adjust Dropped Casements (Toe And Heal)</label>
+    </customValue>
+    <customValue>
+        <fullName>Re-Glaze Single Glazed Glass Into Timber And Metal Windows</fullName>
+        <default>false</default>
+        <label>Re-Glaze Single Glazed Glass Into Timber And Metal Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Upvc And Metal Tilt And Turn Windows</fullName>
+        <default>false</default>
+        <label>Installation Of Upvc And Metal Tilt And Turn Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Tilt And Turn Hinges</fullName>
+        <default>false</default>
+        <label>Identify And Replace Tilt And Turn Hinges</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnose Problems In Tilt And Turn Mechanisms And Rectify</fullName>
+        <default>false</default>
+        <label>Diagnose Problems In Tilt And Turn Mechanisms And Rectify</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Tilt And Turn Mechanisms</fullName>
+        <default>false</default>
+        <label>Identify And Replace Tilt And Turn Mechanisms</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjust Tilt And Turn Sashes</fullName>
+        <default>false</default>
+        <label>Adjust Tilt And Turn Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Idenitfy Double Glazed Unit Construction And Re-Glaze</fullName>
+        <default>false</default>
+        <label>Idenitfy Double Glazed Unit Construction And Re-Glaze</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Casement Windows And Existing Sash Boxes</fullName>
+        <default>false</default>
+        <label>Installation Of Casement Windows And Existing Sash Boxes</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Box Sash Bay Windows</fullName>
+        <default>false</default>
+        <label>Installation Of Box Sash Bay Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Install Full Replacement Box Stash Windows (Timber, Sliding Sash, Casement)</fullName>
+        <default>false</default>
+        <label>Install Full Replacement Box Stash Windows (Timber, Sliding Sash, Casement)</label>
+    </customValue>
+    <customValue>
+        <fullName>Trim Box Sash Windows To Full Finish (Reveal Liner, Architrave, Sealant)</fullName>
+        <default>false</default>
+        <label>Trim Box Sash Windows To Full Finish (Reveal Liner, Architrave, Sealant)</label>
+    </customValue>
+    <customValue>
+        <fullName>Retro Fit Double Glazed Units To Single Glazed Timber Sashes</fullName>
+        <default>false</default>
+        <label>Retro Fit Double Glazed Units To Single Glazed Timber Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Draught Proof Existing Box Sashes</fullName>
+        <default>false</default>
+        <label>Draught Proof Existing Box Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Sash Locks, Restrictor Stays And Pulleys To Timber Sashes</fullName>
+        <default>false</default>
+        <label>Installation Of Sash Locks, Restrictor Stays And Pulleys To Timber Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Re-Glaze Single Glazed Glass Into Upvc, Timber And Metal Sashes</fullName>
+        <default>false</default>
+        <label>Re-Glaze Single Glazed Glass Into Upvc, Timber And Metal Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Balance Springs To Timber And Upvc Sliding Sashes</fullName>
+        <default>false</default>
+        <label>Identify And Replace Balance Springs To Timber And Upvc Sliding Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Replace Sash Cords To Timber Windows</fullName>
+        <default>false</default>
+        <label>Replace Sash Cords To Timber Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify Double Glazed Unit Construction And Re-Glaze</fullName>
+        <default>false</default>
+        <label>Identify Double Glazed Unit Construction And Re-Glaze</label>
+    </customValue>
+    <customValue>
+        <fullName>Upgrade Glass And Balance Existing Weights To Timber Sashes</fullName>
+        <default>false</default>
+        <label>Upgrade Glass And Balance Existing Weights To Timber Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Structural Bay Windows</fullName>
+        <default>false</default>
+        <label>Installation Of Structural Bay Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Correctly Support Structural Windows</fullName>
+        <default>false</default>
+        <label>Identify And Correctly Support Structural Windows</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Bowed Bay Windows Including Fibreglass Roof</fullName>
+        <default>false</default>
+        <label>Installation Of Bowed Bay Windows Including Fibreglass Roof</label>
+    </customValue>
+    <customValue>
+        <fullName>Fully Finish Bay Windows With Mitered Architrave And Liners</fullName>
+        <default>false</default>
+        <label>Fully Finish Bay Windows With Mitered Architrave And Liners</label>
+    </customValue>
+    <customValue>
+        <fullName>Identifying Glass Types And Thickness In Situ (Tgh, Laminate, Dgu&#39;S Polished Plate)</fullName>
+        <default>false</default>
+        <label>Identifying Glass Types And Thickness In Situ (Tgh, Laminate, Dgu&#39;S Polished Plate)</label>
+    </customValue>
+    <customValue>
+        <fullName>Measuring Glass Size In Situ And Understanding Window Glazing Systems</fullName>
+        <default>false</default>
+        <label>Measuring Glass Size In Situ And Understanding Window Glazing Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Knowledge Of Glass Safety Practices</fullName>
+        <default>false</default>
+        <label>Knowledge Of Glass Safety Practices</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Glass In All Commercial Situations</fullName>
+        <default>false</default>
+        <label>Installation Of Glass In All Commercial Situations</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Glass In All Domestic Situations</fullName>
+        <default>false</default>
+        <label>Installation Of Glass In All Domestic Situations</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Mirrors And Back Splashes</fullName>
+        <default>false</default>
+        <label>Installation Of Mirrors And Back Splashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Cutting Of Free Hand Shaped Glass And Mirrors</fullName>
+        <default>false</default>
+        <label>Cutting Of Free Hand Shaped Glass And Mirrors</label>
+    </customValue>
+    <customValue>
+        <fullName>Drilling/Cutting Of Holes And Fitting Vents To Glass</fullName>
+        <default>false</default>
+        <label>Drilling/Cutting Of Holes And Fitting Vents To Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitting Of Patch Fittings And Glass Clamp Fittings</fullName>
+        <default>false</default>
+        <label>Fitting Of Patch Fittings And Glass Clamp Fittings</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey And Installation Of Glass Balustrade Systems</fullName>
+        <default>false</default>
+        <label>Survey And Installation Of Glass Balustrade Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey And Installation Of Timber, Aluminum, Upvc And Frameless Glass Doors</fullName>
+        <default>false</default>
+        <label>Survey And Installation Of Timber, Aluminum, Upvc And Frameless Glass Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of New Door Framework</fullName>
+        <default>false</default>
+        <label>Installation Of New Door Framework</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of French, Patio And Bi-Fold Doors</fullName>
+        <default>false</default>
+        <label>Installation Of French, Patio And Bi-Fold Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Doors Into Existing Framework</fullName>
+        <default>false</default>
+        <label>Installation Of Doors Into Existing Framework</label>
+    </customValue>
+    <customValue>
+        <fullName>Framework Adjustment To Timber Frames</fullName>
+        <default>false</default>
+        <label>Framework Adjustment To Timber Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitting Of Door Chains, Letter Plates, Cat Flaps, Door Viewers And Other Hardware</fullName>
+        <default>false</default>
+        <label>Fitting Of Door Chains, Letter Plates, Cat Flaps, Door Viewers And Other Hardware</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Door Closers, Panic Hardware And Fire Safety Hardware</fullName>
+        <default>false</default>
+        <label>Installation Of Door Closers, Panic Hardware And Fire Safety Hardware</label>
+    </customValue>
+    <customValue>
+        <fullName>Shaving, Adjusting And Repairing Timber Doors</fullName>
+        <default>false</default>
+        <label>Shaving, Adjusting And Repairing Timber Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjusting Dropped Aluminum Upvc Doors (Toe And Heal)</fullName>
+        <default>false</default>
+        <label>Adjusting Dropped Aluminum Upvc Doors (Toe And Heal)</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify And Replace Hinges To Upvc And Aluminium Doors</fullName>
+        <default>false</default>
+        <label>Identify And Replace Hinges To Upvc And Aluminium Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Extra Security Hardare (London Bar, Birmingham Bar, Etc.)</fullName>
+        <default>false</default>
+        <label>Installation Of Extra Security Hardare (London Bar, Birmingham Bar, Etc.)</label>
+    </customValue>
+    <customValue>
+        <fullName>Idenitfy And Replace Door Handles, Spindles And Springs</fullName>
+        <default>false</default>
+        <label>Idenitfy And Replace Door Handles, Spindles And Springs</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacement Of Door Springs (Floor And Transom)</fullName>
+        <default>false</default>
+        <label>Replacement Of Door Springs (Floor And Transom)</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Patch Fitting Hinges</fullName>
+        <default>false</default>
+        <label>Installation Of Patch Fitting Hinges</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjust And Repair Common Problems To Patch Fittings</fullName>
+        <default>false</default>
+        <label>Adjust And Repair Common Problems To Patch Fittings</label>
+    </customValue>
+    <customValue>
+        <fullName>Idenitify Locks In Situ And Replace (Night Latches, Mortice Locks, Cylinder Locks, Etc.)</fullName>
+        <default>false</default>
+        <label>Idenitify Locks In Situ And Replace (Night Latches, Mortice Locks, Cylinder Locks, Etc.)</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Locks, Secondary Locks And Lock Plates</fullName>
+        <default>false</default>
+        <label>Installation Of Locks, Secondary Locks And Lock Plates</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnose And Repair/Replace Upvc Multi Point Locking Systems</fullName>
+        <default>false</default>
+        <label>Diagnose And Repair/Replace Upvc Multi Point Locking Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Identify Cam/Cabinet Locks And Replace</fullName>
+        <default>false</default>
+        <label>Identify Cam/Cabinet Locks And Replace</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation/Resetting Of Digital Locks</fullName>
+        <default>false</default>
+        <label>Installation/Resetting Of Digital Locks</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Patch Locks To Glass Doors</fullName>
+        <default>false</default>
+        <label>Installation Of Patch Locks To Glass Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Latches Without Key (Latch Slipping)</fullName>
+        <default>false</default>
+        <label>Open Latches Without Key (Latch Slipping)</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Locked Locks Without Key (Lock Picking, Lock Cutting)</fullName>
+        <default>false</default>
+        <label>Open Locked Locks Without Key (Lock Picking, Lock Cutting)</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey And Installation Of Mulled Units</fullName>
+        <default>false</default>
+        <label>Survey And Installation Of Mulled Units</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitting Of Architrave And Liners</fullName>
+        <default>false</default>
+        <label>Fitting Of Architrave And Liners</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Of Window Boards, Threshold Boards</fullName>
+        <default>false</default>
+        <label>Installation Of Window Boards, Threshold Boards</label>
+    </customValue>
+    <customValue>
+        <fullName>Repair To Rotten And Damaged Wood</fullName>
+        <default>false</default>
+        <label>Repair To Rotten And Damaged Wood</label>
+    </customValue>
+    <customValue>
+        <fullName>Rebating Frames, Doors And Sashes</fullName>
+        <default>false</default>
+        <label>Rebating Frames, Doors And Sashes</label>
+    </customValue>
+    <customValue>
+        <fullName>Patch Plastering, Filling And Sanding</fullName>
+        <default>false</default>
+        <label>Patch Plastering, Filling And Sanding</label>
+    </customValue>
+    <customValue>
+        <fullName>Rendering, Pebble Dashing And Pointing</fullName>
+        <default>false</default>
+        <label>Rendering, Pebble Dashing And Pointing</label>
+    </customValue>
+    <customValue>
+        <fullName>Painting And Varnishing</fullName>
+        <default>false</default>
+        <label>Painting And Varnishing</label>
+    </customValue>
+    <customValue>
+        <fullName>Applying Sealant And Decorators Filler</fullName>
+        <default>false</default>
+        <label>Applying Sealant And Decorators Filler</label>
+    </customValue>
+    <customValue>
+        <fullName>Creating And Adjusting Brickwork Opening (Including Supporting Walls)</fullName>
+        <default>false</default>
+        <label>Creating And Adjusting Brickwork Opening (Including Supporting Walls)</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard - Install</fullName>
+        <default>false</default>
+        <label>Standard - Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard - Adjust</fullName>
+        <default>false</default>
+        <label>Standard - Adjust</label>
+    </customValue>
+    <customValue>
+        <fullName>Install</fullName>
+        <default>false</default>
+        <label>Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjust</fullName>
+        <default>false</default>
+        <label>Adjust</label>
+    </customValue>
+    <customValue>
+        <fullName>Timber &amp; Upvc - Install</fullName>
+        <default>false</default>
+        <label>Timber &amp; Upvc - Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Timber &amp; Upvc - Attend</fullName>
+        <default>false</default>
+        <label>Timber &amp; Upvc - Attend</label>
+    </customValue>
+    <customValue>
+        <fullName>Tilt &amp; Turn - Install</fullName>
+        <default>false</default>
+        <label>Tilt &amp; Turn - Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Tilt &amp; Turn - Attend</fullName>
+        <default>false</default>
+        <label>Tilt &amp; Turn - Attend</label>
+    </customValue>
+    <customValue>
+        <fullName>Sky Light - Attend</fullName>
+        <default>false</default>
+        <label>Sky Light - Attend</label>
+    </customValue>
+    <customValue>
+        <fullName>Single Glaze - Clear &amp; Obscure Install</fullName>
+        <default>false</default>
+        <label>Single Glaze - Clear &amp; Obscure Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Double Glaze - All Types - Survey</fullName>
+        <default>false</default>
+        <label>Double Glaze - All Types - Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Double Glaze - All Types - Install</fullName>
+        <default>false</default>
+        <label>Double Glaze - All Types - Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Shop-Front - Safety/Shower Install</fullName>
+        <default>false</default>
+        <label>Shop-Front - Safety/Shower Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Hole Cutting - Special Works Install</fullName>
+        <default>false</default>
+        <label>Hole Cutting - Special Works Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Mechanism &amp; Locks - Handles &amp; Hinges Install</fullName>
+        <default>false</default>
+        <label>Mechanism &amp; Locks - Handles &amp; Hinges Install</label>
+    </customValue>
+    <customValue>
+        <fullName>Mechanism &amp; Locks - Handles &amp; Hinges Attend</fullName>
+        <default>false</default>
+        <label>Mechanism &amp; Locks - Handles &amp; Hinges Attend</label>
+    </customValue>
+    <customValue>
+        <fullName>Safe Works - Standard Security</fullName>
+        <default>false</default>
+        <label>Safe Works - Standard Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Safe Works - Safe Security</fullName>
+        <default>false</default>
+        <label>Safe Works - Safe Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Vehicle</fullName>
+        <default>false</default>
+        <label>Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>Lock Picking - Standard Security</fullName>
+        <default>false</default>
+        <label>Lock Picking - Standard Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Lock Picking - High Security</fullName>
+        <default>false</default>
+        <label>Lock Picking - High Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Waste - I have the skills</fullName>
+        <default>false</default>
+        <label>Green Waste - I have the skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Household Clearance/Lightweight Building Products - I have the skills</fullName>
+        <default>false</default>
+        <label>Household Clearance/Lightweight Building Products - I have the skills</label>
+    </customValue>
+    <customValue>
+        <fullName>Heavyweight Building Materials</fullName>
+        <default>false</default>
+        <label>Heavyweight Building Materials</label>
+    </customValue>
+    <masterLabel>Case Sub Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

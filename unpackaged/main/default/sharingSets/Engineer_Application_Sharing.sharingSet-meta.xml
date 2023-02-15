@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMappings>
+        <accessLevel>Edit</accessLevel>
+        <object>Engineer_Application__c</object>
+        <objectField>RelatedUserId__c.Contact</objectField>
+        <userField>Contact</userField>
+    </accessMappings>
+    <description>Allows Onboarding Users with &#39;Applicant Customer Community&#39; profile read and edit Engineer Application records where Community User.Contact equals to User field.Contact (lookup to User) on EA Custom Object.</description>
+    <name>Engineer Application Sharing</name>
+    <profiles>Applicant Customer Community</profiles>
+</SharingSet>

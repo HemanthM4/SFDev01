@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Multi_Fixed_Price_Jobs_June_221</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>Date_Time_Estimate_Approved_by_Customer__c</columns>
+    <columns>Account__c</columns>
+    <columns>Site__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Job_Type_Trade__c</columns>
+    <columns>Status__c</columns>
+    <columns>Feed_Back_Notes__c</columns>
+    <columns>Charge_Net__c</columns>
+    <columns>Profit_Margin__c</columns>
+    <columns>Count_of_Open_Cases__c</columns>
+    <columns>Scope_of_Work__c</columns>
+    <columns>Specifications_Mats_suppliers__c</columns>
+    <columns>Client_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Job_Type__c</field>
+        <operation>equals</operation>
+        <value>Cabinet Making,Bespoke Carpentry,Flooring,Brickwork &amp; Paving,Carpentry,Decorating,Fencing,Gardening,Glazing,Handyman,Locksmithing,Partition walls &amp; ceilings,Plastering,Rubbish Removal,Tiling,Wallpapering,Windows &amp; Doors</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>For Client Approval</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/1/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>7/31/2022 12:00 AM</value>
+    </filters>
+    <label>Pending Multi Fixed Price Jobs July 22</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_For_Case__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason For Case</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10% discount not applied</fullName>
+                <default>false</default>
+                <label>10% discount not applied</label>
+            </value>
+            <value>
+                <fullName>breakdown of costs labour and materials</fullName>
+                <default>false</default>
+                <label>breakdown of costs labour and materials</label>
+            </value>
+            <value>
+                <fullName>charged for a call back</fullName>
+                <default>false</default>
+                <label>charged for a call back</label>
+            </value>
+            <value>
+                <fullName>charges not explained by operative on site</fullName>
+                <default>false</default>
+                <label>charges not explained by operative on site</label>
+            </value>
+            <value>
+                <fullName>duplicate payment</fullName>
+                <default>false</default>
+                <label>duplicate payment</label>
+            </value>
+            <value>
+                <fullName>engineer workmanship</fullName>
+                <default>false</default>
+                <label>engineer workmanship</label>
+            </value>
+            <value>
+                <fullName>quote not received</fullName>
+                <default>false</default>
+                <label>quote not received</label>
+            </value>
+            <value>
+                <fullName>request for documents (invoice/report/notes)</fullName>
+                <default>false</default>
+                <label>request for documents (invoice/report/notes)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>PM if the Job Charge Total is &gt;=£2000 AND this must be a Service Resource, (not a User).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Project Manager if the Job Charge Total is &gt;=£2000 AND this must be a Service Resource, (not a User).</inlineHelpText>
+    <label>Project Manager (Dont Use)</label>
+    <referenceTo>ServiceResource</referenceTo>
+    <relationshipLabel>Jobs</relationshipLabel>
+    <relationshipName>Project_Manager_Jobs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

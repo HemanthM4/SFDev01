@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is to be sent to unresponsive applicants.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Unresponsive Applicants</name>
+    <style>none</style>
+    <subject>Aspect - Application follow up</subject>
+    <textOnly>Your application
+follow up
+
+Dear {!Engineer_Application__c.First_Name__c},
+
+You have previously applied to become a tradesperson with Aspect, but unfortunately we haven&#39;t been able to proceed with your application.
+
+If you are still interested, please reply back to this email and we can move forward in the process.
+
+Kind regards,
+
+Aspect Recruitment Team
+
+
+Help made easy.
+
+www.aspect.co.uk
+
+Aspect Maintenance Services Limited, E7 Barwell Business Park,
+Leatherhead Road, Chessington, London, KT9 2NY
+
+
+© 2022 Aspect</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

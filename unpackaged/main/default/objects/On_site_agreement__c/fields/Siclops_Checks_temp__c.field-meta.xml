@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Siclops_Checks_temp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Hollie: is it possible to add a tickbox that says ‘Siclops Checks’ to the main on site agreement screen, so that once I have allocated the engineer, sent a requesition and done everything that needs doing on siclops I can check the box</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be ticked when: Engineer allocated, sent a requisition and done everything that needs doing on siclops</inlineHelpText>
+    <label>Siclops Checks (temp)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group__c</fullName>
+    <externalId>false</externalId>
+    <label>Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Trade__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>GroupNew</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Advanced mulled or adjoining windows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Aluminium Windows &amp; Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Box Sash Windows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Door Furniture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>French, Patio, Bi-Fold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Glass Windows &amp; Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Handles &amp; Hinges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Timber Windows &amp; Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>UPVC Windows &amp; Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Windows &amp; Doors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Windows &amp; Doors</controllingFieldValue>
+            <valueName>Window Sill / Door threshold (floor)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Electrical</controllingFieldValue>
+            <valueName>Utilities - Project - Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Heating &amp; How Water (Commercial)</controllingFieldValue>
+            <valueName>Utilities - Project - Heating &amp; How Water (Commercial)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decorating</controllingFieldValue>
+            <valueName>Decorating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decorating</controllingFieldValue>
+            <valueName>Painting And Decorating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Pumps</controllingFieldValue>
+            <valueName>Drainage Sump Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Pumps</controllingFieldValue>
+            <valueName>Plumbing &amp; Central Heating Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Tanker)</controllingFieldValue>
+            <valueName>Drainage (Tanker)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Utilities - Project - Heating &amp; Hot Water (Domestic)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Labourer</controllingFieldValue>
+            <valueName>Utilities - Project - Labourer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Leak Detection</controllingFieldValue>
+            <valueName>Utilities - Project - Leak Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project Managment</controllingFieldValue>
+            <valueName>Utilities - Project Managment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>LD Bathroom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>LD Building Fabric</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>LD Drain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>LD Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>LD Heat / Hot W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>LD Plumbing / Cold water Mains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection</controllingFieldValue>
+            <valueName>Leak Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roof Window &amp; Gutter Cleaning</controllingFieldValue>
+            <valueName>Blocked Gutter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roof Window &amp; Gutter Cleaning</controllingFieldValue>
+            <valueName>Roof Window &amp; Gutter Cleaning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rubbish Removal</controllingFieldValue>
+            <valueName>Rubbish Removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rubbish Removal</controllingFieldValue>
+            <valueName>Waste Removal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carpentry</controllingFieldValue>
+            <valueName>Carpentry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carpentry</controllingFieldValue>
+            <valueName>Carpet / Carpet tiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carpentry</controllingFieldValue>
+            <controllingFieldValue>Flooring</controllingFieldValue>
+            <valueName>Flooring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carpentry</controllingFieldValue>
+            <valueName>Kitchens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Air Pressure Test</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <controllingFieldValue>Drainage (Wastewater)</controllingFieldValue>
+            <valueName>Blockage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Cctv and surveying</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Drainage (Soil Water)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Drain Surveys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Electrical Pre Purchase Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <controllingFieldValue>Drainage (Wastewater)</controllingFieldValue>
+            <valueName>Floods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Grease Traps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Macerator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Pipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Residential Sump Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Soil Water)</controllingFieldValue>
+            <valueName>Sump pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Wastewater)</controllingFieldValue>
+            <valueName>Drainage (Wastewater)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Drainage (Wastewater)</controllingFieldValue>
+            <valueName>Drainage Pre Purchase Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fencing</controllingFieldValue>
+            <valueName>Fencing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fencing</controllingFieldValue>
+            <valueName>Fencing And Trellising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fencing</controllingFieldValue>
+            <controllingFieldValue>Brickwork &amp; Paving</controllingFieldValue>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Hard Landscaping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fencing</controllingFieldValue>
+            <valueName>Railings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fencing</controllingFieldValue>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Summerhouse, Sheds, Climbing Frames</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brickwork &amp; Paving</controllingFieldValue>
+            <valueName>Brick Laying</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brickwork &amp; Paving</controllingFieldValue>
+            <valueName>Brickwork &amp; Paving</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brickwork &amp; Paving</controllingFieldValue>
+            <valueName>Building Works</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brickwork &amp; Paving</controllingFieldValue>
+            <valueName>Pointing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Appliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Audio Visual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Bathroom / Toilet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Consumer Unit Replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Electrical Inspection And Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Electric Heating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>External Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>General Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Heights Electrical Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Immersion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Internal Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Lutron Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Part P Installation Certificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Rewiring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Security Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Shower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Smoke/Fire Alarm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electrical</controllingFieldValue>
+            <valueName>Underfloor Heating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Fascia And Soffit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Flat Roofing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Gutter And Downpipes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Lead Works</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Leaking Roof</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Pitched Roofing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Roofing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Roofing Pre Purchase Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing</controllingFieldValue>
+            <valueName>Timber Works</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Assemble Furniture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Baby Proofing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Ceiling Tiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Handyman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Hanging Curtains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Hanging Mirrors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Hanging Pictures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Installing Blinds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Lift And Shift Furniture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Mounting Shelves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Opening Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handyman</controllingFieldValue>
+            <valueName>Silicone Sealant And Grouting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Glazing</controllingFieldValue>
+            <valueName>Double Glazing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Glazing</controllingFieldValue>
+            <valueName>Glazing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Glazing</controllingFieldValue>
+            <valueName>Single Glazing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Boiler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <valueName>Certs And Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <valueName>Commercial Catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <valueName>Heating &amp; Hot Water (Commercial)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <valueName>Installation Surveys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Part Replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Boiler / Heating Repair / Fault Finding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Boiler Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Boiler Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Certs, Inspection &amp; Surveys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Cookers Ovens Hobs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Domestic LPG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Fire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Gas Leak / Smell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Gas Meter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Heating &amp; Hot Water (Domestic)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Pipe Freezing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Portable Appliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Radiator / Flush / Bleeding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Temperature</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Thermal Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Under floor heating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Unvented Hot Water Cylinder / Megaflo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Vented / Conventional Cylinder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Warm Air Heaters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Warm Air Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Locksmithing</controllingFieldValue>
+            <valueName>Door Entry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Locksmithing</controllingFieldValue>
+            <valueName>Locked Out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Locksmithing</controllingFieldValue>
+            <valueName>Locksmithing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Proofing</controllingFieldValue>
+            <valueName>Pest Proofing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastering</controllingFieldValue>
+            <valueName>Plastering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plastering</controllingFieldValue>
+            <valueName>Plastering And Wet Trades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Appliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <controllingFieldValue>Tiling</controllingFieldValue>
+            <valueName>General Plumbing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Lead Pipe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Leaks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Pipework</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Plumbing &amp; Cold Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Plumbing &amp; Cold Water Pre Purchase Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Shower Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Steel / Iron Pipe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Taps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Taps / Waste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Plumbing &amp; Cold Water</controllingFieldValue>
+            <valueName>Water Filter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sanitisation &amp; specialist cleaning</controllingFieldValue>
+            <valueName>Cleaning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sanitisation &amp; specialist cleaning</controllingFieldValue>
+            <valueName>Sanitisation &amp; specialist cleaning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tiling</controllingFieldValue>
+            <valueName>Tiling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Gardening</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Horticulture &amp; Garden Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Pressure Washing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Soft Landscaping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gardening</controllingFieldValue>
+            <valueName>Tree Surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wallpapering</controllingFieldValue>
+            <valueName>Wallpapering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Supporting work at heights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Blended - Electrical</controllingFieldValue>
+            <valueName>Utilities - Blended - Electrical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Control</controllingFieldValue>
+            <valueName>Animals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Control</controllingFieldValue>
+            <valueName>Birds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Control</controllingFieldValue>
+            <valueName>Bugs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Control</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Control</controllingFieldValue>
+            <valueName>Pest Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pest Control</controllingFieldValue>
+            <valueName>Rodents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partition Walls &amp; Ceilings</controllingFieldValue>
+            <valueName>Block Up Doorway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partition Walls &amp; Ceilings</controllingFieldValue>
+            <valueName>Partition Walls &amp; Ceilings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Air Con, Ventilation &amp; Refrigeration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Air Conditioning Ducted Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Air Conditioning Split Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Air Conditioning VRV Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Chillers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Commercial Refrigeration Appliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Domestic Refrigeration Appliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>HVAC PPM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Ventilation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Management Decoration</controllingFieldValue>
+            <valueName>Project Management Decoration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roofing/Leak Detection</controllingFieldValue>
+            <valueName>Roofing/Leak Detection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection Restoration</controllingFieldValue>
+            <valueName>Leak Detection Restoration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Blended - Drainage</controllingFieldValue>
+            <valueName>Utilities - Blended - Drainage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection Restoration Plumbing</controllingFieldValue>
+            <valueName>Leak Detection Restoration Plumbing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Blended - General Building</controllingFieldValue>
+            <valueName>Utilities - Blended - General Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection Restoration Central Heating</controllingFieldValue>
+            <valueName>Leak Detection Restoration Central Heating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Blended - Heating &amp; Hot Water (Commercial)</controllingFieldValue>
+            <valueName>Utilities - Blended - Heating &amp; Hot Water (Commercial)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leak Detection Restoration Drainage</controllingFieldValue>
+            <valueName>Leak Detection Restoration Drainage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Blended - Heating &amp; Hot Water (Domestic)</controllingFieldValue>
+            <valueName>Utilities - Blended - Heating &amp; Hot Water (Domestic)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Drying</controllingFieldValue>
+            <valueName>Utilities - Drying</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Air Con, Ventilation &amp; Refrigeration</controllingFieldValue>
+            <valueName>Utilities - Project - Air Con, Ventilation &amp; Refrigeration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Building Fabric</controllingFieldValue>
+            <valueName>Utilities - Project - Building Fabric</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Management Refurbishment</controllingFieldValue>
+            <valueName>Project Management Refurbishment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities - Project - Drainage</controllingFieldValue>
+            <valueName>Utilities - Project - Drainage</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

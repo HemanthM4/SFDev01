@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Vehicle_Status_changed_to_Spare</fullName>
+        <ccEmails>peter.youles@aspect.co.uk</ccEmails>
+        <ccEmails>max.wilkinson@aspect.co.uk</ccEmails>
+        <description>Vehicle Status changed to Spare Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jebarsan.mangalarajah@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rose.slack@aspect.co.uk</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>recruitment@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Vehicle/Spare_Vehicle</template>
+    </alerts>
+</Workflow>

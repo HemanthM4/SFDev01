@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Op Status --></label>
+        <name>Op_Status__c</name>
+        <picklistValues>
+            <masterLabel>Applicant</masterLabel>
+            <translation><!-- Applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Performer</masterLabel>
+            <translation><!-- High Performer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation><!-- Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Plan*</masterLabel>
+            <translation><!-- Performance Plan* --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rookie</masterLabel>
+            <translation><!-- Rookie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Operative - Official</masterLabel>
+            <translation><!-- Senior Operative - Official --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

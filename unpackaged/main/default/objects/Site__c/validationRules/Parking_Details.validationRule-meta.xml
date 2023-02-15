@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parking_Details</fullName>
+    <active>false</active>
+    <description>If Parking is available enter details</description>
+    <errorConditionFormula>OR(
+AND(
+Parking_Available__c = FALSE,
+NOT(ISBLANK(Parking_Details__c))
+),
+AND(
+Parking_Available__c = TRUE,
+ISBLANK(Parking_Details__c)
+))</errorConditionFormula>
+    <errorMessage>Please give details on the Parking Available</errorMessage>
+</ValidationRule>

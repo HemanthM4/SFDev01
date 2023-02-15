@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Credit_Note_to_Customer</fullName>
+        <description>Credit Note to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@aspect.co.uk</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Invoicing/Credit_Note</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Mark_Credit_as_Sent</fullName>
+        <field>Exchequer_Export__c</field>
+        <literalValue>Sent</literalValue>
+        <name>Mark Credit as Sent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>CreditNoteMsg</fullName>
+        <apiVersion>53.0</apiVersion>
+        <endpointUrl>http://194.107.251.220:1028/services/refundwithcreditnote</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>matthew.radoja@aspect.co.uk</integrationUser>
+        <name>CreditNoteMsg</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>Credit Note to Exchequer</fullName>
+        <actions>
+            <name>Mark_Credit_as_Sent</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CreditNoteMsg</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Customer_Credit_Note__c.Exchequer_Export__c</field>
+            <operation>equals</operation>
+            <value>Ready to Send</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

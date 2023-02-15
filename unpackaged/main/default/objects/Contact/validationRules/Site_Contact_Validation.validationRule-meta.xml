@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Contact_Validation</fullName>
+    <active>false</active>
+    <description>If it is a site contact then the Client Type and Site Contact Status must be populated</description>
+    <errorConditionFormula>AND(NOT(ISBLANK( Site__c )), 
+OR(ISBLANK(TEXT( Client_Type__c )), ISBLANK(TEXT( Contact_Status__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>For a site, the Contact Type and Contact status should be populated.</errorMessage>
+</ValidationRule>

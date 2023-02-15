@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Process_Unlock_Record__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To unlock Job Status must be &#39;For Client Approval&#39; and &#39;Approval Process Unlock Record&#39; is ticked (To be ticked via a Zap, to unlock the Job record)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To unlock Job Status must be &#39;For Client Approval&#39; and &#39;Approval Process Unlock Record&#39; is ticked (To be ticked via a Zap, to unlock the Job record)</inlineHelpText>
+    <label>Approve Estimate (Key Account Only)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

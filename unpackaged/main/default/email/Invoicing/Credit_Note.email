@@ -1,0 +1,180 @@
+<html>
+<head>
+</head>
+<body style="margin:0;padding:0;background-color:#eee; font-size: 10.1px;color: rgb(88,91,96);font-family: arial, sans-serif;">
+<table align="center" style="background-color: white; margin: 0 auto; border-left: 10px solid #F3E500; padding: 44px 20px 20px 20px">
+	<tbody>
+		<tr>
+			<td valign="top" width="270" style="padding-bottom: 20px;">
+				<img title="aspect-tagline.png" src="https://www.aspect.co.uk/email-templates/sf/assets/aspect_strap_500.png" alt="aspect" height="70"/>
+			</td>
+			<td style="width: 300;" align="right" style="padding-bottom: 20px;">
+				<span style="font-size: 20.1px;color: rgb(0,94,184);font-weight: bold;">credit</span>
+				<p style="font-size: 9.1px;">
+					02045027541<br>enquiries@aspect.co.uk<br>aspect.co.uk
+					<br><br>
+					E7 Barwell Business Park, Leatherhead Road<br>
+					Chessington, London, KT9 2NY
+					<br><br>
+					VAT Number: 854 0599 06
+				</p>
+			</td>
+		</tr>
+
+		<tr><td style="line-height:20px">&nbsp;</td></tr>
+
+		<tr style="font-size:10px;">
+			<td valign="top" width="220" style="padding:8px; border: 1px dotted #aaa;">
+				<p> <strong>{!Customer_Credit_Note__c.Account__c}</strong></p>
+				<p>{!Customer_Credit_Note__c.Property_Address__c}</p>
+			</td>
+			<td valight="top" valign="top" align="right" width="350">
+				<table width="240" style="border-collapse:collapse" cellpadding="0" cellspacing="0">
+					<tbody>
+						<tr style="border-top: 1px dotted #aaa; border-bottom: 1px dotted #aaa; margin:0;">
+							<td>
+								<table cellspacing="0" margin="0" >
+									<tbody>
+										<tr margin="0">
+											<td width="100" style="padding:6px;background-color:#eee;font-size:10.1px; color:rgb(0,24,113);font-weight: bold;">Credit Number</td>
+											<td width="140" align="right" style="padding:6px;font-size:10.1px;">{!Customer_Credit_Note__c.Name}</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr style=" border-top: 1px dotted #aaa; border-bottom: 1px dotted #aaa; margin:0;">
+							<td>
+								<table cellspacing="0" margin="0" >
+									<tbody>
+										<tr margin="0">
+											<td width="100" style="padding:6px;background-color:#eee;font-size:10.1px; color:rgb(0,24,113);font-weight: bold;">Credit Date</td>
+											<td width="140" align="right" style="padding:6px;font-size:10.1px;">{!Customer_Credit_Note__c.Date__c}</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr style=" border-top: 1px dotted #aaa; border-bottom: 1px dotted #aaa; margin:0;">
+							<td>
+								<table cellspacing="0" margin="0" >
+									<tbody>
+										<tr margin="0">
+											<td width="100" style="padding:6px;background-color:#eee;font-size:10.1px; color:rgb(0,24,113);font-weight: bold;">Job Number</td>
+											<td width="140" align="right" style="padding:6px;font-size:10.1px;">{!Customer_Credit_Note__c.Job_Number__c}</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr style=" border-top: 1px dotted #aaa; border-bottom: 1px dotted #aaa; margin:0;">
+							<td>
+								<table cellspacing="0" margin="0" >
+									<tbody>
+										<tr margin="0">
+											<td width="100" style="padding:6px;background-color:#eee;font-size:10.1px; color:rgb(0,24,113);font-weight: bold;">Account Number</td>
+											<td width="140" align="right" style="padding:6px;font-size:10.1px;">{!Customer_Credit_Note__c.Account_Number__c}</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+
+		<tr><td style="line-height:44px">&nbsp;</td></tr>
+
+		<tr>
+			<td colspan="2" valign="top" width="100%" style="padding:0px; border-top: 1px dotted #aaa; border-bottom: 1px dotted #aaa;font-size:10px;">
+				<table style="padding:8px 0" margin="0" cellpadding="0" cellspacing="0" margin="0" >
+					<tbody>
+						<tr style="font-size: 10.1px;">
+							<td width="90" style="font-weight: bold;">Reference:</td>
+							<td>{!Customer_Credit_Note__c.Job_Number__c} - {!Customer_Credit_Note__c.Job_Description__c}</td>
+						</tr>
+						<tr style="font-size: 10.1px;">
+							<td width="90" style="font-weight: bold;">Address:</td>
+							<td>{!Customer_Credit_Note__c.Site_Address__c}</td>
+						</tr>
+						<tr style="font-size: 10.1px;">
+							<td width="90" style="font-weight: bold;">Contact:</td>
+							<td>{!Customer_Credit_Note__c.Site_Contact__c}</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+
+
+		<tr><td style="line-height:44px">&nbsp;</td></tr>
+
+		<tr>
+			<td colspan="2" valign="top" width="100%" style="font-size:10px;border-bottom:1px dotted #aaa;">
+				<table cellpadding="0" cellspacing="0" width="100%" >
+					<tbody>
+						<tr bgcolor="#eee" style="font-size:10px;">
+							<td style="padding:6px; color:rgb(0,24,113); font-weight: bold;">Description</td>
+							
+							<td align="right" style="padding:6px; color:rgb(0,24,113); font-weight: bold;">Sub-Total</td>
+							<td align="right" style="padding:6px; color:rgb(0,24,113); font-weight: bold;">VAT</td>
+							<td align="right" style="padding:6px; color:rgb(0,24,113); font-weight: bold;">Total</td>
+						</tr>
+						<tr style=" font-size: 10.1px;">
+							<td style="padding:6px;font-weight: bold;">{!Customer_Credit_Note__c.Invoice_Number__c}</td>
+							<td align="right" style="padding:6px;">{!Customer_Credit_Note__c.Charge_Net__c}</td>
+							<td align="right" style="padding:6px;">{!Customer_Credit_Note__c.Charge_VAT__c}</td>
+							<td align="right" style="padding:6px;">{!Customer_Credit_Note__c.Charge_Gross__c}</td>
+						</tr>
+
+
+						<tr><td style="line-height:6px">&nbsp;</td></tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+
+
+		<tr><td style="line-height:44px">&nbsp;</td></tr>
+
+		<tr>
+			<td colspan="1" valign="top" width="220" style="padding:6px;font-size:10px;">
+				&nbsp;
+			</td>
+			<td valign="top" align="right" width="350">
+				<table width="200" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+					<tbody>
+						<tr style="border-bottom: 1px dotted #aaa;font-size:10px;color:rgb(43,42,41);">
+							<td width="100" align="left" margin="0" style="padding:6px; font-weight: bold;white-space: nowrap;">Net Total</td>
+							<td width="100" align="right" style="padding:6px">{!Customer_Credit_Note__c.Charge_Net__c}</td>
+						</tr>
+						<tr style=" border-top: 1px dotted #aaa;font-size:10px;color:rgb(43,42,41);">
+							<td width="100" align="left" margin="0" style="padding:6px; font-weight: bold;white-space: nowrap;">VAT</td>
+							<td width="100" align="right" style="padding:6px">{!Customer_Credit_Note__c.Charge_VAT__c}</td>
+						</tr>
+						<tr style="font-size:10px;color: rgb(255, 255, 255);background-color: #001871;">
+							<td width="100" align="left" margin="0" style="padding:6px; font-weight: bold;">Credit Total</td>
+							<td width="100" align="right" style="padding:6px">{!Customer_Credit_Note__c.Charge_Gross__c}</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr><td style="line-height:20px">&nbsp;</td></tr>
+		<tr>
+			<td colspan="2" width="100%" style="line-height:20px">
+				<span style="font-size: 8.5px;color: rgb(0,24,113);font-weight: bold;white-space: pre;">air  con  |  carpentry  |  decorating  |  drainage  |  electrics  |  glazing  |  handyman  |  heating  |  leak  detection  |  plumbing  |  roofing  |  and  more</span>
+				<br>
+				<span style="font-size: 6.0px;">
+					For a full list of accreditations, please visit
+					<a style="font-size: 6.0px;text-decoration: none; color: rgb(88,91,96);" href="http://www.aspect.co.uk/accreditations/">www.aspect.co.uk/accreditations</a>
+					<br>
+					Aspect Maintenance Services Limited. Registered in England No. 5296195. JII110520000
+				</span>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

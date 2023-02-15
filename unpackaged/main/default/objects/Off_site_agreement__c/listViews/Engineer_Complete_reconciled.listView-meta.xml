@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engineer_Complete_reconciled</fullName>
+    <columns>NAME</columns>
+    <columns>Siclops_Call_Ref__c</columns>
+    <columns>Customer_first_name__c</columns>
+    <columns>Customer_last_name__c</columns>
+    <columns>Property_Address_Postcode__c</columns>
+    <columns>Deposit_Payment_Reconciled__c</columns>
+    <columns>Deposit_Payment_Siclops_Ref__c</columns>
+    <columns>Outstanding_Balance__c</columns>
+    <columns>Worldpay_final_ID__c</columns>
+    <columns>Final_Payment_Required__c</columns>
+    <columns>Final_Payment_Received__c</columns>
+    <columns>Final_Payment_Siclops_Ref__c</columns>
+    <columns>Payments_Reconciled__c</columns>
+    <columns>Finance_Check_Final__c</columns>
+    <columns>Finance_Check_Deposit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Accepted,Scheduled,Completed</value>
+    </filters>
+    <filters>
+        <field>Payments_Reconciled__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Engineer Complete (reconciled)</label>
+    <sharedTo>
+        <role>General_Office_Manager</role>
+    </sharedTo>
+</ListView>

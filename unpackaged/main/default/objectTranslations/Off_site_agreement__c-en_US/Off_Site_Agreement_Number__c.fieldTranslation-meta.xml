@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Just the number portion of the Off Site Agreement Name field e.g. just 123 of &apos;OSA-123&apos;. --></help>
+        <label><!-- Off Site Agreement Number --></label>
+        <name>Off_Site_Agreement_Number__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POLI_Amount_Excl_VAT_with_MarkUp__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(Purchase_Order_Line_Amount_Excl_VAT__c&lt;$CustomMetadata.Markup_Band__mdt.Band_101_1000.From_Band__c,Purchase_Order_Line_Amount_Excl_VAT__c&gt;0),
+Purchase_Order_Line_Amount_Excl_VAT__c*(1+$CustomMetadata.Markup_Band__mdt.Band_0_100.Markup__c),
+
+IF(
+AND(Purchase_Order_Line_Amount_Excl_VAT__c&lt;=$CustomMetadata.Markup_Band__mdt.Band_101_1000.To_Band__c,Purchase_Order_Line_Amount_Excl_VAT__c&gt;0),
+Purchase_Order_Line_Amount_Excl_VAT__c*(1+$CustomMetadata.Markup_Band__mdt.Band_101_1000.Markup__c),
+
+IF(
+AND(Purchase_Order_Line_Amount_Excl_VAT__c&gt;=$CustomMetadata.Markup_Band__mdt.Band_1001.From_Band__c,Purchase_Order_Line_Amount_Excl_VAT__c&gt;0),
+Purchase_Order_Line_Amount_Excl_VAT__c*(1+$CustomMetadata.Markup_Band__mdt.Band_1001.Markup__c),
+0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>POLI Amount (Excl VAT) - with MarkUp</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

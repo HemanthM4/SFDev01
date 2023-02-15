@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- To record the value of Collection Fees entered at the point of booking - at this could change by the time the work is completed. --></help>
+        <label><!-- Collection Fee at point of Booking --></label>
+        <name>Collection_Fee_at_point_of_Booking__c</name>
+    </CustomFieldTranslation>

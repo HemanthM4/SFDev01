@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Summarised_WO_Info_for_Flow_display__c</fullName>
+    <description>To be used to display list of Work Orders to the User, as we can only display one field, we are concatenating several here.</description>
+    <externalId>false</externalId>
+    <formula>WorkOrderNumber &amp; &quot;: &quot;  &amp; Work_Type_Name__c &amp; &quot;, Status: &quot; &amp;  TEXT(Status) &amp; &quot;, Scheduled Date/Time: &quot; &amp; IF(TEXT(Scheduled_Date_Time__c)=&#39;Z&#39;,&quot;&quot;,
+LPAD(TEXT(DAY(DATEVALUE(Scheduled_Date_Time__c))),2,&#39;0&#39;) &amp; &quot;/&quot; &amp; LPAD(TEXT(MONTH(DATEVALUE(Scheduled_Date_Time__c))),2,&#39;0&#39;) &amp; &quot;/&quot; &amp;  LPAD(TEXT(YEAR(DATEVALUE(Scheduled_Date_Time__c))),2,&#39;0&#39;))</formula>
+    <label>Summarised WO Info for Flow display</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

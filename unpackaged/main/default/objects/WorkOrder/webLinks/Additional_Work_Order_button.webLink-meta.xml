@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Work_Order_button</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Additional Work Order</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Additional_Work_Order_and_Line_Item_FSL_Mobile_Flow?Id={!WorkOrder.Id} 
+&amp;retURL=lightning/r/WorkOrder/{!WorkOrder.Id}/view</url>
+</WebLink>

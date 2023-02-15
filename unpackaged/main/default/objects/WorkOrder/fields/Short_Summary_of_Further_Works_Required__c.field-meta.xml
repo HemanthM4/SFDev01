@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Short_Summary_of_Further_Works_Required__c</fullName>
+    <description>If further work is required, hopefully the Operative has entered some details here.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If further work is required, hopefully the Operative has entered some details here.</inlineHelpText>
+    <label>Short Summary of Further Works Required</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

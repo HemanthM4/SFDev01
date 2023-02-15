@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compaint_Client_Happy_Checkbox</fullName>
+    <active>true</active>
+    <description>this will be used to check the explanation has been given for a happy customer</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Complaint&quot;,Client_Happy__c = TRUE,ISBLANK(Client_Happy_Explanation__c))</errorConditionFormula>
+    <errorDisplayField>Client_Happy_Explanation__c</errorDisplayField>
+    <errorMessage>An explanation needs to be filled in for the Happy Client</errorMessage>
+</ValidationRule>

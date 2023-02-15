@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Trade Group --></label>
+        <name>Trade_Group__c</name>
+        <picklistValues>
+            <masterLabel>Drainage</masterLabel>
+            <translation><!-- Drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical</masterLabel>
+            <translation><!-- Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood</masterLabel>
+            <translation><!-- Flood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HVAC</masterLabel>
+            <translation><!-- HVAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leak Detection</masterLabel>
+            <translation><!-- Leak Detection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi</masterLabel>
+            <translation><!-- Multi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM</masterLabel>
+            <translation><!-- PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plumbing</masterLabel>
+            <translation><!-- Plumbing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

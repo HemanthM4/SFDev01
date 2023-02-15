@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Summary of all &quot;attendance notes&quot; for this Work Order.
+Attendance notes are recorded on each Service Appointment at the end of the attendance. --></help>
+        <label><!-- Attendance Notes for Office --></label>
+        <name>Attendance_Notes_for_Office__c</name>
+    </CustomFieldTranslation>

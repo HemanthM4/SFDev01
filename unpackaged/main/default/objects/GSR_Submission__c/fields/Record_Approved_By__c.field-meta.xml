@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Approved_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the user which has approved the GSR Submission record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the user who has approved this GSR Submission record.</inlineHelpText>
+    <label>Record Approved By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>GSR_Submission</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
