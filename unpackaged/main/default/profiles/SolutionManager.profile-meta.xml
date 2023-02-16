@@ -11,7 +11,7 @@
     <custom>false</custom>
     <pageAccesses>
         <apexPage>GSR_Certificate</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
@@ -4306,7 +4306,13 @@
         <layout>Engineer_Pay_Requisition__c-Engineer Pay Requisition Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>LiveText__Conversation_Session__c-TEST</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Partner_Pay_Requisition__c-Partner Pay Requisition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RTap__ResponseTap_Call__c-ResponseTap Call Layout %28admin%29</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Rate_Card_Trade__c-Trade Rate Card Layout</layout>

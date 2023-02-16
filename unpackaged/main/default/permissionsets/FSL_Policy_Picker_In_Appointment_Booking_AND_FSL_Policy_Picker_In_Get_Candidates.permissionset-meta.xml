@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Policy_Picker_In_Appointment_Booking</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Policy_Picker_In_Get_Candidates</name>
+    </customPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>FSL.Policy Picker In Appointment Booking AND FSL.Policy Picker In Get Candidates</label>
 </PermissionSet>

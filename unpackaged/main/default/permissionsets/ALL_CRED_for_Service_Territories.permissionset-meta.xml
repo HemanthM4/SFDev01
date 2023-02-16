@@ -38,4 +38,12 @@
         <object>ServiceTerritory</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Policy_Picker_In_Appointment_Booking</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Policy_Picker_In_Get_Candidates</name>
+    </customPermissions>
 </PermissionSet>

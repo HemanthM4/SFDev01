@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Gantt_Palettes_Edit</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Gantt_Palettes_View</name>
+    </customPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Gantt Palettes Edit and View custom permission</label>
 </PermissionSet>

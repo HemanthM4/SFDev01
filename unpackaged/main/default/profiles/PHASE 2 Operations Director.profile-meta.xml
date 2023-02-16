@@ -43,39 +43,39 @@
     <custom>true</custom>
     <pageAccesses>
         <apexPage>Consolidated_Invoice_Page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>GSR_Certificate</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Invoice_Cancellation_Page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Invoice_Deposit_Page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Invoice_FP_Page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Invoice_Reactive_Page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Phase_2_sr_worktype_list_page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Phase_2_wt_resource_list_page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>sr_worktype_list_page</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
@@ -10475,13 +10475,27 @@
         <layout>Engineer_Pay_Requisition__c-Engineer Pay Requisition Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>LiveText__Conversation_Session__c-TEST</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Partner_Pay_Requisition__c-Partner Pay Requisition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RTap__ResponseTap_Call__c-ResponseTap Call Layout %28admin%29</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Rate_Card_Trade__c-Trade Rate Card Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ResourceAbsence-Resource Absence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourceAbsence-Resource Absence Layout</layout>
+        <recordType>ResourceAbsence.FSL__Break</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourceAbsence-Resource Absence Layout</layout>
+        <recordType>ResourceAbsence.FSL__Non_Availability</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ResourceAbsence-Resource Absence Layout</layout>
@@ -11227,6 +11241,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkAccess-Access Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>asp04__Authorisation__c-STANDARD USER Authorisation</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>asp04__Payment__c-STANDARD USER - PAYMENT Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

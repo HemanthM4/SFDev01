@@ -143,6 +143,5 @@
         <searchResultsAdditionalFields>Start</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>End</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>  
-    <enableHistory>true</enableHistory>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
