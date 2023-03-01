@@ -2,7 +2,7 @@
 Author: Pradeep Kumar on 22/07/2022
 Purpose: This is trigger handler class created to handle all the logic related to Account Object.
 
-Modification Log: 
+Modification Log: 123
 
 */
 public class AccountTriggerHandler {
